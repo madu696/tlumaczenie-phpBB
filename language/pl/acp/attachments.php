@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -120,8 +120,8 @@ $lang = array_merge($lang, array(
 	'MAX_EXTGROUP_FILESIZE'			=> 'Maksymalny rozmiar pliku',
 	'MAX_IMAGE_SIZE'				=> 'Maksymalny rozmiar obrazka',
 	'MAX_IMAGE_SIZE_EXPLAIN'		=> 'Maksymalny rozmiar załączanego obrazka. Ustawienie wartości na 0px 0px spowoduje wyłączenie sprawdzania rozmiaru obrazka.',
-	'MAX_THUMB_WIDTH'				=> 'Maksymalna szerokość miniatury w pikselach',
-	'MAX_THUMB_WIDTH_EXPLAIN'		=> 'Generowana miniatura nie będzie mogła przekroczyć określonej tutaj szerokości.',
+	'MAX_THUMB_WIDTH'				=> 'Maksymalna wysokość/szerokość miniatury w pikselach',
+	'MAX_THUMB_WIDTH_EXPLAIN'		=> 'Generowana miniatura nie będzie mogła przekroczyć określonej wysokości/szerokości.',
 	'MIN_THUMB_FILESIZE'			=> 'Minimalny rozmiar pliku miniatury',
 	'MIN_THUMB_FILESIZE_EXPLAIN'	=> 'Jeśli rozmiar pliku miniatury jest mniejszy niż zdefiniowana tutaj wartość, miniatura nie zostanie utworzona.',
 	'MODE_INLINE'					=> 'Wewnętrzny',

@@ -9,7 +9,7 @@
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
  *
- * @Polska wersja językowa phpbb 3.2.0 - 19.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**

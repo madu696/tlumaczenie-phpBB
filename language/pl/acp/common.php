@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-02-02 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -396,7 +396,8 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Liczba użytkowników',
 	'NUMBER_ORPHAN'		=> 'Liczba osieroconych załączników',
 
-	'PHP_VERSION_OLD'	=> 'Nowe wersje phpBB nie będą obsługiwały wersji PHP znajdującej się na tym serwerze. %sSzczegóły%s',
+	'PHP_VERSION'		=> 'Wersja PHP',
+	'PHP_VERSION_OLD'	=> 'Wersja PHP na tym serwerze (%1$s) nie będzie wspierana przez kolejne wersje phpBB. Minimalna wymagana wersja PHP to %2$s. %3$sSzczegóły%4$s',
 
 	'POSTS_PER_DAY'		=> 'Średnia liczba postów dziennie',
 
@@ -419,7 +420,7 @@ $lang = array_merge($lang, array(
 	'RESYNC_POSTCOUNTS'				=> 'Synchronizuj liczniki postów',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Zostaną wzięte pod uwagę tylko istniejące posty. Usunięte posty nie będą liczone.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Czy na pewno chcesz ponownie zsynchronizować liczniki postów?',
-	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'Liczniki postów zostały ponownie zsynchronizowane',
+	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'Liczniki postów zostały ponownie zsynchronizowane',
 	'RESYNC_POST_MARKING'			=> 'Synchronizuj oznaczone tematy',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Czy na pewno chcesz ponownie zsynchronizować oznaczone tematy?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Najpierw ze wszystkich tematów zostaną usunięte znaczniki, a następnie zostaną oznaczone poprawnie te tematy, w których odnotowano aktywność w ciągu ostatnich sześciu miesięcy.',
@@ -440,16 +441,19 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_SIZE'	=> 'Łączny rozmiar załączników',
 	'USERS_PER_DAY'		=> 'Średnia liczba rejestracji dziennie',
 
-	'VALUE'						=> 'Wartość',
-	'VERSIONCHECK_FAIL'			=> 'Nie udało się uzyskać informacji o ostatniej wersji.',
-	'VERSIONCHECK_FORCE_UPDATE'	=> 'Sprawdź wersję',
-	'VERSION_CHECK'				=> 'Sprawdź wersję',
-	'VERSION_CHECK_EXPLAIN'		=> 'Sprawdź czy posiadasz aktualną wersję skryptu phpBB.',
+	'VALUE'							=> 'Wartość',
+	'VERSIONCHECK_FAIL'				=> 'Nie udało się uzyskać informacji o ostatnim wydaniu.',
+	'VERSIONCHECK_FORCE_UPDATE'		=> 'Sprawdź wersję',
+	'VERSION_CHECK'					=> 'Sprawdź wersję',
+	'VERSION_CHECK_EXPLAIN'			=> 'Sprawdź czy posiadasz aktualną wersję skryptu phpBB.',
+	'VERSIONCHECK_INVALID_ENTRY'	=> 'Informacja o ostatnim wydaniu zawiera błędny wpis.',
+	'VERSIONCHECK_INVALID_URL'		=> 'Informacja o ostatnim wydaniu zawieraj błędny adres URL.',
+	'VERSIONCHECK_INVALID_VERSION'	=> 'Informacja o ostatnim wydaniu zawieraj błędną wersję.',
 	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Twoja wersja skryptu phpBB jest nieaktualna.<br />Kliknij poniższy link, aby dowiedzieć się więcej o najnowszej wersji phpBB oraz jak przeprowadzić aktualizację.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Twoja wersja skryptu phpBB jest nieaktualna.',
-	'VERSION_UP_TO_DATE_ACP'	=> 'Posiadasz najnowszą wersję skryptu phpBB. Nie trzeba jej aktualizować.',
-	'VIEW_ADMIN_LOG'			=> 'Dziennik administratorów',
-	'VIEW_INACTIVE_USERS'		=> 'Lista nieaktywnych użytkowników',
+	'VERSION_UP_TO_DATE_ACP'		=> 'Posiadasz najnowszą wersję skryptu phpBB. Nie trzeba jej aktualizować.',
+	'VIEW_ADMIN_LOG'				=> 'Dziennik administratorów',
+	'VIEW_INACTIVE_USERS'			=> 'Lista nieaktywnych użytkowników',
 
 	'WELCOME_PHPBB'			=> 'Witamy w phpBB',
 	'WRITABLE_CONFIG'		=> 'Plik konfiguracyjny (config.php) ma obecnie atrybut „do zapisu”. Zalecamy zmianę tego atrybutu na wartość 640 lub przynajmniej 644 (zobacz <a href="http://pl.wikipedia.org/wiki/Chmod" rel="external">chmod</a> i ustaw 640 config.php).',

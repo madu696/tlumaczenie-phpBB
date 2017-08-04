@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 if (!defined('IN_PHPBB'))
@@ -54,12 +54,13 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DB_LIST'					=> 'Lista zainstalowanych i dostępnych migracji.',
 	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Aktualizuje bazę danych poprzez zastosowanie migracji.',
 	'CLI_DESCRIPTION_DB_REVERT'					=> 'Przywróć bazę danych przed migracją.',
-	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Usuwa opcję konfiguracji',
+	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Usuwa opcję konfiguracji.',
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Wyłącza wybrane rozszerzenie.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Włącza wybrane rozszerzenie.',
-	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Znajduje niewymagane migracje',
-	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Pobiera wartość konfiguracyjną opcji',
-	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Zwiększa wartość konfiguracyjną opcji',
+	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Znajduje niewymagane migracje.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Naprawia strukturę for i modułów.',
+	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Pobiera wartość konfiguracyjną opcji.',
+	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Zwiększa wartość konfiguracyjną opcji.',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Wyświetla wszystkie rozszerzenia w bazie danych i w systemie plików.',
 	
 	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Nazwa środowiska.',
@@ -92,7 +93,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Uruchom polecenie Sprawdź z pamięcią podręczną.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Uruchom polecenie, aby sprawdzić stabilną lub niestabilną wersję.',	
 	
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" nie jest poprawną wersją.',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Aktualizowanie hash wygasłych haseł, które będą zaszyfrowane używając bcrypt.',
+
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" musi zostać ustawione jako stabilne lub nie - "stable" lub "unstable".',
 	
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Aktywuj (lub dezaktywuj) konto użytkownika.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Nazwa użytkownika do aktywacji.',
@@ -111,8 +114,10 @@ $lang = array_merge($lang, array(
 	
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Nie można wyłączyć rozszerzenia %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Wyłączono rozszerzenie %s',
+	'CLI_EXTENSION_DISABLED'			=> 'Rozszerzenie %s nie jest włączone',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Nie można włączyć rozszerzenia %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Włączono rozszerzenie %s',
+	'CLI_EXTENSION_ENABLED'				=> 'Rozszerzenie %s jest już włączone',
 	'CLI_EXTENSION_NAME'				=> 'Nazwa rozszerzenia',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Nie można usunąć rozszerzenia %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Usunięto rozszerzenie %s',
@@ -123,7 +128,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Wyłączone',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Włączone',
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Pomyślnie zakończono naprawę struktury for i modułów.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Przeliczono wszystkie numery wiadomości e-mail.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Pomyślnie zaktualizowano hash wygasłych haseł przez bcrypt.',
 	
 	'CLI_MIGRATION_NAME'					=> 'Nazwa migracji wraz z przestrzenią nazw (aby uniknąć błędów, użyj slash zamiast backslash).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Dostępne migracje',

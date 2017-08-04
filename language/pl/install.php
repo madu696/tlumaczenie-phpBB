@@ -10,7 +10,7 @@
  * the docs/CREDITS.txt file.
  *
  * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
- * @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> 'Zaloguj się do <a href="%1$s">Panelu Administratora</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'Skrypt phpBB został już zainstalowany.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'Skrypt phpBB nie został jeszcze zainstalowany.'
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'Skrypt phpBB nie został jeszcze zainstalowany.',
 ));
 
 // Requirements translation
@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 
 	'RETEST_REQUIREMENTS'	=> 'Ponownie sprawdź wymagania',
 
-	'STAGE_REQUIREMENTS'	=> 'Sprawdź wymagania'
+	'STAGE_REQUIREMENTS'	=> 'Sprawdź wymagania',
 ));
 
 // General error messages
@@ -201,6 +201,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_NAME'			=> 'Nie podano nazwy bazy danych.',
 	'INST_ERR_DB_FORUM_PATH'		=> 'Podany plik bazy danych znajduje się wewnątrz katalogu głównego witryny. Należy umieścić go w miejscu niedostępnym przez Internet.',
 	'INST_ERR_DB_CONNECT'			=> 'Nie można połączyć się z bazą danych. Poniżej znajduje się opis błędu.',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'Baza danych oraz zwierający ją katalog muszą mieć prawa do zapisu.',
 	'INST_ERR_DB_NO_ERROR'			=> 'Brak informacji o błędach.',
 	'INST_ERR_PREFIX'				=> 'Już istnieją tabele z takim prefiksem. Wybierz inny prefiks.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'Wersja MySQL zainstalowana na tym serwerze nie jest kompatybilna z wybraną opcją „MySQL z rozszerzeniem MySQLi”. Spróbuj użyć opcji „MySQL”.',
@@ -226,6 +227,7 @@ $lang = array_merge($lang, array(
 	// Server data
 	//
 	// Form labels
+	'UPGRADE_INSTRUCTIONS'			=> 'Dostępna jest nowa wersja skryptu <strong>%1$s</strong>. Przeczytaj <a href="%2$s" title="%2$s"><strong>informacje o wydaniu</strong></a>, aby dowiedzieć się o nowościach i sposobie aktualizacji.',
 	'SERVER_CONFIG'				=> 'Konfiguracja serwera',
 	'SCRIPT_PATH'				=> 'Ścieżka do skryptu',
 	'SCRIPT_PATH_EXPLAIN'		=> 'Jest to ścieżka do skryptu phpBB relatywna do nazwy domeny. Na przykład: <samp>/phpBB3</samp>.',
@@ -298,9 +300,10 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'Tworzenie tabel',
 
 	// Install data
-	'TASK_ADD_BOTS'			=> 'Rejestrowanie botów',
-	'TASK_ADD_LANGUAGES'	=> 'Instalowanie dostępnych języków',
-	'TASK_ADD_MODULES'		=> 'Instalowanie modułów',
+	'TASK_ADD_BOTS'				=> 'Rejestrowanie botów',
+	'TASK_ADD_LANGUAGES'		=> 'Instalowanie dostępnych języków',
+	'TASK_ADD_MODULES'			=> 'Instalowanie modułów',
+	'TASK_CREATE_SEARCH_INDEX'	=> 'Tworzenie indeksu wyszukiwania',
 
 	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'Instalowanie rozszerzeń',

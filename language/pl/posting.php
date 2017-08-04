@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -252,9 +252,9 @@ $lang = array_merge($lang, array(
 	'SMILIES'					=> 'Emotikony',
 	'SMILIES_ARE_OFF'			=> 'Emotikony <em>wyłączone</em>',
 	'SMILIES_ARE_ON'			=> 'Emotikony <em>włączone</em>',
-	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Czas trwania ogłoszenia/przyklejenia',
+	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Czas trwania ogłoszenia/przyklejenia/globalnego przypięcia',
 	'STICK_TOPIC_FOR'			=> 'Przyklej temat na',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Wartość 0 oznacza trwałe ogłoszenie/przyklejenie. Liczba ta jest relatywna do daty posta.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Wartość 0 oznacza trwałe ogłoszenie/przyklejenie/globale przypięcie. Liczba ta jest relatywna do daty napisania.',
 	'STYLES_TIP'				=> 'Podpowiedź: Żeby szybko zastosować style, wystarczy zaznaczyć tekst i nacisnąć właściwy przycisk.',
 
 	'TOO_FEW_CHARS'				=> 'Wiadomość zawiera za mało znaków.',

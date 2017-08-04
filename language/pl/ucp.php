@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.0 -  18.02.2017, Mateusz Dutko (vader)  www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -136,7 +136,7 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$sPowrót do swojego folderu „%3$s”%2$s',
 	'CONFIRMATION'				=> 'Potwierdzenie rejestracji',
 	'CONFIRM_CHANGES'			=> 'Potwierdź zmiany',
-	'CONFIRM_EXPLAIN'			=> 'Aby zapobiec automatycznemu rejestrowaniu się użytkowników, witryna wymaga wpisania kodu potwierdzającego. Kod ten jest wyświetlony na obrazku poniżej. Jeśli jest on nieczytelny, skontaktuj się z %sadministratorem witryny%s.',
+	'CONFIRM_EXPLAIN'			=> 'Aby zapobiec automatycznemu rejestrowaniu się użytkowników, witryna wymaga rozwiązania zabezpieczenia antyspamowego. Odpowiedź na pytanie lub przepisz wyświetlony poniżej kod. Jeśli jest on nieczytelny, skontaktuj się z %sadministratorem witryny%s.',
 	'VC_REFRESH'				=> 'Odśwież kod',
 	'VC_REFRESH_EXPLAIN'		=> 'Jeśli masz trudności z odczytaniem kodu, możesz poprosić o wyświetlenie nowego, naciskając przycisk.',
 
@@ -179,7 +179,7 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Zdegraduj zaznaczonych',
 	'DISABLE_CENSORS'			=> 'Włącz cenzurę słów',
 	'DISPLAY_GALLERY'			=> 'Pokaż galerię',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Wprowadzona domena e-mail nie jest poprawnym rekordem MX.',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Wprowadzona domena e-mail nie jest poprawna.',
 	'DOWNLOADS'					=> 'Pobrany',
 	'DRAFTS_DELETED'			=> 'Wszystkie zaznaczone kopie robocze zostały usunięte.',
 	'DRAFTS_EXPLAIN'			=> 'Tutaj możesz przeglądać, edytować i usuwać zapisane kopie robocze. Aby przeglądać/edytować kopię roboczą, kliknij jeden z odnośników <em><strong>Wczytaj kopię roboczą</strong></em> lub <em><strong>Wyświetl/Edytuj</strong></em>. Jeśli chcesz usunąć kopię roboczą, zaznacz pole wyboru obok kopii, którą chcesz usunąć i naciśnij przycisk <em><strong>Usuń zaznaczone</strong></em>.',
@@ -412,10 +412,10 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'		=> 'Nie obserwujesz żadnego tematu ani forum.',
 	'NO_WATCHED_TOPICS'			=> 'Nie obserwujesz żadnego tematu.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s i składać się z liter różnej wielkości i cyfr.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> 'Hasło musi mieć długość od %1$s do %2$s.',
-	'PASS_TYPE_CASE_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s i składać się z liter różnej wielkości.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s i składać się z liter różnej wielkości, cyfr i symboli.',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s znaków i składać się z liter różnej wielkości i cyfr.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> 'Hasło musi mieć długość od %1$s do %2$s znaków.',
+	'PASS_TYPE_CASE_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s znaków i składać się z liter różnej wielkości.',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s znaków i składać się z liter różnej wielkości, cyfr i symboli.',
 	'PASSWORD'					=> 'Hasło',
 	'PASSWORD_ACTIVATED'		=> 'Nowe hasło zostało aktywowane.',
 	'PASSWORD_UPDATED'			=> 'Hasło zostało wysłane na twój adres e-mail podany w trakcie rejestracji.',
@@ -582,7 +582,7 @@ $lang = array_merge($lang, array(
 	'USERNAME_ASCII_EXPLAIN'		=> 'Nazwa użytkownika musi mieć długość od %1$s do %2$s znaków i składać się tylko ze znaków ASCII bez symboli specjalnych.',
 	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'Nazwa użytkownika musi mieć długość od %1$s do %2$s znaków i składać się tylko z liter oraz cyfr.',
 	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'Nazwa użytkownika musi mieć długość od %1$s do %2$s znaków i składać się tylko z liter, cyfr, spacji oraz znaków „_”, „+”, „-”, „[” i „]”.',
-	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Nazwa musi mieć długość od %1$s do %2$s.',
+	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Nazwa musi mieć długość od %1$s do %2$s znaków.',
 	'USERNAME_TAKEN_USERNAME'		=> 'Podana nazwa użytkownika jest już używana. Wybierz inną.',
 	'USERNAME_DISALLOWED_USERNAME'	=> 'Podana nazwa użytkownika została zabroniona lub zawiera zabronione słowo. Wybierz inną.',
 	'USER_NOT_FOUND_OR_INACTIVE'	=> 'Podane nazwy użytkownika nie zostały znalezione lub należą do nieaktywnych użytkowników.',

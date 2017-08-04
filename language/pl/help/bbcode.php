@@ -9,7 +9,7 @@
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
  *
- * @Polska wersja językowa phpbb 3.2.0 - 19.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -52,8 +52,8 @@ $lang = array_merge($lang, array(
 
 	'HELP_BBCODE_OTHERS_CUSTOM_ANSWER'	=> 'Możliwość dodawania własnych znaczników mają administratorzy witryny posiadający odpowiednie uprawnienia.',
 	'HELP_BBCODE_OTHERS_CUSTOM_QUESTION'	=> 'Czy można dodawać własne znaczniki?',
-
-	'HELP_BBCODE_QUOTES_CODE_ANSWER'	=> 'Jeśli zachodzi potrzeba wstawienia do posta kawałka kodu lub cokolwiek, co wymaga stałej szerokości znaków, należy użyć znacznika <strong>[code][/code]</strong>. Przykład: <br /><br /><strong>[code]</strong>echo &quot;Oto jakiś kod&quot;;<strong>[/code]</strong><br /><br /> Żadne znaki formatowania użyte między znacznikami <strong>[code]</strong> i <strong>[/code]</strong> nie będą przetwarzane podczas wyświetlania i zostaną wyświetlone w oryginalnej formie. Kolorowanie składni PHP może zostać włączone przez użycie znacznika <strong>[code=php][/code]</strong> i jest zalecane przy wysyłaniu kodu PHP, gdyż poprawia jego czytelność.',
+	
+	'HELP_BBCODE_QUOTES_CODE_ANSWER'	=> 'Jeśli zachodzi potrzeba wstawienia do posta kawałka kodu lub cokolwiek, co wymaga stałej szerokości znaków, należy użyć znacznika <strong>[code][/code]</strong>. Przykład: <br /><br /><strong>[code]</strong>echo &quot;Oto jakiś kod&quot;;<strong>[/code]</strong><br /><br /> Żadne znaki formatowania użyte między znacznikami <strong>[code]</strong> i <strong>[/code]</strong> nie będą przetwarzane podczas wyświetlania i zostaną wyświetlone w oryginalnej formie.',
 	'HELP_BBCODE_QUOTES_CODE_QUESTION'	=> 'Wstawianie kodu lub tekstu o stałej szerokości znaków',
 	'HELP_BBCODE_QUOTES_TEXT_ANSWER'	=> 'Są dwa sposoby cytowania tekstu – z odwołaniem i bez.<ul><li>Cytując tekst podczas odpowiedzi na post, tekst posta jest dołączany do odpowiedzi w postaci bloku zawartego pomiędzy znacznikami <strong>[quote=&quot; &quot;][/quote]</strong>. Ta metoda umożliwia cytowanie z podaniem odwołania do autora posta lub innego dowolnego źródła. Na przykład, aby zacytować kawałek tekstu napisanego przez użytkownika o identyfikatorze „Adam”, należy napisać: <br /><br /><strong>[quote=&quot;</strong>Adam<strong>&quot;]</strong>Tekst, który napisał Adam<strong>[/quote]</strong><br /><br /> Wynikiem tego będzie wyświetlanie przed cytowanym tekstem frazy <strong>&ldquo;Adam pisze:</strong>. Należy <strong>obowiązkowo</strong> wstawić znaki cytowania (&quot; &quot;) wokół cytowanej nazwy źródła. W tym przypadku cytowanym źródłem jest „Adam”.</li><li>Druga metoda pozwala cytować tekst bez podawania źródła. Aby jej użyć, należy cytowany tekst umieścić między znacznikami <strong>[quote]</strong> i <strong>[/quote]</strong>. Wynikiem tak użytych znaczników cytowania będzie wyświetlanie przed cytowanym tekstem znaku <strong>&ldquo;</strong>.</li></ul>',
 	'HELP_BBCODE_QUOTES_TEXT_QUESTION'	=> 'Cytowanie tekstu w odpowiedziach',

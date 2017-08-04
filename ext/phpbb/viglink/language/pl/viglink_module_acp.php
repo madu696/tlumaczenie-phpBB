@@ -40,14 +40,15 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_VIGLINK_SETTINGS'			=> 'Ustawienia VigLink',
 	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'VigLink jest zewnętrzną usługą, która dyskretnie zmienia znalezione linki zamieszczone przez użytkowników do portali czy serwisów. Jeśli użytkownik kliknie taki adres, a następnie kupi produkt lub usługę, to VigLink otrzymuje prowizję, której część przekazuje do projektu phpBB. Poprzez włączenie VigLink wspierasz projekt phpBB oraz zapewniasz bezpieczeństwo finansowe naszej opensourcowej organizacji.',
-	'ACP_VIGLINK_SETTINGS_CHANGE'	=> 'W każdej chwili możesz zmienić opcje w “<a href="%1$s">ustawieniach VigLink</a>”.',
+	'ACP_VIGLINK_SETTINGS_CHANGE'	=> 'W każdej chwili można zmienić opcje w “<a href="%1$s">ustawieniach VigLink</a>”.',
+	'ACP_VIGLINK_SUPPORT_EXPLAIN'	=> 'Przekierowanie do tej strony, nie będzie możliwe po zapisaniu preferowanych opcji. Klknij “Wyślij”, aby zapisać ustawienia.',
 	'ACP_VIGLINK_ENABLE'			=> 'Włącz VigLink',
 	'ACP_VIGLINK_ENABLE_EXPLAIN'	=> 'Włącz usługę VigLink.',
 	'ACP_VIGLINK_EARNINGS'			=> 'Zastrzeż własne środki (ustawienie opcjonalne)',
-	'ACP_VIGLINK_EARNINGS_EXPLAIN'  => 'Możesz zastrzec własny środki poprzez zalogowanie się do konta “VigLink Convert”.',
+	'ACP_VIGLINK_EARNINGS_EXPLAIN'  => 'Można zastrzec własny środki poprzez zalogowanie się do konta “VigLink Convert”.',
 	'ACP_VIGLINK_DISABLED_PHPBB'	=> 'Usługa VigLink została wyłączona przez phpBB.',
 	'ACP_VIGLINK_CLAIM'				=> 'Odbierz własne środki',
-	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Możesz odebrać środki z przetworzonych linków VigLink, zamiast przekazywać środki na projekt phpBB. Aby zmienić ustawienia, zaloguj się do konta “VigLink Convert”.',
+	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Można odebrać środki z przetworzonych linków VigLink, zamiast przekazać je na projekt phpBB. Aby zmienić ustawienia, zaloguj się do konta “VigLink Convert”.',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'Przekształć konto',
 	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Nie znaleziono przetworzonych adresów VigLink.'
 ));

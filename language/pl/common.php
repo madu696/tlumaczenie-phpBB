@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.0 -  18.02.2017, Mateusz Dutko (vader)  www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_EMPTY_FILEUPLOAD'		=> 'Wysłany plik awatara nie zawiera danych.',
 	'AVATAR_INVALID_FILENAME'		=> '%s jest nieprawidłową nazwą pliku.',
 	'AVATAR_NOT_UPLOADED'			=> 'Nie można wysłać awatara na serwer.',
-	'AVATAR_NO_TEMP_DIR'			=> 'Folder tymczasowy nie zosta� znaleziony lub jest niedostępny.',
+	'AVATAR_NO_TEMP_DIR'			=> 'Folder tymczasowy nie został znaleziony lub jest niedostępny.',
 	'AVATAR_NO_SIZE'			=> 'Nie można zidentyfikować wymiarów obrazka. Proszę wprowadzić je ręcznie.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Plik został wysłany częściowo.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Rozmiar pliku awatara jest za duży.<br />Nie można zidentyfikować maksymalnego rozmiaru pliku zdefiniowanego w ustawieniach witryny.',
@@ -144,9 +144,9 @@ $lang = array_merge($lang, array(
 	'BUTTON_FORUM_LOCKED'	=> 'Zablokowane',
 	'BUTTON_NEW_TOPIC'		=> 'NOWY TEMAT',
 	'BUTTON_PM'				=> 'PW',
-	'BUTTON_PM_FORWARD'		=> 'Do przodu',
+	'BUTTON_PM_FORWARD'		=> 'Przekaż',
 	'BUTTON_PM_NEW'			=> 'Nowa PW',
-	'BUTTON_PM_REPLY'		=> 'Wyślij odpowiedź',
+	'BUTTON_PM_REPLY'		=> 'Odpowiedz',
 	'BUTTON_PM_REPLY_ALL'	=> 'Odpowiedz wszystkim',
 	'BUTTON_POST_REPLY'		=> 'ODPOWIEDZ',
 	'BUTTON_QUOTE'			=> 'Cytuj',
@@ -160,9 +160,9 @@ $lang = array_merge($lang, array(
 	'CHANGING_PREFERENCES'	=> 'Zmienia ustawienia witryny',
 	'CHANGING_PROFILE'		=> 'Zmienia ustawienia profilu',
 	'CHARACTERS'			=> array(
-		1	=> '%d znak',
-		2	=> '%d znaki',
-		3	=> '%d znaków',
+		1	=> '%d',
+		2	=> '%d',
+		3	=> '%d',
 	),
 	'COLLAPSE_VIEW'			=> 'Zwiń widok',
 	'CLOSE_WINDOW'			=> 'Zamknij okno',
@@ -184,6 +184,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_INFO'	=> 'Dowiedz się więcej',
 	'COOKIE_CONSENT_MSG'	=> 'Strona ta używa plików cookies (tzw. ciasteczka) w celach statystycznych, reklamowych oraz funkcjonalnych. Warunki przechowywania lub dostępu do plików cookies można określić w ustawieniach przeglądarki internetowej.',
 	'COOKIE_CONSENT_OK'		=> 'Akceptuję!',
+	'COOKIE_CONSENT_HREF'	=> 'http://wszystkoociasteczkach.pl/',
 	'COOKIES_DELETED'		=> 'Usunięto wszystkie ciasteczka witryny.',
 	'CURRENT_TIME'			=> 'Dzisiaj jest %s',
 
@@ -240,7 +241,7 @@ $lang = array_merge($lang, array(
 	'FACEBOOK'				=> 'Facebook',
 	'FAQ'					=> 'FAQ',
 	'FAQ_EXPLAIN'			=> 'Często zadawane pytania',
-	'FEATURE_NOT_AVAILABLE'		=> '�ądana funkcjonalność nie jest dostępna na forum.',
+	'FEATURE_NOT_AVAILABLE'		=> 'Żądana funkcjonalność nie jest dostępna na forum.',
 	'FILENAME'				=> 'Nazwa',
 	'FILESIZE'				=> 'Rozmiar',
 	'FILEDATE'				=> 'Data',
@@ -404,7 +405,7 @@ $lang = array_merge($lang, array(
 	'MARK'					=> 'Zaznacz',
 	'MARK_ALL'				=> 'Zaznacz wszystkie',
 	'MARK_ALL_READ'			=> 'Oznacz wszystkie jako przeczytane',
-	'MARK_FORUMS_READ'		=> 'Oznacz wszystkie fora jako przeczytane',
+	'MARK_FORUMS_READ'		=> 'Oznacz fora jako przeczytane',
 	'MARK_READ'				=> 'Oznacz jako przeczytane',
 	'MARK_SUBFORUMS_READ'	=> 'Oznacz jako przeczytane',
 	'MB'					=> 'MB',
@@ -771,11 +772,11 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_DATEFORMAT'			=> 'Format daty jest za krótki.',
 	'TOO_SHORT_JABBER'				=> 'Nazwa konta Jabber jest za krótka.',
 	'TOO_SHORT_NEW_PASSWORD'		=> 'Hasło jest za krótkie.',
-	'TOO_SHORT_PASSWORD_CONFIRM'	=> 'Potwierdzenie hasła jest za krótkie.',
+	'TOO_SHORT_PASSWORD_CONFIRM'	=> 'Potwierdzone hasło jest inne.',
 	'TOO_SHORT_USER_PASSWORD'		=> 'Hasło jest za krótkie.',
 	'TOO_SHORT_USERNAME'			=> 'Nazwa użytkownika jest za krótka.',
 	'TOO_SHORT_EMAIL'				=> 'Adres e-mail jest za krótki.',
-	'TOO_SHORT_EMAIL_CONFIRM'		=> 'Potwierdzenie adresu e-mail jest za krótkie.',
+	'TOO_SHORT_EMAIL_CONFIRM'		=> 'Potwierdzony adresu e-mail jest inny.',
 	'TOO_SMALL'						=> 'Podana wartość jest za mała.',
 	'TOO_SMALL_MAX_RECIPIENTS'		=> 'Podana wartość dla ustawienia <strong>Dozwolona maksymalna liczba odbiorców jednej prywatnej wiadomości</strong> jest za mała.',
 

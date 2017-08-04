@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -77,12 +77,12 @@ $lang = array_merge($lang, array(
 	'ALLOW_BIRTHDAYS'			=> 'Urodziny',
 	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'Wybranie <samp>Tak</samp> umożliwi podawanie przez użytkowników swojej daty urodzenia i ich wiek będzie wyświetlany w profilach. Wyświetlanie informacji o urodzinach użytkowników na stronie wykazu forów jest kontrolowane przez oddzielne ustawienia.',
 	'ALLOW_BOOKMARKS'			=> 'Zakładki tematów',
-	'ALLOW_BOOKMARKS_EXPLAIN'	=> 'Użytkownicy będą mogli dodawać i przechowywać swoje zakładki.',
+	'ALLOW_BOOKMARKS_EXPLAIN'	=> 'Użytkownicy mogą dodawać i przechowywać swoje zakładki.',
 	'ALLOW_BBCODE'				=> 'Znaczniki BBCode',
 	'ALLOW_FORUM_NOTIFY'		=> 'Obserwowanie forów',
 	'ALLOW_NAME_CHANGE'			=> 'Zmiana nazwy użytkownika',
 	'ALLOW_NO_CENSORS'			=> 'Wyłączanie cenzury słów',
-	'ALLOW_NO_CENSORS_EXPLAIN'	=> 'Użytkownicy będą mogli sami wyłączyć/włączyć automatyczną cenzurę słów w postach i prywatnych wiadomościach.',
+	'ALLOW_NO_CENSORS_EXPLAIN'	=> 'Użytkownicy mogą sami wyłączyć/włączyć automatyczną cenzurę słów w postach i prywatnych wiadomościach.',
 	'ALLOW_PM_ATTACHMENTS'		=> 'Załączniki w prywatnych wiadomościach',
 	'ALLOW_PM_REPORT'			=> 'Zgłaszanie prywatnych wiadomości',
 	'ALLOW_PM_REPORT_EXPLAIN'	=> 'Jeśli ta funkcja jest włączona, użytkownicy mogą zgłaszać otrzymane lub wysłane prywatne wiadomości moderatorom witryny. Wiadomości te będą wyświetlane w panelu kontrolnym moderacji.',
@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Awatary to małe obrazki, które użytkownik może skojarzyć ze swoją osobą. W zależności od stylu, są one zazwyczaj wyświetlane powyżej nazwy użytkownika. Tutaj można określić, w jaki sposób użytkownicy mogą zdefiniować swoje awatary. Aby można było wysyłać awatary na serwer, trzeba na serwerze utworzyć katalog. Należy zdefiniować jego nazwę i odpowiednie atrybuty umożliwiające zapis do niego. Określony tutaj limit rozmiaru pliku odnosi się tylko do awatarów wysyłanych na serwer. Nie ma zastosowania do obrazków zdalnych.',
 
 	'ALLOW_AVATARS'					=> 'Awatary',
-	'ALLOW_AVATARS_EXPLAIN'			=> 'Tutaj można zezwolić na globalne używanie awatarów.<br />Jeśli funkcja awatarów zostanie globalnie lub dla określonego trybu wyłączona, awatary nie będą wyświetlane na witrynie, ale użytkownicy będą mogli pobierać swoje awatary z poziomu panelu zarządzania swoim kontem.',
+	'ALLOW_AVATARS_EXPLAIN'			=> 'Tutaj można zezwolić na globalne używanie awatarów.<br />Jeśli funkcja awatarów zostanie globalnie lub dla określonego trybu wyłączona, awatary nie będą wyświetlane na witrynie, ale użytkownicy mogą pobierać swoje awatary z poziomu panelu zarządzania swoim kontem.',
 	'ALLOW_GRAVATAR'				=> 'Awatary typu gravatar',
 	'ALLOW_LOCAL'					=> 'Galeria awatarów',
 	'ALLOW_REMOTE'					=> 'Zdalne awatary',
@@ -162,8 +162,10 @@ $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Tutaj można określić wszystkie domyślne ustawienia dla tworzenia tematów, postów, wiadomości.',
 	'ALLOW_POST_LINKS'					=> 'Odnośniki w postach/prywatnych wiadomościach',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Jeśli umieszczanie odnośników zostanie zabronione, znacznik BBCode <code>[URL]</code> i automatyczne/magiczne adresy URL będą wyłączone.',
+	'ALLOWED_SCHEMES_LINKS'				=> 'Określ dostępne schematy adresów URL',
+	'ALLOWED_SCHEMES_LINKS_EXPLAIN'		=> 'Użytkownicy mogą wyłącznie używać adresów URL ze schematem lub bez, z listy dostępnych schematów oddzielonych przecinkiem.',
 	'ALLOW_POST_FLASH'					=> 'Znacznik <code>[FLASH]</code> w postach',
-	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Jeśli użycie znacznika BBCode <code>[FLASH]</code> zostanie zabronione, będzie on niedostępny w postach. W systemie uprawnień można określić, którzy użytkownicy będą mogli używać tego znacznika.',
+	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Jeśli użycie znacznika BBCode <code>[FLASH]</code> zostanie zabronione, będzie on niedostępny w postach. W systemie uprawnień można określić, którzy użytkownicy mogą używać tego znacznika.',
 
 	'BUMP_INTERVAL'					=> 'Interwał przesunięcia tematu',
 	'BUMP_INTERVAL_EXPLAIN'			=> 'Jest to czas, jaki musi upłynąć od opublikowania ostatniego posta na forum w temacie, aby temat ten mógł zostać przesunięty na początek listy tematów. Ustawienie wartości 0 spowoduje całkowite wyłączenie tej funkcji.',
@@ -236,7 +238,7 @@ $lang = array_merge($lang, array(
 	'ACC_USER'					=> 'Użytkownik (weryfikacja przez e-mail)',
 //	'ACC_USER_ADMIN'			=> 'Użytkownik + Admin',
 	'ALLOW_EMAIL_REUSE'			=> 'Powtórne użycie adresu e-mail',
-	'ALLOW_EMAIL_REUSE_EXPLAIN'	=> 'Użytkownicy będą mogli się rejestrować, używając tego samego adresu e-mail.',
+	'ALLOW_EMAIL_REUSE_EXPLAIN'	=> 'Użytkownicy mogą się zarejestrować, używając tego samego adresu e-mail.',
 	'COPPA'						=> 'COPPA',
 	'COPPA_FAX'					=> 'Numer faksu COPPA',
 	'COPPA_MAIL'				=> 'Adres e-mail COPPA',
@@ -347,13 +349,16 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Tutaj można zdefiniować dane ciasteczek wysyłanych do przeglądarek użytkowników. W większości przypadków domyślne wartości ustawień ciasteczek powinny być wystarczające. Jeśli zachodzi potrzeba zmiany tych ustawień, należy zrobić to bardzo ostrożnie. Nieprawidłowe ustawienia mogą powodować problemy z logowaniem użytkowników.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Tutaj można zdefiniować dane ciasteczek wysyłanych do przeglądarek użytkowników. W większości przypadków domyślne wartości ustawień ciasteczek powinny być wystarczające. Jeśli zachodzi potrzeba zmiany tych ustawień, należy zrobić to bardzo ostrożnie. Nieprawidłowe ustawienia mogą powodować problemy z logowaniem użytkowników. Jeśli nadal występują problemy z sesją użytkowników na witrynie, odwiedź polskie forum ze wsparciem<b><a href="http://www.phpbb.pl/forum/"> phpBB.pl</a></b>.',
 
 	'COOKIE_DOMAIN'				=> 'Domena ciasteczka',
+	'COOKIE_DOMAIN_EXPLAIN'		=> 'W większości przypadków domena ciasteczka jest opcjonalna. Można zostawić to pole puste, jeśli nie wiadomo jak ustawić nazwę.<br /><br /> Jeśli witryna jest zintegrowana z inną aplikacją (np. WordPress) lub występują subdomeny, to aby poprawie ustawić domenę ciasteczka należy wykonać następujące kroki. Jeśli adresy stron to <i>example.com</i> i <i>forum.example.com</i> lub <i>forum.example.com</i> i <i>blog.example.com</i>, należy wybrać wspólną domenę - <i>example.com</i>. Teraz na początku należy dodać kropkę - <strong><i>.example.com</i></strong> (nazwa domeny ciasteczka musi zaczynać się od kropki na początku).',
 	'COOKIE_NAME'				=> 'Nazwa ciasteczka',
+	'COOKIE_NAME_EXPLAIN'		=> 'Nazwa ciasteczka może być dowolna, jednakże najlepiej aby identyfikowała witrynę. Jeśli ustawienia ciasteczek zostaną zmienione, należy również zmienić ich nazwę.',
 	'COOKIE_NOTICE'				=> 'Powiadomienie o ciasteczkach',
-	'COOKIE_NOTICE_EXPLAIN'		=> 'Jeśli funkcja ta zostanie włączona, powiadomienie o wykorzystaniu ciasteczek pojawi się na dole strony. Powiadomienie użytkownika o wykorzystaniu ciasteczek na stronie jest w Polsce prawnie wymagane (Prawo Telekomunikacyjne, Art. 173).',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'Jeśli funkcja ta zostanie włączona, powiadomienie o wykorzystaniu ciasteczek pojawi się na dole witryny. Powiadomienie użytkownika o wykorzystaniu ciasteczek na stronie jest w Polsce prawnie wymagane (Prawo Telekomunikacyjne, Art. 173).',
 	'COOKIE_PATH'				=> 'Ścieżka do ciasteczka',
+	'COOKIE_PATH_EXPLAIN'		=> 'Niezalenie od adresu URL witryny, ścieżka do ciasteczka to ukośnik „/” (ang. slash)',
 	'COOKIE_SECURE'				=> 'Bezpieczne ciasteczko',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Jeśli serwer jest uruchomiony przez SSL, należy włączyć tę funkcję. W pozostałych przypadkach funkcja powinna być wyłączona. Włączenie tej funkcji, gdy serwer nie jest uruchomiony przez SSL, będzie powodowało błędy podczas przekierowań.',
 	'ONLINE_LENGTH'				=> 'Czas wyświetlania obecności na forum',
@@ -394,6 +399,8 @@ $lang = array_merge($lang, array(
 	'LOAD_CPF_VIEWTOPIC'			=> 'Wyświetlaj dodatkowe pola na stronach tematu',
 	'LOAD_USER_ACTIVITY'			=> 'Wyświetlaj aktywność użytkownika',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Wyświetla w profilu użytkownika i w panelu zarządzania kontem temat/forum, na którym użytkownik jest najbardziej aktywny. Zaleca się wyłączenie tej funkcji w witrynach zawierających więcej niż milion postów.',
+	'LOAD_USER_ACTIVITY_LIMIT'		=> 'Limit aktywności użytkownika',
+	'LOAD_USER_ACTIVITY_LIMIT_EXPLAIN'	=> 'Najbardziej aktywne tematy/fora nie będą wyświetlane dla użytkowników z podaną liczbą postów. Ustaw wartość 0, aby wyłączyć limit.',
 	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Wygaszanie powiadomień',
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Liczba dni, po których powiadomienia będą automatycznie usuwane. Ustaw wartość 0, jeśli chcesz, aby powiadomienia nie były usuwane.',
 	'RECOMPILE_STYLES'				=> 'Wykonuj ponowną kompilację przestarzałych komponentów stylu',
@@ -539,7 +546,7 @@ $lang = array_merge($lang, array(
 	'TPL_ALLOW_PHP'					=> 'Używaj PHP w szablonach',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Jeśli ta funkcja jest włączona, składnia <code>PHP</code> i <code>INCLUDEPHP</code> będzie rozpoznawana i przetwarzana w szablonach.',
 	'UPLOAD_CERT_VALID'				=> 'Sprawdź ważność certyfikatu',
-	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Jeśli funkcja jest włączona, certificates of remote uploads will be validated. Wymagane jest, aby plik <samp>CA bundle</samp> był zdefiniowany poprzez ustawienie <samp>openssl.cafile</samp> lub <samp>curl.cainfo</samp> w pliku php.ini.',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Jeśli funkcja jest włączona, zostanie sprawdzony certyfikat witryn z zewnętrznymi plikami. Wymagane jest, aby plik <samp>CA bundle</samp> był zdefiniowany poprzez ustawienie <samp>openssl.cafile</samp> lub <samp>curl.cainfo</samp> w pliku php.ini.',
 
 ));
 
@@ -566,14 +573,16 @@ $lang = array_merge($lang, array(
 	'ENABLE_EMAIL'					=> 'E-mail do wszystkich',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Jeśli ta funkcja zostanie wyłączona, nie będzie możliwości wysłania wiadomości e-mail. <em>Informacja. Ustawienia aktywacji konta przez użytkownika lub administratora wymagają, aby ta funkcja była włączona. Jeśli obecnie w ustawieniach aktywacji jest stosowana aktywacja konta przez „użytkownika” lub „administratora”, wyłączenie tej funkcji uniemożliwi rejestrację użytkowników.</em>',
 	'SEND_TEST_EMAIL'				=> 'Wyślij testowy e-mail',
-	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Testowy e-mail zostanie wysłany na adres podany na twoim koncie.',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Testowy e-mail zostanie wysłany na adres podany w ustawieniach e-mail.',
+	'SMTP_ALLOW_SELF_SIGNED'		=> 'Zezwól na samopodpisany certyfikat SSL',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Zezwól na połączenia z serwerem SMTP z samopodpisanym certyfikatem SSL. <em><strong>UWAGA:</strong> Zezwolenie na samopodpisane certyfikaty SSL może powodować problemy z bezpieczeństwem.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Metoda uwierzytelniania dla SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Uwierzytelnianie jest używane tylko wtedy, gdy jest określona nazwa użytkownika i hasło. Jeśli nie wiesz, jakiej metody użyć, zapytaj swojego dostawcę usługi.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
 	'SMTP_DIGEST_MD5'				=> 'DIGEST-MD5',
 	'SMTP_LOGIN'					=> 'LOGIN',
 	'SMTP_PASSWORD'					=> 'Hasło',
-	'SMTP_PASSWORD_EXPLAIN'			=> 'Należy wprowadzić tylko, jeśli serwer SMTP tego wymaga.<br /><em><strong>Ostrzeżenie:</strong> Hasło zostanie zapisane w bazie danych jako zwykły tekst i będzie widoczne dla każdego, kto ma dostęp do bazy danych lub kto może przeglądać tę stronę konfiguracji.</em>',
+	'SMTP_PASSWORD_EXPLAIN'			=> 'Należy wprowadzić tylko, jeśli serwer SMTP tego wymaga.<br /><em><strong> UWAGA:</strong> Hasło zostanie zapisane w bazie danych jako zwykły tekst i będzie widoczne dla każdego, kto ma dostęp do bazy danych lub kto może przeglądać tę stronę konfiguracji.</em>',
 	'SMTP_PLAIN'					=> 'PLAIN',
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'						=> 'Port serwera',
@@ -583,6 +592,10 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'Ustawienia SMTP',
 	'SMTP_USERNAME'					=> 'Nazwa użytkownika',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Należy wprowadzić tylko, jeśli serwer SMTP tego wymaga.',
+	'SMTP_VERIFY_PEER'				=> 'Weryfikuj certyfikat SSL',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Weryfikuj certyfikat SSL wykorzystywany przez serwer SMTP. <em><strong> UWAGA:</strong> Połączenia bez weryfikacji certyfikatu SSL może powodować problemy z bezpieczeństwem.</em>',
+	'SMTP_VERIFY_PEER_NAME'			=> 'Weryfikuj nazwę serwera SMTP',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Weryfikuj nazwę serwera SMTP wykorzystując połączenie SSL/TLS. <em><strong> UWAGA:</strong> Połączenia bez weryfikacji serwera może powodować problemy z bezpieczeństwem.</em>',
 	'TEST_EMAIL_SENT'				=> 'Testowy e-mail został wysłany.<br />Jeśli go nie otrzymałeś, sprawdź ustawienia e-mail.<br /><br />Jeśli potrzebujesz pomocy, odwiedź forum <a href="http://www.phpbb.pl/forum/">phpbb.pl</a> albo <a href="https://www.phpbb.com/community/">phpbb.com</a>',
 	'USE_SMTP'						=> 'Używaj serwera SMTP dla e-maili',
 	'USE_SMTP_EXPLAIN'				=> 'Wybierz <samp>Tak</samp>, jeśli takie jest twoje życzenie lub trzeba wysyłać wiadomości e-mail przez dany serwer zamiast przez lokalną funkcję pocztową.',
@@ -591,7 +604,9 @@ $lang = array_merge($lang, array(
 // Jabber settings
 $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Tutaj można włączyć i kontrolować używanie protokołu Jabber do wysyłania błyskawicznych wiadomości i powiadomień witryny. Jabber jest protokołem otwartym, zatem dostępnym do użytku dla wszystkich. Niektóre serwery Jabbera zawierają bramki lub transporty, które pozwalają na kontaktowanie się użytkowników różnych sieci. Nie wszystkie serwery oferują wszystkie transporty i zmiany w protokołach mogą uniemożliwiać działanie komunikacji. Proszę wprowadzić dane działającego konta – phpBB użyje do komunikacji dane takie, jakie zostały tutaj wprowadzone.',
-
+	
+	'JAB_ALLOW_SELF_SIGNED'			=> 'Zezwól na samopodpisane certyfikaty',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'	=> 'Zezwól na połączenia z serwerem Jabber z samopodpisanym certyfikatem SSL. <em><strong>UWAGA:</strong> Zezwolenie na samopodpisane certyfikaty SSL może powodować problemy z bezpieczeństwem.</em>',
 	'JAB_ENABLE'				=> 'Protokół Jabber',
 	'JAB_ENABLE_EXPLAIN'		=> 'Włączenie tej funkcji spowoduje używanie protokołu Jabber do wysyłania wiadomości i powiadomień.',
 	'JAB_GTALK_NOTE'			=> 'GTalk nie będzie działał, ponieważ nie znaleziono funkcji <samp>dns_get_record</samp>. Funkcja ta nie jest dostępna w PHP4 i nie została zaimplementowana na platformie Windows. Aktualnie nie działa na systemach bazujących na BSD, włącznie z Mac OS.',
@@ -608,4 +623,8 @@ $lang = array_merge($lang, array(
 	'JAB_USE_SSL_EXPLAIN'		=> 'Jeśli funkcja ta jest włączona, będzie wykonywana próba ustanowienia bezpiecznego połączenia. Jeśli jest określony port 5222, zostanie zmieniony na 5223.',
 	'JAB_USERNAME'				=> 'Nazwa użytkownika lub JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Wprowadź zarejestrowaną nazwę użytkownika lub ważny JID (Jabber Identity - adres użytkownika Jabbera). Poprawność nazwy użytkownika nie będzie sprawdzana. Jeśli zostanie określona tylko nazwa użytkownika, JID-em będzie ta nazwa i podany wyżej serwer. Zaleca się podanie nazwy ważnego JID-a, np. user@jabber.org.',
-));
+	'JAB_VERIFY_PEER'				=> 'Weryfikuj certyfikat SSL',
+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'Weryfikuj certyfikat SSL wykorzystywany przez serwer Jabber. <em><strong> UWAGA:</strong> Połączenia bez weryfikacji certyfikatu SSL może powodować problemy z bezpieczeństwem.</em>',
+	'JAB_VERIFY_PEER_NAME'			=> 'Weryfikuj nazwę serwera Jabber',
+	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'Weryfikuj nazwę serwera Jabber wykorzystując połączenie SSL/TLS. <em><strong> UWAGA:</strong> Połączenia bez weryfikacji serwera może powodować problemy z bezpieczeństwem.</em>',
+	));
