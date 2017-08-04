@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -92,14 +93,20 @@ $lang = array_merge($lang, array(
 	'DELETE_PERMANENTLY'		=> 'Usuń trwale',
 	'DELETE_POST_CONFIRM'		=> 'Czy na pewno chcesz usunąć ten post?',
 	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Czy na pewno chcesz <strong>trwale</strong> usunąć ten post?',
-	'DELETE_POST_PERMANENTLY'	=> 'Usuń trwale ten post',
+	'DELETE_POST_PERMANENTLY'	=> array(
+		1	=> 'Usuń trwale ten post',
+		2	=> 'Usuń trwale posty %1$d',
+	),
 	'DELETE_POSTS_CONFIRM'		=> 'Czy na pewno chcesz usunąć te posty?',
 	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Czy na pewno chcesz <strong>trwale</strong> usunąć te posty?',
 	'DELETE_REASON'				=> 'Powód ukrycia',
 	'DELETE_REASON_EXPLAIN'		=> 'Powód ukrycia będzie widoczny dla moderatorów.',
 	'DELETE_POST_WARN'			=> 'Usuń ten post',
 	'DELETE_TOPIC_CONFIRM'		=> 'Czy na pewno chcesz usunąć ten temat?',
-	'DELETE_TOPIC_PERMANENTLY'	=> 'Usuń trwale ten temat',
+	'DELETE_TOPIC_PERMANENTLY'	=> array(
+		1	=> 'Usuń trwale ten temat',
+		2	=> 'Usuń trwale tematy %1$d',
+	),
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Czy na pewno chcesz <strong>trwale</strong> usunąć ten temat?',
 	'DELETE_TOPICS_CONFIRM'		=> 'Czy na pewno chcesz usunąć te tematy?',
 	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Czy na pewno chcesz <strong>trwale</strong> usunąć te tematy?',
@@ -183,8 +190,10 @@ $lang = array_merge($lang, array(
 	'NO_POLL_TITLE'				=> 'Musisz podać tytuł ankiety.',
 	'NO_POST'					=> 'Żądany post nie istnieje.',
 	'NO_POST_MODE'				=> 'Nie podano trybu posta.',
+	'NO_TEMP_DIR'				=> 'Folder tymczasowy nie został znaleziony lub jest niedostępny.',	
 
 	'PARTIAL_UPLOAD'			=> 'Plik został wysłany tylko częściowo.',
+	'PHP_UPLOAD_STOPPED'			=> 'Wysyłanie załącznika zostało zatrzymane.',
 	'PHP_SIZE_NA'				=> 'Plik załącznika ma za duży rozmiar.<br />Nie może przekroczyć maksymalnego rozmiaru zdefiniowanego w ustawieniach.',
 	'PHP_SIZE_OVERRUN'			=> 'Plik załącznika ma za duży rozmiar. Maksymalny rozmiar pliku to %1$d %2$s.<br />Wartość ta jest zapisana w ustawieniach i nie może zostać przekroczona.',
 	'PLACE_INLINE'				=> 'Wstaw w tekst',

@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.2.0 -  18.02.2017, Mateusz Dutko (vader)  www.rnavspotters.pl
 */
 
 /**
@@ -42,7 +43,7 @@ $lang = array_merge($lang, array(
 	<br />
 	Nasze fora zwane też „one”, „ich”, „je”, „phpBB software”, „www.phpbb.com”, „phpBB Limited”, „phpBB Teams” działają w oparciu o oprogramowanie wykorzystujące technologię phpBB, która jest środowiskiem typu witryny (bulletin board), wydane na licencji „<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” zwanej też „GPL”. Oprogramowanie jest dostępne do pobrania ze strony <a href="https://www.phpbb.com/">www.phpbb.com</a>. Oprogramowanie phpBB tylko ułatwia dyskusje przez internet, a jego autorzy nie kontrolują tekstów zamieszczanych w internecie za jego pomocą. Więcej informacji o phpBB można znaleźć na stronie <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
-	Akceptujesz zakaz publikowania wypowiedzi o charakterze obraźliwym, oszczerczym, propagującym treści niezgodne z polskim prawem lub naruszającym cudze prawa autorskie i dobra osobiste. Naruszenie tego zakazu może skutkować dla ciebie całkowitym zablokowaniem dostępu do tej witryny, a twój dostawca internetu zostanie powiadomiony o twoim niewłaściwym zachowaniu. Wyrażasz zgodę na to, że „%1$s” może w każdej chwili usunąć, zmienić, przenieść lub zamknąć każdy twój temat, post. Wyrażasz zgodę na zapisywanie wszystkich podanych przez ciebie informacji w naszej bazie danych. Informacje te nie będą przekazywane nikomu bez twojej zgody, ale ani „%1$s”, ani phpBB Limited nie ponosi odpowiedzialności za włamania do witryny, podczas których może dojść do kradzieży danych.
+	Akceptujesz zakaz publikowania wypowiedzi o charakterze obraźliwym, oszczerczym, propagującym treści niezgodne z polskim prawem lub naruszającym cudze prawa autorskie i dobra osobiste. Naruszenie tego zakazu może skutkować dla ciebie całkowitym zablokowaniem dostępu do tej witryny, a twój dostawca internetu zostanie powiadomiony o twoim niewłaściwym zachowaniu. Wyrażasz zgodę na to, że „%1$s” może w każdej chwili usunąć, zmienić, przenieść lub zamknąć każdy twój temat, post. Wyrażasz zgodę na zapisywanie wszystkich podanych przez ciebie informacji w naszej bazie danych. Informacje te nie będą przekazywane nikomu bez twojej zgody, ale ani „%1$s”, ani phpBB nie ponosi odpowiedzialności za włamania do witryny, podczas których może dojść do kradzieży danych.
 	',
 
 	'PRIVACY_POLICY'		=> 'Ten tekst opisuje, w jaki sposób „%1$s” i firmy stowarzyszone zwane dalej „my”, „nas”, „nasz”, „%1$s”, „%2$s” i phpBB zwane dalej „oni”, „ich”, „oprogramowanie phpBB”, „www.phpbb.com”, „phpBB Limited”, „Zespoły phpBB”, korzystają z informacji zwanymi dalej „informacjami o tobie” zebranych w czasie dowolnej twojej sesji na forum.<br />
@@ -66,8 +67,8 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_COPPA'					=> 'Twoje konto zostało utworzone, ale musi zostać zatwierdzone. Więcej informacji znajdziesz w wysłanej do ciebie wiadomości e-mail.',
 	'ACCOUNT_EMAIL_CHANGED'			=> 'Twoje konto zostało zaktualizowane. Ta witryna jednak przy zmianie adresu e-mail wymaga ponownej aktywacji kont poprzez podanie klucza aktywującego. Klucz ten otrzymasz w specjalnej wiadomości na nowy adres e-mail. W niej też znajdziesz dalsze instrukcje.',
 	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'Twoje konto zostało zaktualizowane. Ta witryna przy zmianie adresu e-mail wymaga ponownej aktywacji kont przez administratora. Została już do niego wysłana informacja w tej sprawie. Gdy twoje konto zostanie ponownie aktywowane, otrzymasz stosowne powiadomienie.',
-	'ACCOUNT_INACTIVE'				=> 'Twoje konto zostało utworzone. Ta witryna jednak wymaga aktywacji kont poprzez podanie klucza aktywującego. Klucz ten otrzymasz w specjalnej wiadomości e-mail. W niej też znajdziesz dalsze instrukcje. Dostarczenie wiadomości może zająć dłuższą chwilę w zależności od dostawcy usługi e-mail. W przypadku braku wiadomości, sprawdź katalog przeznaczony na spam.',
-	'ACCOUNT_INACTIVE_ADMIN'		=> 'Twoje konto zostało utworzone. Ta witryna wymaga aktywacji kont przez administratora. Został on już poinformowany o utworzeniu nowego konta. Z chwilą aktywowania konta otrzymasz stosowne powiadomienie.',
+	'ACCOUNT_INACTIVE'				=> 'Twoje konto zostało utworzone. Ta witryna jednak wymaga aktywacji konta poprzez podanie klucza aktywującego. Klucz ten otrzymasz w specjalnej wiadomości e-mail, sprawdź również folder spam. W niej też znajdziesz dalsze instrukcje. Może to chwilę potrwać, prosimy o cierpliwość.',
+	'ACCOUNT_INACTIVE_ADMIN'		=> 'Twoje konto zostało utworzone. Ta witryna wymaga aktywacji konta przez administratora. Został on już poinformowany o utworzeniu nowego konta. Z chwilą aktywowania konta otrzymasz stosowne powiadomienie.',
 	'ACTIVATION_EMAIL_SENT'			=> 'E-mail aktywacyjny został wysłany na twój adres mailowy.',
 	'ACTIVATION_EMAIL_SENT_ADMIN'	=> 'E-mail aktywacyjny został wysłany na adresy mailowe administratorów.',
 	'ADD'							=> 'Dodaj',
@@ -99,7 +100,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> 'Odnośnik do awatara znajdującego się na innej stronie internetowej.',
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Prześlij awatar',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Prześlij swój awatar.',
-	'AVATAR_EXPLAIN'				=> 'Maksymalne wymiary: szerokość – %1$s, wysokość – %2$s, rozmiar pliku – %3$.2f KiB.',
+	'AVATAR_EXPLAIN'		=> 'Maksymalne wymiary: szerokość – %1$s, wysokość – %2$s, rozmiar pliku – %3$.1f KiB.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Maksymalne wymiary: szerokość – %1$s, wysokość – %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Funkcje awatarów są wyłączone.',
 	'AVATAR_GALLERY'				=> 'Galeria lokalna',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Nie można wysłać awatara do %s.',
@@ -332,6 +334,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_GROUP_MODERATION'						=> 'Powiadomienia związane z moderowaniem',
 	'NOTIFICATION_GROUP_ADMINISTRATION'					=> 'Powiadomienia administracyjne',
 	'NOTIFICATION_GROUP_POSTING'						=> 'Powiadomienia związane z publikowaniem',
+	'NOTIFICATION_METHOD_BOARD'							=> 'Forum',
 	'NOTIFICATION_METHOD_EMAIL'							=> 'E-mail',
 	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
 	'NOTIFICATION_TYPE'									=> 'Typ powiadomienia',
@@ -364,9 +367,9 @@ $lang = array_merge($lang, array(
 	'NOT_AGREE'						=> 'Nie akceptuję',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'Docelowy folder „%s” prawdopodobnie jest pełny. Żądana czynność nie została wykonana.',
 	'NOT_MOVED_MESSAGES'			=> array(
-		1	=> 'Prywatne wiadomości oczekujące na zwolnienie miejsca w folderze: %d',
-		2	=> 'Prywatne wiadomości oczekujące na zwolnienie miejsca w folderze: %d',
-		3	=> 'Prywatne wiadomości oczekujące na zwolnienie miejsca w folderze: %d',
+		1	=> 'Jest %d prywatna wiadomość oczekująca na zwolnienie miejsca w folderze.',
+		2	=> 'Są %d prywatne wiadomości oczekujące na zwolnienie miejsca w folderze.',
+		3	=> 'Jest %d prywatnych wiadomości oczekujących na zwolnienie miejsca w folderze.',
 	),
 	'NO_ACTION_MODE'				=> 'Nie określono żadnej czynności dla tej wiadomości.',
 	'NO_AUTHOR'						=> 'Nie zdefiniowano autora tej wiadomości.',
@@ -471,9 +474,9 @@ $lang = array_merge($lang, array(
 	'RULE_LIMIT_REACHED'				=> 'Nie można dodawać więcej reguł. Limit został już osiągnięty.',
 	'RULE_NOT_DEFINED'					=> 'Reguła nie została prawidłowo określona.',
 	'RULE_REMOVED_MESSAGES'				=> array(
-		1	=> 'Prywatne wiadomości usunięte przez filtry: %d.',
-		2	=> 'Prywatne wiadomości usunięte przez filtry: %d.',
-		3	=> 'Prywatne wiadomości usunięte przez filtry: %d.',
+		1	=> 'Została usunięta przez filtry %d. prywatna wiadomość.',
+		2	=> 'Zostały usunięte przez filtry %d prywatne wiadomości.',
+		3	=> 'Zostało usuniętych przez filtry %d prywatnch wiadomości.',
 	),
 
 	'SAME_PASSWORD_ERROR'		=> 'Wprowadzone nowe hasło jest takie samo, jak aktualne.',

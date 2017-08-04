@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -70,9 +71,6 @@ $lang = array_merge($lang, array(
 
 	'CAT_FLASH_FILES'			=> 'Pliki Flash',
 	'CAT_IMAGES'				=> 'Obrazki',
-	'CAT_QUICKTIME_FILES'		=> 'Pliki Quicktime',
-	'CAT_RM_FILES'				=> 'Pliki RealMedia',
-	'CAT_WM_FILES'				=> 'Pliki Windows Media',
 	'CHECK_CONTENT'				=> 'Sprawdzaj pliki załącznika',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Niektóre przeglądarki mogą być zmuszane do przybierania nieprawidłowego typu mediów (mimetype) dla wysyłanych plików. Funkcja ta zabezpiecza takie pliki przed odrzuceniem.',
 	'CREATE_GROUP'				=> 'Utwórz nową grupę',
@@ -105,9 +103,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_FLASH_FILES'			=> 'Pliki flash',
 	'EXT_GROUP_IMAGES'				=> 'Obrazki',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Zwykły tekst',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Media Quicktime',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Media Real',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Media Windows',
 
 	'FILES_GONE'			=> 'Niektóre wybrane do usunięcia załączniki nie istnieją. Prawdopodobnie zostały już wcześniej usunięte. Istniejące załączniki zostały usunięte.',
 	'FILES_STATS_WRONG'		=> 'Plik statystyk jest prawdopodobnie niepoprawny i wymaga ponownej synchronizacji. Aktualne wartości: liczba załączników – %1$d, całkowity rozmiar załączników – %2$s.<br />Kliknij %3$stutaj%4$s, by wykonać synchronizację.',
@@ -117,7 +112,7 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Rozmiar obrazka, a odnośnik',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Jeśli załączany obrazek ma rozmiar większy niż określone tutaj wartości, zamiast niego zostanie wyświetlony odnośnik tekstowy. Aby takie zachowanie wyłączyć, należy ustawić te wartości na 0 x 0 px.',
-	'IMAGICK_PATH'				=> 'Ścieżka do Imagemagick',
+	'IMAGICK_PATH'				=> 'Ścieżka do ImageMagick',
 	'IMAGICK_PATH_EXPLAIN'		=> 'Ścieżka do aplikacji konwertującej Imagemagick, np. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Maksymalna liczba załączników w poście',
@@ -153,7 +148,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> 'Usuń lub anuluj wykluczenie <em>niedozwolonych</em> adresów IP/nazw serwerów',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Czy na pewno chcesz ponownie zsynchronizować plik statystyk?',
 
-	'SEARCH_IMAGICK'				=> 'Szukaj Imagemagick',
+	'SEARCH_IMAGICK'				=> 'Szukaj ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'Lista Dozwolone/Zabronione',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Gdy bezpieczne pobieranie jest włączone, na liście Dozwolone/Zabronione (<strong>lista dozwolonych</strong> (Dozwolone), <strong>lista zabronionych</strong> (Zabronione) można zmienić domyślne zachowanie.',
 	'SECURE_DOWNLOADS'				=> 'Bezpieczne pobieranie',

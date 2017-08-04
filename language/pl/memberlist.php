@@ -8,7 +8,8 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2016-01-09 18:24:32 Zespół Olympus.pl $
+* @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -101,7 +102,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Aby obejrzeć listę użytkowników, musisz się zalogować.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Aby szukać użytkowników, musisz się zalogować.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Aby oglądać profile, musisz się zalogować.',
-
+	
 	'MANAGE_GROUP'			=> 'Zarządzanie grupą',
 	'MORE_THAN'				=> 'Liczba > niż',
 

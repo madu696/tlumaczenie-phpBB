@@ -8,7 +8,8 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2015-09-15 21:45:45 Zespół Olympus.pl $
+* @Polish locale 2014-10-05 21:45:45 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 if (!defined('IN_PHPBB'))
@@ -43,6 +44,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NOT_AVAILABLE'	=> 'Wybrane rozszerzenie jest niedostępne dla tej witryny. Sprawdź czy zainstalowane wersje phpBB i PHP są zgodne z wersjami wymaganymi przez rozszerzenie – zobacz szczegółowe informacje na ten temat.',
 	'EXTENSION_DIR_INVALID'		=> 'Wybrane rozszerzenie ma nieprawidłową strukturę i nie można go włączyć.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'Wybranego rozszerzenia nie można włączyć. Sprawdź jego wymagania.',
+	'EXTENSION_NOT_INSTALLED'	=> 'Rozszerzenie %s jest niedostępne. Sprawdź, czy zostało poprawnie zainstalowane.',	
 
 	'DETAILS'				=> 'Szczegóły',
 
@@ -68,13 +70,13 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'			=> 'Nazwa rozszerzenia',
 	'EXTENSION_ACTIONS'			=> 'Działanie',
 	'EXTENSION_OPTIONS'			=> 'Opcje',
-	'EXTENSION_INSTALL_HEADLINE'=> 'Instalowanie rozszerzeń',
+	'EXTENSION_INSTALL_HEADLINE'=> 'Instalacja rozszerzenia',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
-			<li>Pobierz rozszerzenie z bazy rozszerzeń phpBB</li>
-			<li>Rozpakuj rozszerzenie i prześlij je do katalogu <samp>ext/</samp></li>
-			<li>W Menedżerze rozszerzeń włącz rozszerzenie</li>
+			<li>Pobierz rozszerzenie</li>
+			<li>Wypakuj rozszerzenie i prześlij pliki do katalogu <samp>ext/</samp> na serwerze</li>
+			<li>Włącz rozszerzenie</li>
 		</ol>',
-	'EXTENSION_UPDATE_HEADLINE'	=> 'Aktualizowanie rozszerzeń',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'Aktualizacja rozszerzenia',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>Wyłącz rozszerzenie</li>
 			<li>Usuń pliki rozszerzenia</li>
@@ -124,7 +126,6 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Sprawdź dostępność aktualizacji',
 	'FORCE_UNSTABLE'					=> 'Zawsze sprawdzaj dostępność wersji rozwojowych',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Ustawienia',
-
 	'BROWSE_EXTENSIONS_DATABASE'		=> 'Przeglądaj bazę rozszerzeń',
 
 	'META_FIELD_NOT_SET'	=> 'Wymagane dane %s nie zostały określone.',

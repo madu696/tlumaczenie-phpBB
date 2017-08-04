@@ -8,7 +8,9 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Polish locale 2015-06-14 18:24:32 Zespół Olympus.pl $
+* @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader)  www.rnavspotters.pl
+
 */
 
 /**
@@ -40,13 +42,13 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'pl',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Aby używać reCAPTCHY, musisz utworzyć konto na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCAPTCHA',
-	'RECAPTCHA_INCORRECT'			=> 'Wysłany kod potwierdzenia wizualnego jest nieprawidłowy',
+	'RECAPTCHA_INCORRECT'			=> 'Zabezpiecznie reCAPTCHA jest nierozwiązane.',
+	'RECAPTCHA_NOSCRIPT'			=> 'Włącz obsługę JavaScript w przeglądarce, aby korzystać z reCAPTCHA.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Klucz publiczny reCAPTCHA',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Twój klucz publiczny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_PRIVATE'				=> 'Klucz prywatny reCAPTCHA',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Twój klucz prywatny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Jako zabezpieczenie przed automatycznym publikowaniem postów, należy w polu poniżej wprowadzić wyświetlany tekst.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'Wystąpił problem z połączeniem się z usługą reCAPTCHA – nie można otworzyć gniazda. Ponów próbę za chwilę.',
+	'RECAPTCHA_EXPLAIN'				=> 'Rozwiąż zabezpieczenie reCAPTCHA, aby się zarejestrować.',
 ));

@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -99,6 +100,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'Obserwowanie tematów',
 	'BOARD_PM'					=> 'Prywatne wiadomości',
 	'BOARD_PM_EXPLAIN'			=> 'Tutaj można określić, czy ten komponent będzie dostępny dla użytkowników.',
+	'ALLOW_BOARD_NOTIFICATIONS' 	=> 'Włącz powiadomienia',
 ));
 
 // Avatar Settings
@@ -132,7 +134,7 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_BBCODE_PM'			=> 'Znaczniki BBCode',
 	'ALLOW_FLASH_PM'			=> 'Znacznik <code>[FLASH]</code>',
-	'ALLOW_FLASH_PM_EXPLAIN'	=> 'Jeśli funkcja ta zostanie włączona, użytkownicy będą mieli możliwość użycia tego znacznika w prywatnych wiadomościach. Funkcja ta zależy również od uprawnień użytkownika.',
+	'ALLOW_FLASH_PM_EXPLAIN'	=> 'Jeśli funkcja ta zostanie włączona, użytkownicy będą mieli możliwość użycia znacznika w prywatnych wiadomościach. Funkcja ta zależy również od uprawnień użytkownika.',
 	'ALLOW_FORWARD_PM'			=> 'Przekazywanie wiadomości',
 	'ALLOW_IMG_PM'				=> 'Znacznik <code>[IMG]</code>',
 	'ALLOW_MASS_PM'				=> 'Wiadomości do wielu użytkowników i grup',
@@ -221,7 +223,7 @@ $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Tutaj można zdefiniować opcje rejestracji i powiązane z nią ustawienia profilu.',
 
 	'ACC_ACTIVATION'				=> 'Aktywacja konta',
-	'ACC_ACTIVATION_EXPLAIN'		=> 'Funkcja ta określa, czy użytkownicy będą mieć natychmiastowy dostęp do witryny, czy też wymagane będzie potwierdzenie rejestracji. Można także całkowicie wyłączyć rejestrację użytkowników. Funkcja „E-mail do wszystkich” musi być włączona, aby można było stosować aktywację przez użytkownika lub administratora.',
+	'ACC_ACTIVATION_EXPLAIN'		=> 'Funkcja ta określa, czy użytkownicy będą mieć natychmiastowy dostęp do witryny, czy też wymagane będzie potwierdzenie rejestracji. Można także całkowicie wyłączyć rejestrację użytkowników. <em>Funkcja „E-mail do wszystkich” musi być włączona, aby można było stosować aktywację przez użytkownika lub administratora.</em>',
 	'ACC_ACTIVATION_WARNING'		=> 'Wybrana metoda potwierdzenia rejestracji wymaga, aby funkcja wysyłania e-maili była włączona. Jeśli funkcja ta będzie wyłączona, rejestracja użytkowników będzie niemożliwa. Zalecamy wybranie innej metody potwierdzenia rejestracji lub aktywację funkcji wysyłania e-maili.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'Liczba postów dla nowego użytkownika',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Nowi użytkownicy do czasu przekroczenia określonego tutaj limitu postów będą znajdowali się w obrębie grupy <em>Nowo zarejestrowani użytkownicy</em>. Grupę tę można wykluczyć z używania systemu prywatnych wiadomości lub przeglądania swoich postów. <strong>Wartość 0 wyłącza tę funkcję.</strong>',
@@ -349,6 +351,8 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_DOMAIN'				=> 'Domena ciasteczka',
 	'COOKIE_NAME'				=> 'Nazwa ciasteczka',
+	'COOKIE_NOTICE'				=> 'Powiadomienie o ciasteczkach',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'Jeśli funkcja ta zostanie włączona, powiadomienie o wykorzystaniu ciasteczek pojawi się na dole strony. Powiadomienie użytkownika o wykorzystaniu ciasteczek na stronie jest w Polsce prawnie wymagane (Prawo Telekomunikacyjne, Art. 173).',
 	'COOKIE_PATH'				=> 'Ścieżka do ciasteczka',
 	'COOKIE_SECURE'				=> 'Bezpieczne ciasteczko',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Jeśli serwer jest uruchomiony przez SSL, należy włączyć tę funkcję. W pozostałych przypadkach funkcja powinna być wyłączona. Włączenie tej funkcji, gdy serwer nie jest uruchomiony przez SSL, będzie powodowało błędy podczas przekierowań.',
@@ -534,6 +538,9 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'			=> 'Jeśli funkcja jest włączona, odsyłacz żądań typu POST będzie porównywany z ustawieniami hosta i ścieżki. Może to powodować problemy z witrynami używającymi różnych domen lub zewnętrznych danych logowania.',
 	'TPL_ALLOW_PHP'					=> 'Używaj PHP w szablonach',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Jeśli ta funkcja jest włączona, składnia <code>PHP</code> i <code>INCLUDEPHP</code> będzie rozpoznawana i przetwarzana w szablonach.',
+	'UPLOAD_CERT_VALID'				=> 'Sprawdź ważność certyfikatu',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Jeśli funkcja jest włączona, certificates of remote uploads will be validated. Wymagane jest, aby plik <samp>CA bundle</samp> był zdefiniowany poprzez ustawienie <samp>openssl.cafile</samp> lub <samp>curl.cainfo</samp> w pliku php.ini.',
+
 ));
 
 // Email Settings
@@ -558,6 +565,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'Ten tekst będzie dołączany jako podpis do wszystkich wiadomości e-mail wysyłanych przez witrynę.',
 	'ENABLE_EMAIL'					=> 'E-mail do wszystkich',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Jeśli ta funkcja zostanie wyłączona, nie będzie możliwości wysłania wiadomości e-mail. <em>Informacja. Ustawienia aktywacji konta przez użytkownika lub administratora wymagają, aby ta funkcja była włączona. Jeśli obecnie w ustawieniach aktywacji jest stosowana aktywacja konta przez „użytkownika” lub „administratora”, wyłączenie tej funkcji uniemożliwi rejestrację użytkowników.</em>',
+	'SEND_TEST_EMAIL'				=> 'Wyślij testowy e-mail',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Testowy e-mail zostanie wysłany na adres podany na twoim koncie.',
 	'SMTP_AUTH_METHOD'				=> 'Metoda uwierzytelniania dla SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Uwierzytelnianie jest używane tylko wtedy, gdy jest określona nazwa użytkownika i hasło. Jeśli nie wiesz, jakiej metody użyć, zapytaj swojego dostawcę usługi.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -570,9 +579,11 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'Port serwera',
 	'SMTP_PORT_EXPLAIN'				=> 'Można zmieniać tylko wtedy, gdy wiadomo, że serwer pracuje na innym porcie.',
 	'SMTP_SERVER'					=> 'Adres serwera',
+	'SMTP_SERVER_EXPLAIN'			=> 'Podaj protokół, z jakiego korzysta serwer. Jeśli używasz SSL, podaj adres w postaci "ssl://twoj.adres_serwera.pl"',
 	'SMTP_SETTINGS'					=> 'Ustawienia SMTP',
 	'SMTP_USERNAME'					=> 'Nazwa użytkownika',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Należy wprowadzić tylko, jeśli serwer SMTP tego wymaga.',
+	'TEST_EMAIL_SENT'				=> 'Testowy e-mail został wysłany.<br />Jeśli go nie otrzymałeś, sprawdź ustawienia e-mail.<br /><br />Jeśli potrzebujesz pomocy, odwiedź forum <a href="http://www.phpbb.pl/forum/">phpbb.pl</a> albo <a href="https://www.phpbb.com/community/">phpbb.com</a>',
 	'USE_SMTP'						=> 'Używaj serwera SMTP dla e-maili',
 	'USE_SMTP_EXPLAIN'				=> 'Wybierz <samp>Tak</samp>, jeśli takie jest twoje życzenie lub trzeba wysyłać wiadomości e-mail przez dany serwer zamiast przez lokalną funkcję pocztową.',
 ));

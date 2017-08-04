@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -130,7 +131,9 @@ $lang = array_merge($lang, array(
 	'NO_USERS'					=> 'Nie wprowadzono żadnych użytkowników.',
 	'NO_USERS_ADDED'			=> 'Nie dodano żadnego użytkownika do grupy.',
 	'NO_VALID_USERS'			=> 'Nie wprowadzono żadnych użytkowników odpowiednich do tego działania.',
-
+	
+	'PENDING_MEMBERS'			=> 'Oczekujący członkowie',
+	
 	'SELECT_GROUP'				=> 'Wybierz grupę',
 	'SPECIAL_GROUPS'			=> 'Grupy predefiniowane',
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Grupy predefiniowane są grupami specjalnymi. Nie mogą być usuwane ani bezpośrednio modyfikowane, ale można dodawać do nich użytkowników i zmieniać podstawowe ustawienia.',

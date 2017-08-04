@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-28 18:24:32 Zespół Olympus.pl $
+* @Polska wersja jÄ™zykowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -47,22 +48,34 @@ $lang = array_merge($lang, array(
 	'MIGRATION_DATA_RUNNING'			=> 'Instalowanie danych: %s.',
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migracja została już dokonana (pominięta): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Nie udało się poprawnie wykonać zadania i informacje dotyczące tego błędu zostały zapisane. Zmiany wykonane przed wystąpieniem błędu zostały anulowane, ale należy sprawdzić czy na witrynie nie ma błędów.',
-	'MIGRATION_NOT_FULFILLABLE'			=> 'Migracja „%1$s” jest niepełna, brakuje „%2$s”.',
+	'MIGRATION_NOT_FULFILLABLE'			=> 'Migracja „%1$s” jest niezadowalająca, brakuje „%2$s”.',
+	'MIGRATION_NOT_INSTALLED'			=> 'Migracja „%s” jest niezainstalowana.',
 	'MIGRATION_NOT_VALID'				=> 'Migracja %s nie jest prawidłową migracją.',
-	'MIGRATION_SCHEMA_DONE'				=> 'Zainstalowano strukturę fizyczną bazy: %1$s; Czas: %2$.2f s',
-	'MIGRATION_SCHEMA_RUNNING'			=> 'Instalowanie struktury fizycznej bazy: %s.',
+	'MIGRATION_SCHEMA_DONE'				=> 'Zainstalowano schemat bazy danych: %1$s; Czas: %2$.2f s',
+	'MIGRATION_SCHEMA_IN_PROGRESS' 		=> 'Instalowanie schematu bazy danych: %1$s; Czas: %2$.2f s',
+	'MIGRATION_SCHEMA_RUNNING'			=> 'Instalowanie schematu bazy danych: %s.',
 
+	'MIGRATION_REVERT_DATA_DONE'		=> 'Przywrócono dane: %1$s; Czas: %2$.2f s',
+	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Przywracanie danych: %1$s; Czas: %2$.2f s',
+	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Przywracanie danych: %s.',
+	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Przywrócono schemat bazy danych: %1$s; Czas: %2$.2f s',
+	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'Przywracanie schematu bazy danych: %1$s; Czas: %2$.2f s',
+	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Przywracanie schematu bazy danych: %s.',
+	
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Migracja się nie powiodła. W instrukcji „if” brakuje warunku.',
 	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Migracja się nie powiodła. W instrukcji „if” brakuje poprawnego wywołania etapu migracji.',
 	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'Migracja się nie powiodła. Nie można wywołać wymaganej funkcji.',
 	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'Migracja się nie powiodła. Napotkano nieznany typ narzędzia migracji.',
 	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'Migracja się nie powiodła. Napotkano niezdefiniowane narzędzie migracji.',
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Migracja się nie powiodła. Napotkano niezdefiniowaną metodę migracji.',
-
+	
 	'MODULE_ERROR'						=> 'W trakcie tworzenia modułu %s wystąpił błąd',
+	'MODULE_EXISTS'						=> 'Moduł istnieje: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Kilka modułów z podanymi nazwami modułów nadrzędnych już istnieją: %s. Spróbuj użyć klucze przed / po, aby określić położenie modułu.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Brakuje wymaganego pliku informacyjnego: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Nie ma wymaganego modułu: %s',
-
+	
+	'PARENT_MODULE_FIND_ERROR'			=> 'Nie można określić identyfikatora modułu nadrzędnego: %s',
 	'PERMISSION_NOT_EXIST'				=> 'Nie istnieje ustawienie „%s”.',
 
 	'ROLE_NOT_EXIST'					=> 'Nie istnieje rola „%s”.',

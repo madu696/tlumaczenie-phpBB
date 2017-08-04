@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.2.0 - 18.02.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -120,6 +121,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_POST'		=> 'Tworzenie nowych tematów',
 	'ACL_F_STICKY'		=> 'Przyklejanie tematów',
 	'ACL_F_ANNOUNCE'	=> 'Zamieszczanie ogłoszeń',
+	'ACL_F_ANNOUNCE_GLOBAL'	=> 'Zamieszczanie globalnych ogłoszeń',
 	'ACL_F_REPLY'		=> 'Odpowiadanie w istniejących tematach',
 	'ACL_F_EDIT'		=> 'Edytowanie swoich postów',
 	'ACL_F_DELETE'		=> 'Usuwanie swoich postów',
@@ -157,7 +159,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_M_INFO'		=> 'Przeglądanie szczegółów postów',
 	'ACL_M_WARN'		=> 'Udzielanie ostrzeżeń<br /><em>To uprawnienie może zostać nadane tylko globalnie. Nie jest zależne od forum.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> 'Może zamykać i usuwać raporty prywatnych wiadomości<br /><em>To ustawienie jest przypisane tylko globalnie. Nie oddziałuje na forum.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT'	=> 'Zamykanie i usuwanie raportów prywatnych wiadomości.<br /><em>To uprawnienie może zostać nadane tylko globalnie. Nie jest zależne od forum.</em>', // This moderator setting is only global (and not local)
 	'ACL_M_BAN'			=> 'Zarządzanie blokowaniem<br /><em>To uprawnienie może zostać nadane tylko globalnie. Nie jest zależne od forum..</em>', // This moderator setting is only global (and not local)
 ));
 

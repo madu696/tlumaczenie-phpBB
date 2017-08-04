@@ -77,9 +77,9 @@ $lang = array_merge($lang, array(
 	'MAKE_NORMAL'				=> 'Zmień na zwykły temat',
 	'MAKE_STICKY'				=> 'Zmień na przyklejony',
 	'MAX_OPTIONS_SELECT'		=> array(
-		1	=> 'Liczba opcji do wybrania: <strong>%d</strong>',
-		2	=> 'Maksymalna liczba opcji do wybrania: <strong>%d</strong>',
-		3	=> 'Maksymalna liczba opcji do wybrania: <strong>%d</strong>',
+		1	=> 'Można wybrać tylko <strong>%d.</strong> opcję',
+		2	=> 'Można maksymalnie wybrać <strong>%d</strong> opcje',
+		3	=> 'Można maksymalnie wybrać <strong>%d</strong> opcji',
 	),
 	'MISSING_INLINE_ATTACHMENT'	=> 'Załącznik <strong>%s</strong> nie jest już dostępny',
 	'MOVE_TOPIC'				=> 'Przenieś temat',
