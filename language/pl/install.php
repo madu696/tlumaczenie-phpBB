@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -44,7 +45,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_TEST'				=> 'Sprawdzanie ustawień administratora',
 	'ADMIN_USERNAME'			=> 'Login administratora',
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Wprowadź nazwę użytkownika o długości 3 – 20 znaków.',
-	'APP_MAGICK'				=> 'Obsługa Imagemagick [ Załączniki ]',
+	'APP_MAGICK'				=> 'Obsługa ImageMagick [ Załączniki ]',
 	'AUTHOR_NOTES'				=> 'Informacje o autorze<br />» %s',
 	'AVAILABLE'					=> 'Dostępne',
 	'AVAILABLE_CONVERTORS'		=> 'Dostępne konwertery',
@@ -400,6 +401,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_UPDATE_CONTINUE'			=> 'Kontynuuj aktualizację bazy danych',
 	'DATABASE_UPDATE_INFO_OLD'			=> 'Plik aktualizacyjny bazy danych w katalogu „install/” jest nieaktualny. Sprawdź czy na serwer została wysłana właściwa wersja pliku.',
 	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'Aktualizacja bazy danych nie została jeszcze ukończona.',
+	'DATABASE_VERSION'					=> 'Wersja bazy danych',
 	'DELETE_USER_REMOVE'				=> 'Usuń użytkownika i jego posty',
 	'DELETE_USER_RETAIN'				=> 'Usuń użytkownika, ale pozostaw jego posty',
 	'DESTINATION'						=> 'Plik docelowy',
@@ -439,6 +441,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Poniższe pliki nie zostały zmodyfikowane i są oryginalnymi plikami wersji phpBB, którą zamierzasz zaktualizować.',
 	'FILES_UP_TO_DATE'				=> 'Pliki już zaktualizowane',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Poniższe pliki są aktualne i nie muszą być aktualizowane.',
+	'FILES_VERSION'					=> 'Wersja plików',
 	'FTP_SETTINGS'					=> 'Ustawienia FTP',
 	'FTP_UPDATE_METHOD'				=> 'Wysyłanie na serwer za pomocą FTP',
 
@@ -486,6 +489,7 @@ $lang = array_merge($lang, array(
 	'OLD_UPDATE_FILES'		=> 'Pliki aktualizacyjne są nieaktualne. Pliki te służą do aktualizacji phpBB %1$s do wersji %2$s, a najnowsza wersja phpBB to %3$s.',
 
 	'PACKAGE_UPDATES_TO'				=> 'To jest pakiet aktualizacji do wersji',
+	'PACKAGE_VERSION'					=> 'Zainstalowana wersja pakietu',
 	'PERFORM_DATABASE_UPDATE'			=> 'Wykonaj aktualizację bazy danych',
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Poniżej znajduje się przycisk do uruchomienia skryptu aktualizującego bazę danych. Aktualizacja bazy danych może potrwać dłuższą chwilę. Proszę nie zatrzymywać działania skryptu, gdy wydaje się, że nic się nie dzieje. Aby kontynuować proces aktualizacji po zakończeniu aktualizacji bazy danych, należy postępować zgodnie z dalszymi instrukcjami.',
 	'PREVIOUS_VERSION'					=> 'Poprzednia wersja',
@@ -530,6 +534,11 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'		=> 'Aktualizowanie schematu bazy danych',
 	'UPDATE_FILES'					=> 'Aktualizuj pliki',
 	'UPDATE_FILES_NOTICE'			=> 'Sprawdź czy zostały zaktualizowane również pliki witryny. Ten plik aktualizuje tylko bazę danych.',
+	'UPDATE_INCOMPLETE'				=> 'Twój skrypt phpBB nie został poprawnie zaktualizowany.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Przeczytaj poniższe informacje, aby naprawić ten błąd.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Incomplete update</h1>
+
+	<p>Zarejestrowaliśmy, że ostatnia aktualizacja skryptu phpBB nie została zakończona. Przejdź do skryptu <a href="%1$s" title="%1$s">aktualizacji bazy danych</a> i uruchom go. Jeśli brakuje tego skryptu, kliknij odnośnik i <a href="https://www.phpbb.com/downloads/" title="Pobierz phpBB">pobierz pakiet instalacyjny w Twojej wersji</a>. Następnie wyślij folder "install" na serwer, gdzie znajduje się katalog główny phpBB (jest tam plik config.php ) i <a href="%1$s" title="%1$s">uruchom skrypt aktualizacji bazy danych</a>.</p>',
 	'UPDATE_INSTALLATION'			=> 'Aktualizuj skrypt phpBB',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Za pomocą tej funkcji można wykonać aktualizację skryptu phpBB do najnowszej wersji.<br />W czasie procesu aktualizacji wszystkie stare pliki zostaną porównane z plikami nowej wersji. Przed aktualizacją będzie można przejrzeć wszystkie pliki i różnice.<br /><br />Aktualizacja plików może być wykonana na dwa różne sposoby:</p><h2>Aktualizacja ręczna</h2><p>Stosując tę metodę aktualizacji, należy pobrać zestaw zmienionych plików, sprawdzić je, aby nie stracić wcześniej ręcznie wprowadzonych modyfikacji – w razie potrzeby uzupełnić o te modyfikacje nowe pliki i wgrać je na serwer we właściwe dla nich miejsca w skrypcie witryny. Po wykonaniu tej operacji należy sprawdzić, czy pliki te znajdują się we właściwych miejscach w skrypcie.</p><h2>Automatyczna aktualizacja za pomocą FTP</h2><p>Ta metoda jest podobna do pierwszej, ale zamiast pobierać pliki z serwera aktualizacji i wgrywać je do katalogu głównego skryptu witryny, wystarczy podać kilka danych dotyczących używanego serwera FTP. Po zakończeniu wgrywania plików przez serwer FTP nastąpi przekierowanie do sprawdzenia plików, by upewnić się, czy wszystko zostało prawidłowo wykonane.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '

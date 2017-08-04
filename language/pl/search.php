@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-02-02 18:24:32 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -74,6 +75,7 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'Niczego ostatnio nie szukano.',
 	'NO_SEARCH'				=> 'Nie masz uprawnień do używania wyszukiwarki.',
 	'NO_SEARCH_RESULTS'		=> 'Nie znaleziono elementów spełniających kryteria szukania.',
+	'NO_SEARCH_LOAD'		=> 'Przepraszamy, ale w tym momencie nie możesz użyć wyszukiwarki – serwer jest przeciążony. Spróbuj ponownie za chwilę.',
 	'NO_SEARCH_LOAD'		=> 'W tej chwili nie możesz użyć wyszukiwarki – serwer jest przeciążony. Spróbuj ponownie za chwilę.',
 	'NO_SEARCH_TIME'		=> array(
 		1	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d. sekundę.',

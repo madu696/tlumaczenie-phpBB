@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -117,8 +118,8 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Rozmiar obrazka, a odnośnik',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Jeśli załączany obrazek ma rozmiar większy niż określone tutaj wartości, zamiast niego zostanie wyświetlony odnośnik tekstowy. Aby takie zachowanie wyłączyć, należy ustawić te wartości na 0 x 0 px.',
-	'IMAGICK_PATH'				=> 'Ścieżka do Imagemagick',
-	'IMAGICK_PATH_EXPLAIN'		=> 'Ścieżka do aplikacji konwertującej Imagemagick, np. <samp>/usr/bin/</samp>.',
+	'IMAGICK_PATH'				=> 'Ścieżka do ImageMagick',
+	'IMAGICK_PATH_EXPLAIN'		=> 'Ścieżka do aplikacji konwertującej ImageMagick, np. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Maksymalna liczba załączników w poście',
 	'MAX_ATTACHMENTS_PM'			=> 'Maksymalna liczba załączników w prywatnej wiadomości',
@@ -141,7 +142,7 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Nie określono grupy.',
 	'NO_FILE_CAT'				=> 'Brak',
 	'NO_IMAGE'					=> 'Brak obrazka',
-	'NO_THUMBNAIL_SUPPORT'		=> 'Funkcje miniatur zostały wyłączone, ponieważ dla ich prawidłowego działania niezbędna jest obecność rozszerzenia GD lub programu Imagemagick – żadnego z nich nie znaleziono.',
+	'NO_THUMBNAIL_SUPPORT'		=> 'Funkcje miniatur zostały wyłączone, ponieważ dla ich prawidłowego działania niezbędna jest obecność rozszerzenia GD lub programu ImageMagick – żadnego z nich nie znaleziono.',
 	'NO_UPLOAD_DIR'				=> 'Wybrany katalog nie istnieje.',
 	'NO_WRITE_UPLOAD'			=> 'W wybranym katalogu nie ma możliwości zapisu. Zmień atrybuty katalogu, tak aby można było wykonywać w nim zapis.',
 
@@ -153,7 +154,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> 'Usuń lub anuluj wykluczenie <em>niedozwolonych</em> adresów IP/nazw serwerów',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Czy na pewno chcesz ponownie zsynchronizować plik statystyk?',
 
-	'SEARCH_IMAGICK'				=> 'Szukaj Imagemagick',
+	'SEARCH_IMAGICK'				=> 'Szukaj ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'Lista Dozwolone/Zabronione',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Gdy bezpieczne pobieranie jest włączone, na liście Dozwolone/Zabronione (<strong>lista dozwolonych</strong> (Dozwolone), <strong>lista zabronionych</strong> (Zabronione) można zmienić domyślne zachowanie.',
 	'SECURE_DOWNLOADS'				=> 'Bezpieczne pobieranie',

@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2016-01-07 18:24:32 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -173,7 +174,7 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'Wszystkiego najlepszego dla ',
 	'CONNECTION_FAILED'		=> 'Nie połączono.',
 	'CONNECTION_SUCCESS'	=> 'Połączono!',
-	'CONTACT'				=> 'Kontaktowanie',
+	'CONTACT'				=> 'Kontakt',
 	'CONTACT_USER'			=> 'Skontaktuj się z %s',
 	'CONTACT_US'			=> 'Kontakt z nami',
 	'COOKIES_DELETED'		=> 'Usunięto wszystkie ciasteczka witryny.',
@@ -476,7 +477,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Nie zaakceptowano</strong> tematu:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Użytkownik %1$s <strong>poprosił o akceptację</strong> tematu:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'W katalogu witryny brakuje powiadomienia typu „%s”.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Wymagana aktywacja</strong> dla dezaktywowanego lub nowo zarejestrowanego użytkownika „%1$s”',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Wymagana aktywacja</strong> dla nowo zarejestrowanego lub zdeaktywowanego użytkownika „%1$s”',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'inni',
 	'NOTIFICATION_X_OTHERS'				=> array(

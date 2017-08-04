@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -66,8 +67,8 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_COPPA'					=> 'Twoje konto zostało utworzone, ale musi zostać zatwierdzone. Więcej informacji znajdziesz w wysłanej do ciebie wiadomości e-mail.',
 	'ACCOUNT_EMAIL_CHANGED'			=> 'Twoje konto zostało zaktualizowane. Ta witryna jednak przy zmianie adresu e-mail wymaga ponownej aktywacji kont poprzez podanie klucza aktywującego. Klucz ten otrzymasz w specjalnej wiadomości na nowy adres e-mail. W niej też znajdziesz dalsze instrukcje.',
 	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'Twoje konto zostało zaktualizowane. Ta witryna przy zmianie adresu e-mail wymaga ponownej aktywacji kont przez administratora. Została już do niego wysłana informacja w tej sprawie. Gdy twoje konto zostanie ponownie aktywowane, otrzymasz stosowne powiadomienie.',
-	'ACCOUNT_INACTIVE'				=> 'Twoje konto zostało utworzone. Ta witryna jednak wymaga aktywacji kont poprzez podanie klucza aktywującego. Klucz ten otrzymasz w specjalnej wiadomości e-mail. W niej też znajdziesz dalsze instrukcje. Dostarczenie wiadomości może zająć dłuższą chwilę w zależności od dostawcy usługi e-mail. W przypadku braku wiadomości, sprawdź katalog przeznaczony na spam.',
-	'ACCOUNT_INACTIVE_ADMIN'		=> 'Twoje konto zostało utworzone. Ta witryna wymaga aktywacji kont przez administratora. Został on już poinformowany o utworzeniu nowego konta. Z chwilą aktywowania konta otrzymasz stosowne powiadomienie.',
+	'ACCOUNT_INACTIVE'				=> 'Twoje konto zostało utworzone. Ta witryna jednak wymaga aktywacji konta poprzez podanie klucza aktywującego. Klucz ten otrzymasz w specjalnej wiadomości e-mail, sprawdź również folder spam. W niej też znajdziesz dalsze instrukcje. Może to chwilę potrwać, prosimy o cierpliwość.',
+	'ACCOUNT_INACTIVE_ADMIN'		=> 'Twoje konto zostało utworzone. Ta witryna wymaga aktywacji konta przez administratora. Został on już poinformowany o utworzeniu nowego konta. Z chwilą aktywowania konta otrzymasz stosowne powiadomienie.',
 	'ACTIVATION_EMAIL_SENT'			=> 'E-mail aktywacyjny został wysłany na twój adres mailowy.',
 	'ACTIVATION_EMAIL_SENT_ADMIN'	=> 'E-mail aktywacyjny został wysłany na adresy mailowe administratorów.',
 	'ADD'							=> 'Dodaj',
@@ -364,9 +365,9 @@ $lang = array_merge($lang, array(
 	'NOT_AGREE'						=> 'Nie akceptuję',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'Docelowy folder „%s” prawdopodobnie jest pełny. Żądana czynność nie została wykonana.',
 	'NOT_MOVED_MESSAGES'			=> array(
-		1	=> 'Prywatne wiadomości oczekujące na zwolnienie miejsca w folderze: %d',
-		2	=> 'Prywatne wiadomości oczekujące na zwolnienie miejsca w folderze: %d',
-		3	=> 'Prywatne wiadomości oczekujące na zwolnienie miejsca w folderze: %d',
+		1	=> 'Jest %d prywatna wiadomość oczekująca na zwolnienie miejsca w folderze.',
+		2	=> 'Są %d prywatne wiadomości oczekujące na zwolnienie miejsca w folderze.',
+		3	=> 'Jest %d prywatnych wiadomości oczekujących na zwolnienie miejsca w folderze.',
 	),
 	'NO_ACTION_MODE'				=> 'Nie określono żadnej czynności dla tej wiadomości.',
 	'NO_AUTHOR'						=> 'Nie zdefiniowano autora tej wiadomości.',

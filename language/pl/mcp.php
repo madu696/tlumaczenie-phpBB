@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -268,9 +269,9 @@ $lang = array_merge($lang, array(
 	'PM_REPORTS_DELETED_SUCCESS'=> 'Wybrane zgłoszenia PW zostały usunięte.',
 	'PM_REPORTS_TOTAL'			=> array(
 		0	=> 'Nie ma zgłoszeń PW do przejrzenia.',
-		1	=> 'Zgłoszenia PW do przejrzenia: <strong>1</strong>',
-		2	=> 'Zgłoszenia PW do przejrzenia: <strong>%d</strong>',
-		3	=> 'Zgłoszenia PW do przejrzenia: <strong>%d</strong>',
+		1	=> 'Jest <strong>1</strong> zgłoszenie PW do przejrzenia.',
+		2	=> 'Są <strong>%d</strong> zgłoszenia PW do przejrzenia.',
+		3	=> 'Jest <strong>%d</strong> zgłoszeń PW do przejrzenia.',
 	),
 	'PM_REPORT_DETAILS'			=> 'Szczegóły zgłoszenia prywatnej wiadomości',
 	'POSTER'					=> 'Autor',

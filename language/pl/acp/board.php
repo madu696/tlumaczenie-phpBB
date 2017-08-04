@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -570,6 +571,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'Port serwera',
 	'SMTP_PORT_EXPLAIN'				=> 'Można zmieniać tylko wtedy, gdy wiadomo, że serwer pracuje na innym porcie.',
 	'SMTP_SERVER'					=> 'Adres serwera',
+	'SMTP_SERVER_EXPLAIN'			=> 'Podaj protokół, z jakiego korzysta serwer. Jeśli używasz SSL, podaj adres w postaci "ssl://twoj.adres_serwera.pl"',
 	'SMTP_SETTINGS'					=> 'Ustawienia SMTP',
 	'SMTP_USERNAME'					=> 'Nazwa użytkownika',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Należy wprowadzić tylko, jeśli serwer SMTP tego wymaga.',

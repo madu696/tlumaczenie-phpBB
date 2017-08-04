@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 15:34:14 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -54,7 +55,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Mechanizm wyszukiwania czyści teraz swój indeks. Może to potrwać kilka minut.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'Mechanizm wyszukiwania pełnotekstowego MySQL może być użyty tylko z wersją MySQL4 i nowszymi.',
-	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Mechanizm wyszukiwania pełnotekstowego MySQL może być użyty tylko z tabelami MyISAM lub InnoDB. MySQL 5.6.4 i nowsze wersje dla wyszukiwania pełnotekstowego wymagają tabel InnoDB.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Mechanizm wyszukiwania pełnotekstowego MySQL może być użyty tylko z tabelami MyISAM lub InnoDB. MySQL 5.6.8 i nowsze wersje dla wyszukiwania pełnotekstowego wymagają tabel InnoDB.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Liczba zindeksowanych postów',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Słowa składające się z przynajmniej tej liczby znaków będą indeksowane dla celów wyszukiwania. Tylko ty lub administrator twojego serwera może zmienić to ustawienie, zmieniając konfigurację bazy danych mysql.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Słowa składające się z nie więcej niż tej liczby znaków będą indeksowane dla celów wyszukiwania. Tylko ty lub administrator twojego serwera może zmienić to ustawienie, zmieniając konfigurację bazy danych mysql.',
