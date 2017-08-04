@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-09-15 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.1.11 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -82,6 +82,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'Nie można wykonać dezinstalacji stylu „%s”, ponieważ stanowi on styl macierzysty dla innych stylów.',
 	'STYLE_UNINSTALLED'			=> 'Wykonano dezinstalację stylu „%s”.',
 	'STYLE_USED_BY'				=> 'Liczba używających (z robotami)',
+	'STYLE_VERSION'				=> 'Wersja stylu',
 
 	'UNINSTALL_DEFAULT'		=> 'Nie można wykonać dezinstalacji domyślnego stylu.',
 

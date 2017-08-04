@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.1.11 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -574,6 +574,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Aktualizowanie danych',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Aktualizowanie bazy danych do najnowszej stabilnej wersji',
 	'UPDATED_VERSION'				=> 'Wersja została zaktualizowana do',
+	'UPGRADE_INSTRUCTIONS'			=> 'Dostępna jest nowa wersja skryptu <strong>%1$s</strong>. Przeczytaj <a href="%2$s" title="%2$s"><strong>informacje o wydaniu</strong></a>, aby dowiedzieć się o nowościach i sposobie aktualizacji.',
 	'UPLOAD_METHOD'					=> 'Metoda wgrywania',
 
 	'UPDATE_DB_SUCCESS'				=> 'Baza danych została zaktualizowana.',

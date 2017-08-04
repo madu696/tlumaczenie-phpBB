@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-02-02 21:45:45 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.1.11 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -373,7 +374,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Liczba użytkowników',
 	'NUMBER_ORPHAN'		=> 'Liczba osieroconych załączników',
 
-	'PHP_VERSION_OLD'	=> 'Nowe wersje phpBB nie będą obsługiwały wersji PHP znajdującej się na tym serwerze. %sSzczegóły%s',
+	'PHP_VERSION_OLD'	=> 'Wersja PHP na tym serwerze (%1$s) nie będzie wspierana przez kolejne wersje phpBB. Minimalna wymagana wersja PHP to %2$s. %3$sSzczegóły%4$s',
 
 	'POSTS_PER_DAY'		=> 'Średnia liczba postów dziennie',
 
@@ -417,11 +418,14 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_SIZE'	=> 'Łączny rozmiar załączników',
 	'USERS_PER_DAY'		=> 'Średnia liczba rejestracji dziennie',
 
-	'VALUE'						=> 'Wartość',
-	'VERSIONCHECK_FAIL'			=> 'Nie udało się uzyskać informacji o ostatniej wersji.',
-	'VERSIONCHECK_FORCE_UPDATE'	=> 'Sprawdź wersję',
-	'VIEW_ADMIN_LOG'			=> 'Dziennik administratorów',
-	'VIEW_INACTIVE_USERS'		=> 'Lista nieaktywnych użytkowników',
+	'VALUE'							=> 'Wartość',
+	'VERSIONCHECK_FAIL'				=> 'Nie udało się uzyskać informacji o ostatnim wydaniu.',
+	'VERSIONCHECK_FORCE_UPDATE'		=> 'Sprawdź wersję',
+	'VERSIONCHECK_INVALID_ENTRY'	=> 'Informacja o ostatnim wydaniu zawiera błędny wpis.',
+	'VERSIONCHECK_INVALID_URL'		=> 'Informacja o ostatnim wydaniu zawieraj błędny adres URL.',
+	'VERSIONCHECK_INVALID_VERSION'	=> 'Informacja o ostatniej wydaniu zawieraj błędną wersję.',
+	'VIEW_ADMIN_LOG'				=> 'Dziennik administratorów',
+	'VIEW_INACTIVE_USERS'			=> 'Lista nieaktywnych użytkowników',
 
 	'WELCOME_PHPBB'			=> 'Witamy w phpBB',
 	'WRITABLE_CONFIG'		=> 'Plik konfiguracyjny (config.php) ma obecnie atrybut „do zapisu”. Zalecamy zmianę tego atrybutu na wartość 640 lub przynajmniej 644 (zobacz <a href="http://pl.wikipedia.org/wiki/Chmod" rel="external">chmod</a> i ustaw 640 config.php).',

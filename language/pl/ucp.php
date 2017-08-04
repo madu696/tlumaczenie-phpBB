@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.1.11 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -101,6 +101,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Prześlij awatar',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Prześlij swój awatar.',
 	'AVATAR_EXPLAIN'				=> 'Maksymalne wymiary: szerokość – %1$s, wysokość – %2$s, rozmiar pliku – %3$.2f KiB.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Maksymalne wymiary: szerokość – %1$s, wysokość – %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Funkcje awatarów są wyłączone.',
 	'AVATAR_GALLERY'				=> 'Galeria lokalna',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Nie można wysłać awatara do %s.',
@@ -135,7 +136,7 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$sPowrót do swojego folderu „%3$s”%2$s',
 	'CONFIRMATION'				=> 'Potwierdzenie rejestracji',
 	'CONFIRM_CHANGES'			=> 'Potwierdź zmiany',
-	'CONFIRM_EXPLAIN'			=> 'Aby zapobiec automatycznemu rejestrowaniu się użytkowników, witryna wymaga wpisania kodu potwierdzającego. Kod ten jest wyświetlony na obrazku poniżej. Jeśli jest on nieczytelny, skontaktuj się z %sadministratorem witryny%s.',
+	'CONFIRM_EXPLAIN'			=> 'Aby zapobiec automatycznemu rejestrowaniu się użytkowników, witryna wymaga rozwiązania zabezpieczenia antyspamowego. Odpowiedź na pytanie lub przepisz wyświetlony poniżej kod. Jeśli jest on nieczytelny, skontaktuj się z %sadministratorem witryny%s.',
 	'VC_REFRESH'				=> 'Odśwież kod',
 	'VC_REFRESH_EXPLAIN'		=> 'Jeśli masz trudności z odczytaniem kodu, możesz poprosić o wyświetlenie nowego, naciskając przycisk.',
 

@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2016-01-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.1.11 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -138,13 +138,13 @@ $lang = array_merge($lang, array(
 	),
 	'BUTTON_EDIT'			=> 'Edytuj',
 	'BUTTON_FORUM_LOCKED'	=> 'Zablokowane',
-	'BUTTON_NEW_TOPIC'		=> 'Nowy temat',
+	'BUTTON_NEW_TOPIC'		=> 'NOWY TEMAT',
 	'BUTTON_PM'				=> 'PW',
-	'BUTTON_PM_FORWARD'		=> 'Prześlij dalej',
+	'BUTTON_PM_FORWARD'		=> 'Przekaż',
 	'BUTTON_PM_NEW'			=> 'Nowa PW',
-	'BUTTON_PM_REPLY'		=> 'Wyślij odpowiedź',
+	'BUTTON_PM_REPLY'		=> 'Odpowiedz',
 	'BUTTON_PM_REPLY_ALL'	=> 'Odpowiedz wszystkim',
-	'BUTTON_POST_REPLY'		=> 'Odpowiedz',
+	'BUTTON_POST_REPLY'		=> 'ODPOWIEDZ',
 	'BUTTON_QUOTE'			=> 'Cytuj',
 	'BUTTON_TOPIC_LOCKED'	=> 'Zablokowany',
 	'BYTES'					=> 'Bajtów',
@@ -344,6 +344,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'					=> 'Zainteresowania',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Błędna próba uporządkowania MD5.',
 	'INVALID_EMAIL_LOG'			=> '<strong>%s</strong> możliwe, że jest to nieprawidłowy adres e-mail?',
+	'INVALID_FEED_ATTACHMENTS'	=> 'Wybrany kanał informacyjny próbował pobrać załączniki z nieprawidłowymi ograniczeniami.',
 	'INVALID_PLURAL_RULE'		=> 'Wybrana reguła liczby mnogiej jest nieprawidłowa. Prawidłowe wartości zawierają się w przedziale 0 - 15.',
 	'IP'						=> 'IP',
 	'IP_BLACKLISTED'			=> 'Twój adres IP (%1$s) został zablokowany, ponieważ jest na liście niedozwolonych adresów. <a href="%2$s">Szczegóły</a>',
@@ -395,7 +396,7 @@ $lang = array_merge($lang, array(
 	'MARK'					=> 'Zaznacz',
 	'MARK_ALL'				=> 'Zaznacz wszystkie',
 	'MARK_ALL_READ'			=> 'Oznacz wszystkie jako przeczytane',
-	'MARK_FORUMS_READ'		=> 'Oznacz wszystkie fora jako przeczytane',
+	'MARK_FORUMS_READ'		=> 'Oznacz fora jako przeczytane',
 	'MARK_READ'				=> 'Oznacz jako przeczytane',
 	'MARK_SUBFORUMS_READ'	=> 'Oznacz jako przeczytane',
 	'MB'					=> 'MB',

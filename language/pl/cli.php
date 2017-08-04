@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2016-01-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.1.11 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 if (!defined('IN_PHPBB'))
@@ -56,6 +56,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Wyłącza/wyłącza określone rozszerzenie.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Włącza wybrane rozszerzenie.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Znajduje niewymagane migracje',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Naprawia strukturę for i modułów.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Pobiera wartość konfiguracyjną opcji',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Zwiększa wartość konfiguracyjną opcji',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Wyświetla wszystkie rozszerzenia w bazie danych i w systemie plików.',
@@ -65,6 +66,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Przelicza kolumnę user_email_hash w tabeli użytkowników.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Ustawia wartość opcji konfiguracyjnej tylko, jeśli stara wartość pasuje do nowej wartości',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Ustawia wartość opcji konfiguracyjnej',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Aktualizowanie hash wygasłych haseł, które będą zaszyfrowane używając bcrypt.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Nie można wyłączyć rozszerzenia %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Wyłączono rozszerzenie %s',
@@ -78,7 +80,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Wyłączone',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Włączone',
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Pomyślnie zakończono naprawę struktury for i modułów.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Przeliczono wszystkie numery wiadomości e-mail.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Pomyślnie zaktualizowano hash wygasłych haseł przez bcrypt.',
 ));
 
 // Additional help for commands.

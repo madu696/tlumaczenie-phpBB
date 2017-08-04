@@ -9,6 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
+* @Polska wersja językowa phpbb 3.1.11 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -40,7 +41,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Q&amp;A',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'To pytanie jest elementem zabezpieczającym przed automatycznym zamieszczaniem postów.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Udzielono nieprawidłowej odpowiedzi na pytanie.',
-	'CONFIRM_QUESTION_MISSING'	=> 'Nie udało się pobrać pytań dla CAPTCHA. Skontaktuj się z administratorem witryny.',
+	'CONFIRM_QUESTION_MISSING'	=> 'Wystąpił problem z przetworzeniem pytań. Skontaktuj się z administratorem witryny.',
 
 	'QUESTION_ANSWERS'			=> 'Odpowiedzi',
 	'ANSWERS_EXPLAIN'			=> 'Wprowadź poprawne odpowiedzi na pytanie. Każda odpowiedź powinna znaleźć się w oddzielnym wierszu.',

@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.1.10 - 02.03.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.1.11 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -346,11 +346,14 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Tutaj można zdefiniować dane ciasteczek wysyłanych do przeglądarek użytkowników. W większości przypadków domyślne wartości ustawień ciasteczek powinny być wystarczające. Jeśli zachodzi potrzeba zmiany tych ustawień, należy zrobić to bardzo ostrożnie. Nieprawidłowe ustawienia mogą powodować problemy z logowaniem użytkowników.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Tutaj można zdefiniować dane ciasteczek wysyłanych do przeglądarek użytkowników. W większości przypadków domyślne wartości ustawień ciasteczek powinny być wystarczające. Jeśli zachodzi potrzeba zmiany tych ustawień, należy zrobić to bardzo ostrożnie. Nieprawidłowe ustawienia mogą powodować problemy z logowaniem użytkowników. Jeśli nadal występują problemy z sesją użytkowników na witrynie, odwiedź polskie forum ze wsparciem<b><a href="http://www.phpbb.pl/forum/"> phpBB.pl</a></b>.',
 
 	'COOKIE_DOMAIN'				=> 'Domena ciasteczka',
+	'COOKIE_DOMAIN_EXPLAIN'		=> 'W większości przypadków domena ciasteczka jest opcjonalna. Można zostawić to pole puste, jeśli nie wiadomo jak ustawić nazwę.<br /><br /> Jeśli witryna jest zintegrowana z inną aplikacją (np. WordPress) lub występują subdomeny, to aby poprawie ustawić domenę ciasteczka należy wykonać następujące kroki. Jeśli adresy stron to <i>example.com</i> i <i>forum.example.com</i> lub <i>forum.example.com</i> i <i>blog.example.com</i>, należy wybrać wspólną domenę - <i>example.com</i>. Teraz na początku należy dodać kropkę - <strong><i>.example.com</i></strong> (nazwa domeny ciasteczka musi zaczynać się od kropki na początku).',
 	'COOKIE_NAME'				=> 'Nazwa ciasteczka',
+	'COOKIE_NAME_EXPLAIN'		=> 'Nazwa ciasteczka może być dowolna, jednakże najlepiej aby identyfikowała witrynę. Jeśli ustawienia ciasteczek zostaną zmienione, należy również zmienić ich nazwę.',
 	'COOKIE_PATH'				=> 'Ścieżka do ciasteczka',
+	'COOKIE_PATH_EXPLAIN'		=> 'Niezalenie od adresu URL witryny, ścieżka do ciasteczka to ukośnik „/” (ang. slash)',
 	'COOKIE_SECURE'				=> 'Bezpieczne ciasteczko',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Jeśli serwer jest uruchomiony przez SSL, należy włączyć tę funkcję. W pozostałych przypadkach funkcja powinna być wyłączona. Włączenie tej funkcji, gdy serwer nie jest uruchomiony przez SSL, będzie powodowało błędy podczas przekierowań.',
 	'ONLINE_LENGTH'				=> 'Czas wyświetlania obecności na forum',
@@ -559,6 +562,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'Ten tekst będzie dołączany jako podpis do wszystkich wiadomości e-mail wysyłanych przez witrynę.',
 	'ENABLE_EMAIL'					=> 'E-mail do wszystkich',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Jeśli ta funkcja zostanie wyłączona, nie będzie możliwości wysłania wiadomości e-mail. <em>Informacja. Ustawienia aktywacji konta przez użytkownika lub administratora wymagają, aby ta funkcja była włączona. Jeśli obecnie w ustawieniach aktywacji jest stosowana aktywacja konta przez „użytkownika” lub „administratora”, wyłączenie tej funkcji uniemożliwi rejestrację użytkowników.</em>',
+	'SMTP_ALLOW_SELF_SIGNED'		=> 'Zezwól na samopodpisany certyfikat SSL',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Zezwól na połączenia z serwerem SMTP z samopodpisanym certyfikatem SSL. <em><strong>UWAGA:</strong> Zezwolenie na samopodpisane certyfikaty SSL może powodować problemy z bezpieczeństwem.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Metoda uwierzytelniania dla SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Uwierzytelnianie jest używane tylko wtedy, gdy jest określona nazwa użytkownika i hasło. Jeśli nie wiesz, jakiej metody użyć, zapytaj swojego dostawcę usługi.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -575,6 +580,11 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'Ustawienia SMTP',
 	'SMTP_USERNAME'					=> 'Nazwa użytkownika',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Należy wprowadzić tylko, jeśli serwer SMTP tego wymaga.',
+	'SMTP_VERIFY_PEER'				=> 'Weryfikuj certyfikat SSL',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Weryfikuj certyfikat SSL wykorzystywany przez serwer SMTP. <em><strong> UWAGA:</strong> Połączenia bez weryfikacji certyfikatu SSL może powodować problemy z bezpieczeństwem.</em>',
+	'SMTP_VERIFY_PEER_NAME'			=> 'Weryfikuj nazwę serwera SMTP',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Weryfikuj nazwę serwera SMTP wykorzystując połączenie SSL/TLS. <em><strong> UWAGA:</strong> Połączenia bez weryfikacji serwera może powodować problemy z bezpieczeństwem.</em>',
+	
 	'USE_SMTP'						=> 'Używaj serwera SMTP dla e-maili',
 	'USE_SMTP_EXPLAIN'				=> 'Wybierz <samp>Tak</samp>, jeśli takie jest twoje życzenie lub trzeba wysyłać wiadomości e-mail przez dany serwer zamiast przez lokalną funkcję pocztową.',
 ));
@@ -583,6 +593,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Tutaj można włączyć i kontrolować używanie protokołu Jabber do wysyłania błyskawicznych wiadomości i powiadomień witryny. Jabber jest protokołem otwartym, zatem dostępnym do użytku dla wszystkich. Niektóre serwery Jabbera zawierają bramki lub transporty, które pozwalają na kontaktowanie się użytkowników różnych sieci. Nie wszystkie serwery oferują wszystkie transporty i zmiany w protokołach mogą uniemożliwiać działanie komunikacji. Proszę wprowadzić dane działającego konta – phpBB użyje do komunikacji dane takie, jakie zostały tutaj wprowadzone.',
 
+	'JAB_ALLOW_SELF_SIGNED'			=> 'Zezwól na samopodpisane certyfikaty',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'	=> 'Zezwól na połączenia z serwerem Jabber z samopodpisanym certyfikatem SSL. <em><strong>UWAGA:</strong> Zezwolenie na samopodpisane certyfikaty SSL może powodować problemy z bezpieczeństwem.</em>',
 	'JAB_ENABLE'				=> 'Protokół Jabber',
 	'JAB_ENABLE_EXPLAIN'		=> 'Włączenie tej funkcji spowoduje używanie protokołu Jabber do wysyłania wiadomości i powiadomień.',
 	'JAB_GTALK_NOTE'			=> 'GTalk nie będzie działał, ponieważ nie znaleziono funkcji <samp>dns_get_record</samp>. Funkcja ta nie jest dostępna w PHP4 i nie została zaimplementowana na platformie Windows. Aktualnie nie działa na systemach bazujących na BSD, włącznie z Mac OS.',
@@ -599,4 +611,8 @@ $lang = array_merge($lang, array(
 	'JAB_USE_SSL_EXPLAIN'		=> 'Jeśli funkcja ta jest włączona, będzie wykonywana próba ustanowienia bezpiecznego połączenia. Jeśli jest określony port 5222, zostanie zmieniony na 5223.',
 	'JAB_USERNAME'				=> 'Nazwa użytkownika lub JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Wprowadź zarejestrowaną nazwę użytkownika lub ważny JID (Jabber Identity - adres użytkownika Jabbera). Poprawność nazwy użytkownika nie będzie sprawdzana. Jeśli zostanie określona tylko nazwa użytkownika, JID-em będzie ta nazwa i podany wyżej serwer. Zaleca się podanie nazwy ważnego JID-a, np. user@jabber.org.',
+	'JAB_VERIFY_PEER'				=> 'Weryfikuj certyfikat SSL',
+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'Weryfikuj certyfikat SSL wykorzystywany przez serwer Jabber. <em><strong> UWAGA:</strong> Połączenia bez weryfikacji certyfikatu SSL może powodować problemy z bezpieczeństwem.</em>',
+	'JAB_VERIFY_PEER_NAME'			=> 'Weryfikuj nazwę serwera Jabber',
+	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'Weryfikuj nazwę serwera Jabber wykorzystując połączenie SSL/TLS. <em><strong> UWAGA:</strong> Połączenia bez weryfikacji serwera może powodować problemy z bezpieczeństwem.</em>',
 ));
