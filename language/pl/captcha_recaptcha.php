@@ -41,13 +41,13 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'pl',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Aby używać reCAPTCHY, musisz utworzyć konto na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCAPTCHA',
-	'RECAPTCHA_INCORRECT'			=> 'Zabezpiecznie reCAPTCHA jest nierozwiązane.',
+	'RECAPTCHA_INCORRECT'			=> 'Rozwiąż zabezpieczenie reCAPTCHA.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Klucz publiczny reCAPTCHA',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Twój klucz publiczny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_PRIVATE'				=> 'Klucz prywatny reCAPTCHA',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Twój klucz prywatny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Rozwiąż zabezpieczenie reCAPTCHA, aby się zarejestrować.',
+	'RECAPTCHA_EXPLAIN'				=> 'Rozwiąż zabezpieczenie reCAPTCHA.',
 	'RECAPTCHA_SOCKET_ERROR'		=> 'Wystąpił problem z połączeniem się z usługą reCAPTCHA. Spróbuj ponownie za chwilę.',
 ));
