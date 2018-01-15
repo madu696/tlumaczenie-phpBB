@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.2 - 14.01.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 if (!defined('IN_PHPBB'))
@@ -118,12 +118,14 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Nie można włączyć rozszerzenia %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Włączono rozszerzenie %s',
 	'CLI_EXTENSION_ENABLED'				=> 'Rozszerzenie %s jest już włączone',
+	'CLI_EXTENSION_NOT_EXIST'			=> 'Rozszerzenie %s nie istnieje.',
 	'CLI_EXTENSION_NAME'				=> 'Nazwa rozszerzenia',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Nie można usunąć rozszerzenia %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Usunięto rozszerzenie %s',
 	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'Nie można zaktualizować rozszerzenia %s',
 	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'Pomyślnie zaktualizowano rozszerzenie %s',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Nie znaleziono żadnych rozszerzeń.',
+	'CLI_EXTENSION_NOT_ENABLEABLE'		=> 'Rozszerzenie %s nie jest włączalne.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Dostępne',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Wyłączone',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Włączone',

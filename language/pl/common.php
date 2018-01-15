@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.2 - 14.01.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'pl',
 
 	// You can define different rules for the determination of plural forms here.
-	// See http://wiki.phpbb.com/Plural_Rules for more information
+	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 9,
 
@@ -569,6 +569,7 @@ $lang = array_merge($lang, array(
 	),
 	'OPTIONS'					=> 'Opcje',
 
+	'PAGE_NOT_FOUND'		=> 'Nie znaleziono żądanej strony.',
 	'PAGE_OF'				=> 'Strona <strong>%1$d</strong> z <strong>%2$d</strong>',
 	'PAGE_TITLE_NUMBER'		=> 'Strona %s',
 	'PASSWORD'				=> 'Hasło',

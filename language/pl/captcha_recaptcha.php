@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.2 - 08.01.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'pl',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Aby używać reCAPTCHY, musisz utworzyć konto na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCAPTCHA',
-	'RECAPTCHA_INCORRECT'			=> 'Zabezpiecznie reCAPTCHA jest nierozwiązane.',
+	'RECAPTCHA_INCORRECT'			=> 'Rozwiąż zabezpieczenie reCAPTCHA.',
 	'RECAPTCHA_NOSCRIPT'			=> 'Włącz obsługę JavaScript w przeglądarce, aby korzystać z reCAPTCHA.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Klucz publiczny reCAPTCHA',
@@ -49,5 +49,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Klucz prywatny reCAPTCHA',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Twój klucz prywatny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Rozwiąż zabezpieczenie reCAPTCHA, aby się zarejestrować.',
+	'RECAPTCHA_EXPLAIN'				=> 'Rozwiąż zabezpieczenie reCAPTCHA.',
 ));

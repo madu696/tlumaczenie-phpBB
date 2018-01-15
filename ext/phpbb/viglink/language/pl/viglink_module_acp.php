@@ -5,6 +5,7 @@
  *
  * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
+ * @Polska wersja językowa phpbb 3.2.2 - 08.01.2018, Mateusz Dutko (vader) www.rnavspotters.pl
  *
  */
 
@@ -45,10 +46,10 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_ENABLE'			=> 'Włącz VigLink',
 	'ACP_VIGLINK_ENABLE_EXPLAIN'	=> 'Włącz usługę VigLink.',
 	'ACP_VIGLINK_EARNINGS'			=> 'Zastrzeż własne środki (ustawienie opcjonalne)',
-	'ACP_VIGLINK_EARNINGS_EXPLAIN'  => 'Można zastrzec własne środki poprzez zalogowanie się do konta “VigLink Convert”.',
+	'ACP_VIGLINK_EARNINGS_EXPLAIN'  => 'Można zastrzec własny środki poprzez zalogowanie się do konta “VigLink Convert”.',
 	'ACP_VIGLINK_DISABLED_PHPBB'	=> 'Usługa VigLink została wyłączona przez phpBB.',
 	'ACP_VIGLINK_CLAIM'				=> 'Odbierz własne środki',
 	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Można odebrać środki z przetworzonych linków VigLink, zamiast przekazać je na projekt phpBB. Aby zmienić ustawienia, zaloguj się do konta “VigLink Convert”.',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'Przekształć konto',
-	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Nie znaleziono przetworzonych adresów VigLink.'
+	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'Nie znaleziono przetworzonych adresów VigLink.',
 ));

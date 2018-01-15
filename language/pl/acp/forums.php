@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.2 - 14.01.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -88,7 +88,7 @@ $lang = array_merge($lang, array(
 	'FORUM_DELETE_EXPLAIN'				=> 'Za pomocą tego formularza można usunąć forum. Jeśli na forum można zamieszczać tematy, posty i inne elementy, tutaj można określić gdzie umieścić wszystkie tematy lub fora, jakie ono zawiera.',
 	'FORUM_DELETED'						=> 'Forum zostało usunięte.',
 	'FORUM_DESC'						=> 'Opis',
-	'FORUM_DESC_EXPLAIN'				=> 'Wprowadzone tutaj znaczniki HTML będą wyświetlane tak, jak je widać w polu obok.',
+	'FORUM_DESC_EXPLAIN'				=> 'Wprowadzone tutaj znaczniki HTML będą wyświetlane tak, jak je widać w polu obok. Jeśli wybrany typ forum, to kategoria, wtedy opis nie będzie wyświetlony.',
 	'FORUM_EDIT_EXPLAIN'				=> 'Na poniższym formularzu można określić parametry tworzonego forum. Uprawnienia moderacyjne i uprawnienia na forum dla każdego użytkownika, czy grupy użytkowników są ustawiane z poziomu uprawnień forum.',
 	'FORUM_IMAGE'						=> 'Obrazek forum',
 	'FORUM_IMAGE_EXPLAIN'				=> 'Lokalizacja dodatkowego obrazka do skojarzenia z tym forum – relatywna do katalogu głównego phpB.',

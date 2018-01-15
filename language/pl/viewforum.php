@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.2 - 08.01.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -54,7 +54,8 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'		=> 'Nowe posty [ Zamknięte ]',	// Not used anymore
 	'NO_NEW_POSTS_HOT'		=> 'Brak nowych postów [ Popularne ]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> 'Brak nowych postów [ Zamknięte ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'Nie masz uprawnień do czytania tematów na tym forum.',
+	'NO_READ_ACCESS'		=> 'Nie masz uprawnień do przeglądania lub czytania tematów na tym forum.',
+	'NO_FORUMS_IN_CATEGORY'	=> 'Ta kategoria nie zawiera forum.',
 	'NO_UNREAD_POSTS_HOT'		=> 'Nie ma nieprzeczytanych postów [ Popularne ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'Nie ma nieprzeczytanych postów [ Zamknięte ]',
 
