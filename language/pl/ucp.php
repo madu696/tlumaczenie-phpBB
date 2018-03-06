@@ -474,9 +474,9 @@ $lang = array_merge($lang, array(
 	'RULE_LIMIT_REACHED'				=> 'Nie można dodawać więcej reguł. Limit został już osiągnięty.',
 	'RULE_NOT_DEFINED'					=> 'Reguła nie została prawidłowo określona.',
 	'RULE_REMOVED_MESSAGES'				=> array(
-		1	=> 'Została usunięta przez filtry %d. prywatna wiadomość.',
+		1	=> 'Została usunięta przez filtry %d prywatna wiadomość.',
 		2	=> 'Zostały usunięte przez filtry %d prywatne wiadomości.',
-		3	=> 'Zostało usuniętych przez filtry %d prywatnch wiadomości.',
+		3	=> 'Zostało usuniętych przez filtry %d prywatnych wiadomości.',
 	),
 
 	'SAME_PASSWORD_ERROR'		=> 'Wprowadzone nowe hasło jest takie samo, jak aktualne.',
