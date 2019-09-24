@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.3 - 14.09.2018, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.4 - 17.11.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -380,10 +380,10 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_EDIT_MESSAGE'			=> 'Nie masz uprawnień do edytowania prywatnych wiadomości.',
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'Nie masz uprawnień do przesyłania dalej prywatnych wiadomości.',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'Nie masz uprawnień do wysyłania prywatnych wiadomości do grup.',
-	'NO_AUTH_PASSWORD_REMINDER'		=> 'Nie masz uprawnień, by prosić o nowe hasło.',
 	'NO_AUTH_PROFILEINFO'			=> 'Nie masz uprawnień do zmiany informacji w swoim profilu.',
 	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'Nie masz uprawnień, by czytać oczekujące prywatne wiadomości.',
 	'NO_AUTH_READ_MESSAGE'			=> 'Nie masz uprawnień do czytania prywatnych wiadomości.',
+	'NO_AUTH_PRINT_MESSAGE'			=> 'Nie masz uprawnień do drukowania prywatnych wiadomości.',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'Nie możesz przeczytać tej wiadomości, ponieważ została usunięta przez autora.',
 	'NO_AUTH_SEND_MESSAGE'			=> 'Nie masz uprawnień do wysyłania prywatnych wiadomości.',
 	'NO_AUTH_SIGNATURE'				=> 'Nie masz uprawnień do definiowania podpisu.',
@@ -393,6 +393,7 @@ $lang = array_merge($lang, array(
 	'NO_BOOKMARKS_SELECTED'		=> 'Nie wybrano żadnych zakładek.',
 	'NO_EDIT_READ_MESSAGE'		=> 'Nie można zmienić tej prywatnej wiadomości, ponieważ została ona już przeczytana.',
 	'NO_EMAIL_USER'				=> 'Nie można znaleźć podanego adresu e-mail/nazwy użytkownika',
+	'EMAIL_NOT_UNIQUE'			=> 'Podany adres e-mail jest używany przez wielu użytkowników. Należy również wprowadzić nazwę użytkownika.',
 	'NO_FOES'					=> 'Nie zdefiniowano wrogów',
 	'NO_FRIENDS'				=> 'Nie zdefiniowano przyjaciół',
 	'NO_FRIENDS_OFFLINE'		=> 'Nie ma niedostępnych przyjaciół',
@@ -418,7 +419,7 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s znaków i składać się z liter różnej wielkości, cyfr i symboli.',
 	'PASSWORD'					=> 'Hasło',
 	'PASSWORD_ACTIVATED'		=> 'Nowe hasło zostało aktywowane.',
-	'PASSWORD_UPDATED'			=> 'Hasło zostało wysłane na twój adres e-mail podany w trakcie rejestracji.',
+	'PASSWORD_UPDATED_IF_EXISTED'	=> 'Jeśli twoje konto istnieje, to nowe hasło zostało wysłane na podany podczas rejestracji adres e-mail. Skontaktuj się z administratorem forum w przypadku nie otrzymania wiadomości. Może to być spowodowane zbanowanym lub niekatywnym kontem, a także ze względu na brak uprawnień do zmiany hasła. Należy również sprawdzić folder Spam na skrzynce pocztowej.',
 	'PERMISSIONS_RESTORED'		=> 'Przywrócono pierwotne uprawnienia.',
 	'PERMISSIONS_TRANSFERRED'	=> 'Skopiowano uprawnienia od użytkownika <strong>%s</strong>. Możesz teraz przeglądać witrynę z jego uprawnieniami.<br />Uprawnienia administratora nie zostały skopiowane. W każdej chwili możesz wrócić do swojego zestawu uprawnień.',
 	'PM_DISABLED'				=> 'Na tej witrynie prywatne wiadomości są zablokowane.',

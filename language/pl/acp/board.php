@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.3 - 14.09.2018, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.4 - 17.11.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -372,7 +372,7 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Tutaj można włączyć/wyłączyć stronę kontaktową, a także dodać tekst jaki będzie na niej wyświetlany.',
 
 	'CONTACT_US_ENABLE'				=> 'Włącz stronę kontaktową',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Włączenie strony kontaktowej umożliwi użytkownikom wysyłanie wiadomości do administratorów witryny. Wymagane jest, aby opcja <em>E-mail do wszystkich</em> była również włączona. Opcja ta jest dostępna w Ogólne > Komunikacja > Ustawienia e-maili',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Włączenie strony kontaktowej umożliwi użytkownikom wysyłanie wiadomości do administratorów witryny. Wymagane jest, aby opcja <em>E-mail do wszystkich</em> była również włączona. Opcja ta jest dostępna w Ogólne &gt; Komunikacja &gt; Ustawienia e-maili',
 	'CONTACT_US_INFO'				=> 'Informacje strony kontaktowej',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'Poniższe informacje będą wyświetlane na stronie kontaktowej.',
 	'CONTACT_US_INFO_PREVIEW'		=> 'Podgląd informacji zawartych na stronie kontaktowej',

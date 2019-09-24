@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.3 - 14.09.2018, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.4 - 17.11.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -63,7 +63,6 @@ $lang = array_merge($lang, array(
 
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Twoje konto zostało już aktywowane.',
 	'ACCOUNT_DEACTIVATED'			=> 'Twoje konto zostało ręcznie dezaktywowane i może zostać ponownie aktywowane tylko przez administratora.',
-	'ACCOUNT_NOT_ACTIVATED'			=> 'Twoje konto jeszcze nie zostało aktywowane.',
 	'ACP'							=> 'Panel administracji',
 	'ACP_SHORT'						=> 'Administracja',
 	'ACTIVE'						=> 'aktywny',
