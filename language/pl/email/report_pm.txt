@@ -1,4 +1,4 @@
-Subject: Zgłoszono do moderacji prywatną wiadomość – „{TOPIC_TITLE}”
+Subject: Zgłoszono do moderacji prywatną wiadomość – „{SUBJECT}”
 
 Witaj {USERNAME},
 

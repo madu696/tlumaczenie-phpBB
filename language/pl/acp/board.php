@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.5 - 23.12.2018, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -112,20 +112,20 @@ $lang = array_merge($lang, array(
 	'ALLOW_GRAVATAR'				=> 'Awatary typu gravatar',
 	'ALLOW_LOCAL'					=> 'Galeria awatarów',
 	'ALLOW_REMOTE'					=> 'Zdalne awatary',
-	'ALLOW_REMOTE_EXPLAIN'			=> 'Awatary powiązane z innymi witrynami.',
+	'ALLOW_REMOTE_EXPLAIN'			=> 'Awatary powiązane z innymi witrynami. <br><em><strong class="error">Ostrzeżenie:</strong> Włączenie tej funkcji może pozwolić użytkownikom na sprawdzenie czy istnieją pliki oraz usługi dostępne wyłączenie w sieci lokalnej.</em>',
 	'ALLOW_REMOTE_UPLOAD'			=> 'Wgrywanie zdalnych awatarów',
-	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Tutaj można zezwolić na wgrywanie awatarów z innych witryn.',
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Tutaj można zezwolić na wgrywanie awatarów z innych witryn. <br><em><strong class="error">Ostrzeżenie:</strong> Włączenie tej funkcji może pozwolić użytkownikom na sprawdzenie czy istnieją pliki oraz usługi dostępne wyłączenie w sieci lokalnej.</em>',
 	'ALLOW_UPLOAD'					=> 'Wgrywanie awatarów',
 	'AVATAR_GALLERY_PATH'			=> 'Ścieżka do galerii awatarów',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Ścieżka do katalogu znajdującego się w katalogu głównym skryptu phpBB, w którym znajdują się przykładowe obrazki, np. <samp>images/avatars/gallery</samp>.<br>Dwie kropki, takie jak <samp>../</samp> ze względów bezpieczeństwa zostaną ze ścieżki usunięte.',
 	'AVATAR_STORAGE_PATH'			=> 'Ścieżka do katalogu zapisu',
 	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Ścieżka do katalogu znajdującego się w katalogu głównym skryptu phpBB, do którego będą wysyłane obrazki, np. <samp>images/avatars/upload</samp>.<br>Wysyłanie obrazka awatara <strong>będzie niedostępne</strong>, jeśli ścieżka będzie niezapisywalna.<br>Dwie kropki, takie jak <samp>../</samp> ze względów bezpieczeństwa zostaną ze ścieżki usunięte.',
 	'MAX_AVATAR_SIZE'				=> 'Maksymalne wymiary awatara',
-	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Wysokość x szerokość w pikselach.',
+	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Szerokość x wysokość w pikselach.',
 	'MAX_FILESIZE'					=> 'Maksymalny rozmiar pliku awatara',
 	'MAX_FILESIZE_EXPLAIN'			=> 'Dotyczy przesyłanych na serwer plików z awatarami. Wartość zero (0) - rozmiar przesyłanego pliku ograniczany jest tylko przez ustawienia PHP.',
 	'MIN_AVATAR_SIZE'				=> 'Minimalne wymiary awatara',
-	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'Wysokość x szerokość w pikselach.',
+	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'Szerokość x wysokość w pikselach.',
 ));
 
 // Message Settings

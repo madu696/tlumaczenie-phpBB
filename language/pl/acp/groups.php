@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.5 - 23.12.2018, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -113,6 +113,7 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_ADDED'				=> 'Dodano nowych użytkowników.',
 	'GROUP_USERS_EXIST'				=> 'Wybrani użytkownicy są już członkami grupy.',
 	'GROUP_USERS_REMOVE'			=> 'Użytkownicy zostali usunięci z grupy i ustawiono nowe wartości domyślne.',
+	'GROUP_USERS_INVALID'			=> 'Żaden użytkownik nie został dodany do grupy, ponieważ nie istnieją następujące nazwy użytkowników: %s',
 
 	'LEGEND_EXPLAIN'				=> 'Grupy wyświetlane w legendzie grup',
 	'LEGEND_SETTINGS'				=> 'Ustawienia legendy',

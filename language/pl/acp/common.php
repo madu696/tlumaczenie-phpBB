@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-02-02 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.5 - 23.12.2018, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -326,6 +326,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_SIZE'			=> 'Rozmiar całkowity',
 
 	'UCP'					=> 'Panel zarządzania kontem',
+	'URL_INVALID'			=> 'Wprowadzony adres URL dla ustawień “%1$s” jest nieprawidłowy.',
 	'USERNAMES_EXPLAIN'		=> 'Każdą nazwę użytkownika wpisz w osobnym wierszu.',
 	'USER_CONTROL_PANEL'	=> 'Panel zarządzania kontem',
 	

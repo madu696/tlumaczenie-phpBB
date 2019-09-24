@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.5 - 23.12.2018, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -148,6 +148,7 @@ $lang = array_merge($lang, array(
 	'LOAD_DRAFT_EXPLAIN'		=> 'Tutaj, aby kontynuować pisanie, możesz wybrać kopię roboczą do wczytania. Aktualny post zostanie anulowany – cała zawartość posta zostanie usunięta. Możesz przeglądać, edytować i usuwać kopie robocze z poziomu swojego panelu zarządzania kontem.',
 	'LOGIN_EXPLAIN_BUMP'		=> 'Tylko zalogowani użytkownicy mogą przesuwać tematy w górę na tym forum.',
 	'LOGIN_EXPLAIN_DELETE'		=> 'Tylko zalogowani użytkownicy mogą usuwać posty na tym forum.',
+	'LOGIN_EXPLAIN_SOFT_DELETE'	=> 'Tylko zalogowani użytkownicy mogą ukrywać posty na tym forum.',
 	'LOGIN_EXPLAIN_POST'		=> 'Tylko zalogowani użytkownicy mogą pisać na tym forum.',
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Tylko zalogowani użytkownicy mogą cytować posty na tym forum.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Tylko zalogowani użytkownicy mogą odpowiadać w tematach na tym forum.',

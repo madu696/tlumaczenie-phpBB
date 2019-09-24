@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.5 - 23.12.2018, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -277,6 +277,7 @@ $lang = array_merge($lang, array(
 	'IMPORTANT_NEWS'			=> 'Ważne ogłoszenia',
 	'INVALID_USER_BIRTHDAY'			=> 'Wprowadzona data urodzenia ma nieprawidłowy format.',
 	'INVALID_CHARS_USERNAME'	=> 'Nazwa użytkownika zawiera niedozwolone znaki.',
+	'INVALID_EMOJIS_USERNAME'	=> 'Nazwa użytkownika zawiera niedozwolone znaki (emotkę).',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'Hasło nie zawiera wymaganych znaków.',
 	'ITEMS_REQUIRED'			=> 'Pola oznaczone gwiazdką (*) są wymagane i muszą zostać wypełnione.',
 
@@ -307,6 +308,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_EDITED'				=> 'Wiadomość została zmieniona.',
 	'MESSAGE_HISTORY'				=> 'Historia wiadomości',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Ta wiadomość została usunięta przez jej autora.',
+	'MESSAGE_REPORTED_MESSAGE'		=> 'Zgłoszona wiadomość',
 	'MESSAGE_SENT_ON'				=> 'o',
 	'MESSAGE_STORED'				=> 'Wiadomość została wysłana.',
 	'MESSAGE_TO'					=> 'Do',
