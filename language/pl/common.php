@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'ACP'							=> 'Panel administracji',
 	'ACP_SHORT'						=> 'Administracja',
 	'ACTIVE'						=> 'aktywny',
-	'ACTIVE_ERROR'					=> 'Użytkownik o podanej nazwie jest nieaktywny. W przypadku problemów z aktywacją konta, proszę skontaktować się z administratorem witryny.',
+	'ACTIVE_ERROR'					=> 'Użytkownik o podanej nazwie jest nieaktywny. W przypadku problemów z aktywacją konta proszę skontaktować się z administratorem witryny.',
 	'ADMINISTRATOR'					=> 'Administrator',
 	'ADMINISTRATORS'				=> 'Administratorzy',
 	'AGE'							=> 'Wiek',
@@ -92,6 +92,7 @@ $lang = array_merge($lang, array(
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'Plik obrazka, który próbujesz załączyć jest nieprawidłowy.',
 	'AUTHOR'						=> 'Autor',
 	'AUTH_NO_PROFILE_CREATED'		=> 'Nie udało się utworzyć konta użytkownika.',
+	'AUTH_PROVIDER_OAUTH_ERROR_ALREADY_LINKED'				=> 'Wybrana zewnętrzna usługa została już połączona z innym użytkownikiem witryny.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Nieprawidłowy wpis bazy danych.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'Do obsługi usługi OAuth dostarczono nieprawidłowy typ usługi.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'Nie utworzono usługi OAuth',
@@ -220,7 +221,7 @@ $lang = array_merge($lang, array(
 	'EMAIL'								=> 'E-mail', // Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> 'Adres e-mail',
 	'EMAIL_INVALID_EMAIL'				=> 'Wprowadzony adres e-mail jest nieprawidłowy.',
-	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Podczas wysyłania wiadomości napotkano na problemy w <strong>wierszu %1$s</strong>. Odpowiedź: %2$s.',
+	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Podczas wysyłania wiadomości napotkano problemy w <strong>wierszu %1$s</strong>. Odpowiedź: %2$s.',
 	'EMPTY_SUBJECT'						=> 'Musi być określony tytuł tematu.',
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Przed wysłaniem wiadomości należy określić jej temat.',
 	'ENABLED'							=> 'Włączone',
@@ -399,7 +400,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_VIEWFORUM'					=> 'Aby przeglądać to forum, trzeba być zarejestrowanym i zalogowanym użytkownikiem.',
 	'LOGIN_EXPLAIN_EDIT'				=> 'Aby dokonywać zmian w postach na tym forum, trzeba być zarejestrowanym i zalogowanym użytkownikiem.',
 	'LOGIN_EXPLAIN_VIEWONLINE'			=> 'Aby sprawdzać kto przegląda forum, trzeba być zarejestrowanym i zalogowanym użytkownikiem.',
-	'LOGIN_REQUIRED'					=> 'Aby wykonać tę czynność trzeba się zalogować.',
+	'LOGIN_REQUIRED'					=> 'Aby wykonać tę czynność, trzeba się zalogować.',
 	'LOGOUT'							=> 'Wyloguj',
 	'LOGOUT_USER'						=> 'Wyloguj [ %s ]',
 	'LOG_ME_IN'							=> 'Zapamiętaj mnie',
@@ -528,6 +529,7 @@ $lang = array_merge($lang, array(
 	'NO_FEED_ENABLED'			=> 'Kanały nie są dostępne na tej witrynie.',
 	'NO_FEED'					=> 'Żądany kanał jest niedostępny.',
 	'NO_STYLE_DATA'				=> 'Nie udało się uzyskać danych stylu',
+	'NO_STYLE_CFG'				=> 'Nie udało się uzyskać pliku konfiguracyjnego dla stylu: %s',
 	'NO_SUBJECT'				=> 'Nie podano tytułu.',
 	'NO_SUCH_SEARCH_MODULE'		=> 'Wybrany moduł wyszukiwania nie istnieje.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Nie istnieje żadna wspierana metoda uwierzytelniania.',
@@ -827,7 +829,7 @@ $lang = array_merge($lang, array(
 	'TRACKED_PHP_ERROR'	=> 'Liczba zauważonych błędów PHP: %s',
 	'TWITTER'			=> 'Twitter',
 
-	'UNABLE_GET_IMAGE_SIZE'	=> 'Nie można określić wymiarów obrazka. Sprawdź czy podany adres URL jest poprawny.',
+	'UNABLE_GET_IMAGE_SIZE'	=> 'Nie można określić wymiarów obrazka. Sprawdź, czy podany adres URL jest poprawny.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Nie można dostarczyć pliku.',
 	'UNKNOWN_BROWSER'		=> 'Nieznana przeglądarka',
 	'UNMARK_ALL'			=> 'Usuń zaznaczenia',
@@ -870,7 +872,7 @@ $lang = array_merge($lang, array(
 	'VIEWING_CONTACT_ADMIN'		=> 'Przegląda stronę kontaktu',
 	'VIEWING_FAQ'				=> 'Przegląda FAQ',
 	'VIEWING_MEMBERS'			=> 'Przegląda informacje o użytkownikach',
-	'VIEWING_ONLINE'			=> 'Sprawdza kto jest online',
+	'VIEWING_ONLINE'			=> 'Sprawdza, kto jest online',
 	'VIEWING_MCP'				=> 'Przegląda panel moderacji',
 	'VIEWING_MEMBER_PROFILE'	=> 'Przegląda profil użytkownika',
 	'VIEWING_PRIVATE_MESSAGES'	=> 'Przegląda prywatne wiadomości',

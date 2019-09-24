@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -104,7 +104,7 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_BAN_NAME_REASON'	=> 'Nazwa użytkownika została zablokowana z poziomu zarządzania użytkownikami',
 	'USER_ADMIN_BAN_USER'			=> 'Zablokuj nazwę użytkownika',
 	'USER_ADMIN_DEACTIVATE'			=> 'Dezaktywuj konto',
-	'USER_ADMIN_DEACTIVED'			=> 'Użytkownik został dezaktywowany.',
+	'USER_ADMIN_DEACTIVED'			=> 'Użytkownik został zdezaktywowany.',
 	'USER_ADMIN_DEL_ATTACH'			=> 'Usuń wszystkie załączniki',
 	'USER_ADMIN_DEL_AVATAR'			=> 'Usuń awatar',
 	'USER_ADMIN_DEL_OUTBOX'			=> 'Wyczyść folder „Wysłane”',

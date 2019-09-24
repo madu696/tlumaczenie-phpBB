@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -44,6 +44,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Utwórz ankietę',
 	'ADD_POLL_EXPLAIN'			=> 'Jeśli nie chcesz dołączyć ankiety do tematu, pozostaw poniższe pola puste.',
 	'ALREADY_DELETED'			=> 'Wiadomość została już usunięta.',
+	'ATTACH_COMMENT_NO_EMOJIS'	=> 'komentarz załacznika zawiera niedozwolone znaki (emotkę).',
 	'ATTACH_DISK_FULL'			=> 'Nie ma wystarczającej ilości miejsca na dysku, by zamieścić ten załącznik.',
 	'ATTACH_QUOTA_REACHED'		=> 'Przestrzeń na dysku przeznaczona na załączniki jest już zapełniona.',
 	'ATTACH_SIG'				=> 'Dołącz podpis (podpis można zmienić w panelu zarządzania kontem)',
@@ -232,7 +233,7 @@ $lang = array_merge($lang, array(
 	'POST_REVIEW'				=> 'Przegląd posta',
 	'POST_REVIEW_EDIT'			=> 'Recenzja posta',
 	'POST_REVIEW_EDIT_EXPLAIN'	=> 'W trakcie edytowania przez Ciebie tego posta, został on zmieniony przez innego użytkownika. Możesz życzyć sobie przejrzenia jego w aktualnej wersji i skorygowania do twoich zmian.',
-	'POST_REVIEW_EXPLAIN'		=> 'Co najmniej jeden post został dopisany w tym temacie. W związku z tym, może będziesz chcieć zmienić swój post.',
+	'POST_REVIEW_EXPLAIN'		=> 'Co najmniej jeden post został dopisany w tym temacie. W związku z tym może będziesz chcieć zmienić swój post.',
 	'POST_STORED'				=> 'Post został zamieszczony.',
 	'POST_STORED_MOD'			=> 'Post został zamieszczony, ale przed opublikowaniem musi zostać zaakceptowany przez moderatora.',
 	'POST_TOPIC_AS'				=> 'Opublikuj temat jako',
@@ -273,7 +274,7 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_POLL_OPTIONS'		=> 'Za dużo opcji ankiety.',
 	'TOO_MANY_SMILIES'			=> 'Wiadomość zawiera za dużo emotikon. Maksymalna dozwolona liczba emotikon to: %d.',
 	'TOO_MANY_URLS'				=> 'Wiadomość zawiera za dużo odnośników. Maksymalna dozwolona liczba odnośników to: %d.',
-	'TOO_MANY_USER_OPTIONS'		=> 'Nie można określać większej liczby opcji do wyboru niż zawiera ankieta.',
+	'TOO_MANY_USER_OPTIONS'		=> 'Nie można określać większej liczby opcji do wyboru, niż zawiera ankieta.',
 	'TOPIC_BUMPED'				=> 'Temat został przesunięty w górę.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Nie można używać następujących kodów: %s.',

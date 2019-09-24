@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'To pole profilu będzie wyświetlane we wszystkich lokalizacjach dozwolonych w ustawieniach wyświetlania. Wybranie „Nie” spowoduje, że pole nie będzie widoczne na stronach tematów, profili i na liście użytkowników.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Wprowadź opcje teraz. Każda opcja w oddzielnym wierszu.',
 
-	'EDIT_DROPDOWN_LANG_EXPLAIN'	=> 'Można zmieniać opcje tekstu, a także dodawać nowe opcje na końcu. Nie należy usuwać ani dodawać nowych opcji pomiędzy istniejącymi – może to spowodować przydzielenie użytkownikom złych opcji. Usunięcie opcji znajdujących się na końcu spowoduje, że użytkownicy, którzy mieli przydzielony ten element powrócą do domyślnych ustawień.',
+	'EDIT_DROPDOWN_LANG_EXPLAIN'	=> 'Można zmieniać opcje tekstu, a także dodawać nowe opcje na końcu. Nie należy usuwać ani dodawać nowych opcji pomiędzy istniejącymi – może to spowodować przydzielenie użytkownikom złych opcji. Usunięcie opcji znajdujących się na końcu spowoduje, że użytkownicy, którzy mieli przydzielony ten element, powrócą do domyślnych ustawień.',
 	'EMPTY_FIELD_IDENT'				=> 'Puste pole identyfikacji',
 	'EMPTY_USER_FIELD_NAME'			=> 'Proszę wprowadzić nazwę/tytuł pola',
 	'ENTRIES'						=> 'Wpisy',
@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'				=> 'Pierwsza opcja',
 
 	'HIDE_PROFILE_FIELD'			=> 'Ukryj pole profilu',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Funkcja ta umożliwia ukrycie pola profilu. Jeśli jest włączona, tylko użytkownik, administratorzy i moderatorzy będą widzieli to pole. Jeśli funkcja „Wyświetlaj w panelu zarządzania kontem”, jest wyłączona – pole nie będzie widoczne dla użytkownika i będzie mogło być zmieniane tylko przez administratorów.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Funkcja ta umożliwia ukrycie pola profilu. Jeśli jest włączona, tylko administratorzy i moderatorzy będą widzieli to pole. Jeśli funkcja „Wyświetlaj w panelu zarządzania kontem”, jest wyłączona – pole nie będzie widoczne dla użytkownika i będzie mogło być zmieniane tylko przez administratorów.',
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'Pole identyfikacji może zawierać tylko małe litery (a–z) i _',
 	'INVALID_FIELD_IDENT_LEN'	=> 'Pole identyfikacji może mieć maksymalnie długość 17 znaków',
@@ -153,7 +153,7 @@ $lang = array_merge($lang, array(
 	'SAVE'							=> 'Zapisz',
 	'SECOND_OPTION'					=> 'Druga opcja',
 	'SHOW_NOVALUE_FIELD'			=> 'Wyświetlaj pole, jeśli wartość nie została określona',
-	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Funkcja ta umożliwia wyświetlanie pola profilu, gdy nie określono wartości. Jeśli jest włączona, pole profilu będzie wyświetlane nawet, gdy dla pól opcjonalnych lub pól wymaganych, wartość nie została określona.',
+	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Funkcja ta umożliwia wyświetlanie pola profilu, gdy nie określono wartości. Jeśli jest włączona, pole profilu będzie wyświetlane, nawet gdy dla pól opcjonalnych lub pól wymaganych, wartość nie została określona.',
 	'STEP_1_EXPLAIN_CREATE'			=> 'Tutaj można wprowadzić pierwsze podstawowe parametry nowego pola profilu. Te informacje są potrzebne w drugim kroku, w którym będzie możliwość ustawienia pozostałych opcji, a także dla zmian pola profilu później.',
 	'STEP_1_EXPLAIN_EDIT'			=> 'Tutaj można zmienić podstawowe parametry pola profilu. Odpowiednie opcje zostaną przewartościowane w następnym kroku.',
 	'STEP_1_TITLE_CREATE'			=> 'Dodaj pole',

@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-05 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 if (!defined('IN_PHPBB'))
@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS_ADMIN'			=> 'Menedżer rozszerzeń',
 	'EXTENSIONS_EXPLAIN'		=> 'Menedżer rozszerzeń to narzędzie umożliwiające zarządzanie rozszerzeniami i przeglądanie informacji o nich.',
 	'EXTENSION_INVALID_LIST'	=> 'Rozszerzenie „%s” jest nieprawidłowe.<br />%s<br /><br />',
-	'EXTENSION_NOT_AVAILABLE'	=> 'Wybrane rozszerzenie jest niedostępne dla tej witryny. Sprawdź czy zainstalowane wersje phpBB i PHP są zgodne z wersjami wymaganymi przez rozszerzenie – zobacz szczegółowe informacje na ten temat.',
+	'EXTENSION_NOT_AVAILABLE'	=> 'Wybrane rozszerzenie jest niedostępne dla tej witryny. Sprawdź, czy zainstalowane wersje phpBB i PHP są zgodne z wersjami wymaganymi przez rozszerzenie – zobacz szczegółowe informacje na ten temat.',
 	'EXTENSION_DIR_INVALID'		=> 'Wybrane rozszerzenie ma nieprawidłową strukturę i nie można go włączyć.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'Wybranego rozszerzenia nie można włączyć. Sprawdź jego wymagania.',
 	'EXTENSION_NOT_INSTALLED'	=> 'Rozszerzenie %s jest niedostępne. Sprawdź, czy zostało poprawnie zainstalowane.',	
@@ -59,9 +59,9 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Wyłączenie rozszerzenia powoduje wyłączenie jego działania, ale wszystkie pliki dane i ustawienia pozostają bez zmian, są usuwane wszystkie funkcjonalności dodane przez rozszerzenie',
 	'EXTENSION_ENABLE_EXPLAIN'		=> 'Włączenie rozszerzenia umożliwia używanie go na witrynie.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Trwa usuwanie danych rozszerzenia. Nie opuszczaj tej strony, ani jej nie odświeżaj do czasu zakończenia operacji.',
-	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'Trwa wyłączanie rozszerzenia. Nie opuszczaj tej strony, ani jej nie odświeżaj do czasu zakończenia operacji.',
-	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'Trwa instalowanie rozszerzenia. Nie opuszczaj tej strony, ani jej nie odświeżaj do czasu zakończenia operacji.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Trwa usuwanie danych rozszerzenia. Nie opuszczaj tej strony ani jej nie odświeżaj do czasu zakończenia operacji.',
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'Trwa wyłączanie rozszerzenia. Nie opuszczaj tej strony ani jej nie odświeżaj do czasu zakończenia operacji.',
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'Trwa instalowanie rozszerzenia. Nie opuszczaj tej strony ani jej nie odświeżaj do czasu zakończenia operacji.',
 
 	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Dane rozszerzenia zostały usunięte',
 	'EXTENSION_DISABLE_SUCCESS'		=> 'Rozszerzenie zostało wyłączone',

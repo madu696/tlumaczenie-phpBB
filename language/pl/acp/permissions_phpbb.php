@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -82,8 +82,8 @@ $lang = array_merge($lang, array(
 	'ACL_U_SIG'			=> 'Używanie podpisu',
 
 	'ACL_U_SENDPM'		=> 'Wysyłanie prywatnych wiadomości',
-	'ACL_U_MASSPM'		=> 'Wysyłanie wiadomości do wielu użytkowników jednocześnie',
-	'ACL_U_MASSPM_GROUP'=> 'Wysyłanie wiadomości do grup',
+	'ACL_U_MASSPM'		=> 'Wysyłanie prywatnych wiadomości do wielu użytkowników jednocześnie',
+	'ACL_U_MASSPM_GROUP'=> 'Wysyłanie prywatnych wiadomości do grup',
 	'ACL_U_READPM'		=> 'Czytanie prywatnych wiadomości',
 	'ACL_U_PM_EDIT'		=> 'Edytowanie swoich prywatnych wiadomości',
 	'ACL_U_PM_DELETE'	=> 'Usuwanie prywatnych wiadomości ze swoich folderów',
@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_U_SENDEMAIL'	=> 'Wysyłanie e-maili',
 	'ACL_U_SENDIM'		=> 'Wysyłanie błyskawicznych wiadomości',
-	'ACL_U_IGNOREFLOOD'	=> 'Ignorowanie limitu anty-przepełnieniowego',
+	'ACL_U_IGNOREFLOOD'	=> 'Ignorowanie limitu antyspamowego',
 	'ACL_U_HIDEONLINE'	=> 'Ukrywanie obecności na forum',
 	'ACL_U_VIEWONLINE'	=> 'Możliwość widzenia ukrytych użytkowników online',
 	'ACL_U_SEARCH'		=> 'Przeszukiwanie witryny',
@@ -127,7 +127,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_EDIT'		=> 'Edytowanie swoich postów',
 	'ACL_F_DELETE'		=> 'Usuwanie swoich postów',
 	'ACL_F_SOFTDELETE'	=> 'Ukrywanie swoich postów<br /><em>Moderatorzy posiadający uprawnienia do akceptowania postów mogą przywrócić wyświetlanie ukrytych postów.</em>',
-	'ACL_F_IGNOREFLOOD' => 'Ignorowanie limitu anty-przepełnieniowego',
+	'ACL_F_IGNOREFLOOD' => 'Ignorowanie limitu antyspamowego',
 	'ACL_F_POSTCOUNT'	=> 'Zwiększanie licznika postów<br /><em>Funkcja ta dotyczy tylko nowych postów.</em>',
 	'ACL_F_NOAPPROVE'	=> 'Pisanie bez konieczności akceptacji',
 

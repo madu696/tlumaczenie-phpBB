@@ -9,7 +9,7 @@
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
  *
- * @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_BLOCK_SEARCH'	=> 'Przeszukiwanie forów',
 	'HELP_FAQ_BLOCK_USERSETTINGS'	=> 'Preferencje i ustawienia użytkownika',
 
-	'HELP_FAQ_BOOKMARKS_DIFFERENCE_ANSWER'	=> 'Dodawanie zakładek w phpBB 3.0 działa podobnie, jak dodawanie zakładek w przeglądarce. Użytkownik nie dostaje powiadomienia, gdy w temacie pojawia się nowa treść. W phpBB 3.1 dodawanie zakładek przypomina obserwowanie tematu. Użytkownik może być powiadamiany, gdy nastąpi aktualizacja tematu oznaczonego zakładką. Funkcja obserwowania powiadamia użytkownika – w wybrany przez niego sposób – gdy w obserwowanym temacie bądź forum pojawiła się nowa treść. Sposoby powiadamiania dla zakładek i obserwowanych elementów można konfigurować w panelu użytkownika na karcie „Ustawienia witryny”.',
+	'HELP_FAQ_BOOKMARKS_DIFFERENCE_ANSWER'	=> 'Dodawanie zakładek w phpBB 3.0 działa podobnie jak dodawanie zakładek w przeglądarce. Użytkownik nie dostaje powiadomienia, gdy w temacie pojawia się nowa treść. W phpBB 3.1 dodawanie zakładek przypomina obserwowanie tematu. Użytkownik może być powiadamiany, gdy nastąpi aktualizacja tematu oznaczonego zakładką. Funkcja obserwowania powiadamia użytkownika – w wybrany przez niego sposób – gdy w obserwowanym temacie bądź forum pojawiła się nowa treść. Sposoby powiadamiania dla zakładek i obserwowanych elementów można konfigurować w panelu użytkownika na karcie „Ustawienia witryny”.',
 	'HELP_FAQ_BOOKMARKS_DIFFERENCE_QUESTION'	=> 'Jaka jest różnica między dodaniem zakładki a obserwowaniem?',
 	'HELP_FAQ_BOOKMARKS_FORUM_ANSWER'	=> 'Aby obserwować wybrane forum, należy kliknąć „Obserwuj forum” znajdujący się na dole strony.',
 	'HELP_FAQ_BOOKMARKS_FORUM_QUESTION'	=> 'Jak obserwować wybrane forum?',
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_FORMATTING_BBOCDE_QUESTION'	=> 'Co to jest BBCode?',
 	'HELP_FAQ_FORMATTING_GLOBAL_ANNOUNCE_ANSWER'	=> 'Ogłoszenia globalne zawierają ważne informacje i należy zawsze je czytać. Są one wyświetlane na górze każdego forum i w panelu zarządzania kontem użytkownika. Uprawnienia zamieszczania ogłoszeń globalnych są nadawane przez administratora witryny.',
 	'HELP_FAQ_FORMATTING_GLOBAL_ANNOUNCE_QUESTION'	=> 'Co to są ogłoszenia globalne?',
-	'HELP_FAQ_FORMATTING_HTML_ANSWER'	=> 'Nie. Nie można używać i przetwarzać znaczników HTML na tej witrynie. Większość formatowania, które dostarcza HTML można uzyskać, używając BBCode.',
+	'HELP_FAQ_FORMATTING_HTML_ANSWER'	=> 'Nie. Nie można używać i przetwarzać znaczników HTML na tej witrynie. Większość formatowania, które dostarcza HTML, można uzyskać, używając BBCode.',
 	'HELP_FAQ_FORMATTING_HTML_QUESTION'	=> 'Czy można używać języka HTML?',
 	'HELP_FAQ_FORMATTING_ICONS_ANSWER'	=> 'Ikony tematu są obrazkami wybieranymi przez autora tematu skojarzonymi z postami – sugerują ich treść. Możliwość korzystania z ikon tematu uzależniona jest od uprawnień nadanych przez administratora witryny.',
 	'HELP_FAQ_FORMATTING_ICONS_QUESTION'	=> 'Co to są ikony tematu?',
@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_GROUPS_TEAM_ANSWER'	=> 'Odnośnik ten prowadzi do strony z listą osób odpowiedzialnych za forum, na której znajduje się spis administratorów i moderatorów oraz inne dane, takie jak fora przez nich moderowane.',
 	'HELP_FAQ_GROUPS_TEAM_QUESTION'	=> 'Czym jest odnośnik “Zespół administracyjny”?',
 	'HELP_FAQ_GROUPS_USERGROUPS_ANSWER'	=> 'Grupy użytkowników, to grupy, na jakie administratorzy dzielą całą społeczność witryny, aby łatwiej było nimi zarządzać. Każdy użytkownik może należeć do wielu grup, a każda grupa może mieć swoje własne uprawnienia. Dzięki temu administratorzy mogą łatwo zmieniać uprawnienia wielu użytkowników naraz, nadawać uprawnienia moderatora lub dawać dostęp użytkownikom do prywatnego forum.',
-	'HELP_FAQ_GROUPS_USERGROUPS_JOIN_ANSWER'	=> 'Spis grup użytkowników można zobaczyć, otwierając kartę <em>Grupy</em> znajdującą się w panelu zarządzania kontem, który otwiera się po kliknięciu odnośnika <em>Moje konto</em>. Nie wszystkie grupy są dostępne dla każdego. Niektóre mogą wymagać akceptacji przyjęcia nowego członka, niektóre mogą być zamknięte, a jeszcze inne mogą mieć ukrytych członków. Użytkownik może poprosić o przyjęcie do danej grupy, naciskając odpowiedni przycisk. Prośba o przyjęcie do grupy, która wymaga akceptacji przyjęcia nowego członka, musi zostać zaakceptowana przez lidera grupy. Może on poprosić użytkownika o podanie wyjaśnień, dlaczego chce on dołączyć do tej grupy. W przypadku otrzymania negatywnej decyzji, proszę nie nękać lidera grupy pytaniami – widocznie miał on swoje powody.',
+	'HELP_FAQ_GROUPS_USERGROUPS_JOIN_ANSWER'	=> 'Spis grup użytkowników można zobaczyć, otwierając kartę <em>Grupy</em> znajdującą się w panelu zarządzania kontem, który otwiera się po kliknięciu odnośnika <em>Moje konto</em>. Nie wszystkie grupy są dostępne dla każdego. Niektóre mogą wymagać akceptacji przyjęcia nowego członka, niektóre mogą być zamknięte, a jeszcze inne mogą mieć ukrytych członków. Użytkownik może poprosić o przyjęcie do danej grupy, naciskając odpowiedni przycisk. Prośba o przyjęcie do grupy, która wymaga akceptacji przyjęcia nowego członka, musi zostać zaakceptowana przez lidera grupy. Może on poprosić użytkownika o podanie wyjaśnień, dlaczego chce on dołączyć do tej grupy. W przypadku otrzymania negatywnej decyzji proszę nie nękać lidera grupy pytaniami – widocznie miał on swoje powody.',
 	'HELP_FAQ_GROUPS_USERGROUPS_JOIN_QUESTION'	=> 'Gdzie znajduje się spis grup użytkowników i jak można dołączyć do grupy?',
 	'HELP_FAQ_GROUPS_USERGROUPS_LEAD_ANSWER'	=> 'Lidera grupy zazwyczaj mianuje administrator witryny podczas tworzenia grupy. Jeśli chcesz utworzyć grupę użytkowników, skontaktuj się z administratorem, wysyłając do niego prywatną wiadomość.',
 	'HELP_FAQ_GROUPS_USERGROUPS_LEAD_QUESTION'	=> 'W jaki sposób można zostać liderem grupy?',
@@ -104,11 +104,11 @@ $lang = array_merge($lang, array(
 
 	'HELP_FAQ_LOGIN_AUTO_LOGOUT_ANSWER'	=> 'Jeżeli w czasie logowania nie zaznaczysz funkcji <em>Zapamiętaj mnie</em>, witryna zachowa informację o tym, że twój pobyt na tej witrynie będzie trwał tylko określony przez administratora czas. Zapobiega to niewłaściwemu użyciu twojego konta przez kogoś innego. Aby pozostać zalogowanym/zalogowaną, podczas logowania zaznacz funkcję <em>Loguj mnie automatycznie</em>. Jest to niezalecane, jeżeli korzystasz z witryny z ogólnie dostępnego komputera, np. w bibliotece, kawiarence internetowej, sali komputerowej w szkole lub na uczelni itp. Jeśli nie widzisz tej funkcji, oznacza to, że administrator ją wyłączył.',
 	'HELP_FAQ_LOGIN_AUTO_LOGOUT_QUESTION'	=> 'Dlaczego następuje automatyczne wylogowanie?',
-	'HELP_FAQ_LOGIN_CANNOT_LOGIN_ANSWER'	=> 'Powodów może być kilka. Po pierwsze, sprawdź czy twoja nazwa użytkownika i hasło są prawidłowe. Jeżeli są prawidłowe, skontaktuj się z właścicielem witryny i zapytaj czy cię nie zablokowano. Istnieje też prawdopodobieństwo, że problem powoduje błędna konfiguracja witryny, na której znajduje się forum. Skontaktuj się z właścicielem witryny i powiadom go o tym problemie. Musi on go naprawić.',
+	'HELP_FAQ_LOGIN_CANNOT_LOGIN_ANSWER'	=> 'Powodów może być kilka. Po pierwsze sprawdź, czy twoja nazwa użytkownika i hasło są prawidłowe. Jeżeli są prawidłowe, skontaktuj się z właścicielem witryny i zapytaj, czy cię nie zablokowano. Istnieje też prawdopodobieństwo, że problem powoduje błędna konfiguracja witryny, na której znajduje się forum. Skontaktuj się z właścicielem witryny i powiadom go o tym problemie. Musi on go naprawić.',
 	'HELP_FAQ_LOGIN_CANNOT_LOGIN_ANYMORE_ANSWER'	=> 'Możliwe, że z jakiegoś powodu administrator dezaktywował lub usunął twoje konto. Wiele witryn, aby zmniejszyć rozmiar bazy danych, cyklicznie usuwa użytkowników, którzy nic nie pisali przez dłuższy czas. Jeśli tak się stało, spróbuj zarejestrować się ponownie i bądź bardziej aktywnym i zaangażowanym w dyskusje użytkownikiem.',
 	'HELP_FAQ_LOGIN_CANNOT_LOGIN_ANYMORE_QUESTION'	=> 'Rejestracja została dokonana jakiś czas temu, ale teraz nie mogę się zalogować?!',
 	'HELP_FAQ_LOGIN_CANNOT_LOGIN_QUESTION'	=> 'Dlaczego nie mogę się zalogować?',
-	'HELP_FAQ_LOGIN_CANNOT_REGISTER_ANSWER'	=> 'Być może właściciel witryny wyłączył funkcję rejestracji, aby nie rejestrowały się nowe osoby. Właściciel witryny mógł także zablokować twój adres IP lub zabronił nazwy użytkownika, którą próbujesz zarejestrować. W sprawie pomocy, skontaktuj się z administratorem witryny.',
+	'HELP_FAQ_LOGIN_CANNOT_REGISTER_ANSWER'	=> 'Być może właściciel witryny wyłączył funkcję rejestracji, aby nie rejestrowały się nowe osoby. Właściciel witryny mógł także zablokować twój adres IP lub zabronił nazwy użytkownika, którą próbujesz zarejestrować. W sprawie pomocy skontaktuj się z administratorem witryny.',
 	'HELP_FAQ_LOGIN_CANNOT_REGISTER_QUESTION'	=> 'Dlaczego nie mogę się zarejestrować?',
 	'HELP_FAQ_LOGIN_COPPA_ANSWER'	=> 'COPPA, to skrót od Child Online Privacy and Protection Act – prawa obowiązującego od 1998 roku w USA, nakładającego na właścicieli stron internetowych, które potencjalnie mogą zbierać informacje od osób małoletnich – mających mniej niż 13 lat – obowiązek posiadania pisemnej zgody rodziców lub opiekunów prawnych na zbieranie informacji prywatnych od osób poniżej 13 roku życia. Jeżeli nie masz pewności czy to dotyczy ciebie jako kogoś próbującego zarejestrować się na danej witrynie internetowej – skontaktuj się z prawnikiem, by uzyskać wyjaśnienie. phpBB Limited i właściciele tej witryny nie dostarczają pomocy prawnej z wyjątkiem przypadku opisanego w pytaniu „Z kim się kontaktować w sprawach nadużyć lub zagadnień prawnych związanych z tą witryną?”, a także nie są punktem kontaktowym dla wszelkiego rodzaju porad prawnych.',
 	'HELP_FAQ_LOGIN_COPPA_QUESTION'	=> 'Co to jest COPPA?',
@@ -157,11 +157,11 @@ $lang = array_merge($lang, array(
 
 	'HELP_FAQ_SEARCH_BLANK_ANSWER'	=> 'Wyszukiwanie zwróciło zbyt dużo wyników. Użyj zaawansowanego wyszukiwania i postaraj się bardziej precyzyjnie określić szukany fragment oraz fora, które mają być przeszukane.',
 	'HELP_FAQ_SEARCH_BLANK_QUESTION'	=> 'Dlaczego moje wyszukiwanie zwraca pustą stronę?!',
-	'HELP_FAQ_SEARCH_FORUM_ANSWER'	=> 'Należy wprowadzić poszukiwaną frazę w pole wyszukiwania znajdujące się na stronie wykazu forów, a także stronach forów i tematów. W celu uzyskania zaawansowanych funkcji wyszukiwania, należy kliknąć odnośnik “Wyszukiwanie zaawansowane” dostępny na wszystkich stronach witryny. Rozmieszczenie elementów sterujących mechanizmem wyszukiwania może zależeć od używanego stylu.',
+	'HELP_FAQ_SEARCH_FORUM_ANSWER'	=> 'Należy wprowadzić poszukiwaną frazę w pole wyszukiwania znajdujące się na stronie wykazu forów, a także stronach forów i tematów. W celu uzyskania zaawansowanych funkcji wyszukiwania należy kliknąć odnośnik “Wyszukiwanie zaawansowane” dostępny na wszystkich stronach witryny. Rozmieszczenie elementów sterujących mechanizmem wyszukiwania może zależeć od używanego stylu.',
 	'HELP_FAQ_SEARCH_FORUM_QUESTION'	=> 'W jaki sposób można przeszukiwać fora?',
 	'HELP_FAQ_SEARCH_MEMBERS_ANSWER'	=> 'Przejdź na stronę “Użytkownicy” i kliknij odnośnik “Znajdź użytkownika”.',
 	'HELP_FAQ_SEARCH_MEMBERS_QUESTION'	=> 'Jak można wyszukać użytkowników?',
-	'HELP_FAQ_SEARCH_NO_RESULT_ANSWER'	=> 'Prawdopodobnie zapytanie nie było jasno sprecyzowane i zawierało wiele podobnych zwrotów nie zindeksowanych przez phpBB. Dokładnie sprecyzuj zapytanie – użyj funkcji dostępnych w wyszukiwaniu zaawansowanym.',
+	'HELP_FAQ_SEARCH_NO_RESULT_ANSWER'	=> 'Prawdopodobnie zapytanie nie było jasno sprecyzowane i zawierało wiele podobnych zwrotów niezindeksowanych przez phpBB. Dokładnie sprecyzuj zapytanie – użyj funkcji dostępnych w wyszukiwaniu zaawansowanym.',
 	'HELP_FAQ_SEARCH_NO_RESULT_QUESTION'	=> 'Dlaczego moje wyszukiwanie nie zwraca wyników?',
 	'HELP_FAQ_SEARCH_OWN_ANSWER'	=> 'Swoje posty można znaleźć, klikając odnośnik “Wyświetl moje posty” znajdujący się w panelu zarządzania kontem lub odnośnik “Posty użytkownika” na stronie swojego profilu lub wybierając „Twoje posty” z menu „Więcej…” znajdującego się w górnym lewym rogu witryny. Jeśli chcesz wyszukać swoje tematy, użyj strony wyszukiwania zaawansowanego i skorzystaj z odpowiednich funkcji.',
 	'HELP_FAQ_SEARCH_OWN_QUESTION'	=> 'W jaki sposób można znaleźć swoje posty i tematy?',

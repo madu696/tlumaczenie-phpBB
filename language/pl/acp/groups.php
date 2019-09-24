@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'GROUP_CATEGORY_NAME'			=> 'Nazwa kategorii',
 	'GROUP_CLOSED'					=> 'Zamknięta',
 	'GROUP_COLOR'					=> 'Kolor grupy',
-	'GROUP_COLOR_EXPLAIN'			=> 'Definiuje kolor jakim będzie wyświetlana nazwa użytkownika członków grupy. Pozostawienie pustego pola spowoduje wyświetlanie nazwy w domyślnym kolorze.',
+	'GROUP_COLOR_EXPLAIN'			=> 'Definiuje kolor, jakim będzie wyświetlana nazwa użytkownika członków grupy. Pozostawienie pustego pola spowoduje wyświetlanie nazwy w domyślnym kolorze.',
 	'GROUP_CONFIRM_ADD_USERS'		=> array(
 		1	=> 'Czy na pewno chcesz dodać użytkownika %2$s do tej grupy?',
 		2	=> 'Czy na pewno chcesz dodać użytkowników %2$s do tej grupy?',
@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 	'GROUP_DEMOTE'					=> 'Zdegraduj lidera grupy',
 	'GROUP_DESC'					=> 'Opis grupy',
 	'GROUP_DETAILS'					=> 'Szczegóły grupy',
-	'GROUP_EDIT_EXPLAIN'			=> 'Tutaj można edytować istniejące grupy. Można zmienić ich nazwę, opis, typ (otwarta, zamknięta, itp.), a także ustalić dla określonej grupy takie opcje, jak kolorowanie, rangę, itp. Zmiany tutaj wykonane zastąpią ustawienia użytkownika. Członkowie grupy mogą zmienić ustawienia awatara grupy, o ile nie zostały określone stosowne uprawnienia użytkowników.',
+	'GROUP_EDIT_EXPLAIN'			=> 'Tutaj można edytować istniejące grupy. Można zmienić ich nazwę, opis, typ (otwarta, zamknięta itp.), a także ustalić dla określonej grupy takie opcje, jak kolorowanie, rangę itp. Zmiany tutaj wykonane zastąpią ustawienia użytkownika. Członkowie grupy mogą zmienić ustawienia awatara grupy, o ile nie zostały określone stosowne uprawnienia użytkowników.',
 	'GROUP_ERR_USERS_EXIST'			=> 'Wybrani użytkownicy są już członkami tej grupy.',
 	'GROUP_FOUNDER_MANAGE'			=> 'Grupą zarządza tylko założyciel',
 	'GROUP_FOUNDER_MANAGE_EXPLAIN'	=> 'Uaktywnienie tej funkcji ograniczy zarządzanie tą grupą tylko do jej założycieli. Użytkownicy posiadający uprawnienia grupy nadal mogą widzieć tę grupę, tak jak jej członkowie.',
@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'GROUP_LIST'					=> 'Członkowie',
 	'GROUP_LIST_EXPLAIN'			=> 'To jest pełna lista członków tej grupy. Można usuwać członków z wyjątkiem określonych grup specjalnych i dodawać nowych.',
 	'GROUP_MEMBERS'					=> 'Członkowie grupy',
-	'GROUP_MEMBERS_EXPLAIN'			=> 'To jest pełna lista członków tej grupy. Zawiera ona oddzielne sekcje dla liderów, oczekujących i istniejących członków. Z tego miejsca można zarządzać grupą w pełnym zakresie – członkostwem w grupie, rolą poszczególnych członków. Aby zmienić lidera grupy nie trzeba usuwać go z grupy, wystarczy użyć funkcji „Zdegraduj lidera grupy”. Podobnie można użyć funkcji „Promuj lidera grupy”, aby spośród członków grupy ustanowić nowego lidera.',
+	'GROUP_MEMBERS_EXPLAIN'			=> 'To jest pełna lista członków tej grupy. Zawiera ona oddzielne sekcje dla liderów, oczekujących i istniejących członków. Z tego miejsca można zarządzać grupą w pełnym zakresie – członkostwem w grupie, rolą poszczególnych członków. Aby zmienić lidera grupy, nie trzeba usuwać go z grupy, wystarczy użyć funkcji „Zdegraduj lidera grupy”. Podobnie można użyć funkcji „Promuj lidera grupy”, aby spośród członków grupy ustanowić nowego lidera.',
 	'GROUP_MESSAGE_LIMIT'			=> 'Limit prywatnych wiadomości w grupie dla każdego folderu',
 	'GROUP_MESSAGE_LIMIT_EXPLAIN'	=> 'To ustawienie zastępuje ustawienia użytkownika określające limit wiadomości w folderze. Wartość zerowa (0) oznacza, że zostanie użyty limit określony przez użytkownika.',
 	'GROUP_MODS_ADDED'				=> 'Dodano nowych liderów grupy.',

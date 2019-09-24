@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 if (!defined('IN_PHPBB'))
@@ -88,7 +88,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'				=> 'Utwórz brakujące miniatury.',
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'				=> 'Odtwórz wszystkie miniatury.',
 	
-	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Sprawdź czy witryna jest aktualna..',
+	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Sprawdź, czy witryna jest aktualna..',
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Nazwa rozszerzenie do sprawdzenia (jeśli wszystkie, sprawdź wszystkie rozszerzenia)',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Uruchom polecenie Sprawdź z pamięcią podręczną.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Uruchom polecenie, aby sprawdzić stabilną lub niestabilną wersję.',	
@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Nazwa nowego użytkownika',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Hasło nowego użytkownika',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Adres e-mail nowego użytkownika',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Wyślij e-mail aktywacyjny do nowego użytkownika (domyślnie nie wysyłany)',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Wyślij e-mail aktywacyjny do nowego użytkownika (domyślnie nie jest wysyłany)',
 	'CLI_DESCRIPTION_USER_DELETE'				=> 'Usuń konto użytkownika.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Nazwa użytkownika do usunięcia',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Usuń wszystkie posty użytkownika. Bez tej opcji, wszystko posty zostaną zachowane.',
@@ -134,7 +134,7 @@ $lang = array_merge($lang, array(
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Przeliczono wszystkie numery wiadomości e-mail.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Pomyślnie zaktualizowano hash wygasłych haseł przez bcrypt.',
 	
-	'CLI_MIGRATION_NAME'					=> 'Nazwa migracji wraz z przestrzenią nazw (aby uniknąć błędów, użyj slash zamiast backslash).',
+	'CLI_MIGRATION_NAME'					=> 'Nazwa migracji wraz z przestrzenią nazw (aby uniknąć błędów, użyj slasha zamiast backslash).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Dostępne migracje',
 	'CLI_MIGRATIONS_INSTALLED'				=> 'Zainstalowane migracje',
 	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Pokaż wyłącznie dostępne migracje',
@@ -170,7 +170,7 @@ $lang = array_merge($lang, array(
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcjonalnie możesz podać nazwę zadania crona, aby uruchomić wyłącznie określone zadanie crona.',
-	'CLI_HELP_USER_ACTIVATE'	=> 'Aktywuj lub dezaktywuj konto użytkownika używając opcję <info>--deactivate</info>.
+	'CLI_HELP_USER_ACTIVATE'	=> 'Aktywuj lub dezaktywuj konto użytkownika, używając opcję <info>--deactivate</info>.
 Aby wysłać e-mail aktywacyjny do użytkownika, użyj opcji <info>--send-email</info>.',
 	'CLI_HELP_USER_ADD'			=> 'Polecenie <info>%command.name%</info> dodaje nowego użytkownika:
 Jeśli uruchomiono to polecenie bez opcji, zostaniesz poproszony o ich wprowadzenie.

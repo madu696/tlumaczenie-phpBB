@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'NO_NEWER_TOPICS'		=> 'Na tym forum nie ma nowszych tematów.',
 	'NO_OLDER_TOPICS'		=> 'Na tym forum nie ma starszych tematów.',
 	'NO_UNREAD_POSTS'		=> 'Na tym forum nie ma nowych nieprzeczytanych postów.',
-	'NO_VOTE_OPTION'		=> 'Aby zagłosować musisz wybrać opcję.',
+	'NO_VOTE_OPTION'		=> 'Aby zagłosować, musisz wybrać opcję.',
 	'NO_VOTES'				=> 'Brak głosów',
 	'NO_AUTH_PRINT_TOPIC'	=> 'Nie masz uprawnień do wyświetlenia podglądu wydruku.',
 

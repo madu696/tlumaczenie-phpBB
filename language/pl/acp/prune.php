@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Tutaj można usuwać lub dezaktywować użytkowników tej witryny. Konta można filtrować, stosując różne kryteria, np. liczbę postów, aktywność, itp. Kryteria te można łączyć w celu zawężenia filtrowania do konkretnych kont. Na przykład można usunąć użytkowników aktywnych przed 2002-01-01 z liczbą postów mniejszą niż 10. W polach tekstowych można używać wieloznacznika (*). Alternatywnie można bezpośrednio w polu tekstowym utworzyć listę użytkowników do usunięcia – każdy użytkownik musi być w osobnym wierszu. Wówczas jakiekolwiek wprowadzone inne kryteria będą ignorowane. Proszę ostrożnie posługiwać się tą funkcją, ponieważ skutków jej działania nie można odwrócić.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Tutaj można usuwać lub dezaktywować użytkowników tej witryny. Konta można filtrować, stosując różne kryteria, np. liczbę postów, aktywność itp. Kryteria te można łączyć w celu zawężenia filtrowania do konkretnych kont. Na przykład można usunąć użytkowników aktywnych przed 2002-01-01 z liczbą postów mniejszą niż 10. W polach tekstowych można używać wieloznacznika (*). Alternatywnie można bezpośrednio w polu tekstowym utworzyć listę użytkowników do usunięcia – każdy użytkownik musi być w osobnym wierszu. Wówczas jakiekolwiek wprowadzone inne kryteria będą ignorowane. Proszę ostrożnie posługiwać się tą funkcją, ponieważ skutków jej działania nie można odwrócić.',
 
 	'CRITERIA'				=> 'Kryteria',
 
@@ -57,8 +57,8 @@ $lang = array_merge($lang, array(
 	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Ma zastosowanie tylko do użytkowników w ramach wybranej grupy.',
 	'PRUNE_USERS_GROUP_NONE'	=> 'Wszystkie grupy',
 	'PRUNE_USERS_LIST'				=> 'Użytkownicy do usunięcia',
-	'PRUNE_USERS_LIST_DELETE'		=> 'Stosując wybrane kryteria następujące konta użytkowników zostaną usunięte. Z listy użytkowników do usunięcia, można usuwać użytkowników, odznaczając pole wyboru znajdujące się obok ich nazwy.',
-	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Stosując wybrane kryteria następujące konta użytkowników zostaną dezaktywowane. Z listy użytkowników do dezaktywacji, można usuwać użytkowników, odznaczając pole wyboru znajdujące się obok ich nazwy',
+	'PRUNE_USERS_LIST_DELETE'		=> 'Stosując wybrane kryteria, następujące konta użytkowników zostaną usunięte. Z listy użytkowników do usunięcia, można usuwać użytkowników, odznaczając pole wyboru znajdujące się obok ich nazwy.',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Stosując wybrane kryteria, następujące konta użytkowników zostaną dezaktywowane. Z listy użytkowników do dezaktywacji, można usuwać użytkowników, odznaczając pole wyboru znajdujące się obok ich nazwy',
 
 	'SELECT_USERS_EXPLAIN'		=> 'Wprowadź tutaj nazwy użytkowników, których konta zostaną usunięte przy zastosowaniu kryteriów określonych powyżej. Założycieli nie można usuwać.',
 

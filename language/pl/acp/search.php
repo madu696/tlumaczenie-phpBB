@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_STORE_RESULTS_EXPLAIN'			=> 'Wyniki wyszukiwania znajdujące się w buforze wyszukiwania wygasną po określonym tutaj czasie. Wartość (0) wyłącza bufor wyników wyszukiwania.',
 	'SEARCH_TYPE'							=> 'Mechanizm wyszukiwania',
 	'SEARCH_TYPE_EXPLAIN'					=> 'phpBB pozwala na wybór mechanizmu używanego do przeszukiwania tekstów postów. Domyślnie wyszukiwanie będzie korzystało z pełnotekstowego mechanizmu wyszukiwania phpBB.',
-	'SWITCHED_SEARCH_BACKEND'				=> 'Został zmieniony mechanizm wyszukiwania. Aby używać nowego mechanizmu, należy sprawdzić czy istnieje indeks wyszukiwania dla tego mechanizmu.',
+	'SWITCHED_SEARCH_BACKEND'				=> 'Został zmieniony mechanizm wyszukiwania. Aby używać nowego mechanizmu, należy sprawdzić, czy istnieje indeks wyszukiwania dla tego mechanizmu.',
 
 	'TOTAL_WORDS'							=> 'Liczba zindeksowanych słów',
 	'TOTAL_MATCHES'							=> 'Liczba zindeksowanych relacji słowo–post',

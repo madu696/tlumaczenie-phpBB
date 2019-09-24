@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-02-02 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Aby przeglądać nowe posty od czasu ostatniej wizyty, musisz się zalogować.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
-		1	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d. słowo.',
+		1	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słowo.',
 		2	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słowa.',
 		3	=> 'Wybrano za dużo słów do wyszukania. Wprowadź maksymalnie %1$d słów.',
 	),
@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'NO_SEARCH_RESULTS'		=> 'Nie znaleziono elementów spełniających kryteria szukania.',
 	'NO_SEARCH_LOAD'		=> 'Przepraszamy, ale w tym momencie nie możesz użyć wyszukiwarki – serwer jest przeciążony. Spróbuj ponownie za chwilę.',
 	'NO_SEARCH_TIME'		=> array(
-		1	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d. sekundę.',
+		1	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d sekundę.',
 		2	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d sekundy.',
 		3	=> 'W tej chwili nie możesz użyć wyszukiwarki. Spróbuj ponownie za %d sekund.',
 	),

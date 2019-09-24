@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 	'FORUM_ADMIN'						=> 'Zarządzanie forami',
 	'FORUM_ADMIN_EXPLAIN'				=> 'W phpBB3 wszystko jest oparte na forach. Występują trzy typy forów: <em>Kategoria</em>, to forum specjalne – zawiera tylko subfora, nie można na nim umieszczać tematów ani pisać postów, działa podobnie, jak kategoria w skrypcie phpBB2, <em>Forum</em> – to fora, na których można tworzyć tematy, pisać posty, zamieszczać grafikę itp., <em>Odnośnik</em> – to fora odnośniki, po kliknięciu zawartego w nich odnośnika tylko przekierowują do podanego adresu URL. Każde forum może mieć nielimitowaną liczbę subforów. Można określić czy na danym forum można tworzyć tematy i zamieszczać posty. Tutaj można dodawać, edytować, usuwać, zamykać, otwierać oddzielne fora, jak również określać dodatkową kontrolę. Jeśli temat i posty zgubiły synchronizację, można wykonać ponowną synchronizację forum. <strong>Aby nowo utworzone fora były wyświetlane, należy skopiować lub określić dla nich odpowiednie uprawnienia</strong>.',
 	'FORUM_AUTO_PRUNE'					=> 'Czyść automatycznie tematy',
-	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Włączenie tej funkcji spowoduje automatyczne czyszczenie tematów forum. Poniżej należy określić parametry (częstotliwość/okres czasu) czyszczenia.',
+	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Włączenie tej funkcji spowoduje automatyczne czyszczenie tematów forum. Poniżej należy określić parametry (częstotliwość/przedział czasu) czyszczenia.',
 	'FORUM_CREATED'						=> 'Forum zostało utworzone.',
 	'FORUM_DATA_NEGATIVE'				=> 'Parametry czyszczenia nie mogą być wartościami ujemnymi.',
 	'FORUM_DESC_TOO_LONG'				=> 'Opis forum jest za długi – może zawierać nie więcej niż 4000 znaków.',
@@ -98,6 +98,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Włączenie tej funkcji spowoduje zapisywanie kliknięć odnośnika i wyświetlanie na forum typu „Odnośnik” informacji o liczbie kliknięć.',
 	'FORUM_NAME'						=> 'Nazwa forum',
 	'FORUM_NAME_EMPTY'					=> 'Należy wprowadzić nazwę tego forum.',
+	'FORUM_NAME_EMOJI'					=> 'Podana nazwa forum jest niepoprawna.<br>Wprowadzono niedozwolone znaki:<br>%s',
 	'FORUM_PARENT'						=> 'Forum macierzyste',
 	'FORUM_PASSWORD'					=> 'Hasło forum',
 	'FORUM_PASSWORD_CONFIRM'			=> 'Potwierdź hasło',

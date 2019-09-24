@@ -1,9 +1,9 @@
 Subject: Twoje forum phpBB jest poprawnie skonfigurowane do wysy≈Çania e-maili
 
-CzeúÊ {USERNAME},
+Cze≈õƒá {USERNAME},
 
-GratulacjÍ! Jeúli odebra≥eú tπ wiadomoúÊ, to twoje forum phpBB jest poprawnie skonfigurowane do wysy≥ania e-maili.
+Gratulacje! Je≈õli odebra≈Çe≈õ tƒÖ wiadomo≈õƒá, to twoje forum phpBB jest poprawnie skonfigurowane do wysy≈Çania e-maili.
 
-Jeúli potrzebujesz pomocy odwiedü http://www.phpbb.pl/forum lub https://www.phpbb.com/community/
+Je≈õli potrzebujesz pomocy odwied≈∫ http://www.phpbb.pl/forum lub https://www.phpbb.com/community/
 
 {EMAIL_SIG}

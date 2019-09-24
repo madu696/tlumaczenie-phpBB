@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'BOT_DEACTIVATE'	=> 'Dezaktywuj',
 	'BOT_DELETED'		=> 'Bot został usunięty.',
 	'BOT_EDIT'			=> 'Edytowanie botów',
-	'BOT_EDIT_EXPLAIN'	=> 'Tutaj można dodać lub edytować istniejące wpisy botów. Można zdefiniować identyfikator bota lub adresy, zakres adresów IP do porównania. W trakcie definiowania identyfikatora czy adresu, należy zachować ostrożność. Można także zdefiniować styl i język jaki bot będzie widział, odwiedzając witrynę. Ustawienie prostego stylu dla botów pozwoli zredukować szerokość zajmowanego pasma. Należy pamiętać, aby ustawić odpowiednie uprawnienia dla grupy „Boty”.',
+	'BOT_EDIT_EXPLAIN'	=> 'Tutaj można dodać lub edytować istniejące wpisy botów. Można zdefiniować identyfikator bota lub adresy, zakres adresów IP do porównania. W trakcie definiowania identyfikatora czy adresu należy zachować ostrożność. Można także zdefiniować styl i język, jaki bot będzie widział, odwiedzając witrynę. Ustawienie prostego stylu dla botów pozwoli zredukować szerokość zajmowanego pasma. Należy pamiętać, aby ustawić odpowiednie uprawnienia dla grupy „Boty”.',
 	'BOT_LANG'			=> 'Język dla bota',
 	'BOT_LANG_EXPLAIN'	=> 'Język forum prezentowany botowi w trakcie przeglądania.',
 	'BOT_LAST_VISIT'	=> 'Ostatnie odwiedziny',

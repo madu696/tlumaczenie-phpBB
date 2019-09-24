@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -203,9 +203,9 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE'								=> 'Kolejka',
 	'MCP_QUEUE_APPROVE_DETAILS'				=> 'Zaakceptuj szczegóły',
 	'MCP_QUEUE_UNAPPROVED_POSTS'			=> 'Posty oczekujące na akceptację',
-	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'Wykaz postów, które muszą zostać zaakceptowane zanim będą widoczne dla użytkowników.',
+	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'Wykaz postów, które muszą zostać zaakceptowane, zanim będą widoczne dla użytkowników.',
 	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'Tematy oczekujące na akceptację',
-	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Wykaz tematów, które muszą zostać zaakceptowane zanim będą widoczne dla użytkowników.',
+	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Wykaz tematów, które muszą zostać zaakceptowane, zanim będą widoczne dla użytkowników.',
 	'MCP_QUEUE_DELETED_POSTS'				=> 'Ukryte posty',
 	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'Wykaz ukrytych postów. Z tego miejsca można je przywrócić lub trwale usunąć.',
 	'MCP_QUEUE_DELETED_TOPICS'				=> 'Ukryte tematy',
@@ -220,7 +220,7 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_USER'			=> 'Udziel ostrzeżenia',
 
 	'MERGE_POSTS_CONFIRM'	=> 'Czy na pewno chcesz przenieść wybrane posty?',
-	'MERGE_TOPIC_EXPLAIN'	=> 'Używając tego formularza można przenieść zaznaczone posty do innego tematu. Posty zostaną wydzielone z tego tematu i dołączone do innego tematu. Nie zostanie zmieniona ich kolejność i będą wyglądały tak, jakby użytkownicy napisali je w docelowym temacie.<br />Wprowadź numer ID docelowego tematu lub kliknąć „Wybierz temat”.',
+	'MERGE_TOPIC_EXPLAIN'	=> 'Używając tego formularza, można przenieść zaznaczone posty do innego tematu. Posty zostaną wydzielone z tego tematu i dołączone do innego tematu. Nie zostanie zmieniona ich kolejność i będą wyglądały tak, jakby użytkownicy napisali je w docelowym temacie.<br />Wprowadź numer ID docelowego tematu lub kliknąć „Wybierz temat”.',
 	'MERGE_TOPIC_ID'		=> 'Numer ID docelowego tematu',
 	'MERGE_TOPICS'			=> 'Połącz tematy',
 	'MERGE_TOPICS_CONFIRM'	=> 'Czy na pewno chcesz połączyć wybrane tematy?',
@@ -261,7 +261,7 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'			=> 'Tylko temat „%s”',
 	'OTHER_USERS'			=> 'Inni użytkownicy, którzy pisali z tego IP',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s jest nie dozwolone do moderacji",
+	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s jest niedozwolone do moderacji",
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Wybrane zgłoszenie PW zostało zamknięte.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Wybrane zgłoszenie PW zostało usunięte.',
@@ -313,10 +313,10 @@ $lang = array_merge($lang, array(
 	'REPORT_DELETED_SUCCESS'	=> 'Wybrane zgłoszenie zostało usunięte.',
 	'REPORT_DETAILS'			=> 'Szczegóły zgłoszenia',
 	'REPORT_MESSAGE'			=> 'Zgłaszanie wiadomości',
-	'REPORT_MESSAGE_EXPLAIN'	=> 'Użyj tego formularza, aby zgłosić wybraną prywatną wiadomość do przejrzenia. Zgłoszenia należy dokonać tylko jeśli wiadomość nie dochowuje postanowień regulaminu forum. <strong>Zgłoszenie prywatnej wiadomości spowoduje, że będzie ona widoczna dla wszystkich moderatorów.</strong>',
+	'REPORT_MESSAGE_EXPLAIN'	=> 'Użyj tego formularza, aby zgłosić wybraną prywatną wiadomość do przejrzenia. Zgłoszenia należy dokonać, tylko jeśli wiadomość nie dochowuje postanowień regulaminu forum. <strong>Zgłoszenie prywatnej wiadomości spowoduje, że będzie ona widoczna dla wszystkich moderatorów.</strong>',
 	'REPORT_NOTIFY'				=> 'Powiadom mnie',
 	'REPORT_NOTIFY_EXPLAIN'		=> 'Po sprawdzeniu zgłoszenia zostanie wysłane powiadomienie.',
-	'REPORT_POST_EXPLAIN'		=> 'Użyj tego formularza, aby zgłosić wybrany post do moderatorów forum i administratorów witryny. Zgłoszenia należy dokonać tylko jeśli post nie dochowuje postanowień regulaminu forum.',
+	'REPORT_POST_EXPLAIN'		=> 'Użyj tego formularza, aby zgłosić wybrany post do moderatorów forum i administratorów witryny. Zgłoszenia należy dokonać, tylko jeśli post nie dochowuje postanowień regulaminu forum.',
 	'REPORT_REASON'				=> 'Powód zgłoszenia',
 	'REPORT_TIME'				=> 'Data zgłoszenia',
 	'RESTORE'					=> 'Przywracanie',
@@ -358,7 +358,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_ALL_CONFIRM'			=> 'Czy na pewno chcesz podzielić ten temat?',
 	'SPLIT_TOPIC_BEYOND'				=> 'Utwórz osobny temat z zaznaczonego posta i poprzedzających',
 	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Czy na pewno chcesz podzielić ten temat na wybranym poście?',
-	'SPLIT_TOPIC_EXPLAIN'				=> 'Używając tego formularza można podzielić temat na dwa tematy poprzez zaznaczenie każdego posta osobno lub jednego posta, na którym nastąpi rozdzielenie tematu.',
+	'SPLIT_TOPIC_EXPLAIN'				=> 'Używając tego formularza, można podzielić temat na dwa tematy poprzez zaznaczenie każdego posta osobno lub jednego posta, na którym nastąpi rozdzielenie tematu.',
 
 	'THIS_PM_IP'				=> 'IP dla tej prywatnej wiadomości',
 	'THIS_POST_IP'				=> 'Adres IP autora tego posta',

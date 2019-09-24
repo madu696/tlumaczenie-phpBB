@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -86,8 +86,8 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> 'Dowolne serie cyfr',
 		'EMAIL'			=> 'Aktywny adres e-mail',
 		'URL'			=> 'Aktywny adres URL używający dowolnego protokołu – http, ftp, itp. nie może być użyty do eksploitów. Jeśli nie wybrano protokołu, do ciągu znaków będzie dodawany prefiks „http://”.',
-		'LOCAL_URL'		=> 'Lokalny adres URL. Adres musi być powiązany ze stroną tematów i nie może zawierać nazwy serwera czy protokołu, jak odnośniki z prefiksem „%s”.',
-		'RELATIVE_URL'	=> 'Względny adres URL. Można to wykorzystać w celu dopasowania części adresu URL, ale należy zachować ostrożność i sprawdzić czy pełny adres URL odpowiada względnemu URL. Jeśli chcesz używać względnych adresów URL swojej witryny, użyj tokena LOCAL_URL.',
+		'LOCAL_URL'		=> 'Lokalny adres URL. Adres musi być powiązany ze stroną tematów i nie może zawierać nazwy serwera czy protokołu jak odnośniki z prefiksem „%s”.',
+		'RELATIVE_URL'	=> 'Względny adres URL. Można to wykorzystać w celu dopasowania części adresu URL, ale należy zachować ostrożność i sprawdzić, czy pełny adres URL odpowiada względnemu URL. Jeśli chcesz używać względnych adresów URL swojej witryny, użyj tokena LOCAL_URL.',
 		'COLOR'			=> 'Kolor HTML może być wyrażony w formie numerycznej <samp>#FF1234</samp> lub jako słowa kluczowe kolorów określone w specyfikacji <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS</a>, takie jak <samp>fuchsia</samp> lub <samp>InactiveBorder</samp>,'
 	),
 ));

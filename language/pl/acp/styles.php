@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -22,7 +22,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -38,11 +38,11 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_STYLES_EXPLAIN'	=> 'Tutaj można zarządzać dostępnymi stylami. Istniejące style można usuwać, dezaktywować czy reaktywować a także instalować nowe style. Dzięki funkcji podglądu można zobaczyć, jak styl będzie wyglądał. Uwidoczniona jest tu również liczba użytkowników korzystających z danego stylu – nie uwzględniona jest w niej jednak funkcja ignorowania stylów.',
+	'ACP_STYLES_EXPLAIN'		=> 'Tutaj można zarządzać dostępnymi stylami.<br>Nie można odinstalować stylu “<strong>prosilver</strong>”, ponieważ dziedziczą z niego inne style oraz jest domyślnym stylem phpBB.',
 
-	'CANNOT_BE_INSTALLED'			=> 'Nie można zainstalować',
-	'CONFIRM_UNINSTALL_STYLES'		=> 'Czy na pewno chcesz wykonać dezinstalację wybranych stylów?',
-	'COPYRIGHT'						=> 'Autor',
+	'CANNOT_BE_INSTALLED'		=> 'Nie można zainstalować',
+	'CONFIRM_UNINSTALL_STYLES'	=> 'Czy na pewno chcesz wykonać dezinstalację wybranych stylów?',
+	'COPYRIGHT'					=> 'Autor',
 
 	'DEACTIVATE_DEFAULT'		=> 'Nie można dezaktywować domyślnego stylu.',
 	'DELETE_FROM_FS'			=> 'Usuń z katalogu witryny',
@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'INHERITING_FROM'			=> 'Dziedziczy z',
 	'INSTALL_STYLE'				=> 'Zainstaluj',
 	'INSTALL_STYLES'			=> 'Zainstaluj styl',
-	'INSTALL_STYLES_EXPLAIN'	=> 'Tutaj można zainstalować nowe style.<br /> Jeśli nie możesz znaleźć żądanego stylu na poniższej liście, sprawdź czy został on zainstalowany. Jeśli nie jest zainstalowany, sprawdź czy został prawidłowo przesłany.',
+	'INSTALL_STYLES_EXPLAIN'	=> 'Tutaj można zainstalować nowe style.<br /> Jeśli nie możesz znaleźć żądanego stylu na poniższej liście sprawdź, czy został on zainstalowany. Jeśli nie jest zainstalowany sprawdź, czy został prawidłowo przesłany.',
 	'INVALID_STYLE_ID'			=> 'Nieprawidłowy ID stylu.',
 
 	'NO_MATCHING_STYLES_FOUND'	=> 'Nie znaleziono stylów odpowiadających twojemu zapytaniu.',
@@ -84,8 +84,9 @@ $lang = array_merge($lang, array(
 	'STYLE_PHPBB_VERSION'		=> 'Wersja phpBB',
 	'STYLE_USED_BY'				=> 'Liczba używających (z robotami)',
 	'STYLE_VERSION'				=> 'Wersja stylu',
-
-	'UNINSTALL_DEFAULT'		=> 'Nie można wykonać dezinstalacji domyślnego stylu.',
+	
+	'UNINSTALL_PROSILVER'		=> 'Nie można odinstalować domyślnego stylu “prosilver”.',
+	'UNINSTALL_DEFAULT'			=> 'Nie można wykonać dezinstalacji domyślnego stylu.',
 
 	'BROWSE_STYLES_DATABASE'	=> 'Przeglądaj bazę stylów',
 

@@ -10,7 +10,7 @@
  * the docs/CREDITS.txt file.
  *
  * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
- * @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 		<li>Login i hasło do bazy danych – informacje potrzebne do zalogowania do bazy danych.</li>
 	</ul>
 
-	<p><strong>Informacja:</strong> Jeśli do instalacji używasz bazy SQLite, w polu DSN (Data Source Name) podaj pełną ścieżkę do pliku z bazą danych i pozostaw pola loginu i hasła puste. Z powodów bezpieczeństwa, sprawdź czy plik bazy danych nie jest przechowywany w miejscu dostępnym przez sieć.</p>
+	<p><strong>Informacja:</strong> Jeśli do instalacji używasz bazy SQLite, w polu DSN (Data Source Name) podaj pełną ścieżkę do pliku z bazą danych i pozostaw pola loginu i hasła puste. Z powodów bezpieczeństwa sprawdź, czy plik bazy danych nie jest przechowywany w miejscu dostępnym przez sieć.</p>
 
 	<p>phpBB3 współdziała z następującymi typami baz danych:</p>
 	<ul>
@@ -177,7 +177,7 @@ $lang = array_merge($lang, array(
 	'DB_HOST'				=> 'Nazwa serwera bazy danych lub DSN',
 	'DB_HOST_EXPLAIN'		=> 'Nazwa DSN (Data Source Name) jest właściwa tylko dla instalacji ODBC, a z bazą PostgreSQL, należy użyć localhost, aby połączyć się z lokalnym serwerem uniksowym lub 127.0.0.1, aby połączyć się przez TCP. Dla bazy SQLite wprowadź pełną ścieżkę do pliku bazy danych.',
 	'DB_PORT'				=> 'Port serwera bazy danych',
-	'DB_PORT_EXPLAIN'		=> 'Pozostaw to pole puste, chyba, że baza używa do połączenia niestandardowego portu.',
+	'DB_PORT_EXPLAIN'		=> 'Pozostaw to pole puste, chyba że baza używa do połączenia niestandardowego portu.',
 	'DB_PASSWORD'			=> 'Hasło bazy danych',
 	'DB_NAME'				=> 'Nazwa bazy danych',
 	'DB_USERNAME'			=> 'Nazwa użytkownika bazy danych',
@@ -318,16 +318,16 @@ $lang = array_merge($lang, array(
 // Installer's general messages
 $lang = array_merge($lang, array(
 	'MODULE_NOT_FOUND'				=> 'Moduł jest niedostępny',
-	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Moduł nie został znaleziony ponieważ usługa %s jest niezdefiniowana.',
+	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Moduł nie został znaleziony, ponieważ usługa %s jest niezdefiniowana.',
 
 	'TASK_NOT_FOUND'				=> 'Zadanie jest niedostępne',
-	'TASK_NOT_FOUND_DESCRIPTION'	=> 'Zadanie nie zostało znalezione ponieważ usługa %s jest niezdefiniowana.',
+	'TASK_NOT_FOUND_DESCRIPTION'	=> 'Zadanie nie zostało znalezione, ponieważ usługa %s jest niezdefiniowana.',
 
 	'SKIP_MODULE'	=> 'Pomiń moduł “%s”',
 	'SKIP_TASK'		=> 'Pomiń zadanie “%s”',
 
 	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Wszystkie usługi zadań instalacyjnych muszą rozpocząć się od “installer”',
-	'TASK_CLASS_NOT_FOUND'				=> 'Definicja usług zadań instalacyjnych jest niepoprawna. Podana nazwa usługi to “%1$s”. Oczekiwana klasa przestrzeni nazw to “%2$s”. Aby dowiedzieć się więcej przeczytaj dokumentację zadań instalacyjnych.',
+	'TASK_CLASS_NOT_FOUND'				=> 'Definicja usług zadań instalacyjnych jest niepoprawna. Podana nazwa usługi to “%1$s”. Oczekiwana klasa przestrzeni nazw to “%2$s”. Aby dowiedzieć się więcej, przeczytaj dokumentację zadań instalacyjnych.',
 
 	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'Plik konfiguracyjny instalatora jest zabezpieczony przed zapisem.',
 ));
@@ -369,7 +369,7 @@ $lang = array_merge($lang, array(
 			<li>Zaloguj się do Panelu administratora > Ustawienia witryny i ustaw Prosilver jako domyślny styl forum.</li>
 			<li>Usuń katalogi <code class="inline">/vendor</code> oraz <code class="inline">/cache</code> z serwera, gdzie zainstalowany jest phpBB.</li>
 			<li>Poprzez klienta FTP lub SSH wgraj pozostałe pliki z wypakowanego archiwum do głównego katalogu forum na serwerze. Nadpisz pliki. (UWAGA: Upewnij się, aby nie skasować żadnych plików z katalogu <code class="inline">/ext</code> podczas wgrywania nowych plików.)</li>
-			<li><strong><a href="%1$s" title="%1$s">Rozpocznij instalację wprowadzając w pasku adresu swojej przeglądarki ścieżkę do katalogu „install”</a>.</strong></li>
+			<li><strong><a href="%1$s" title="%1$s">Rozpocznij instalację, wprowadzając w pasku adresu swojej przeglądarki ścieżkę do katalogu „install”</a>.</strong></li>
 			<li>Postępuj zgodnie z kolejnymi krokami instalacji, aby zaktualizować bazę danych. Poczekaj na zakończenie tej operacji.</li>
 			<li>Poprzez klienta FTP lub SSH usuń katalog <code class="inline">/install</code> z katalogu głównego forum na serwerze.<br><br></li>
 		</ol>
@@ -425,7 +425,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'UPDATE_FILES_NOT_FOUND'	=> 'Nie znaleziono prawidłowego katalogu aktualizacyjnego. Sprawdź, czy na serwer zostały wysłane właściwe pliki.',
 
-	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Zainstalowana wersja jest aktualna. Nie ma potrzeby uruchamiania narzędzia aktualizującego. Jeśli chcesz sprawdzić integralność swoich plików, sprawdź najpierw, czy na serwer zostały wysłane właściwe pliki aktualizacyjne.',
+	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Zainstalowana wersja jest aktualna. Nie ma potrzeby uruchamiania narzędzia aktualizującego. Jeśli chcesz sprawdzić integralność swoich plików sprawdź najpierw, czy na serwer zostały wysłane właściwe pliki aktualizacyjne.',
 	'OLD_UPDATE_FILES'				=> 'Pliki aktualizacyjne są nieaktualne. Pliki te służą do aktualizacji phpBB %1$s do wersji %2$s, a najnowsza wersja phpBB to %3$s.',
 	'INCOMPATIBLE_UPDATE_FILES'		=> 'Pliki aktualizacyjne są niekompatybilne z zainstalowaną wersją. Zainstalowana wersja to %1$s, a pliki aktualizacyjne aktualizują phpBB %2$s do wersji %3$s.',
 ));
@@ -450,7 +450,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_CONFLICTS'				=> 'Błędy pobierania tego pliku',
 	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Szukaj &lt;&lt;&lt;, aby zobaczyć błędy',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Pobierz archiwum zmodyfikowanych plików',
-	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'W pobranym archiwum znajdują się zmodyfikowane pliki, które po rozpakowaniu archiwum należy wysłać na serwer we właściwe im miejsca w katalogu głównym phpBB. Po wykonaniu tej operacji, należy sprawdzić ponownie pliki, używając przycisku znajdującego się poniżej.',
+	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'W pobranym archiwum znajdują się zmodyfikowane pliki, które po rozpakowaniu archiwum należy wysłać na serwer we właściwe im miejsca w katalogu głównym phpBB. Po wykonaniu tej operacji należy sprawdzić ponownie pliki, używając przycisku znajdującego się poniżej.',
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Ten plik jest aktualny.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Wykonanie porównania pliku nie jest możliwe.',
@@ -499,8 +499,8 @@ $lang = array_merge($lang, array(
 	'COULD_NOT_FIND_PATH'		=> 'Nie można znaleźć ścieżki do poprzedniej witryny. Sprawdź ustawienia i spróbuj ponownie. Podana ścieżka do źródłowej witryny to %s.',
 	'CONFIG_PHPBB_EMPTY'		=> 'Zmienna konfiguracji dla „%s” nie zawiera danych.',
 
-	'MAKE_FOLDER_WRITABLE'		=> 'Sprawdź czy ten katalog istnieje i nie jest zabezpieczony przed zapisem i spróbuj ponownie:<br />»<strong>%s</strong>.',
-	'MAKE_FOLDERS_WRITABLE'		=> 'Sprawdź czy te katalogi istnieją i nie są zabezpieczone przed zapisem i spróbuj ponownie:<br />»<strong>%s</strong>.',
+	'MAKE_FOLDER_WRITABLE'		=> 'Sprawdź, czy ten katalog istnieje i nie jest zabezpieczony przed zapisem i spróbuj ponownie:<br />»<strong>%s</strong>.',
+	'MAKE_FOLDERS_WRITABLE'		=> 'Sprawdź, czy te katalogi istnieją i nie są zabezpieczone przed zapisem i spróbuj ponownie:<br />»<strong>%s</strong>.',
 
 	'INSTALL_TEST'				=> 'Testuj',
 
@@ -517,7 +517,7 @@ $lang = array_merge($lang, array(
 	// Start conversion
 	'SUB_INTRO'					=> 'Wprowadzenie',
 	'CONVERT_INTRO'				=> 'Witamy w konwerterze phpBB',
-	'CONVERT_INTRO_BODY'		=> 'Z tego miejsca można dokonać importu danych z innych, zainstalowanych systemów forów dyskusyjnych. Lista poniżej zawiera wszystkie dostępne moduły konwertujące. Jeśli na liście nie ma potrzebnego konwertera, sprawdź na naszej stronie internetowej czy nie jest on już dostępny. Aby rozpocząć konwersję, kliknij odnośnik <em>Konwersja</em> znajdujący się w polu Opcje wybranego konwertera.',
+	'CONVERT_INTRO_BODY'		=> 'Z tego miejsca można dokonać importu danych z innych, zainstalowanych systemów forów dyskusyjnych. Lista poniżej zawiera wszystkie dostępne moduły konwertujące. Jeśli na liście nie ma potrzebnego konwertera sprawdź na naszej stronie internetowej, czy nie jest on już dostępny. Aby rozpocząć konwersję, kliknij odnośnik <em>Konwersja</em> znajdujący się w polu Opcje wybranego konwertera.',
 	'AVAILABLE_CONVERTORS'		=> 'Dostępne konwertery',
 	'NO_CONVERTORS'				=> 'Nie ma dostępnych żadnych konwerterów.',
 	'CONVERT_OPTIONS'			=> 'Opcje',
@@ -528,7 +528,7 @@ $lang = array_merge($lang, array(
 	// Settings
 	'STAGE_SETTINGS'			=> 'Ustawienia',
 	'TABLE_PREFIX_SAME'			=> 'Prefiks tabel musi być prefiksem używanym przez bazę danych, z której nastąpi konwersja.<br />» Podany prefiks tabel to %s.',
-	'DEFAULT_PREFIX_IS'			=> 'Konwerter nie mógł znaleźć tabel o wybranym prefiksie. Sprawdź czy zostały podane poprawnie informacje o starej witrynie. Domyślny prefiks tabel dla %1$s to <strong>%2$s</strong>.',
+	'DEFAULT_PREFIX_IS'			=> 'Konwerter nie mógł znaleźć tabel o wybranym prefiksie. Sprawdź, czy zostały podane poprawnie informacje o starej witrynie. Domyślny prefiks tabel dla %1$s to <strong>%2$s</strong>.',
 	'SPECIFY_OPTIONS'			=> 'Określ opcje konwersji',
 	'FORUM_PATH'				=> 'Ścieżka do starej witryny',
 	'FORUM_PATH_EXPLAIN'		=> 'To jest <strong>relatywna</strong> ścieżka na dysku z <strong>głównego katalogu tej instalacji phpBB3</strong> do starej witryny.',
@@ -567,9 +567,9 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Konwersja zakończona',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Witryna została skonwertowana na phpBB 3.2. Możesz teraz zalogować się i <a href="../">wejść na swoją witrynę</a>. Zanim odblokujesz swoją witrynę, usuwając katalog „install/”, sprawdź czy ustawienia zostały skonwertowane prawidłowo. Pomoc możesz uzyskać na stronie internetowej phpBB3, zapoznając się z <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">dokumentacją</a> oraz na forum <a href="https://www.phpbb.com/community/viewforum.php?f=466">pomocy</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Witryna została skonwertowana na phpBB 3.2. Możesz teraz zalogować się i <a href="../">wejść na swoją witrynę</a>. Zanim odblokujesz swoją witrynę, usuwając katalog „install/” sprawdź, czy ustawienia zostały skonwertowane prawidłowo. Pomoc możesz uzyskać na stronie internetowej phpBB3, zapoznając się z <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">dokumentacją</a> oraz na forum <a href="https://www.phpbb.com/community/viewforum.php?f=466">pomocy</a>.',
 
-	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Na starej witrynie jest włączona funkcja wysyłania załączników przez FTP. Wyłącz ją i sprawdź czy jest podany właściwy katalog docelowy, a następnie skopiuj wszystkie załączniki do nowego, dostępnego przez Internet katalogu. Po wykonaniu tych operacji ponownie uruchom proces konwersji.',
+	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Na starej witrynie jest włączona funkcja wysyłania załączników przez FTP. Wyłącz ją i sprawdź, czy jest podany właściwy katalog docelowy, a następnie skopiuj wszystkie załączniki do nowego, dostępnego przez Internet katalogu. Po wykonaniu tych operacji ponownie uruchom proces konwersji.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Nie ma dostępnych informacji konfiguracyjnych dla konwersji.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Nie można uzyskać informacji o dostępie do forów.',
 	'CONV_ERROR_GET_CATEGORIES'			=> 'Nie można uzyskać informacji o kategoriach.',
@@ -597,5 +597,5 @@ $lang = array_merge($lang, array(
 	'CONV_OPTIONS_BODY'					=> 'Ta strona zbiera dane wymagane do dostępu do źródłowej witryny. Podaj informacje o bazie danych twojej poprzedniej witryny. Konwerter nie zmieni niczego w podanej poniżej bazie danych. Aby umożliwić spójną konwersję, źródłowa witryna powinna być wyłączona.',
 	'CONV_SAVED_MESSAGES'				=> 'Zapisane wiadomości',
 
-	'PRE_CONVERT_COMPLETE'			=> 'Wszystkie kroki poprzedzające konwersję zostały wykonane poprawnie. Teraz można rozpocząć proces konwersji. Najprawdopodobniej trzeba będzie ręcznie przystosować kilka różnych elementów. Po konwersji, należy sprawdzić przydział uprawnień, przebudować indeks wyszukiwania, który nie jest konwertowany, a także sprawdzić czy pliki zostały prawidłowo skopiowane, np. awatary i emotikony.',
+	'PRE_CONVERT_COMPLETE'			=> 'Wszystkie kroki poprzedzające konwersję zostały wykonane poprawnie. Teraz można rozpocząć proces konwersji. Najprawdopodobniej trzeba będzie ręcznie przystosować kilka różnych elementów. Po konwersji należy sprawdzić przydział uprawnień, przebudować indeks wyszukiwania, który nie jest konwertowany, a także sprawdzić, czy pliki zostały prawidłowo skopiowane, np. awatary i emotikony.',
 ));

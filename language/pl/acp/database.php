@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'	=> 'Tutaj można wykonać kopię zapasową bazy danych powiązanej z witryną phpBB. Utworzone archiwum zostanie zapisane w katalogu <samp>store/</samp>. W zależności od konfiguracji serwera, można wykonać kompresję pliku w różnych formatach kompresji danych.',
+	'ACP_BACKUP_EXPLAIN'	=> 'Tutaj można wykonać kopię zapasową bazy danych powiązanej z witryną phpBB. Utworzone archiwum zostanie zapisane w katalogu <samp>store/</samp>. W zależności od konfiguracji serwera można wykonać kompresję pliku w różnych formatach kompresji danych.',
 	'ACP_RESTORE_EXPLAIN'	=> 'Tutaj można odtworzyć wszystkie tabele phpBB z zapisanego pliku. Jeśli serwer obsługuje kompresję gzip lub bzip2, skompresowany tą metodą plik może być automatycznie rozpakowany. <strong>Ostrzeżenie!</strong> W trakcie odtwarzania wszystkie istniejące dane zostaną zastąpione. Proces odtwarzania może potrwać dłuższy czas. Proszę nie opuszczać tej strony do czasu jego zakończenia. Kopia zapasowa jest zapisana w katalogu <samp>store/</samp>. Zaleca się, aby tworzyć ją za pomocą wewnętrznych funkcji phpBB. Odtwarzanie danych z kopii wykonanych inną metodą, niż za pomocą wbudowanego mechanizmu tworzenia kopii może powodować problemy.',
 
 	'BACKUP_DELETE'			=> 'Plik kopii zapasowej został usunięty.',

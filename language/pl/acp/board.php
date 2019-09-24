@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'BOARD_STYLE'					=> 'Styl witryny',
 	'CUSTOM_DATEFORMAT'				=> 'Dostosuj…',
 	'DEFAULT_DATE_FORMAT'			=> 'Format daty',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Format daty jest taki sam jak funkcja PHP <code>date</code>.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Format daty jest taki sam jak funkcja PHP <code><a href="https://secure.php.net/manual/function.date.php">date()</a></code>.',
 	'DEFAULT_LANGUAGE'				=> 'Domyślny język',
 	'DEFAULT_STYLE'					=> 'Domyślny styl',
 	'DEFAULT_STYLE_EXPLAIN'			=> 'Domyślny styl witryny dla nowych użytkowników.',
@@ -105,16 +105,16 @@ $lang = array_merge($lang, array(
 
 // Avatar Settings
 $lang = array_merge($lang, array(
-	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Awatary to małe obrazki, które użytkownik może skojarzyć ze swoją osobą. W zależności od stylu, są one zazwyczaj wyświetlane powyżej nazwy użytkownika. Tutaj można określić, w jaki sposób użytkownicy mogą zdefiniować swoje awatary. Aby można było wysyłać awatary na serwer, trzeba na serwerze utworzyć katalog. Należy zdefiniować jego nazwę i odpowiednie atrybuty umożliwiające zapis do niego. Określony tutaj limit rozmiaru pliku odnosi się tylko do awatarów wysyłanych na serwer. Nie ma zastosowania do obrazków zdalnych.',
+	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Awatary to małe obrazki, które użytkownik może skojarzyć ze swoją osobą. W zależności od stylu są one zazwyczaj wyświetlane powyżej nazwy użytkownika. Tutaj można określić, w jaki sposób użytkownicy mogą zdefiniować swoje awatary. Aby można było wysyłać awatary na serwer, trzeba na serwerze utworzyć katalog. Należy zdefiniować jego nazwę i odpowiednie atrybuty umożliwiające zapis do niego. Określony tutaj limit rozmiaru pliku odnosi się tylko do awatarów wysyłanych na serwer. Nie ma zastosowania do obrazków zdalnych.',
 
 	'ALLOW_AVATARS'					=> 'Awatary',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'Tutaj można zezwolić na globalne używanie awatarów.<br>Jeśli funkcja awatarów zostanie globalnie lub dla określonego trybu wyłączona, awatary nie będą wyświetlane na witrynie, ale użytkownicy mogą pobierać swoje awatary z poziomu panelu zarządzania swoim kontem.',
 	'ALLOW_GRAVATAR'				=> 'Awatary typu gravatar',
 	'ALLOW_LOCAL'					=> 'Galeria awatarów',
 	'ALLOW_REMOTE'					=> 'Zdalne awatary',
-	'ALLOW_REMOTE_EXPLAIN'			=> 'Awatary powiązane z innymi witrynami. <br><em><strong class="error">Ostrzeżenie:</strong> Włączenie tej funkcji może pozwolić użytkownikom na sprawdzenie czy istnieją pliki oraz usługi dostępne wyłączenie w sieci lokalnej.</em>',
+	'ALLOW_REMOTE_EXPLAIN'			=> 'Awatary powiązane z innymi witrynami. <br><em><strong class="error">Ostrzeżenie:</strong> Włączenie tej funkcji może pozwolić użytkownikom na sprawdzenie, czy istnieją pliki oraz usługi dostępne wyłączenie w sieci lokalnej.</em>',
 	'ALLOW_REMOTE_UPLOAD'			=> 'Wgrywanie zdalnych awatarów',
-	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Tutaj można zezwolić na wgrywanie awatarów z innych witryn. <br><em><strong class="error">Ostrzeżenie:</strong> Włączenie tej funkcji może pozwolić użytkownikom na sprawdzenie czy istnieją pliki oraz usługi dostępne wyłączenie w sieci lokalnej.</em>',
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Tutaj można zezwolić na wgrywanie awatarów z innych witryn. <br><em><strong class="error">Ostrzeżenie:</strong> Włączenie tej funkcji może pozwolić użytkownikom na sprawdzenie, czy istnieją pliki oraz usługi dostępne wyłączenie w sieci lokalnej.</em>',
 	'ALLOW_UPLOAD'					=> 'Wgrywanie awatarów',
 	'AVATAR_GALLERY_PATH'			=> 'Ścieżka do galerii awatarów',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Ścieżka do katalogu znajdującego się w katalogu głównym skryptu phpBB, w którym znajdują się przykładowe obrazki, np. <samp>images/avatars/gallery</samp>.<br>Dwie kropki, takie jak <samp>../</samp> ze względów bezpieczeństwa zostaną ze ścieżki usunięte.',
@@ -152,7 +152,7 @@ $lang = array_merge($lang, array(
 	'FULL_FOLDER_ACTION_EXPLAIN'=> 'Domyślne działanie, gdy folder jest zapełniony. Wyjątkiem jest folder „Wiadomości wysłane”, gdzie domyślnym działaniem jest zawsze usunięcie najstarszych wiadomości.',
 	'HOLD_NEW_MESSAGES'			=> 'Nowe wiadomości będą czekały',
 	'PM_EDIT_TIME'				=> 'Limit czasu zmian prywatnej wiadomości',
-	'PM_EDIT_TIME_EXPLAIN'		=> 'Określa czas dostępny do zmian jeszcze nie dostarczonej prywatnej wiadomości. Wartość zero (0) wyłącza tę funkcję.',
+	'PM_EDIT_TIME_EXPLAIN'		=> 'Określa czas dostępny do zmian jeszcze niedostarczonej prywatnej wiadomości. Wartość zero (0) wyłącza tę funkcję.',
 	'PM_MAX_RECIPIENTS'			=> 'Dopuszczalna maksymalna liczba odbiorców',
 	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'Dopuszczalna maksymalna liczba odbiorców prywatnej wiadomości. Wartość zero (0) oznacza brak limitu. To ustawienie może być zmienione dla każdej grupy w ustawieniach danej grupy.',
 ));
@@ -172,13 +172,13 @@ $lang = array_merge($lang, array(
 	'CHAR_LIMIT'					=> 'Maksymalna liczba znaków w poście',
 	'CHAR_LIMIT_EXPLAIN'			=> 'Maksymalna dozwolona liczba znaków w poście. Wartość zero (0) – liczba nielimitowana.',
 	'DELETE_TIME'					=> 'Czas usuwania',
-	'DELETE_TIME_EXPLAIN'			=> 'Tutaj można określić czas, w przeciągu którego można usunąć nowy post. Wstawienie wartości 0 powoduje wyłączenie tej funkcji.',
+	'DELETE_TIME_EXPLAIN'			=> 'Tutaj można określić czas, w którego przeciągu można usunąć nowy post. Wstawienie wartości 0 powoduje wyłączenie tej funkcji.',
 	'DISPLAY_LAST_EDITED'			=> 'Wyświetlaj informację o czasie ostatniej zmiany',
 	'DISPLAY_LAST_EDITED_EXPLAIN'	=> 'Wybranie tej funkcji spowoduje wyświetlanie w postach informacji o zmianach posta.',
 	'EDIT_TIME'						=> 'Czas zmiany treści',
 	'EDIT_TIME_EXPLAIN'				=> 'Limit czasu w przeciągu, którego można zmieniać zawartość nowego posta. Wartość zero (0) wyłącza tę funkcję.',
-	'FLOOD_INTERVAL'				=> 'Interwał anty-przepełnieniowy',
-	'FLOOD_INTERVAL_EXPLAIN'		=> 'Odstęp czasu, jaki użytkownik musi odczekać zanim będzie mógł wysłać kolejny post. Jest to zabezpieczenie przed spamowaniem.',
+	'FLOOD_INTERVAL'				=> 'Interwał antyspamowy',
+	'FLOOD_INTERVAL_EXPLAIN'		=> 'Odstęp czasu, jaki użytkownik musi odczekać, zanim będzie mógł wysłać kolejny post. Jest to zabezpieczenie przed spamowaniem.',
 	'HOT_THRESHOLD'					=> 'Wartość progowa popularności tematów',
 	'HOT_THRESHOLD_EXPLAIN'			=> 'Wymagana liczba postów w wątku, aby temat otrzymał status popularnego tematu. Wartość zero (0) wyłącza tę funkcję.',
 	'MAX_POLL_OPTIONS'				=> 'Maksymalna liczba opcji ankiety',
@@ -194,8 +194,8 @@ $lang = array_merge($lang, array(
 	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'Minimalna liczba znaków, jakie użytkownik musi wprowadzić w poście/prywatnej wiadomości. Wartość minimalna: 1.',
 	'POSTING'						=> 'Tworzenie postów',
 	'POSTS_PER_PAGE'				=> 'Liczba postów na stronie',
-	'QUOTE_DEPTH_LIMIT'				=> 'Maksymalne zagnieżdżenie cytatów',
-	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> 'Maksymalna liczba zagnieżdżonych cytatów w poście. Wartość zero (0) – nielimitowana głębokość zagnieżdżenia.',
+	'QUOTE_DEPTH_LIMIT'				=> 'Maksymalne zagnieżdżenie się cytatów',
+	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> 'Maksymalna liczba zagnieżdżonych cytatów w poście. Wartość zero (0) – nielimitowana głębokość zagnieżdżenia się.',
 	'SMILIES_LIMIT'					=> 'Maksymalna liczba emotikon w poście',
 	'SMILIES_LIMIT_EXPLAIN'			=> 'Dozwolona maksymalna liczba emotikon w jednym poście. Wartość zero (0) – liczba emotikon nielimitowana.',
 	'SMILIES_PER_PAGE'				=> 'Liczba emotikon na stronie',
@@ -236,7 +236,6 @@ $lang = array_merge($lang, array(
 	'ACC_DISABLE'				=> 'Wyłącz rejestrację',
 	'ACC_NONE'					=> 'Brak (natychmiastowy dostęp)',
 	'ACC_USER'					=> 'Użytkownik (weryfikacja przez e-mail)',
-//	'ACC_USER_ADMIN'			=> 'Użytkownik + Admin',
 	'ALLOW_EMAIL_REUSE'			=> 'Powtórne użycie adresu e-mail',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'	=> 'Użytkownicy mogą się zarejestrować, używając tego samego adresu e-mail.',
 	'COPPA'						=> 'COPPA',
@@ -251,7 +250,7 @@ $lang = array_merge($lang, array(
 	'PASSWORD_LENGTH'			=> 'Długość hasła',
 	'PASSWORD_LENGTH_EXPLAIN'	=> 'Minimalna i maksymalna liczba znaków w hasłach.',
 	'REG_LIMIT'					=> 'Liczba prób rejestracji',
-	'REG_LIMIT_EXPLAIN'			=> 'Liczba prób wprowadzenia kodu potwierdzającego, jakie użytkownik może wykonać zanim zostanie zablokowany w tej sesji.',
+	'REG_LIMIT_EXPLAIN'			=> 'Liczba prób wprowadzenia kodu potwierdzającego, jakie użytkownik może wykonać, zanim zostanie zablokowany w tej sesji.',
 	'USERNAME_ALPHA_ONLY'		=> 'Tylko litery i cyfry',
 	'USERNAME_ALPHA_SPACERS'	=> 'Litery, cyfry i odstępy',
 	'USERNAME_ASCII'			=> 'ASCII (bez znaków międzynarod. Unicode)',
@@ -301,13 +300,13 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Elementy statystyk',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Wyświetla indywidualne statystyki następujących elementów kanału:<br>(autor, data i czas, odpowiedzi, odsłony)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Wykluczone fora',
-	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Dane z tych forów <strong>nie będą</strong> zawarte w kanałach. Aby dane były pobierane ze wszystkich forów nie zaznaczaj żadnego.<br>Kliknięcie ze wciśniętym klawiszem <samp>Ctrl</samp> umożliwia zaznaczenie/odznaczenie wielu forów.',
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Dane z tych forów <strong>nie będą</strong> zawarte w kanałach. Aby dane były pobierane ze wszystkich forów, nie zaznaczaj żadnego.<br>Kliknięcie ze wciśniętym klawiszem <samp>Ctrl</samp> umożliwia zaznaczenie/odznaczenie wielu forów.',
 ));
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Tutaj można wybrać i skonfigurować wtyczki, które implementują różne sposoby zapobiegania rejestracji tak zwanych spambotów.',
-	'ACP_VC_EXT_GET_MORE'					=> 'Inne i prawdopodobnie lepsze wtyczki anty-spamowe znajdziesz w <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>Bazie rozszerzeń</strong></a>, a więcej informacji dotyczących sposobów zabezpieczenia swojej witryny przed spamem znajdziesz w <a href="https://www.phpbb.com/go/anti-spam"><strong>Bazie wiedzy</strong></a>.',
+	'ACP_VC_EXT_GET_MORE'					=> 'Inne i prawdopodobnie lepsze wtyczki antyspamowe znajdziesz w <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>Bazie rozszerzeń</strong></a>, a więcej informacji dotyczących sposobów zabezpieczenia swojej witryny przed spamem znajdziesz w <a href="https://www.phpbb.com/go/anti-spam"><strong>Bazie wiedzy</strong></a>.',
 	'AVAILABLE_CAPTCHAS'					=> 'Dostępne wtyczki',
 	'CAPTCHA_UNAVAILABLE'					=> 'Nie można wybrać wtyczki, ponieważ jej wymagania nie są spełnione.',
 	'CAPTCHA_GD'							=> 'Kod GD',
@@ -364,12 +363,12 @@ $lang = array_merge($lang, array(
 	'ONLINE_LENGTH'				=> 'Czas wyświetlania obecności na forum',
 	'ONLINE_LENGTH_EXPLAIN'		=> 'Liczba minut po upływie, których nieaktywni użytkownicy nie będą wyświetlani w sekcji „Kto jest online”. Większa wartość jest wskazana dla czasu przetwarzania koniecznego do wygenerowania listy.',
 	'SESSION_LENGTH'			=> 'Czas trwania sesji',
-	'SESSION_LENGTH_EXPLAIN'	=> 'Czas po jakim sesja wygaśnie.',
+	'SESSION_LENGTH_EXPLAIN'	=> 'Czas, po jakim sesja wygaśnie.',
 ));
 
 // Contact Settings
 $lang = array_merge($lang, array(
-	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Tutaj można włączyć/wyłączyć stronę kontaktową, a także dodać tekst jaki będzie na niej wyświetlany.',
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Tutaj można włączyć/wyłączyć stronę kontaktową, a także dodać tekst, jaki będzie na niej wyświetlany.',
 
 	'CONTACT_US_ENABLE'				=> 'Włącz stronę kontaktową',
 	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Włączenie strony kontaktowej umożliwi użytkownikom wysyłanie wiadomości do administratorów witryny. Wymagane jest, aby opcja <em>E-mail do wszystkich</em> była również włączona. Opcja ta jest dostępna w Ogólne &gt; Komunikacja &gt; Ustawienia e-maili',
@@ -381,7 +380,7 @@ $lang = array_merge($lang, array(
 
 // Load Settings
 $lang = array_merge($lang, array(
-	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Tutaj, w celu zmniejszenia obciążenia serwera, można włączyć i wyłączyć wiele funkcji witryny. Zmniejszając liczbę funkcji wymagających przetworzenia przez serwer zmniejszy się jego obciążenie. Na większości serwerów nie ma potrzeby wyłączania żadnych funkcji. Niemniej na niektórych systemach lub w środowisku hostingu współdzielonego może być korzystne wyłączenie niepotrzebnych funkcji. Można także określić limity wykorzystania zasobów serwera i liczbę aktywnych sesji po osiągnięciu, których witryna przejdzie w tryb offline.' ,
+	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Tutaj, w celu zmniejszenia obciążenia serwera, można włączyć i wyłączyć wiele funkcji witryny. Zmniejszając liczbę funkcji wymagających przetworzenia przez serwer, zredukuje się jego obciążenie. Na większości serwerów nie ma potrzeby wyłączania żadnych funkcji. Niemniej na niektórych systemach lub w środowisku hostingu współdzielonego może być korzystne wyłączenie niepotrzebnych funkcji. Można także określić limity wykorzystania zasobów serwera i liczbę aktywnych sesji po osiągnięciu, których witryna przejdzie w tryb offline.' ,
 
 	'ALLOW_CDN'						=> 'Zezwalaj na używanie zewnętrznych serwerów dostarczania treści',
 	'ALLOW_CDN_EXPLAIN'				=> 'Jeśli ta opcja zostanie włączona, niektóre pliki będą serwowane z zewnętrznych serwerów dystrybucji treści (CDN), a nie z własnego serwera. Zmniejsza to szerokość pasma wymaganą przez własny serwer, ale może stanowić problem prywatności dla niektórych administratorów witryny. W domyślnej instalacji phpBB z serwera CDN Google jest wczytywana biblioteka jQuery i czcionka Open Sans.',
@@ -403,7 +402,7 @@ $lang = array_merge($lang, array(
 	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Wygaszanie powiadomień',
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Liczba dni, po których powiadomienia będą automatycznie usuwane. Ustaw wartość 0, jeśli chcesz, aby powiadomienia nie były usuwane.',
 	'RECOMPILE_STYLES'				=> 'Wykonuj ponowną kompilację przestarzałych komponentów stylu',
-	'RECOMPILE_STYLES_EXPLAIN'		=> 'Sprawdza czy są dostępne zaktualizowane komponenty stylu w katalogu witryny i wykonuje ich kompilację.',
+	'RECOMPILE_STYLES_EXPLAIN'		=> 'Sprawdza, czy są dostępne zaktualizowane komponenty stylu w katalogu witryny i wykonuje ich kompilację.',
 	'YES_ANON_READ_MARKING'			=> 'Oznaczaj tematy/posty dla gości',
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Włączenie tej funkcji będzie powodowało zapisywanie i wyświetlanie gościom informacji o przeczytanych/nieprzeczytanych tematach i postach. Jeśli funkcja ta będzie wyłączona, tematy i posty będą dla gości zawsze oznaczone jako przeczytane.',
 	'YES_ACCURATE_PM_BUTTON'		=> 'Wyświetlaj przycisk Prywatna Wiadomość pod profilem',
@@ -432,7 +431,7 @@ $lang = array_merge($lang, array(
 	'AUTH_METHOD'				=> 'Wybierz metodę uwierzytelniania',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Musi być dostarczony zarówno klucz, jak i fraza szyfrująca każdego włączonego dostawcy usługi OAuth. Został dostarczony tylko jeden z elementów.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Aby móc uwierzytelniać za pomocą zewnętrznego serwera, każdy dostawca usługi OAuth wymaga unikalnej frazy szyfrującej i klucza. Elementy te powinny być dostarczone przez usługę OAuth w trakcie rejestracji witryny i powinny być wprowadzane dokładnie w takiej postaci jak zostały dostarczone.<br>Serwisy, dla których nie zostanie tutaj podany klucz i fraza szyfrująca nie będą mogły być używane przez użytkowników forum. Użytkownicy mogą nadal rejestrować się i logować, używając wtyczki DB.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Aby móc uwierzytelniać za pomocą zewnętrznego serwera, każdy dostawca usługi OAuth wymaga unikalnej frazy szyfrującej i klucza. Elementy te powinny być dostarczone przez usługę OAuth w trakcie rejestracji witryny i powinny być wprowadzane dokładnie w takiej postaci, jak zostały dostarczone.<br>Serwisy, dla których nie zostanie tutaj podany klucz i fraza szyfrująca nie będą mogły być używane przez użytkowników forum. Użytkownicy mogą nadal rejestrować się i logować, używając wtyczki DB.',
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Klucz',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Fraza szyfrująca',
@@ -454,19 +453,19 @@ $lang = array_merge($lang, array(
 	'LDAP_SERVER'					=> 'Nazwa serwera LDAP',
 	'LDAP_SERVER_EXPLAIN'			=> 'Jeśli jest używane LDAP, jest to nazwa lub adres IP serwera LDAP. Alternatywnie można podać adres URL, np. ldap://hostname:port/',
 	'LDAP_UID'						=> '<var>UID</var> LDAP',
-	'LDAP_UID_EXPLAIN'				=> 'Tutaj proszę podać klucz według, którego będzie wyszukiwany identyfikator logowania. Można użyć atrybuty, np. <var>uid</var>, <var>sn</var>, itp. gdzie uid – identyfikator użytkownika, sn – nazwisko.',
+	'LDAP_UID_EXPLAIN'				=> 'Tutaj proszę podać klucz, według którego będzie wyszukiwany identyfikator logowania. Można użyć atrybutów, np. <var>uid</var>, <var>sn</var>, itp. gdzie uid – identyfikator użytkownika, sn – nazwisko.',
 	'LDAP_USER'						=> '<var>DN</var> użytkownika LDAP',
 	'LDAP_USER_EXPLAIN'				=> 'Aby używać logowania anonimowego, należy pozostawić to pole puste. Jeśli pole zostanie wypełnione, phpBB podczas logowania użyje nazwy wyróżniającej (DN) do próby znalezienia właściwego użytkownika. Należy użyć odpowiedniego atrybutu nazwy wyróżniającej, np. <samp>uid – nazwa użytkownika, ou – jednostka organizacyjna, o – organizacja, c – kraj (pl)</samp>. Wymagane dla serwerów Active Directory.',
 	'LDAP_USER_FILTER'				=> 'Filtr użytkownika LDAP',
-	'LDAP_USER_FILTER_EXPLAIN'		=> 'Stosując dodatkowe filtry można zawęzić zakres szukanych obiektów. Na przykład użycie filtru <samp>objectClass=posixGroup</samp> spowoduje w efekcie przeszukanie zbioru <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>.',
+	'LDAP_USER_FILTER_EXPLAIN'		=> 'Stosując dodatkowe filtry, można zawęzić zakres szukanych obiektów. Na przykład użycie filtru <samp>objectClass=posixGroup</samp> spowoduje w efekcie przeszukanie zbioru <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>.',
 ));
 
 // Server Settings
 $lang = array_merge($lang, array(
-	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Tutaj można zdefiniować ustawienia serwera i powiązanych domen. Proszę sprawdzić czy wprowadzane dane są poprawne. Błędy będą skutkowały nieprawidłową informacją zawartą w wiadomościach e-mail. Należy pamiętać, aby nazwa domeny nie zawierała http:// lub innego protokołu. Numer portu można zmieniać tylko wtedy, gdy zna się numer portu używanego przez serwer. W większości przypadków port 80 jest poprawną wartością.',
+	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Tutaj można zdefiniować ustawienia serwera i powiązanych domen. Proszę sprawdzić, czy wprowadzane dane są poprawne. Błędy będą skutkowały nieprawidłową informacją zawartą w wiadomościach e-mail. Należy pamiętać, aby nazwa domeny nie zawierała http:// lub innego protokołu. Numer portu można zmieniać tylko wtedy, gdy zna się numer portu używanego przez serwer. W większości przypadków port 80 jest poprawną wartością.',
 
 	'ENABLE_GZIP'				=> 'Kompresja GZip',
-	'ENABLE_GZIP_EXPLAIN'		=> 'Przed wysłaniem do użytkownika wygenerowana zawartość będzie kompresowana. Pozwoli to na zmniejszenie ruchu w sieci, ale zwiększy obciążenie procesora zarówno na serwerze jak i komputerze lokalnym. Wymaga wczytania rozszerzenia zlib PHP.',
+	'ENABLE_GZIP_EXPLAIN'		=> 'Przed wysłaniem do użytkownika wygenerowana zawartość będzie kompresowana. Pozwoli to na zmniejszenie ruchu w sieci, ale zwiększy obciążenie procesora zarówno na serwerze, jak i komputerze lokalnym. Wymaga wczytania rozszerzenia zlib PHP.',
 	'FORCE_SERVER_VARS'			=> 'Narzucaj protokół serwera',
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Jeśli zostanie wybrane <samp>Tak</samp>, zamiast automatycznie określanych wartości, będą używane zdefiniowane poniżej ustawienia protokołu serwera.',
 	'ICONS_PATH'				=> 'Ścieżka do ikon postów',
@@ -509,7 +508,7 @@ $lang = array_merge($lang, array(
 	'BROWSER_VALID'					=> 'Weryfikuj przeglądarkę',
 	'BROWSER_VALID_EXPLAIN'			=> 'W celu zwiększenia bezpieczeństwa każda sesja będzie weryfikowała przeglądarkę.',
 	'CHECK_DNSBL'					=> 'Sprawdzaj, czy IP jest obecne na liście DNSBL',
-	'CHECK_DNSBL_EXPLAIN'			=> 'Jeśli funkcja ta jest włączona, następuje sprawdzanie czy IP użytkownika jest obecny na następujących listach adresów IP nadawców spamu (DNS Blacklist): <a href="http://spamcop.net">spamcop.net</a> i <a href="http://www.spamhaus.org">www.spamhaus.org</a>. W zależności od konfiguracji serwera sprawdzanie może potrwać jakiś czas. Jeśli występuje znaczne spowolnienie lub jest zgłaszana duża liczba fałszywych informacji, zaleca się wyłączenie tej funkcji.',
+	'CHECK_DNSBL_EXPLAIN'			=> 'Jeśli funkcja ta jest włączona, następuje sprawdzanie, czy IP użytkownika jest obecny na następujących listach adresów IP nadawców spamu (DNS Blacklist): <a href="http://spamcop.net">spamcop.net</a> i <a href="http://www.spamhaus.org">www.spamhaus.org</a>. W zależności od konfiguracji serwera sprawdzanie może potrwać jakiś czas. Jeśli występuje znaczne spowolnienie lub jest zgłaszana duża liczba fałszywych informacji, zaleca się wyłączenie tej funkcji.',
 	'CLASS_B'						=> 'A.B',
 	'CLASS_C'						=> 'A.B.C',
 	'EMAIL_CHECK_MX'				=> 'Sprawdzaj poprawność mapowania domeny',
@@ -553,7 +552,7 @@ $lang = array_merge($lang, array(
 
 // Email Settings
 $lang = array_merge($lang, array(
-	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Te informacje są używane przez witrynę podczas wysyłania e-maili do użytkowników. Sprawdź czy podany adres e-mail jest ważnym adresem, ponieważ wszystkie zwrócone lub niedostarczone wiadomości będą prawdopodobnie odsyłane na ten adres. Jeśli serwer nie udostępnia natywnych (opartych na PHP) usług e-mail, można wysyłać wiadomości bezpośrednio, używając protokołu SMTP. Wymaga to adresu odpowiedniego serwera. Jeśli go nie znasz, zapytaj o niego swojego usługodawcę. Jeśli serwer wymaga uwierzytelnienia (i tylko, jeśli wymaga), wprowadź nazwę użytkownika, hasło i metodę uwierzytelniania.',
+	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Te informacje są używane przez witrynę podczas wysyłania e-maili do użytkowników. Sprawdź, czy podany adres e-mail jest ważnym adresem, ponieważ wszystkie zwrócone lub niedostarczone wiadomości będą prawdopodobnie odsyłane na ten adres. Jeśli serwer nie udostępnia natywnych (opartych na PHP) usług e-mail, można wysyłać wiadomości bezpośrednio, używając protokołu SMTP. Wymaga to adresu odpowiedniego serwera. Jeśli go nie znasz, zapytaj o niego swojego usługodawcę. Jeśli serwer wymaga uwierzytelnienia (i tylko, jeśli wymaga), wprowadź nazwę użytkownika, hasło i metodę uwierzytelniania.',
 
 	'ADMIN_EMAIL'					=> 'Nadawca',
 	'ADMIN_EMAIL_EXPLAIN'			=> 'Ten adres e-mail będzie używany jako nadawca wszystkich e-maili oraz do kontaktów technicznych. Będzie on zawsze użyty w e-mailach w polu <samp>Nadawca</samp>.',
@@ -566,9 +565,11 @@ $lang = array_merge($lang, array(
 	'CONTACT_EMAIL_NAME'			=> 'Nazwa kontaktu',
 	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Jest to nazwa kontaktu, jaką będzie widział odbiorca wiadomości e-mail. Jeśli nie chcesz mieć nazwy kontaktu, pozostaw to pole puste.',
 	'EMAIL_FORCE_SENDER'			=> 'Wymuś adres zwrotny',
-	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'Jako <samp>Odbiorca</samp> zostanie użyty adres e-mail z pola <samp>Nadawca</samp>, zamiast użytkownika i nazwy hosta serwera. Opcja ta nie działa, jeśli używa się serwera SMTP.<br><em><strong>UWAGA:</strong> Użytkownik z którego prawami jest uruchomiony serwer, powinien być dodany jako zaufany użytkownik w konfiguracji programu sendmail.</em>',
+	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'Jako <samp>Odbiorca</samp> zostanie użyty adres e-mail z pola <samp>Nadawca</samp>, zamiast użytkownika i nazwy hosta serwera. Opcja ta nie działa, jeśli używa się serwera SMTP.<br><em><strong>UWAGA:</strong> Użytkownik, z którego prawami jest uruchomiony serwer, powinien być dodany jako zaufany użytkownik w konfiguracji programu sendmail.</em>',
 	'EMAIL_PACKAGE_SIZE'			=> 'Wielkość pakietu',
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Jest to maksymalna dozwolona liczba wiadomości e-mail wysyłanych w jednym pakiecie. Ta funkcja ma zastosowanie do kolejki wysyłanych wiadomości. Jeśli występują jakieś problemy z niedostarczonymi powiadomieniami, należy określić tę wartość jako zero (0).',
+	'EMAIL_MAX_CHUNK_SIZE'			=> 'Maksymalna liczba odbiorców e-mail w jednej wiadomości.',
+	'EMAIL_MAX_CHUNK_SIZE_EXPLAIN'	=> 'Jeśli potrzeba, ustaw maksymalną liczbę odbiorców, na jaką pozwalają ustawienia serwera poczty.',
 	'EMAIL_SIG'						=> 'Podpis',
 	'EMAIL_SIG_EXPLAIN'				=> 'Ten tekst będzie dołączany jako podpis do wszystkich wiadomości e-mail wysyłanych przez witrynę.',
 	'ENABLE_EMAIL'					=> 'E-mail do wszystkich',
@@ -586,10 +587,10 @@ $lang = array_merge($lang, array(
 	'SMTP_PASSWORD_EXPLAIN'			=> 'Należy wprowadzić tylko, jeśli serwer SMTP tego wymaga. <br><em><strong> UWAGA:</strong> Hasło zostanie zapisane w bazie danych jako zwykły tekst i będzie widoczne dla każdego, kto ma dostęp do bazy danych lub kto może przeglądać tę stronę konfiguracji.</em>',
 	'SMTP_PLAIN'					=> 'PLAIN',
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
-	'SMTP_PORT'						=> 'Port serwera',
+	'SMTP_PORT'						=> 'Port serwera SMTP',
 	'SMTP_PORT_EXPLAIN'				=> 'Można zmieniać tylko wtedy, gdy wiadomo, że serwer pracuje na innym porcie.',
-	'SMTP_SERVER'					=> 'Protokół i adres serwera',
-	'SMTP_SERVER_EXPLAIN'			=> 'Podaj protokół i adres z jakiego korzysta serwer. Jeśli używasz SSL podaj adres w postaci "ssl://twoj.adres_serwera.pl"',
+	'SMTP_SERVER'					=> 'Adres serwera SMTP',
+	'SMTP_SERVER_EXPLAIN'			=> 'Nie podawaja protokołu serwera (<samp>ssl://</samp> lub <samp>tsl://</samp>), chyba że serwer pocztowy tego wymaga.',
 	'SMTP_SETTINGS'					=> 'Ustawienia SMTP',
 	'SMTP_USERNAME'					=> 'Nazwa użytkownika',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Należy wprowadzić tylko, jeśli serwer SMTP tego wymaga.',
@@ -604,7 +605,7 @@ $lang = array_merge($lang, array(
 
 // Jabber settings
 $lang = array_merge($lang, array(
-	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Tutaj można włączyć i kontrolować używanie protokołu Jabber do wysyłania błyskawicznych wiadomości i powiadomień witryny. Jabber jest protokołem otwartym, zatem dostępnym do użytku dla wszystkich. Niektóre serwery Jabbera zawierają bramki lub transporty, które pozwalają na kontaktowanie się użytkowników różnych sieci. Nie wszystkie serwery oferują wszystkie transporty i zmiany w protokołach mogą uniemożliwiać działanie komunikacji. Proszę wprowadzić dane działającego konta – phpBB użyje do komunikacji dane takie, jakie zostały tutaj wprowadzone.',
+	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Tutaj można włączyć i kontrolować używanie protokołu Jabber do wysyłania błyskawicznych wiadomości i powiadomień witryny. Jabber jest protokołem otwartym, zatem dostępnym do użytku dla wszystkich. Niektóre serwery Jabbera zawierają bramki lub transporty, które pozwalają na kontaktowanie się użytkowników różnych sieci. Nie wszystkie serwery oferują wszystkie transporty. Zmiany w protokołach mogą uniemożliwiać działanie komunikacji. Proszę wprowadzić dane działającego konta – phpBB użyje do komunikacji dane takie, jakie zostały tutaj wprowadzone.',
 	
 	'JAB_ALLOW_SELF_SIGNED'			=> 'Zezwól na samopodpisane certyfikaty',
 	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'	=> 'Zezwól na połączenia z serwerem Jabber z samopodpisanym certyfikatem SSL. <br><em><strong>UWAGA:</strong> Zezwolenie na samopodpisane certyfikaty SSL może powodować problemy z bezpieczeństwem.</em>',
@@ -612,7 +613,7 @@ $lang = array_merge($lang, array(
 	'JAB_ENABLE_EXPLAIN'		=> 'Włączenie tej funkcji spowoduje używanie protokołu Jabber do wysyłania wiadomości i powiadomień.',
 	'JAB_GTALK_NOTE'			=> 'GTalk nie będzie działał, ponieważ nie znaleziono funkcji <samp>dns_get_record</samp>. Funkcja ta nie jest dostępna w PHP4 i nie została zaimplementowana na platformie Windows. Aktualnie nie działa na systemach bazujących na BSD, włącznie z Mac OS.',
 	'JAB_PACKAGE_SIZE'			=> 'Wielkość pakietu Jabbera',
-	'JAB_PACKAGE_SIZE_EXPLAIN'	=> 'Jest to liczba wiadomości wysyłanych w jednym pakiecie. Jeśli zostanie wybrane zero (0) wiadomość będzie wysyłana niezwłocznie – nie będzie czekała na inne wiadomości.',
+	'JAB_PACKAGE_SIZE_EXPLAIN'	=> 'Jest to liczba wiadomości wysyłanych w jednym pakiecie. Jeśli zostanie wybrane zero (0), wiadomość będzie wysyłana niezwłocznie – nie będzie czekała na inne wiadomości.',
 	'JAB_PASSWORD'				=> 'Hasło',
 	'JAB_PASSWORD_EXPLAIN'		=> '<em><strong>Ostrzeżenie:</strong> Hasło zostanie zapisane w bazie danych jako zwykły tekst i będzie widoczne dla każdego, kto ma dostęp do bazy danych lub kto może przeglądać tę stronę konfiguracji.</em>',
 	'JAB_PORT'					=> 'Port',

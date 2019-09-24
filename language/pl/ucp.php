@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	<br />
 	W czasie przeglądania „%1$s” możemy też utworzyć ciasteczka niezależne od oprogramowania phpBB, ale ich ten dokument nie dotyczy – ma on opisywać tylko strony stworzone przez oprogramowanie phpBB. Drugi sposób, w jaki zbieramy informacje o tobie, to dane wysyłane przez ciebie do nas. Mogą być to między innymi posty napisane przez ciebie jako anonimowy użytkownik zwane dalej „anonimowe posty”, konta użytkownika założone na „%1$s” zwane dalej „twoje konto” i posty napisane przez ciebie po rejestracji i zalogowaniu zwane dalej „twoje posty”.<br />
 	<br />
-	Twoje konto będzie zawierać przynajmniej unikalną identyfikacyjną nazwę zwaną dalej „twoja nazwa użytkownika”, hasło używane do logowania zwane dalej „twoje hasło” i osobisty aktywny adres e-mail zwany dalej „twój adres e-mail”. Informacje podane dla twojego konta na „%1$s” są chronione przez prawa dotyczące ochrony danych osobowych w państwie, w którym stoi nasz serwer. Mamy prawo wymagać podania dodatkowych informacji przy rejestracji, i to my ustalamy czy podanie ich jest konieczne, czy nie. W każdym przypadku masz możliwość wybrania, które informacje o twoim koncie są wyświetlane publicznie. Co więcej, w panelu zarządzania kontem masz możliwość włączenia lub wyłączenia wysyłania do ciebie automatycznie generowanych przez oprogramowanie phpBB e-maili.<br />
+	Twoje konto będzie zawierać przynajmniej unikalną identyfikacyjną nazwę zwaną dalej „twoja nazwa użytkownika”, hasło używane do logowania zwane dalej „twoje hasło” i osobisty aktywny adres e-mail zwany dalej „twój adres e-mail”. Informacje podane dla twojego konta na „%1$s” są chronione przez prawa dotyczące ochrony danych osobowych w państwie, w którym stoi nasz serwer. Mamy prawo wymagać podania dodatkowych informacji przy rejestracji, i to my ustalamy czy podanie ich jest konieczne, czy nie. W każdym przypadku, masz możliwość wybrania, które informacje o twoim koncie są wyświetlane publicznie. Co więcej, w panelu zarządzania kontem masz możliwość włączenia lub wyłączenia wysyłania do ciebie automatycznie generowanych przez oprogramowanie phpBB e-maili.<br />
 	<br />
 	Twoje hasło jest zaszyfrowane, więc jest bezpieczne, niemniej nie należy używać tego samego hasła na różnych witrynach internetowych. Hasło to umożliwia dostęp do twojego konta na „%1$s”, więc chroń je i w żadnym wypadku nie podawaj <strong>nikomu</strong>. Jeśli je zapomnisz, użyj funkcji „Nie pamiętam hasła”. Witryna poprosi cię o podanie nazwy użytkownika i adresu e-mail. Po podaniu tych danych zostanie wygenerowane nowe hasło i przesłane na podany przez ciebie adres e-mail. Umożliwi ono odzyskanie dostępu do twojego konta.<br />
 	',
@@ -90,6 +90,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'To jest lista zamieszczonych przez ciebie załączników. Tutaj możesz usunąć dowolny załącznik. Zaznacz pole wyboru obok załączników, które chcesz usunąć i naciśnij przycisk <em><strong>Usuń zaznaczone</strong></em>.',
 	'ATTACHMENTS_DELETED'			=> 'Załączniki zostały usunięte.',
 	'ATTACHMENT_DELETED'			=> 'Załącznik został usunięty.',
+	'ATTACHMENT_LOCKED'				=> 'Nie można usunąć załącznika, ponieważ ten temat jest zamknięty.',
 	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'Wybrane elementy logowania przypisane funkcji „Zapamiętaj mnie” zostały usunięte.',
 	'AVATAR_CATEGORY'				=> 'Kategoria',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
@@ -116,7 +117,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Urodziny',
 	'BIRTHDAY_EXPLAIN'			=> 'Wpisanie roku spowoduje wyświetlenie w dniu urodzin twojego wieku.',
 	'BOARD_DATE_FORMAT'			=> 'Format wyświetlania daty',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Składnia jest taka sama, jak składnia funkcji <a href="http://www.php.net/date">date()</a> w PHP.',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Składnia jest taka sama, jak składnia funkcji <a href="https://secure.php.net/manual/function.date.php">date()</a> w PHP.',
 	'BOARD_LANGUAGE'			=> 'Język',
 	'BOARD_STYLE'				=> 'Styl witryny',
 	'BOARD_TIMEZONE'			=> 'Strefa czasowa',
@@ -288,8 +289,8 @@ $lang = array_merge($lang, array(
 	'LINK_REMOTE_AVATAR_EXPLAIN'=> 'Podaj zewnętrzny adres URL żądanego awatara.',
 	'LINK_REMOTE_SIZE'			=> 'Wymiary awatara',
 	'LINK_REMOTE_SIZE_EXPLAIN'	=> 'Określ wysokość i szerokość awatara. Pozostaw pola puste, aby wyskalować automatycznie.',
-	'LOGIN_EXPLAIN_UCP'			=> 'Aby uzyskać dostęp do panelu zarządzania kontem należy się zalogować.',
-	'LOGIN_LINK'					=> 'Swoje konto istniejące na zewnętrznym serwisie logowania, a jeśli nie masz tam konta to załóż je, skojarz ze swoim kontem na tej witrynie.',
+	'LOGIN_EXPLAIN_UCP'			=> 'Aby uzyskać dostęp do panelu zarządzania kontem, należy się zalogować.',
+	'LOGIN_LINK'					=> 'Swoje konto istniejące na zewnętrznym serwisie logowania, a jeśli nie masz tam konta, to załóż je, skojarz ze swoim kontem na tej witrynie.',
 	'LOGIN_LINK_EXPLAIN'			=> 'Dokonano próby zalogowania za pośrednictwem zewnętrznej usługi, która jeszcze nie jest skojarzona z kontem na tej witrynie. Musisz skojarzyć to konto z istniejącym kontem lub utworzyć nowe.',
 	'LOGIN_LINK_MISSING_DATA'		=> 'Nie ma dostępu do danych niezbędnych do skojarzenia twojego konta z zewnętrzną usługą logowania. Uruchom ponownie proces logowania.',
 	'LOGIN_LINK_NO_DATA_PROVIDED'	=> 'Nie dostarczono danych koniecznych do skojarzenia zewnętrznego konta z kontem na tej witrynie. Jeśli cały czas występują problemy tego typu, skontaktuj się z administratorem witryny.',
@@ -341,7 +342,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber',
 	'NOTIFICATION_TYPE'									=> 'Typ powiadomienia',
 	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Odpowiedziano w tematach oznaczonych zakładką',
-	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Poproszono o przyłączenie do grupy, w której pełnisz rolę lidera',
+	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Poproszono o przyłączenie do grupy, w której pełnisz funkcję lidera',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Pojawił się post lub temat wymagający zaakceptowania',
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'Zaakceptowano/odrzucono twój post/temat',
 	'NOTIFICATION_TYPE_PM'								=> 'Nadeszła prywatna wiadomość',
@@ -421,7 +422,7 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s znaków i składać się z liter różnej wielkości, cyfr i symboli.',
 	'PASSWORD'					=> 'Hasło',
 	'PASSWORD_ACTIVATED'		=> 'Nowe hasło zostało aktywowane.',
-	'PASSWORD_UPDATED_IF_EXISTED'	=> 'Jeśli twoje konto istnieje, to nowe hasło zostało wysłane na podany podczas rejestracji adres e-mail. Skontaktuj się z administratorem forum w przypadku nie otrzymania wiadomości. Może to być spowodowane zbanowanym lub niekatywnym kontem, a także ze względu na brak uprawnień do zmiany hasła. Należy również sprawdzić folder Spam na skrzynce pocztowej.',
+	'PASSWORD_UPDATED_IF_EXISTED'	=> 'Jeśli twoje konto istnieje, to nowe hasło zostało wysłane na podany podczas rejestracji adres e-mail. Skontaktuj się z administratorem forum w przypadku nieotrzymania wiadomości. Może to być spowodowane zbanowanym lub niekatywnym kontem, a także ze względu na brak uprawnień do zmiany hasła. Należy również sprawdzić folder Spam na skrzynce pocztowej.',
 	'PERMISSIONS_RESTORED'		=> 'Przywrócono pierwotne uprawnienia.',
 	'PERMISSIONS_TRANSFERRED'	=> 'Skopiowano uprawnienia od użytkownika <strong>%s</strong>. Możesz teraz przeglądać witrynę z jego uprawnieniami.<br />Uprawnienia administratora nie zostały skopiowane. W każdej chwili możesz wrócić do swojego zestawu uprawnień.',
 	'PM_DISABLED'				=> 'Na tej witrynie prywatne wiadomości są zablokowane.',
@@ -657,8 +658,8 @@ $lang = array_merge($lang, array(
 		'TO_ME'			=> 'do mnie',
 	),
 
-	'GROUPS_EXPLAIN'	=> 'Grupy użytkowników umożliwiają administratorom witryny lepsze zarządzanie użytkownikami. Domyślnie zostaniesz przypisany/przypisana do określonej grupy. Ta grupa jest twoją grupą domyślną. Określa ona sposób wyświetlania twoich danych na forum, np. kolor nazwy użytkownika, awatar, rangę itp. Zależnie od tego czy administrator pozwala na zmianę grupy, będziesz mieć lub nie, możliwość zmiany swojej grupy domyślnej. Możesz również przyłączyć się lub zostać przypisany/przypisana do innych grup. Niektóre grupy mogą dać ci dodatkowe uprawnienia do oglądania zawartości lub powiększą twoje możliwości w innych obszarach.',
-	'GROUP_LEADER'		=> 'Grupy, w których pełnisz rolę lidera',
+	'GROUPS_EXPLAIN'	=> 'Grupy użytkowników umożliwiają administratorom witryny lepsze zarządzanie użytkownikami. Domyślnie zostaniesz przypisany/przypisana do określonej grupy. Ta grupa jest twoją grupą domyślną. Określa ona sposób wyświetlania twoich danych na forum, np. kolor nazwy użytkownika, awatar, rangę itp. Zależnie od tego, czy administrator pozwala na zmianę grupy, będziesz mieć lub nie, możliwość zmiany swojej grupy domyślnej. Możesz również przyłączyć się lub zostać przypisany/przypisana do innych grup. Niektóre grupy mogą dać ci dodatkowe uprawnienia do oglądania zawartości lub powiększą twoje możliwości w innych obszarach.',
+	'GROUP_LEADER'		=> 'Grupy, w których pełnisz funkcję lidera',
 	'GROUP_MEMBER'		=> 'Grupy, których jesteś członkiem',
 	'GROUP_PENDING'		=> 'Grupy, w których oczekujesz na przyjęcie',
 	'GROUP_NONMEMBER'	=> 'Grupy, których nie jesteś członkiem',

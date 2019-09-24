@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.6 - 29.04.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -51,17 +51,17 @@ $lang = array_merge($lang, array(
 	'ANSWER'					=> 'Odpowiedź',
 	'EDIT_QUESTION'				=> 'Edycja pytania',
 	'QUESTIONS'					=> 'Pytania',
-	'QUESTIONS_EXPLAIN'			=> 'Gdy jest włączona wtyczka Q&amp;A, podczas wysyłania czegokolwiek na forum, użytkownicy będą otrzymywać jedno z wyszczególnionych tutaj pytań. Aby używać tej wtyczki w domyślnym języku, musi być określone przynajmniej jedno pytanie. Pytania powinny być tak skonstruowane, aby użytkownicy mogli łatwo udzielić na nie odpowiedzi, a jednocześnie umożliwiały one botom uruchamianie wyszukiwania w Google™. Wystarczy stworzyć odpowiednie pytanie, które należy zmienić w przypadku zakładania kolejnych, fałszywych kont. Włącz sprawdzanie dokładne, jeśli pytanie odnosi się do zagadnień związanych ze znakami interpunkcyjnymi, wielkością liter i tzw. „białymi znakami”.',
+	'QUESTIONS_EXPLAIN'			=> 'Gdy jest włączona wtyczka Q&amp;A, podczas wysyłania czegokolwiek na forum, użytkownicy będą otrzymywać jedno z wyszczególnionych tutaj pytań. Aby używać tej wtyczki w domyślnym języku, musi być określone przynajmniej jedno pytanie. Pytania powinny być tak skonstruowane, aby użytkownicy mogli łatwo udzielić na nie odpowiedzi, a jednocześnie umożliwiały one botom uruchamianie wyszukiwania w Google™. Wystarczy stworzyć odpowiednie pytanie, które należy zmienić w przypadku zakładania kolejnych, fałszywych kont. Włącz sprawdzanie dokładne, jeśli pytanie odnosi się do zagadnień związanych ze znakami interpunkcyjnymi, wielkością liter i tzw. białymi znakami.',
 	'QUESTION_DELETED'			=> 'Pytanie zostało usunięte',
 	'QUESTION_LANG'				=> 'Język',
-	'QUESTION_LANG_EXPLAIN'		=> 'Język w jakim pytanie i odpowiedź są napisane.',
+	'QUESTION_LANG_EXPLAIN'		=> 'Język, w jakim napisane są pytanie i odpowiedzi.',
 	'QUESTION_STRICT'			=> 'Sprawdzanie dokładne',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Jeśli funkcja ta zostanie zaznaczona, wielkość liter, znaki interpunkcyjne i tzw. „białe znaki” będą brane pod uwagę.',
+	'QUESTION_STRICT_EXPLAIN'	=> 'Jeśli funkcja ta zostanie zaznaczona, wielkość liter, znaki interpunkcyjne i tzw. białe znaki będą brane pod uwagę.',
 
 	'QUESTION_TEXT'				=> 'Pytanie',
 	'QUESTION_TEXT_EXPLAIN'		=> 'Pytanie, jakie będzie zadawane użytkownikowi.',
 
 	'QA_ERROR_MSG'				=> 'Wypełnij wszystkie pola i przynajmniej jedną odpowiedź.',
-	'QA_LAST_QUESTION'			=> 'Gdy wtyczka jest aktywna nie można usuwać wszystkich pytań.',
+	'QA_LAST_QUESTION'			=> 'Gdy wtyczka jest aktywna, nie można usuwać wszystkich pytań.',
 
 ));
