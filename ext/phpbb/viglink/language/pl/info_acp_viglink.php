@@ -6,6 +6,7 @@
  * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
+ * @Polska wersja językowa phpbb 3.2.3 - 14.09.2018, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -39,5 +40,5 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_VIGLINK_SETTINGS'		=> 'Ustawienia VigLink',
-	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>Ustawienia VigLink nie mogły być zweryfikowane przez phpBB.com</strong><br />» %s',
+	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>Ustawienia VigLink nie mogły zostać zweryfikowane przez phpBB.com</strong><br />» %s',
 ));

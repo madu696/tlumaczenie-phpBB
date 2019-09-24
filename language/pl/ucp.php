@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.3 - 14.09.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -474,9 +474,9 @@ $lang = array_merge($lang, array(
 	'RULE_LIMIT_REACHED'				=> 'Nie można dodawać więcej reguł. Limit został już osiągnięty.',
 	'RULE_NOT_DEFINED'					=> 'Reguła nie została prawidłowo określona.',
 	'RULE_REMOVED_MESSAGES'				=> array(
-		1	=> 'Została usunięta przez filtry %d. prywatna wiadomość.',
-		2	=> 'Zostały usunięte przez filtry %d prywatne wiadomości.',
-		3	=> 'Zostało usuniętych przez filtry %d prywatnch wiadomości.',
+		1	=> 'Prywatne wiadomości usunięte przez filtry: %d.',
+		2	=> 'Prywatne wiadomości usunięte przez filtry: %d.',
+		3	=> 'Prywatne wiadomości usunięte przez filtry: %d.',
 	),
 
 	'SAME_PASSWORD_ERROR'		=> 'Wprowadzone nowe hasło jest takie samo, jak aktualne.',

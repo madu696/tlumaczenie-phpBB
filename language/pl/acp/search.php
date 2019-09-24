@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.3 - 14.09.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -114,10 +114,13 @@ $lang = array_merge($lang, array(
 		2	=> 'Wszystkie posty do posta o id %2$d zostały zindeksowane, z czego %1$d postów w tym kroku.<br />',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		2	=> 'Aktualnie szybkość indeksowania wynosi około %1$.1f postów na sekundę.<br />Trwa indeksowanie…',
+		2	=> 'Aktualna szybkość indeksowania wynosi około %1$.1f postów na sekundę.<br />Trwa indeksowanie…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'Wszystkie posty do posta o id %2$d zostały usunięte z indeksu wyszukiwania.<br />Trwa usuwanie…',
+		2	=> 'Wszystkie posty do posta o id %2$d zostały usunięte z indeksu wyszukiwania. Pozostało do usunięcia %1$d post(ów).<br />',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
+		2	=> 'Aktualna szybkość usuwania wynosi około %1$.1f postów na sekundę.<br />Trwa usuwanie…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Wszystkie posty znajdujące się w bazie danych witryny zostały zindeksowane.',
 	'SEARCH_INDEX_REMOVED'					=> 'Indeks wyszukiwania dla tego mechanizmu został usunięty.',

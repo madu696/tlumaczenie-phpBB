@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.2 - 14.01.2018, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.3 - 14.09.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -140,8 +140,10 @@ $lang = array_merge($lang, array(
 		2	=> 'Użytkownicy przeglądający to forum: %2$s i %1$d gości',
 		3	=> 'Użytkownicy przeglądający to forum: %2$s i %1$d gości',
 	),
+	'BUTTON_DELETE'         => 'Usuń',
 	'BUTTON_EDIT'			=> 'Edytuj',
 	'BUTTON_FORUM_LOCKED'	=> 'Zablokowane',
+	'BUTTON_INFORMATION'    => 'Informacje',
 	'BUTTON_NEW_TOPIC'		=> 'NOWY TEMAT',
 	'BUTTON_PM'				=> 'PW',
 	'BUTTON_PM_FORWARD'		=> 'Przekaż',
@@ -150,7 +152,9 @@ $lang = array_merge($lang, array(
 	'BUTTON_PM_REPLY_ALL'	=> 'Odpowiedz wszystkim',
 	'BUTTON_POST_REPLY'		=> 'ODPOWIEDZ',
 	'BUTTON_QUOTE'			=> 'Cytuj',
+	'BUTTON_REPORT'         => 'Zgłoś',
 	'BUTTON_TOPIC_LOCKED'	=> 'Zablokowany',
+	'BUTTON_WARN'           => 'Ostrzeż',
 	'BYTES'					=> 'Bajtów',
 	'BYTES_SHORT'			=> 'B',
 
@@ -247,7 +251,7 @@ $lang = array_merge($lang, array(
 	'FILEDATE'				=> 'Data',
 	'FILE_COMMENT'			=> 'Komentarz',
 	'FILE_CONTENT_ERR'		=> 'Nie można odczytać zawartości pliku: %s',
-	'FILE_JSON_DECODE_ERR'	=> 'Nie udało się odkodować pliku JASON: %s',
+	'FILE_JSON_DECODE_ERR'	=> 'Nie udało się odkodować pliku JSON: %s',
 	'FILE_NOT_FOUND'		=> 'Nie można odnaleźć żądanego pliku: %s',
 	'FIND_USERNAME'			=> 'Znajdź użytkownika',
 	'FOLDER'				=> 'Folder',
@@ -618,6 +622,7 @@ $lang = array_merge($lang, array(
 	'PREVIOUS'				=> 'Poprzednia',
 	'PREVIOUS_STEP'			=> 'Wstecz',
 	'PRIVACY'				=> 'Zasady ochrony danych osobowych',
+	'PRIVACY_LINK'			=> 'Zasady ochrony danych osobowych',
 	'PRIVATE_MESSAGE'		=> 'Prywatna wiadomość',
 	'PRIVATE_MESSAGES'		=> 'Prywatne wiadomości',
 	'PRIVATE_MESSAGING'		=> 'Prywatne wiadomości',
@@ -744,6 +749,7 @@ $lang = array_merge($lang, array(
 	'SUBMIT'					=> 'Wyślij',
 
 	'TB'				=> 'TB',
+	'TERMS_LINK'		=> 'Regulamin',
 	'TERMS_USE'			=> 'Regulamin',
 	'TEST_CONNECTION'	=> 'Testuj połączenie',
 	'THE_TEAM'			=> 'Zespół administracyjny',

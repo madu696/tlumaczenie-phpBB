@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.2 - 14.01.2018, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.3 - 14.09.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -349,7 +349,7 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Tutaj można zdefiniować dane ciasteczek wysyłanych do przeglądarek użytkowników. W większości przypadków domyślne wartości ustawień ciasteczek powinny być wystarczające. Jeśli zachodzi potrzeba zmiany tych ustawień, należy zrobić to bardzo ostrożnie. Nieprawidłowe ustawienia mogą powodować problemy z logowaniem użytkowników. Jeśli nadal występują problemy z sesją użytkowników na witrynie, odwiedź polskie forum ze wsparciem<b><a href="http://www.phpbb.pl/forum/"> phpBB.pl</a></b>.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Tutaj można zdefiniować dane ciasteczek wysyłanych do przeglądarek użytkowników. W większości przypadków domyślne wartości ustawień ciasteczek powinny być wystarczające. Jeśli zachodzi potrzeba zmiany tych ustawień, należy zrobić to bardzo ostrożnie. Nieprawidłowe ustawienia mogą powodować problemy z logowaniem użytkowników. Jeśli nadal występują problemy z sesją użytkowników na witrynie, odwiedź polskie forum ze wsparciem <strong><a href="http://www.phpbb.pl/forum/">phpBB.pl</a></strong>.',
 
 	'COOKIE_DOMAIN'				=> 'Domena ciasteczka',
 	'COOKIE_DOMAIN_EXPLAIN'		=> 'W większości przypadków domena ciasteczka jest opcjonalna. Można zostawić to pole puste, jeśli nie wiadomo jaką ustawić nazwę.<br><br> Jeśli witryna jest zintegrowana z inną aplikacją (np. WordPress) lub występują subdomeny, to aby poprawnie ustawić domenę ciasteczka należy wykonać następujące kroki. Jeśli adresy stron to <i>example.com</i> i <i>forum.example.com</i> lub <i>forum.example.com</i> i <i>blog.example.com</i>, należy wybrać wspólną domenę - <i>example.com</i>. Teraz na początku należy dodać kropkę - <strong><i>.example.com</i></strong> (nazwa domeny ciasteczka musi zaczynać się od kropki na początku).',
@@ -406,6 +406,8 @@ $lang = array_merge($lang, array(
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'Sprawdza czy są dostępne zaktualizowane komponenty stylu w katalogu witryny i wykonuje ich kompilację.',
 	'YES_ANON_READ_MARKING'			=> 'Oznaczaj tematy/posty dla gości',
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Włączenie tej funkcji będzie powodowało zapisywanie i wyświetlanie gościom informacji o przeczytanych/nieprzeczytanych tematach i postach. Jeśli funkcja ta będzie wyłączona, tematy i posty będą dla gości zawsze oznaczone jako przeczytane.',
+	'YES_ACCURATE_PM_BUTTON'		=> 'Wyświetlaj przycisk Prywatna Wiadomość pod profilem',
+	'YES_ACCURATE_PM_BUTTON_EXPLAIN'	=> 'Jeśli funkcja ta jest włączona, przycisk PW zostanie wyświetlony pod profilem w przypadku, gdy odbiorca może odczytać prywatną wiadomość.',
 	'YES_BIRTHDAYS'					=> 'Wyświetlaj urodziny',
 	'YES_BIRTHDAYS_EXPLAIN'			=> 'Jeśli funkcja jest wyłączona, informacje o urodzinach nie będą wyświetlane. Aby ta funkcja działała, musi być również włączona funkcja urodzin.',
 	'YES_JUMPBOX'					=> 'Wyświetlaj menu „Przejdź do”',
@@ -586,8 +588,8 @@ $lang = array_merge($lang, array(
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'						=> 'Port serwera',
 	'SMTP_PORT_EXPLAIN'				=> 'Można zmieniać tylko wtedy, gdy wiadomo, że serwer pracuje na innym porcie.',
-	'SMTP_SERVER'					=> 'Adres serwera',
-	'SMTP_SERVER_EXPLAIN'			=> 'Podaj protokół, z jakiego korzysta serwer. Jeśli używasz SSL, podaj adres w postaci "ssl://twoj.adres_serwera.pl"',
+	'SMTP_SERVER'					=> 'Protokół i adres serwera',
+	'SMTP_SERVER_EXPLAIN'			=> 'Podaj protokół i adres z jakiego korzysta serwer. Jeśli używasz SSL podaj adres w postaci "ssl://twoj.adres_serwera.pl"',
 	'SMTP_SETTINGS'					=> 'Ustawienia SMTP',
 	'SMTP_USERNAME'					=> 'Nazwa użytkownika',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Należy wprowadzić tylko, jeśli serwer SMTP tego wymaga.',

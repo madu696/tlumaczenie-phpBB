@@ -9,7 +9,7 @@
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
  *
- * @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpbb 3.2.3 - 14.09.2018, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_LOGIN_CANNOT_REGISTER_QUESTION'	=> 'Dlaczego nie mogę się zarejestrować?',
 	'HELP_FAQ_LOGIN_COPPA_ANSWER'	=> 'COPPA, to skrót od Child Online Privacy and Protection Act – prawa obowiązującego od 1998 roku w USA, nakładającego na właścicieli stron internetowych, które potencjalnie mogą zbierać informacje od osób małoletnich – mających mniej niż 13 lat – obowiązek posiadania pisemnej zgody rodziców lub opiekunów prawnych na zbieranie informacji prywatnych od osób poniżej 13 roku życia. Jeżeli nie masz pewności czy to dotyczy ciebie jako kogoś próbującego zarejestrować się na danej witrynie internetowej – skontaktuj się z prawnikiem, by uzyskać wyjaśnienie. phpBB Limited i właściciele tej witryny nie dostarczają pomocy prawnej z wyjątkiem przypadku opisanego w pytaniu „Z kim się kontaktować w sprawach nadużyć lub zagadnień prawnych związanych z tą witryną?”, a także nie są punktem kontaktowym dla wszelkiego rodzaju porad prawnych.',
 	'HELP_FAQ_LOGIN_COPPA_QUESTION'	=> 'Co to jest COPPA?',
-	'HELP_FAQ_LOGIN_DELETE_COOKIES_ANSWER'	=> 'Funkcja “Usuń ciasteczka witryny” usuwa wszystkie ciasteczka utworzone przez phpBB dzięki, którym użytkownik jest autoryzowany i logowany do witryny. Dostarczają one również funkcję – jeśli została włączona przez administratora witryny – śledzenia przeczytanych i nieprzeczytanych przez użytkownika postów. Jeśli występują problemy z logowaniem/wylogowaniem, usunięcie ciasteczek może być pomocne.',
+	'HELP_FAQ_LOGIN_DELETE_COOKIES_ANSWER'	=> 'Funkcja “Usuń ciasteczka witryny” usuwa ciasteczka utworzone przez phpBB dzięki, którym użytkownik jest autoryzowany i logowany do witryny. Dostarczają one również funkcję – jeśli została włączona przez administratora witryny – śledzenia przeczytanych i nieprzeczytanych przez użytkownika postów. Jeśli występują problemy z logowaniem/wylogowaniem, usunięcie ciasteczek może być pomocne.',
 	'HELP_FAQ_LOGIN_DELETE_COOKIES_QUESTION'	=> 'Jak działa funkcja “Usuń ciasteczka witryny”?',
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_ANSWER'	=> 'Zachowaj spokój! Twoje hasło wprawdzie nie może zostać odzyskane, ale bez problemu może zostać zresetowane. Przejdź na stronę logowania i kliknij odnośnik “Nie pamiętam hasła”. Postępuj zgodnie z instrukcjami, a prawdopodobnie niedługo znów będziesz móc się zalogować.',
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_QUESTION'	=> 'Nie pamiętam hasła!',

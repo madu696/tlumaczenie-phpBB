@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-02-02 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.3 - 14.09.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -553,6 +553,7 @@ $lang = array_merge($lang, array(
 	'LOG_BBCODE_ADD'		=> '<strong>Dodano nowy znacznik BBCode</strong><br />» %s',
 	'LOG_BBCODE_EDIT'		=> '<strong>Edytowano BBCode</strong><br />» %s',
 	'LOG_BBCODE_DELETE'		=> '<strong>Usunięto znacznik BBCode</strong><br />» %s',
+	'LOG_BBCODE_CONFIGURATION_ERROR'	=> '<strong>Wystąpił błąd podczas konfiguracji znacznika BBCode</strong>: %1$s<br />» %2$s',
 
 	'LOG_BOT_ADDED'		=> '<strong>Dodano nowego bota</strong><br />» %s',
 	'LOG_BOT_DELETE'	=> '<strong>Usunięto bota</strong><br />» %s',

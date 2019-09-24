@@ -10,7 +10,7 @@
  * the docs/CREDITS.txt file.
  *
  * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
- * @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpbb 3.2.3 - 14.09.2018, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -195,6 +195,7 @@ $lang = array_merge($lang, array(
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
+	'INST_ERR_DB'					=> 'Błąd instalacji bazy danych',
 	'INST_ERR_NO_DB'				=> 'Nie można załadować modułu PHP obsługującego wybrany typ bazy danych.',
 	'INST_ERR_DB_INVALID_PREFIX'	=> 'Podany prefiks jest nieprawidłowy. Musi rozpoczynać się literą i może zawierać tylko litery, cyfry oraz znak podkreślenia.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'Podany prefiks tabel jest za długi. Maksymalna długość to %d znaków.',
@@ -356,15 +357,38 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<h1>Jak zaktualizować zainstalowaną wersję za pomocą pakietu automatycznej aktualizacji</h1>
+		<h1>Jak zaktualizować zainstalowaną wersję za pomocą pełnego pakietu aktualizacyjnego („Full Package”)</h1>
 
-		<p>Zalecanym sposobem aktualizacji skryptu jest użycie pakietu automatycznej aktualizacji. Można także dokonać aktualizacji skryptu za pomocą metod opisanych w dokumencie INSTALL.html. Aby wykonać automatyczną aktualizację phpBB3, należy wykonać następujące kroki:</p>
+		<p>Zalecanym sposobem aktualizacji skryptu jest użycie pełnego pakietu aktualizacyjnego. Jeśli zmodyfikowane główne pliki phpBB, można użyć automatycznej aktualizacji („Automatic Update ”), aby zachować wprowadzone zmiany. Można także dokonać aktualizacji skryptu za pomocą metod opisanych w dokumencie INSTALL.html. Aby wykonać aktualizację phpBB3 przy pomocy pełnego pakietu aktualizacyjnego, należy wykonać następujące kroki:</p>
 
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li><strong class="error">Zrób kopię bazy danych oraz wszystkich plików forum.</strong></li>
+			<li>Przejdź do <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">strony pobierania</a> i pobierz archiwum zawierające pełen pakiet aktualizacyjny („Full Package”).<br /><br /></li>
+			<li>Rozpakuj archiwum.<br /><br /></li>
+			<li>Usuń plik <code class="inline">config.php</code> oraz katalogi <code class="inline">/images</code>, <code class="inline">/store</code> i <code class="inline">/files</code> z <em>wypakowanego archiwum</em> (Nie tych plików z serwera!).</li>
+			<li>Zaloguj się do Panelu administratora > Ustawienia witryny i ustaw Prosilver jako domyślny styl forum.</li>
+			<li>Usuń katalogi <code class="inline">/vendor</code> oraz <code class="inline">/cache</code> z serwera, gdzie zainstalowany jest phpBB.</li>
+			<li>Poprzez klienta FTP lub SSH wgraj pozostałe pliki z wypakowanego archiwum do głównego katalogu forum na serwerze. Nadpisz pliki. (UWAGA: Upewnij się, aby nie skasować żadnych plików z katalogu <code class="inline">/ext</code> podczas wgrywania nowych plików.)</li>
+			<li><strong><a href="%1$s" title="%1$s">Rozpocznij instalację wprowadzając w pasku adresu swojej przeglądarki ścieżkę do katalogu „install”</a>.</strong></li>
+			<li>Postępuj zgodnie z kolejnymi krokami instalacji, aby zaktualizować bazę danych. Poczekaj na zakończenie tej operacji.</li>
+			<li>Poprzez klienta FTP lub SSH usuń katalog <code class="inline">/install</code> z katalogu głównego forum na serwerze.<br><br></li>
+		</ol>
+		
+		<p>Witryna forum została zaktualizowana do najnowszej wersji. Następnie wykonaj poniższe kroki:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Przejdź do <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">strony pobierania</a> i pobierz archiwum zawierające pakiet automatycznej aktualizacji.<br /><br /></li>
-			<li>Rozpakuj archiwum<br /><br /></li>
-			<li>Wgraj rozpakowane katalogi „install” i „vendor” do głównego katalogu phpBB na serwerze – to katalog, w którym znajduje się plik „config.php”.<br /><br /></li>
+			<li>Zaktualizuj pakiet językowy</li>
+			<li>Zaktualizuj swoje style<br><br></li>
 		</ul>
+		
+		<h1>Jak zaktualizować zainstalowaną wersję za pomocą pakietu automatycznej aktualizacji („Automatic Update ”)</h1>
+
+		<p>Pakiet automatycznej aktualizacji jest zalecany wyłącznie w przypadku, gdy zmodyfikowane główne pliki phpBB. Można także dokonać aktualizacji skryptu za pomocą metod opisanych w dokumencie INSTALL.html. Aby wykonać automatyczną aktualizację phpBB3, należy wykonać następujące kroki:</p>
+
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li>Przejdź do <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">strony pobierania</a> i pobierz archiwum zawierające pakiet automatycznej aktualizacji.</li>
+			<li>Rozpakuj archiwum</li>
+			<li>Wgraj rozpakowane katalogi „install” i „vendor” do głównego katalogu phpBB na serwerze – to katalog, w którym znajduje się plik „config.php”.<br><br></li>
+		</ol>
 
 		<p>Po wgraniu powyższych katalogów na serwer witryna będzie niedostępna dla zwykłych użytkowników z powodu obecności w katalogu głównym phpBB katalogu „install”.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Uruchom proces aktualizacji, klikając ten odnośnik</a>.</strong><br /><br />

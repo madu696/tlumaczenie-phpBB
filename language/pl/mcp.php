@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.1 - 22.07.2017, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.3 - 14.09.2018, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -297,7 +297,7 @@ $lang = array_merge($lang, array(
 	'READ_USERNOTES'			=> 'Opinie o użytkowniku',
 	'READ_WARNINGS'				=> 'Ostrzeżenia użytkownika',
 	'REPORTER'					=> 'Zgłaszający',
-	'REPORTED'					=> 'Zgłoszony',
+	'REPORTED'					=> 'Zgłoszenie -',
 	'REPORTED_BY'				=> 'Zgłoszony przez',
 	'REPORTED_ON_DATE'			=> 'dodano:',
 	'REPORTS_CLOSED_SUCCESS'	=> 'Wybrane zgłoszenia zostały zamknięte.',
