@@ -496,7 +496,7 @@ $lang = array_merge($lang, array(
 	'SEND_STATISTICS_LONG'		=> 'Wyślij informacje statystyczne',
 	'SHOW_STATISTICS'			=> 'Wyświetl szczegóły',
 	'THANKS_SEND_STATISTICS'	=> 'Dziękujemy za wysłanie informacji.',
-	'FAIL_SEND_STATISTICS'		=> 'Nie udało si� wysłać informacji.',
+	'FAIL_SEND_STATISTICS'		=> 'Nie udało się wysłać informacji.',
 ));
 
 // Log Entries
