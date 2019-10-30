@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.0-b1 - 30.10.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -69,7 +69,6 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Maksymalna przestrzeń dyskowa dostępna dla wszystkich załączników w tej instalacji phpBB. Wartość zero (0) - brak ograniczenia przestrzeni.',
 	'ATTACH_TO_POST'					=> 'Załącz plik do posta',
 
-	'CAT_FLASH_FILES'			=> 'Pliki Flash',
 	'CAT_IMAGES'				=> 'Obrazki',
 	'CHECK_CONTENT'				=> 'Sprawdzaj pliki załącznika',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Niektóre przeglądarki mogą być zmuszane do przybierania nieprawidłowego typu mediów (mimetype) dla wysyłanych plików. Funkcja ta zabezpiecza takie pliki przed odrzuceniem.',
@@ -100,7 +99,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_ARCHIVES'			=> 'Archiwa',
 	'EXT_GROUP_DOCUMENTS'			=> 'Dokumenty',
 	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Pliki możliwe do pobrania',
-	'EXT_GROUP_FLASH_FILES'			=> 'Pliki flash',
 	'EXT_GROUP_IMAGES'				=> 'Obrazki',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Zwykły tekst',
 

@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.0-b1 - 30.10.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -436,7 +436,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Fraza szyfrująca',
 
-	'APACHE_SETUP_BEFORE_USE'	=> 'Przed przełączeniem phpBB na uwierzytelnianie za pomocą Apache, należy najpierw skonfigurować uwierzytelnianie Apache. Należy pamiętać, że nazwa użytkownika użyta dla uwierzytelniania Apache musi być taka sama jak nazwa użytkownika phpBB. Uwierzytelnianie Apache może być użyte tylko z mod_php (nie z wersją CGI) i wyłączonym trybem bezpiecznym.',
+	'APACHE_SETUP_BEFORE_USE'	=> 'Przed przełączeniem phpBB na uwierzytelnianie za pomocą Apache, należy najpierw skonfigurować uwierzytelnianie Apache. Należy pamiętać, że nazwa użytkownika użyta dla uwierzytelniania Apache musi być taka sama jak nazwa użytkownika phpBB. Uwierzytelnianie Apache może być użyte tylko z mod_php (nie z wersją CGI).',
 
 	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'Adres bazowy <var>dn</var> LDAP',

@@ -226,16 +226,6 @@ $lang = array_merge($lang, array(
 	'ADM_LOGGED_OUT'		=> 'Wylogowano z panelu administracji',
 
 	'BACK'					=> 'Wstecz',
-	
-	'CANNOT_CHANGE_FILE_GROUP'	=> 'Nie można zmienić pliku grupy',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Nie można zmienić uprawnień pliku',
-	'CANNOT_COPY_FILES'		=> 'Nie można skopiować plików',
-	'CANNOT_CREATE_SYMLINK'	=> 'Nie można utworzyć symlinku',
-	'CANNOT_DELETE_FILES'	=> 'Nie można usunąć plików w systemie',
-	'CANNOT_DUMP_FILE'		=> 'Nie można zrzucić pliku',
-	'CANNOT_MIRROR_DIRECTORY'	=> 'Nie można skopiować folderu',
-	'CANNOT_RENAME_FILE'	=> 'Nie można zmienić nazwy pliku w systemie',
-	'CANNOT_TOUCH_FILES'	=> 'Nie można stwierdzić czy plik istnieje w systemie',
 
 	'CONTAINER_EXCEPTION' => 'phpBB encountered an error building the container due to an installed extension. For this reason, all extensions have been temporarily disabled. Please try purging your forum cache. All extensions will automatically be re-enabled once the container error is resolved. If this error continues, please visit <a href="https://www.phpbb.com/support">phpBB.com</a> for support.',
 	'EXCEPTION' => 'Wyjątek',

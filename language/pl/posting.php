@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.0-b1 - 30.10.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -278,7 +278,6 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'Temat został przesunięty w górę.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Nie można używać następujących kodów: %s.',
-	'UNGLOBALISE_EXPLAIN'		=> 'Aby zmienić status tematu z globalnego na zwykły, należy wybrać forum, na którym ma on zostać wyświetlony.',
 	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Wiadomość zawiera następujące nieobsługiwane znaki:<br />%s',
 	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Temat zawiera następujące nieobsługiwane znaki:<br />%s',
 	'UPDATE_COMMENT'			=> 'Zaktualizuj komentarz',

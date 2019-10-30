@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-28 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.0-b1 - 30.10.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'MIGRATION_DATA_IN_PROGRESS'		=> 'Instalowanie danych: %1$s; Czas: %2$.2f s',
 	'MIGRATION_DATA_RUNNING'			=> 'Instalowanie danych: %s.',
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migracja została już dokonana (pominięta): %s',
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Nie udało się poprawnie wykonać zadania i informacje dotyczące tego błędu zostały zapisane. Zmiany wykonane przed wystąpieniem błędu zostały anulowane, ale należy sprawdzić czy na witrynie nie ma błędów.',
+	'MIGRATION_EXCEPTION_ERROR'			=> 'Nie udało się poprawnie wykonać zadania i informacje dotyczące tego błędu zostały zapisane. Zmiany wykonane przed wystąpieniem błędu zostały anulowane, ale należy sprawdzić czy na witrynie nie ma błędów:<br><br>%s',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'Migracja „%1$s” jest niezadowalająca, brakuje „%2$s”.',
 	'MIGRATION_NOT_INSTALLED'			=> 'Migracja „%s” jest niezainstalowana.',
 	'MIGRATION_NOT_VALID'				=> 'Migracja %s nie jest prawidłową migracją.',

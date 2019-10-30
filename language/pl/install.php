@@ -10,7 +10,7 @@
  * the docs/CREDITS.txt file.
  *
  * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
- * @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpbb 3.3.0-b1 - 30.10.2019, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 
 	<p>phpBB3 współdziała z następującymi typami baz danych:</p>
 	<ul>
-		<li>MySQL w wersji 3.23 lub nowszej (MySQLi wspierane)</li>
+		<li>MySQL w wersji 4.1.3 lub nowszej (MySQLi wspierane)</li>
 		<li>PostgreSQL w wersji 8.3 lub nowszej</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server w wersji wyższej lub równej 2000 (bezpośrednio lub przez ODBC)</li>
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'Wersja PHP',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB wymaga wersji PHP 5.4.0 lub wyższej.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB wymaga wersji PHP 7.1.0 lub wyższej.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Funkcja PHP getimagesize() jest dostępna',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Wymagane</strong> – Aby phpBB działało prawidłowo, funkcja „getimagesize” musi być dostępna.',
 	'PCRE_UTF_SUPPORT'					=> 'Obsługa UTF-8 przez PCRE',
@@ -188,7 +188,6 @@ $lang = array_merge($lang, array(
 	// Database options
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi Extension',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
@@ -567,7 +566,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Konwersja zakończona',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Witryna została skonwertowana na phpBB 3.2. Możesz teraz zalogować się i <a href="../">wejść na swoją witrynę</a>. Zanim odblokujesz swoją witrynę, usuwając katalog „install/” sprawdź, czy ustawienia zostały skonwertowane prawidłowo. Pomoc możesz uzyskać na stronie internetowej phpBB3, zapoznając się z <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">dokumentacją</a> oraz na forum <a href="https://www.phpbb.com/community/viewforum.php?f=466">pomocy</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Witryna została skonwertowana na phpBB 3.3. Możesz teraz zalogować się i <a href="../">wejść na swoją witrynę</a>. Zanim odblokujesz swoją witrynę, usuwając katalog „install/” sprawdź, czy ustawienia zostały skonwertowane prawidłowo. Pomoc możesz uzyskać na stronie internetowej phpBB3, zapoznając się z <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">dokumentacją</a> oraz na forum <a href="https://www.phpbb.com/community/viewforum.php?f=466">pomocy</a>.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Na starej witrynie jest włączona funkcja wysyłania załączników przez FTP. Wyłącz ją i sprawdź, czy jest podany właściwy katalog docelowy, a następnie skopiuj wszystkie załączniki do nowego, dostępnego przez Internet katalogu. Po wykonaniu tych operacji ponownie uruchom proces konwersji.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Nie ma dostępnych informacji konfiguracyjnych dla konwersji.',
