@@ -417,10 +417,10 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'		=> 'Nie obserwujesz żadnego tematu ani forum.',
 	'NO_WATCHED_TOPICS'			=> 'Nie obserwujesz żadnego tematu.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Hasło musi składać się z minimum %1$s znaków i zawierać litery różnej wielkości i cyfry.',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Hasło musi składać się z minimum %1$s znaków i zawierać różnej wielkości litery oraz cyfry.',
 	'PASS_TYPE_ANY_EXPLAIN'		=> 'Hasło musi składać się z minimum %1$s znaków.',
-	'PASS_TYPE_CASE_EXPLAIN'	=> 'Hasło musi składać się z minimum %1$s znaków i zawierać litery różnej wielkości.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Hasło musi składać się z minimum %1$s znaków i zawierać litery różnej wielkości, cyfry i znaki specjalne.',
+	'PASS_TYPE_CASE_EXPLAIN'	=> 'Hasło musi składać się z minimum %1$s znaków i zawierać różnej wielkości litery .',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Hasło musi składać się z minimum %1$s znaków i zawierać różnej wielkości litery, cyfry oraz znaki specjalne.',
 	'PASSWORD'					=> 'Hasło',
 	'PASSWORD_ACTIVATED'		=> 'Nowe hasło zostało aktywowane.',
 	'PASSWORD_RESET'			=> 'Hasło zostało pomyślnie zresetowane.',
