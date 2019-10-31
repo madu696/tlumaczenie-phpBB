@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.0-b1 - 30.10.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE'				=> 'Twoje konto zostało aktywowane. Dziękujemy za zarejestrowanie.',
 	'ACCOUNT_ACTIVE_ADMIN'			=> 'Konto zostało aktywowane.',
 	'ACCOUNT_ACTIVE_PROFILE'		=> 'Twoje konto zostało ponownie aktywowane.',
-	'ACCOUNT_ADDED'					=> 'Dziękujemy za zarejestrowanie. Twoje konto zostało utworzone. Teraz możesz zalogować się, używając swojej nazwy użytkownika i hasła.',
+	'ACCOUNT_ADDED'					=> 'Dziękujemy za zarejestrowanie. Twoje konto zostało utworzone.',
 	'ACCOUNT_COPPA'					=> 'Twoje konto zostało utworzone, ale musi zostać zatwierdzone. Więcej informacji znajdziesz w wysłanej do ciebie wiadomości e-mail.',
 	'ACCOUNT_EMAIL_CHANGED'			=> 'Twoje konto zostało zaktualizowane. Ta witryna jednak przy zmianie adresu e-mail wymaga ponownej aktywacji kont poprzez podanie klucza aktywującego. Klucz ten otrzymasz w specjalnej wiadomości na nowy adres e-mail. W niej też znajdziesz dalsze instrukcje.',
 	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'Twoje konto zostało zaktualizowane. Ta witryna przy zmianie adresu e-mail wymaga ponownej aktywacji kont przez administratora. Została już do niego wysłana informacja w tej sprawie. Gdy twoje konto zostanie ponownie aktywowane, otrzymasz stosowne powiadomienie.',
@@ -409,6 +409,7 @@ $lang = array_merge($lang, array(
 	'NO_OLDER_PM'				=> 'Nie ma starszych wiadomości.',
 	'NO_PASSWORD_SUPPLIED'		=> 'Nie można zalogować się bez podania hasła.',
 	'NO_RECIPIENT'				=> 'Nie określono odbiorcy.',
+	'NO_RESET_TOKEN'			=> 'Nie podano tokena do resetowania hasła.',
 	'NO_RULES_DEFINED'			=> 'Nie zdefiniowano żadnej reguły',
 	'NO_SAVED_DRAFTS'			=> 'Nie masz zapisanych kopii roboczych.',
 	'NO_TO_RECIPIENT'			=> 'Brak',
@@ -416,13 +417,14 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'		=> 'Nie obserwujesz żadnego tematu ani forum.',
 	'NO_WATCHED_TOPICS'			=> 'Nie obserwujesz żadnego tematu.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s znaków i składać się z liter różnej wielkości i cyfr.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> 'Hasło musi mieć długość od %1$s do %2$s znaków.',
-	'PASS_TYPE_CASE_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s znaków i składać się z liter różnej wielkości.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Hasło musi mieć długość od %1$s do %2$s znaków i składać się z liter różnej wielkości, cyfr i symboli.',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Hasło musi składać się z minimum %1$s znaków i zawierać litery różnej wielkości i cyfry.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> 'Hasło musi składać się z minimum %1$s znaków.',
+	'PASS_TYPE_CASE_EXPLAIN'	=> 'Hasło musi składać się z minimum %1$s znaków i zawierać litery różnej wielkości.',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Hasło musi składać się z minimum %1$s znaków i zawierać litery różnej wielkości, cyfry i znaki specjalne.',
 	'PASSWORD'					=> 'Hasło',
 	'PASSWORD_ACTIVATED'		=> 'Nowe hasło zostało aktywowane.',
-	'PASSWORD_UPDATED_IF_EXISTED'	=> 'Jeśli twoje konto istnieje, to nowe hasło zostało wysłane na podany podczas rejestracji adres e-mail. Skontaktuj się z administratorem forum w przypadku nieotrzymania wiadomości. Może to być spowodowane zbanowanym lub niekatywnym kontem, a także ze względu na brak uprawnień do zmiany hasła. Należy również sprawdzić folder Spam na skrzynce pocztowej.',
+	'PASSWORD_RESET'			=> 'Hasło zostało pomyślnie zresetowane.',
+	'PASSWORD_RESET_LINK_SENT'	=> 'Jeśli twoje konto istnieje, link do zresetowania hasła został wysłany na podany podczas rejestracji adres e-mail. Skontaktuj się z administratorem witryny w przypadku nieotrzymania wiadomości. Może to być spowodowane zbanowanym lub nieaktywnym kontem, wielokrotnym resetowaniem hasła w krótkim przedziale czasu, a także ze względu na brak uprawnień do zmiany hasła. Należy również sprawdzić folder Spam na skrzynce pocztowej.',
 	'PERMISSIONS_RESTORED'		=> 'Przywrócono pierwotne uprawnienia.',
 	'PERMISSIONS_TRANSFERRED'	=> 'Skopiowano uprawnienia od użytkownika <strong>%s</strong>. Możesz teraz przeglądać witrynę z jego uprawnieniami.<br />Uprawnienia administratora nie zostały skopiowane. W każdej chwili możesz wrócić do swojego zestawu uprawnień.',
 	'PM_DISABLED'				=> 'Na tej witrynie prywatne wiadomości są zablokowane.',
@@ -457,6 +459,7 @@ $lang = array_merge($lang, array(
 	'RECIPIENT'							=> 'Odbiorca',
 	'RECIPIENTS'						=> 'Odbiorcy',
 	'REGISTRATION'						=> 'Rejestracja',
+	'OAUTH_REGISTRATION'				=> 'Rejestracja za pomocą zewnętrznych serwisów',
 	'RELEASE_MESSAGES'					=> 'Funkcja %sUwolnij wszystkie wstrzymane wiadomości…%s spowoduje umieszczenie tych wiadomości w odpowiednich folderach, jeśli zwolniono w nich wystarczającą ilość miejsca.',
 	'REMOVE_ADDRESS'					=> 'Usuń adres',
 	'REMOVE_SELECTED_BOOKMARKS'			=> 'Usuń zaznaczone zakładki',
@@ -469,6 +472,8 @@ $lang = array_merge($lang, array(
 	'REPLIED_MESSAGE'					=> 'Odpowiedziano na wiadomość',
 	'REPLY_TO_ALL'						=> 'Odpowiedz nadawcy i wszystkim odbiorcom.',
 	'REPORT_PM'							=> 'Zgłoś tę wiadomość',
+	'RESET_PASSWORD'					=> 'Zresetuj hasło',
+	'RESET_TOKEN_EXPIRED_OR_INVALID'	=> 'Dostarczony token resetowania hasła jest niepoprawny lub wygasł.',
 	'RESIGN_SELECTED'					=> 'Wycofaj zaznaczone',
 	'RETURN_FOLDER'						=> '%1$sWróć do poprzedniego folderu%2$s',
 	'RETURN_UCP'						=> '%sWróć do panelu zarządzania kontem%s',
@@ -485,7 +490,6 @@ $lang = array_merge($lang, array(
 
 	'SAME_PASSWORD_ERROR'		=> 'Wprowadzone nowe hasło jest takie samo, jak aktualne.',
 	'SEARCH_YOUR_POSTS'			=> 'Wyświetl moje posty',
-	'SEND_PASSWORD'				=> 'Wyślij hasło',
 	'SENT_AT'					=> 'Wysłano',			// Used before dates in private messages
 	'SHOW_EMAIL'				=> 'Użytkownicy mogą kontaktować się ze mną za pomocą e-maili',
 	'SIGNATURE_EXPLAIN'			=> 'Zawartość poniższego okna będzie dołączana jako twój podpis do napisanych przez ciebie postów/wiadomości. Maksymalna dozwolona liczba znaków: %d.',
@@ -569,7 +573,6 @@ $lang = array_merge($lang, array(
 
 	'UCP_PASSWORD_RESET_DISABLED'	=> 'Funkcja resetowania hasła została wyłączona. Jeśli potrzebujesz pomocy w sprawie dostępu do konta, skontaktuj się  z %sadministratorem witryny%s',
 	'UCP_REGISTER_DISABLE'			=> 'Utworzenie nowego konta jest aktualnie niemożliwe.',
-	'UCP_REMIND'					=> 'Wyślij hasło',
 	'UCP_RESEND'					=> 'Wyślij e-mail aktywacyjny',
 	'UCP_WELCOME'					=> 'Witamy w panelu zarządzania kontem. Z tego miejsca możesz monitorować, przeglądać, edytować swój profil, ustawienia, obserwowane fora i tematy. Możesz także, jeśli administracja forum na to pozwala, wysyłać wiadomości do innych użytkowników. Przed wykonaniem dalszych czynności zapoznaj się ze wszystkimi informacjami i ogłoszeniami.',
 	'UCP_ZEBRA'						=> 'Przyjaciele i wrogowie',

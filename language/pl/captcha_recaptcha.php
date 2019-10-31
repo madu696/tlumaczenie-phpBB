@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.0-b1 - 30.10.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -44,10 +44,10 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_INCORRECT'			=> 'Rozwiąż zabezpieczenie reCAPTCHA.',
 	'RECAPTCHA_NOSCRIPT'			=> 'Włącz obsługę JavaScript w przeglądarce, aby korzystać z reCAPTCHA.',
 
-	'RECAPTCHA_PUBLIC'				=> 'Klucz publiczny reCAPTCHA',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Twój klucz publiczny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Klucz prywatny reCAPTCHA',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Twój klucz prywatny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'Klucz witryny',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Twój klucz witryny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
+	'RECAPTCHA_PRIVATE'				=> 'Prywatny klucz',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Twój klucz prywatny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Rozwiąż zabezpieczenie reCAPTCHA.',
+	'RECAPTCHA_INVISIBLE'			=> 'reCAPTCHA działa w trybie niewidzianym. W prawym dolnym rogu tej strony powinna pojawić się mała ikona, jeśli funkcjonuje poprawnie.',
 ));
