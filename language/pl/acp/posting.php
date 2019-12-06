@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.0-b2 - 06.12.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -57,7 +57,6 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'Wybrana nazwa znacznika już istnieje.',
 	'BBCODE_INVALID'			=> 'Ten znacznik ma nieprawidłową formę.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Znacznik musi zawierać znak otwarcia i zamknięcia.',
 	'BBCODE_TAG'				=> 'Znacznik',
 	'BBCODE_TAG_TOO_LONG'		=> 'Nazwa znacznika jest za długa.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Wprowadzona definicja znacznika jest za długa. Proszę skrócić definicję.',
@@ -79,13 +78,13 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Nie można utworzyć więcej znaczników. Usuń jakiś znacznik i spróbuj ponownie.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Dowolny tekst, włącznie z obcymi literami, cyframi itp. Nie powinno się używać tego tokena w znacznikach HTML. Zamiast tego można użyć IDENTIFIER, INTTEXT lub SIMPLETEXT.',
+		'TEXT'			=> 'Dowolny tekst, włącznie z obcymi literami, cyframi itp.',
 		'SIMPLETEXT'	=> 'Litery alfabetu łacińskiego (A–Z), cyfry, spacje, przecinki, kropki, minus, plus, myślnik i znak podkreślenia',
 		'INTTEXT'		=> 'Litery Unicode, cyfry, spacje, przecinki, kropki, minus, plus, myślnik i znak podkreślenia oraz białe spacje.',
 		'IDENTIFIER'	=> 'Litery alfabetu łacińskiego (A–Z), cyfry, myślnik i znak podkreślenia',
 		'NUMBER'		=> 'Dowolne serie cyfr',
 		'EMAIL'			=> 'Aktywny adres e-mail',
-		'URL'			=> 'Aktywny adres URL używający dowolnego protokołu – http, ftp, itp. nie może być użyty do eksploitów. Jeśli nie wybrano protokołu, do ciągu znaków będzie dodawany prefiks „http://”.',
+		'URL'			=> 'Aktywny adres URL używający dowolnego dozwolonego protokołu – http, ftp, itp. nie może być użyty do eksploitów. Jeśli nie wybrano protokołu, do ciągu znaków będzie dodawany prefiks „http://”.',
 		'LOCAL_URL'		=> 'Lokalny adres URL. Adres musi być powiązany ze stroną tematów i nie może zawierać nazwy serwera czy protokołu jak odnośniki z prefiksem „%s”.',
 		'RELATIVE_URL'	=> 'Względny adres URL. Można to wykorzystać w celu dopasowania części adresu URL, ale należy zachować ostrożność i sprawdzić, czy pełny adres URL odpowiada względnemu URL. Jeśli chcesz używać względnych adresów URL swojej witryny, użyj tokena LOCAL_URL.',
 		'COLOR'			=> 'Kolor HTML może być wyrażony w formie numerycznej <samp>#FF1234</samp> lub jako słowa kluczowe kolorów określone w specyfikacji <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS</a>, takie jak <samp>fuchsia</samp> lub <samp>InactiveBorder</samp>,'

@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.0-b2 - 06.12.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -130,6 +130,8 @@ $lang = array_merge($lang, array(
 	'GENERAL_FORUM_SETTINGS'	=> 'Ogólne ustawienia forum',
 
 	'LINK'						=> 'Odnośnik',
+	'LIMIT_SUBFORUMS'			=> 'Ogranicz liczbę wyświetlanych subforów w opisie.',
+	'LIMIT_SUBFORUMS_EXPLAIN'	=> 'Włączenie tej funkcji spowoduje ograniczenie wyświetlonych nazw subforów w opisie wyłącznie do subforów, które są bezpośrednimi potomkami (dziećmi) bieżącego forum. Wyłączenie tej funkcji wyświetli wszystkie subfora zgodnie z opcją „Wyświetlaj subfora w opisie”.',
 	'LIST_INDEX'				=> 'Wyświetlaj subforum w opisie macierzystego forum',
 	'LIST_INDEX_EXPLAIN'		=> 'Włączenie tej funkcji spowoduje wyświetlanie nazwy tego subforum jako odnośnika w opisie macierzystego forum na stronach wykazu forów, forów i w innych miejscach. Aby nazwa tego subforum była wyświetlana, musi być także włączona funkcja „Wyświetlaj subfora w opisie”.',
 	'LIST_SUBFORUMS'			=> 'Wyświetlaj subfora w opisie',

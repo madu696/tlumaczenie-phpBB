@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0-b1 - 30.10.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.0-b2 - 30.10.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -95,6 +95,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_ERROR_ALREADY_LINKED'				=> 'Wybrana zewnętrzna usługa została już połączona z innym użytkownikiem witryny.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Nieprawidłowy wpis bazy danych.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'Do obsługi usługi OAuth dostarczono nieprawidłowy typ usługi.',
+	'AUTH_PROVIDER_OAUTH_ERROR_REQUEST'						=> 'Podczas przetwarzania żądania OAuth wystąpił błąd.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'Nie utworzono usługi OAuth',
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
@@ -628,6 +629,7 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC'			=> 'Nowy temat',
 	'POST_UNAPPROVED_ACTION'	=> 'Post oczekujący na akceptację:',
 	'POST_UNAPPROVED'		=> 'Ten post nie został zaakceptowany.',
+	'POST_UNAPPROVED_EXPLAIN'	=> 'Ten post nie jest widoczny dla innych użytkowników, do czasu aż zostanie zaakceptowany przez moderatora.',
 	'POWERED_BY'			=> 'Technologię dostarcza %s',
 	'PREVIEW'				=> 'Podgląd',
 	'PREVIOUS'				=> 'Poprzednia',

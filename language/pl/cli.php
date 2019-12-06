@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.0-b2 - 30.10.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 if (!defined('IN_PHPBB'))
@@ -79,8 +79,6 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Przybliżona liczba rekordów do przetworzenia.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Rozpocznij reparsowanie od momentu ostatniego zatrzymania.',
 	
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Przelicza kolumnę user_email_hash w tabeli użytkowników.',
-	
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Ustawia wartość opcji konfiguracyjnej tylko, jeśli stara wartość pasuje do nowej wartości',
 	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Ustawia wartość opcji konfiguracyjnej',
 	
@@ -131,7 +129,6 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Włączone',
 
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Pomyślnie zakończono naprawę struktury for i modułów.',
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Przeliczono wszystkie numery wiadomości e-mail.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Pomyślnie zaktualizowano hash wygasłych haseł przez bcrypt.',
 	
 	'CLI_MIGRATION_NAME'					=> 'Nazwa migracji wraz z przestrzenią nazw (aby uniknąć błędów, użyj slasha zamiast backslash).',

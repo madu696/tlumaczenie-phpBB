@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0-b1 - 30.10.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.0-b2 - 06.12.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -53,6 +53,8 @@ $lang = array_merge($lang, array(
 	'DISABLE_BOARD_EXPLAIN'			=> 'Wybranie <samp>Tak</samp> spowoduje, że witryna, z wyjątkiem administratorów i moderatorów, będzie niedostępna dla użytkowników. Do pola obok można wprowadzić krótką (255 znaków) wiadomość informującą użytkowników o powodzie zamknięcia witryny.',
 	'DISPLAY_LAST_SUBJECT'			=> 'Wyświetlaj na stronie forum temat ostatnio dodanego posta',
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'Temat ostatnio dodanego posta będzie wyświetlany na stronie forum jako odnośnik do posta. Tematy z forów zabezpieczonych hasłem i forów, na których użytkownik nie ma prawa do odczytu nie będą wyświetlane.',
+	'DISPLAY_UNAPPROVED_POSTS'		=> 'Wyświetl niezatwierdzony posty autorowi.',
+	'DISPLAY_UNAPPROVED_POSTS_EXPLAIN'	=> 'Niezatwierdzone posty są widoczne dla ich autorów. Nie dotyczy postów Gości.',
 	'GUEST_STYLE'					=> 'Styl gościa',
 	'GUEST_STYLE_EXPLAIN'			=> 'Styl witryny dla gości.',
 	'OVERRIDE_STYLE'				=> 'Zastąp styl użytkownika',
