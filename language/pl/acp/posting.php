@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0-b2 - 06.12.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.0-RC1 - 23.12.2019, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode jest specjalną implementacją języka HTML oferującą ogromne możliwości kontroli tego, co i jak jest wyświetlane. Tutaj można dodawać, usuwać i zmieniać własne znaczniki BBCode.',
 	'ADD_BBCODE'				=> 'Dodaj nowy znacznik',
 
-	'BBCODE_DANGER'				=> 'Wygląda na to, że znacznik BBCode, który próbujesz dodać, używa tokena {TEXT} wewnątrz atrybutu HTML. Może to stwarzać zagrożenie bezpieczeństwa, umożliwiając atak typu XSS. Spróbuj użyć bardziej restrykcyjnego tokena {SIMPLETEXT} lub {INTTEXT}. Token {TEXT} użyj tylko wtedy, gdy zdajesz sobie sprawę z zagrożenia, jakie jest z tym związane i jest to absolutnie konieczne.',
+	'BBCODE_DANGER'				=> 'Wygląda na to, że znacznik BBCode, który próbujesz dodać, jest niebezpieczny. Spróbuj użyć bardziej restrykcyjnego typu tokena zamiast {TEXT}. Kontynuuj, jeśli zdajesz sobie sprawę z zagrożenia, jakie jest z tym związane i jest to absolutnie konieczne.',
 	'BBCODE_DANGER_PROCEED'		=> 'Kontynuuj',
 
 	'BBCODE_ADDED'				=> 'Znacznik został dodany.',
@@ -57,6 +57,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'Wybrana nazwa znacznika już istnieje.',
 	'BBCODE_INVALID'			=> 'Ten znacznik ma nieprawidłową formę.',
+	'BBCODE_INVALID_TEMPLATE'	=> 'Szablon znacznika jest nieprawidłowy.',
 	'BBCODE_TAG'				=> 'Znacznik',
 	'BBCODE_TAG_TOO_LONG'		=> 'Nazwa znacznika jest za długa.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Wprowadzona definicja znacznika jest za długa. Proszę skrócić definicję.',
