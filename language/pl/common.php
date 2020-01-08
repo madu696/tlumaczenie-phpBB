@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0-b2 - 30.10.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.0 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -272,15 +272,15 @@ $lang = array_merge($lang, array(
 	'FSOCK_DISABLED'		=> 'Operacja nie mogła zostać zakończona, ponieważ funkcja <var>fsockopen</var> została wyłączona albo nie znaleziono szukanego serwera.',
 	'FSOCK_TIMEOUT'			=> 'Przekroczono limit czasu.',
 		
-	'CANNOT_CHANGE_FILE_GROUP'	=> 'Nie można zmienić pliku grupy',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Nie można zmienić uprawnień pliku',
-	'CANNOT_COPY_FILES'		=> 'Nie można skopiować plików',
-	'CANNOT_CREATE_SYMLINK'	=> 'Nie można utworzyć symlinku',
-	'CANNOT_DELETE_FILES'	=> 'Nie można usunąć plików w systemie',
-	'CANNOT_DUMP_FILE'		=> 'Nie można zrzucić pliku',
-	'CANNOT_MIRROR_DIRECTORY'	=> 'Nie można skopiować folderu',
-	'CANNOT_RENAME_FILE'	=> 'Nie można zmienić nazwy pliku w systemie',
-	'CANNOT_TOUCH_FILES'	=> 'Nie można stwierdzić czy plik istnieje w systemie',	
+	'FILESYSTEM_CANNOT_CHANGE_FILE_GROUP'	=> 'Nie można zmienić pliku grupy',
+	'FILESYSTEM_CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Nie można zmienić uprawnień pliku',
+	'FILESYSTEM_CANNOT_COPY_FILES'		=> 'Nie można skopiować plików',
+	'FILESYSTEM_CANNOT_CREATE_SYMLINK'	=> 'Nie można utworzyć symlinku',
+	'FILESYSTEM_CANNOT_DELETE_FILES'	=> 'Nie można usunąć plików w systemie',
+	'FILESYSTEM_CANNOT_DUMP_FILE'		=> 'Nie można zrzucić do pliku',
+	'FILESYSTEM_CANNOT_MIRROR_DIRECTORY'	=> 'Nie można skopiować folderu',
+	'FILESYSTEM_CANNOT_RENAME_FILE'	=> 'Nie można zmienić nazwy pliku w systemie',
+	'FILESYSTEM_CANNOT_TOUCH_FILES'	=> 'Nie można stworzyć pliku lub zmienić znacznik czasu',	
 
 	'FTP_FSOCK_HOST'				=> 'Serwer FTP',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'Serwer FTP używany do łączenia się z twoją witryną.',
