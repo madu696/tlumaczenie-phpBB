@@ -364,7 +364,8 @@ $lang = array_merge($lang, array(
 			<li><strong class="error">Zrób kopię bazy danych oraz wszystkich plików forum.</strong></li>
 			<li>Przejdź do <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">strony pobierania</a> i pobierz archiwum zawierające pełen pakiet aktualizacyjny („Full Package”).</li>
 			<li>Rozpakuj archiwum.</li>
-			<li>Usuń plik <code class="inline">config.php</code> oraz katalogi <code class="inline">/images</code>, <code class="inline">/store</code> i <code class="inline">/files</code> z <em>wypakowanego archiwum na dysku</em> (Nie usuwaj tych plików z serwera!).</li>li>Zaloguj się do Panelu administratora > Ustawienia witryny i ustaw Prosilver jako domyślny styl forum.</li>
+			<li>Usuń plik <code class="inline">config.php</code> oraz katalogi <code class="inline">/images</code>, <code class="inline">/store</code> i <code class="inline">/files</code> z <em>wypakowanego archiwum na dysku</em> (Nie usuwaj tych plików z serwera!).</li>
+			<li>Zaloguj się do Panelu administratora > Ustawienia witryny i ustaw Prosilver jako domyślny styl forum.</li>
 			<li>Usuń katalogi <code class="inline">/vendor</code> oraz <code class="inline">/cache</code> z serwera, gdzie zainstalowany jest phpBB.</li>
 			<li>Poprzez klienta FTP lub SSH wgraj pozostałe pliki z wypakowanego archiwum do głównego katalogu forum na serwerze. Nadpisz pliki. (UWAGA: Upewnij się, aby nie skasować żadnych plików z katalogu <code class="inline">/ext</code> podczas wgrywania nowych plików.)</li>
 			<li><strong><a href="%1$s" title="%1$s">Rozpocznij instalację, wprowadzając w pasku adresu swojej przeglądarki ścieżkę do katalogu „install” lub kliknij ten odnośnik</a>.</strong></li>
