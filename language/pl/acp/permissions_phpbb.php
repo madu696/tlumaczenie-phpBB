@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.9 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -80,6 +80,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_SAVEDRAFTS'	=> 'Zapisywanie kopii roboczych',
 	'ACL_U_CHGCENSORS'	=> 'Wyłączanie cenzury słów',
 	'ACL_U_SIG'			=> 'Używanie podpisu',
+	'ACL_U_EMOJI'		=> 'Używanie emotek w postach i tytule tematów',
 
 	'ACL_U_SENDPM'		=> 'Wysyłanie prywatnych wiadomości',
 	'ACL_U_MASSPM'		=> 'Wysyłanie prywatnych wiadomości do wielu użytkowników jednocześnie',

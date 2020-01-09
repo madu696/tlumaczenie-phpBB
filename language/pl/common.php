@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.8 - 22.09.2019, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.9 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -528,7 +528,7 @@ $lang = array_merge($lang, array(
 	'NO_POSTS_TIME_FRAME'		=> 'W tym temacie, w wybranym przedziale czasowym, nie ma żadnego posta.',
 	'NO_FEED_ENABLED'			=> 'Kanały nie są dostępne na tej witrynie.',
 	'NO_FEED'					=> 'Żądany kanał jest niedostępny.',
-	'NO_STYLE_DATA'				=> 'Nie udało się uzyskać danych stylu',
+	'NO_STYLE_DATA'				=> 'Nie udało się uzyskać danych stylu %s dla użytkownika o ID = %s',
 	'NO_STYLE_CFG'				=> 'Nie udało się uzyskać pliku konfiguracyjnego dla stylu: %s',
 	'NO_SUBJECT'				=> 'Nie podano tytułu.',
 	'NO_SUCH_SEARCH_MODULE'		=> 'Wybrany moduł wyszukiwania nie istnieje.',
