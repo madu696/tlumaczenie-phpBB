@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.9 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.10-RC2 - 16.06.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 if (!defined('IN_PHPBB'))
@@ -36,6 +36,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'CLI_APCU_CACHE_NOTICE'				=> 'Pamięć podręczną APC należy wyczyścić z poziomu Panelu Administracyjnego.',
+
 	'CLI_CONFIG_CANNOT_CACHED'			=> 'Ustaw tę opcję, jeśli opcja konfiguracji zmienia się zbyt często, aby być skutecznie buforowana.',
 	'CLI_CONFIG_CURRENT'				=> 'Bieżąca wartość konfiguracyjna. Użyj 0 i 1, aby określić wartości logiczne.',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Usunięto konfigurację %s.',

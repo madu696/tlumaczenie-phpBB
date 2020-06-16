@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.9 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.10-RC2 - 16.06.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -49,8 +49,6 @@ $lang = array_merge($lang, array(
 	'BOOKMARK_TOPIC_REMOVE'	=> 'Usuń zakładkę',
 	'BUMPED_BY'				=> 'Ostatnio przesunięty w górę %2$s przez: %1$s.',
 	'BUMP_TOPIC'			=> 'Przesuń temat w górę',
-
-	'CODE'					=> 'Kod',
 
 	'DELETE_TOPIC'			=> 'Usuń temat',
 	'DELETED_INFORMATION'	=> 'Usunięty %2$s przez %1$s',
@@ -101,7 +99,6 @@ $lang = array_merge($lang, array(
 
 	'QUICK_MOD'				=> 'Moderowanie',
 	'QUICKREPLY'			=> 'Szybka odpowiedź',
-	'QUOTE'					=> 'Cytuj',
 
 	'REPLY_TO_TOPIC'		=> 'Odpowiedz w temacie',
 	'RESTORE'				=> 'Przywróć',

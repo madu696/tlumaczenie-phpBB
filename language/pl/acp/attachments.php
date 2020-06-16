@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.9 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.10-RC2 - 16.06.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -111,7 +111,11 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME'			=> 'Nazwa grupy',
 
 	'IMAGE_LINK_SIZE'			=> 'Rozmiar obrazka, a odnośnik',
-	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Jeśli załączany obrazek ma rozmiar większy niż określone tutaj wartości, zamiast niego zostanie wyświetlony odnośnik tekstowy. Aby takie zachowanie wyłączyć, należy ustawić te wartości na 0 x 0 px.',
+	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Jeśli załączany obrazek ma rozmiar większy niż określone tutaj wartości, zamiast niego zostanie wyświetlony odnośnik tekstowy. Aby takie zachowanie wyłączyć, należy ustawić te wartości na 0 x 0px.',
+	'IMAGE_QUALITY'				=> 'Jakość wgranego obrazu (tylko JPEG)',
+	'IMAGE_QUALITY_EXPLAIN'		=> 'Należy podać wartość pomiędzy 50% (mniejszy rozmiar) a 90% (lepsza jakość). Wartość powyżej 90% zwieksza rozmiar pliku i jest wyłączona. Ustawienia zostaną zastosowane, jeśli wymiaru obrazu są inne niż 0 x 0px.',
+	'IMAGE_STRIP_METADATA'		=> 'Usuń metadane obrazu (tylko JPEG)',
+	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Zostaną usunięte metadane EXIF załącznika np., detale aparatu, nazwa autora, lokalizacja GPS. Ustawienia zostaną zastosowane, jeśli wymiaru obrazu są inne niż 0 x 0px.',
 
 	'MAX_ATTACHMENTS'				=> 'Maksymalna liczba załączników w poście',
 	'MAX_ATTACHMENTS_PM'			=> 'Maksymalna liczba załączników w prywatnej wiadomości',
@@ -130,8 +134,10 @@ $lang = array_merge($lang, array(
 	'NOT_ASSIGNED'				=> 'Nieokreślone',
 	'NO_ATTACHMENTS'			=> 'W tym przedziale czasowym nie znaleziono załączników.',
 	'NO_EXT_GROUP'				=> 'Brak',
+	'NO_EXT_GROUP_ALLOWED_PM'	=> 'Brak dozwolonych <a href="%s">grup rozszerzeń dla prywatnych wiadomości.</a>',
+	'NO_EXT_GROUP_ALLOWED_POST'	=> 'Brak dozwolonych <a href="%s">grup rozszerzeń dla postów.</a>',
 	'NO_EXT_GROUP_NAME'			=> 'Nie wprowadzono nazwy grupy',
-	'NO_EXT_GROUP_SPECIFIED'	=> 'Nie określono grupy.',
+	'NO_EXT_GROUP_SPECIFIED'	=> 'Nie określono grupy rozszerzeń.',
 	'NO_FILE_CAT'				=> 'Brak',
 	'NO_IMAGE'					=> 'Brak obrazka',
 	'NO_UPLOAD_DIR'				=> 'Wybrany katalog nie istnieje.',
