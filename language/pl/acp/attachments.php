@@ -111,11 +111,11 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME'			=> 'Nazwa grupy',
 
 	'IMAGE_LINK_SIZE'			=> 'Rozmiar obrazka, a odnośnik',
-	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Jeśli załączany obrazek ma rozmiar większy niż określone tutaj wartości, zamiast niego zostanie wyświetlony odnośnik tekstowy. Aby takie zachowanie wyłączyć, należy ustawić te wartości na 0 x 0px.',
+	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Jeśli załączony obrazek ma rozmiar większy niż określone tutaj wartości, zamiast niego zostanie wyświetlony odnośnik tekstowy. Aby takie zachowanie wyłączyć, należy ustawić te wartości na 0 x 0px.',
 	'IMAGE_QUALITY'				=> 'Jakość wgranego obrazu (tylko JPEG)',
-	'IMAGE_QUALITY_EXPLAIN'		=> 'Należy podać wartość pomiędzy 50% (mniejszy rozmiar) a 90% (lepsza jakość). Wartość powyżej 90% zwieksza rozmiar pliku i jest wyłączona. Ustawienia zostaną zastosowane, jeśli wymiaru obrazu są inne niż 0 x 0px.',
+	'IMAGE_QUALITY_EXPLAIN'		=> 'Należy podać wartość pomiędzy 50% (mniejszy rozmiar) a 90% (lepsza jakość). Wartość powyżej 90% zwieksza rozmiar pliku i jest wyłączona. Ustawienia zostaną zastosowane, jeśli wymiary obrazu są inne niż 0 x 0px.',
 	'IMAGE_STRIP_METADATA'		=> 'Usuń metadane obrazu (tylko JPEG)',
-	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Zostaną usunięte metadane EXIF załącznika np., detale aparatu, nazwa autora, lokalizacja GPS. Ustawienia zostaną zastosowane, jeśli wymiaru obrazu są inne niż 0 x 0px.',
+	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Zostaną usunięte metadane EXIF załącznika np., detale aparatu, nazwa autora, lokalizacja GPS. Ustawienia zostaną zastosowane, jeśli wymiary obrazu są inne niż 0 x 0px.',
 
 	'MAX_ATTACHMENTS'				=> 'Maksymalna liczba załączników w poście',
 	'MAX_ATTACHMENTS_PM'			=> 'Maksymalna liczba załączników w prywatnej wiadomości',
