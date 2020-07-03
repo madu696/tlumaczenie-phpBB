@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.0-RC1 - 04.07.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -180,7 +180,6 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Zdegraduj zaznaczonych',
 	'DISABLE_CENSORS'			=> 'Włącz cenzurę słów',
 	'DISPLAY_GALLERY'			=> 'Pokaż galerię',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Wprowadzona domena e-mail nie jest poprawna.',
 	'DOWNLOADS'					=> 'Pobrany',
 	'DRAFTS_DELETED'			=> 'Wszystkie zaznaczone kopie robocze zostały usunięte.',
 	'DRAFTS_EXPLAIN'			=> 'Tutaj możesz przeglądać, edytować i usuwać zapisane kopie robocze. Aby przeglądać/edytować kopię roboczą, kliknij jeden z odnośników <em><strong>Wczytaj kopię roboczą</strong></em> lub <em><strong>Wyświetl/Edytuj</strong></em>. Jeśli chcesz usunąć kopię roboczą, zaznacz pole wyboru obok kopii, którą chcesz usunąć i naciśnij przycisk <em><strong>Usuń zaznaczone</strong></em>.',

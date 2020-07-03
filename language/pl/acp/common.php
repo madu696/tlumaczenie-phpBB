@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-02-02 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.1-RC1 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -501,13 +501,13 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>Dodano lub zmieniono administratorów</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Dodano lub zmieniono globalnych moderatorów</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Dodano lub zmieniono użytkownikowi uprawnienia dostępu do forów</strong> z %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Dodano lub zmieniono użytkownikowi uprawnienia moderatora forum</strong> z %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Dodano lub zmieniono grupie uprawnienia dostępu do forum</strong> z %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Dodano lub zmieniono grupie uprawnienia moderatora forum</strong> z %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Dodano lub zmieniono użytkownikowi uprawnienia dostępu do forów</strong> na %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Dodano lub zmieniono użytkownikowi uprawnienia moderatora forum</strong> na %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Dodano lub zmieniono grupie uprawnienia dostępu do forum</strong> na %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Dodano lub zmieniono grupie uprawnienia moderatora forum</strong> na %1$s<br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Dodano lub zmieniono moderatorów</strong> z %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Dodano lub zmieniono uprawnienia dostępu do forum</strong> z %1$s<br />» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Dodano lub zmieniono moderatorów</strong> na %1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Dodano lub zmieniono uprawnienia dostępu do forum</strong> na %1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Usunięto administratorów</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Usunięto moderatorów globalnych</strong><br />» %s',

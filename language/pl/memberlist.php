@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.1-RC1 - 04.07.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -153,5 +153,4 @@ $lang = array_merge($lang, array(
 	'VIEW_SKYPE_PROFILE'	=> 'Zobacz profil na Skype',
 	'VIEW_TWITTER_PROFILE'	=> 'Zobacz profil na Twitterze',
 	'VIEW_YOUTUBE_CHANNEL'	=> 'Zobacz kanał YouTube',
-	'VIEW_GOOGLEPLUS_PROFILE' => 'Zobacz profil na Google+',
 ));

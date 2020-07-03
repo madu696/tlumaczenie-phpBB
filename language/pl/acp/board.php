@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.1-RC1 - 04.07.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -250,7 +250,7 @@ $lang = array_merge($lang, array(
 	'MIN_CHARS'					=> 'min',
 	'NO_AUTH_PLUGIN'			=> 'Nie znaleziono odpowiedniej wtyczki uwierzytelniającej.',
 	'PASSWORD_LENGTH'			=> 'Długość hasła',
-	'PASSWORD_LENGTH_EXPLAIN'	=> 'Minimalna i maksymalna liczba znaków w hasłach.',
+	'PASSWORD_LENGTH_EXPLAIN'	=> 'Minimalna liczba znaków w haśle. Maksymalna liczba znaków jest nieograniczona.',
 	'REG_LIMIT'					=> 'Liczba prób rejestracji',
 	'REG_LIMIT_EXPLAIN'			=> 'Liczba prób wprowadzenia kodu potwierdzającego, jakie użytkownik może wykonać, zanim zostanie zablokowany w tej sesji.',
 	'USERNAME_ALPHA_ONLY'		=> 'Tylko litery i cyfry',

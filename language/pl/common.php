@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.1-RC1 - 04.07.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -171,6 +171,7 @@ $lang = array_merge($lang, array(
 	),
 	'COLLAPSE_VIEW'			=> 'Zwiń widok',
 	'CLOSE_WINDOW'			=> 'Zamknij okno',
+	'CODE'					=> 'Kod',
 	'COLOUR_SWATCH'			=> 'Wybierz kolor',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -208,6 +209,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'		=> 'Wyświetl wiadomości nie starsze niż',
 	'DISPLAY_POSTS'			=> 'Wyświetl posty nie starsze niż',
 	'DISPLAY_TOPICS'		=> 'Wyświetl tematy nie starsze niż',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Wprowadzona domena e-mail nie jest poprawna.',
 	'DOWNLOADED'			=> 'Pobrane',
 	'DOWNLOADING_FILE'		=> 'Pobieranie pliku',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -313,7 +315,6 @@ $lang = array_merge($lang, array(
 	'GB'						=> 'GB',
 	'GIB'						=> 'GiB',
 	'GO'						=> 'Wykonaj',
-	'GOOGLEPLUS'				=> 'Google+',
 	'GOTO_FIRST_POST'			=> 'Przejdź do pierwszego posta',
 	'GOTO_LAST_POST'			=> 'Przejdź do ostatniego posta',
 	'GOTO_PAGE'					=> 'Przejdź na stronę',
@@ -632,6 +633,9 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED'		=> 'Ten post nie został zaakceptowany.',
 	'POST_UNAPPROVED_EXPLAIN'	=> 'Ten post nie jest widoczny dla innych użytkowników, do czasu aż zostanie zaakceptowany przez moderatora.',
 	'POWERED_BY'			=> 'Technologię dostarcza %s',
+		
+	'QUOTE'					=> 'Cytuj',
+	
 	'PREVIEW'				=> 'Podgląd',
 	'PREVIOUS'				=> 'Poprzednia',
 	'PREVIOUS_STEP'			=> 'Wstecz',

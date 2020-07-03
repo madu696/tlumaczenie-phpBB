@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.1-RC1 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -94,7 +94,6 @@ $lang = array_merge($lang, array(
 	'FIELD_DESCRIPTION'			=> 'Opis pola',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'Zawartość tego pola zawierającą opis/objaśnienie będzie widział użytkownik.',
 	'FIELD_DROPDOWN'			=> 'Menu rozwijane',
-	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'Identyfikator pola',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'Wybrana nazwa identyfikatora pola już istnieje. Proszę wybrać inną nazwę.',
 	'FIELD_IDENT_EXPLAIN'		=> 'Identyfikator pola jest nazwą identyfikującą pole w bazie danych i szablonach.',
