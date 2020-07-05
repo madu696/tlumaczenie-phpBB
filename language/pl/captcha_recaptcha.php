@@ -47,15 +47,15 @@ $lang = array_merge($lang, array(
 	
 	'RECAPTCHA_INCORRECT'			=> 'Rozwiąż zabezpieczenie reCAPTCHA.',
 	'RECAPTCHA_NOSCRIPT'			=> 'Włącz obsługę JavaScript w przeglądarce, aby korzystać z reCAPTCHA.',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Aby używać reCAPTCHY, musisz utworzyć konto na <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Aby użyć reCAPTCHY, należy stworzyć konto na stronie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_INVISIBLE'			=> 'Niewidzialna reCAPTCHA. Jeśli działa poprawnie, mała ikona powinna być wyświetlona w prawym, dolnym rogu tej strony.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Klucz witryny',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Twój klucz witryny reCAPTCHA. Klucze można otrzymać na witrynie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
-	'RECAPTCHA_V3_PUBLIC_EXPLAIN'	=> 'Twój klucz witryny reCAPTCHA. Klucze można otrzymać na witrynie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v3.',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Twój klucz witryny reCAPTCHA. Klucz można otrzymać na stronie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
+	'RECAPTCHA_V3_PUBLIC_EXPLAIN'	=> 'Twój klucz witryny reCAPTCHA. Klucz można otrzymać na stronie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v3.',
 	'RECAPTCHA_PRIVATE'				=> 'Prywatny klucz',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Twój klucz prywatny reCAPTCHA. Klucze można otrzymać na witrynie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
-	'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'Twój klucz prywatny reCAPTCHA. Klucze można otrzymać na witrynie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v3.',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Twój klucz prywatny reCAPTCHA. Klucz można otrzymać na stronie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
+	'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'Twój klucz prywatny reCAPTCHA. Klucz można otrzymać na stronie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v3.',
 
 	'RECAPTCHA_V3_DOMAIN'				=> 'Domena żądania',
 	'RECAPTCHA_V3_DOMAIN_EXPLAIN'		=> 'Domena, z której zostanie pobrany skrypt, aby zweryfikować żądanie.<br>Wybierz <samp>recaptcha.net</samp>, jeśli <samp>google.com</samp> jest niedostępne.',
