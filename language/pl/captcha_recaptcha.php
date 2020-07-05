@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	
 	'RECAPTCHA_INCORRECT'			=> 'Rozwiąż zabezpieczenie reCAPTCHA.',
 	'RECAPTCHA_NOSCRIPT'			=> 'Włącz obsługę JavaScript w przeglądarce, aby korzystać z reCAPTCHA.',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Aby użyć reCAPTCHY, należy stworzyć konto na stronie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Aby użyć reCAPTCHA, należy stworzyć konto na stronie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_INVISIBLE'			=> 'Niewidzialna reCAPTCHA. Jeśli działa poprawnie, mała ikona powinna być wyświetlona w prawym, dolnym rogu tej strony.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Klucz witryny',
