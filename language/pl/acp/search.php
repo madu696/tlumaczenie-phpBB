@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.1-RC1 - 05.07.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -49,6 +49,8 @@ $lang = array_merge($lang, array(
 	'CONTINUE_INDEXING'						=> 'Kontynuuj poprzedni proces indeksowania',
 	'CONTINUE_INDEXING_EXPLAIN'				=> 'Rozpoczęto proces indeksowania. Aby uzyskać dostęp do strony indeksu wyszukiwania, należy zakończyć lub anulować proces.',
 	'CREATE_INDEX'							=> 'Utwórz indeks',
+	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Liczba zwróconych znaków.',
+	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'Liczba zwróconych znaków w poście dla każdego wyszukania. Ustaw 0, aby wyświetlić cały post, który zawiera szukaną frazę.',
 
 	'DELETE_INDEX'							=> 'Usuń indeks',
 	'DELETING_INDEX_IN_PROGRESS'			=> 'Trwa usuwanie indeksu…',

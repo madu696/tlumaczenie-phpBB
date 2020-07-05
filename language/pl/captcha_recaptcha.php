@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.0 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.1-RC1 - 05.07.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -38,16 +38,40 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	//Znajdź kod swojego języka na stronie https://developers.google.com/recaptcha/docs/language
+	//Jeśli kod twojego języka nie istnieje, użyj "en" lub pozostaw puste pole.
 	'RECAPTCHA_LANG'				=> 'pl',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Aby używać reCAPTCHY, musisz utworzyć konto na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'CAPTCHA_RECAPTCHA'				=> 'reCAPTCHA',
+	
+	'CAPTCHA_RECAPTCHA'				=> 'reCAPTCHA v2',
+	'CAPTCHA_RECAPTCHA_V3'			=> 'reCAPTCHA v3',
+	
 	'RECAPTCHA_INCORRECT'			=> 'Rozwiąż zabezpieczenie reCAPTCHA.',
 	'RECAPTCHA_NOSCRIPT'			=> 'Włącz obsługę JavaScript w przeglądarce, aby korzystać z reCAPTCHA.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Aby używać reCAPTCHY, musisz utworzyć konto na <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_INVISIBLE'			=> 'Niewidzialna reCAPTCHA. Jeśli działa poprawnie, mała ikona powinna być wyświetlona w prawym, dolnym rogu tej strony.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Klucz witryny',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Twój klucz witryny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Twój klucz witryny reCAPTCHA. Klucze można otrzymać na witrynie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
+	'RECAPTCHA_V3_PUBLIC_EXPLAIN'	=> 'Twój klucz witryny reCAPTCHA. Klucze można otrzymać na witrynie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v3.',
 	'RECAPTCHA_PRIVATE'				=> 'Prywatny klucz',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Twój klucz prywatny reCAPTCHA. Klucze można otrzymać na witrynie <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Twój klucz prywatny reCAPTCHA. Klucze można otrzymać na witrynie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v2 &gt; Invisible reCAPTCHA.',
+	'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'Twój klucz prywatny reCAPTCHA. Klucze można otrzymać na witrynie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v3.',
 
-	'RECAPTCHA_INVISIBLE'			=> 'reCAPTCHA działa w trybie niewidzianym. W prawym dolnym rogu tej strony powinna pojawić się mała ikona, jeśli funkcjonuje poprawnie.',
+	'RECAPTCHA_V3_DOMAIN'				=> 'Domena żądania',
+	'RECAPTCHA_V3_DOMAIN_EXPLAIN'		=> 'Domena, z której zostanie pobrany skrypt, aby zweryfikować żądanie.<br>Wybierz <samp>recaptcha.net</samp>, jeśli <samp>google.com</samp> jest niedostępne.',
+
+	'RECAPTCHA_V3_METHOD'				=> 'Metoda żądania',
+	'RECAPTCHA_V3_METHOD_EXPLAIN'		=> 'Metoda używana podcas weryfikacji żądania.<br>Wyłączone opcje nie są dostępne na twojej witrynie.',
+	'RECAPTCHA_V3_METHOD_CURL'			=> 'cURL',
+	'RECAPTCHA_V3_METHOD_POST'			=> 'POST',
+	'RECAPTCHA_V3_METHOD_SOCKET'		=> 'Socket',
+
+	'RECAPTCHA_V3_THRESHOLD_DEFAULT'			=> 'Domyślny próg',
+	'RECAPTCHA_V3_THRESHOLD_DEFAULT_EXPLAIN'	=> 'Użyj, gdy inne opcje nie mają zastosowania.',
+	'RECAPTCHA_V3_THRESHOLD_LOGIN'				=> 'Próg logowania',
+	'RECAPTCHA_V3_THRESHOLD_POST'				=> 'Próg publikacji',
+	'RECAPTCHA_V3_THRESHOLD_REGISTER'			=> 'Próg rejestracji',
+	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Próg raportowania',
+	'RECAPTCHA_V3_THRESHOLDS'					=> 'Próg',
+	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 używa wartości progu (<samp>1.0</samp>, jeśli to użytkownik, <samp>0.0</samp> wskazuje na bota). Ustaw tutaj wartość progu.',
 ));
