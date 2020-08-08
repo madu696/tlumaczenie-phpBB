@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-02-02 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.2.9 - 08.01.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.2.10 - 08.08.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
