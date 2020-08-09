@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'RESULT_DAYS'			=> 'Wyświetl wyniki z ostatnich',
 	'RESULT_SORT'			=> 'Sortuj wyniki wg',
 	'RETURN_FIRST'			=> 'Wyświetl pierwsze',
-	'RETURN_FIRST_EXPLAIN'	=> 'Ustaw 0, aby wyświetlić cały post.'
+	'RETURN_FIRST_EXPLAIN'	=> 'Ustaw 0, aby wyświetlić cały post.',
 	'GO_TO_SEARCH_ADV'	=> 'Wyszukiwanie zaawansowane',
 
 	'SEARCHED_FOR'				=> 'Słowa kluczowe',
