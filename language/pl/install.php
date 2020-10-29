@@ -10,7 +10,7 @@
  * the docs/CREDITS.txt file.
  *
  * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
- * @Polska wersja językowa phpbb 3.3.1 - 08.08.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpbb 3.3.2-RC1 - 28.10.2020, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -114,6 +114,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB <strong>nie</strong> uruchomi się, jeśli instalacja PHP nie jest skompilowana ze wsparciem UTF-8 w rozszerzeniu PCRE.',
 	'PHP_JSON_SUPPORT'					=> 'Obsługa PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> '<strong>Wymagane</strong> - Aby phpBB działało prawidłowo, rozszerzenie PHP JSON musi być dostępne.',
+	'PHP_MBSTRING_SUPPORT'				=> 'Obsługa PHP mbstring',
+	'PHP_MBSTRING_SUPPORT_EXPLAIN'		=> '<strong>Wymagane</strong> - Aby phpBB działało prawidłowo, rozszerzenie PHP mbstring musi być dostępne.',
 	'PHP_XML_SUPPORT'					=> 'Obsługa PHP XML/DOM',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> '<strong>Wymagane</strong> - Aby phpBB działało prawidłowo, rozszerzenie PHP XML/DOM musi być dostępne.',
 	'PHP_SUPPORTED_DB'					=> 'Obsługiwane bazy danych',
@@ -239,7 +241,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'Krótki opis witryny',
 	'CONFIG_SITENAME'				=> 'twoja_domena.pl',
 
-	'DEFAULT_INSTALL_POST'			=> 'To jest przykładowy post na tej witrynie phpBB3. Wygląda na to, że wszystko działa prawidłowo. Możesz, jeśli chcesz, usunąć ten post i przystąpić do konfiguracji witryny. Podczas procesu instalacji pierwsze forum otrzymało odpowiedni zestaw uprawnień dla predefiniowanych grup użytkowników – administratorów, botów, globalnych moderatorów, gości, zarejestrowanych użytkowników i zarejestrowanych użytkowników COPPA. Jeśli zamierzasz usunąć pierwsze forum i subforum, nie zapomnij przydzielić uprawnień wszystkim wcześniej wymienionym grupom użytkowników w tworzonych przez ciebie nowych forach i subforach. Zaleca się zmienić nazwę pierwszego forum i subforum i skopiować ich uprawnienia dla nowo tworzonych forów i subforów. Życzymy przyjemnej zabawy z twoją nową witryną phpBB3!',
+	'DEFAULT_INSTALL_POST'			=> '<t>To jest przykładowy post na tej witrynie phpBB3. Wygląda na to, że wszystko działa prawidłowo. Możesz, jeśli chcesz, usunąć ten post i przystąpić do konfiguracji witryny. Podczas procesu instalacji pierwsze forum otrzymało odpowiedni zestaw uprawnień dla predefiniowanych grup użytkowników – administratorów, botów, globalnych moderatorów, gości, zarejestrowanych użytkowników i zarejestrowanych użytkowników COPPA. Jeśli zamierzasz usunąć pierwsze forum i subforum, nie zapomnij przydzielić uprawnień wszystkim wcześniej wymienionym grupom użytkowników w tworzonych przez ciebie nowych forach i subforach. Zaleca się zmienić nazwę pierwszego forum i subforum i skopiować ich uprawnienia dla nowo tworzonych forów i subforów. Życzymy przyjemnej zabawy z twoją nową witryną phpBB3!</t>',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Pierwsze forum typu „Kategoria”',
 	'FORUMS_TEST_FORUM_DESC'		=> 'To jest twoje pierwsze forum typu „Forum”',

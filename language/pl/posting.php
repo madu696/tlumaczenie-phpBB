@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.1 - 08.08.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.2-RC1 - 28.10.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -154,6 +154,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Tylko zalogowani użytkownicy mogą cytować posty na tym forum.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Tylko zalogowani użytkownicy mogą odpowiadać w tematach na tym forum.',
 
+	'MAX_ATTACHMENT_FILESIZE'	=> 'Maksymalny rozmiar załącznika: %s.',
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Maksymalny rozmiar czcionki to %d.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Animacje Flash mogą mieć maksymalną wysokość %d pikseli.',

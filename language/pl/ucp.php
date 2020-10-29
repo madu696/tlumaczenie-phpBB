@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.1 - 08.08.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.2-RC1 - 28.10.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -39,22 +39,22 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Rejestrując się na witrynie „%1$s”, zwanej dalej „my”, ”nas”, „nasza”, „%1$s”, „%2$s”, akceptujesz wyszczególnione poniżej postanowienia. Jeśli ich nie akceptujesz, opuść to miejsce, naciskając przycisk „Nie akceptuję”. Administracja witryny „%1$s” ma prawo w dowolnym czasie zmienić poniższe postanowienia, informując cię o zmianach, niemniej wskazane jest, aby użytkownicy sami regularnie zaglądali do tego regulaminu. Korzystanie z witryny „%1$s” po zmianach regulaminu oznacza, że akceptujesz te zmiany ze wszelkimi konsekwencjami prawnymi.<br />
-	<br />
-	Nasze fora zwane też „one”, „ich”, „je”, „phpBB software”, „www.phpbb.com”, „phpBB Limited”, „phpBB Teams” działają w oparciu o oprogramowanie wykorzystujące technologię phpBB, która jest środowiskiem typu witryny (bulletin board), wydane na licencji „<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” zwanej też „GPL”. Oprogramowanie jest dostępne do pobrania ze strony <a href="https://www.phpbb.com/">www.phpbb.com</a>. Oprogramowanie phpBB tylko ułatwia dyskusje przez internet, a jego autorzy nie kontrolują tekstów zamieszczanych w internecie za jego pomocą. Więcej informacji o phpBB można znaleźć na stronie <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
-	<br />
+	'TERMS_OF_USE_CONTENT'	=> 'Rejestrując się na witrynie „%1$s”, zwanej dalej „my”, ”nas”, „nasza”, „%1$s”, „%2$s”, akceptujesz wyszczególnione poniżej postanowienia. Jeśli ich nie akceptujesz, opuść to miejsce, naciskając przycisk „Nie akceptuję”. Administracja witryny „%1$s” ma prawo w dowolnym czasie zmienić poniższe postanowienia, informując cię o zmianach, niemniej wskazane jest, aby użytkownicy sami regularnie zaglądali do tego regulaminu. Korzystanie z witryny „%1$s” po zmianach regulaminu oznacza, że akceptujesz te zmiany ze wszelkimi konsekwencjami prawnymi.
+	<br><br>
+	Nasze fora zwane też „one”, „ich”, „je”, „phpBB software”, „www.phpbb.com”, „phpBB Limited”, „phpBB Teams” działają w oparciu o oprogramowanie wykorzystujące technologię phpBB, która jest środowiskiem typu witryny (bulletin board), wydane na licencji „<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” zwanej też „GPL”. Oprogramowanie jest dostępne do pobrania ze strony <a href="https://www.phpbb.com/">www.phpbb.com</a>. Oprogramowanie phpBB tylko ułatwia dyskusje przez internet, a jego autorzy nie kontrolują tekstów zamieszczanych w internecie za jego pomocą. Więcej informacji o phpBB można znaleźć na stronie <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.
+	<br><br>
 	Akceptujesz zakaz publikowania wypowiedzi o charakterze obraźliwym, oszczerczym, propagującym treści niezgodne z polskim prawem lub naruszającym cudze prawa autorskie i dobra osobiste. Naruszenie tego zakazu może skutkować dla ciebie całkowitym zablokowaniem dostępu do tej witryny, a twój dostawca internetu zostanie powiadomiony o twoim niewłaściwym zachowaniu. Wyrażasz zgodę na to, że „%1$s” może w każdej chwili usunąć, zmienić, przenieść lub zamknąć każdy twój temat, post. Wyrażasz zgodę na zapisywanie wszystkich podanych przez ciebie informacji w naszej bazie danych. Informacje te nie będą przekazywane nikomu bez twojej zgody, ale ani „%1$s”, ani phpBB nie ponosi odpowiedzialności za włamania do witryny, podczas których może dojść do kradzieży danych.
 	',
 
 	'PRIVACY_POLICY'		=> 'Ten tekst opisuje, w jaki sposób „%1$s” i firmy stowarzyszone zwane dalej „my”, „nas”, „nasz”, „%1$s”, „%2$s” i phpBB zwane dalej „oni”, „ich”, „oprogramowanie phpBB”, „www.phpbb.com”, „phpBB Limited”, „Zespoły phpBB”, korzystają z informacji zwanymi dalej „informacjami o tobie” zebranych w czasie dowolnej twojej sesji na forum.<br />
-	<br />
-	Informacje o tobie są zbierane na dwa sposoby. Po pierwsze, przeglądanie „%1$s” powoduje, że aplikacja phpBB tworzy kilka ciasteczek, które są małymi plikami tekstowymi pobranymi do katalogu plików tymczasowych twojej przeglądarki. Pierwsze dwa ciasteczka zawierają identyfikator użytkownika zwany „user-id” i anonimowy identyfikator sesji zwany „session-id”, automatycznie przyznane ci przez aplikację phpBB. Trzecie ciasteczko zostanie utworzone, gdy przejrzysz chociaż jeden temat na „%1$s”. Jest ono używane do zapisania informacji, które tematy zostały przez ciebie przeczytane i służy do ułatwienia ci nawigacji na forum.<br />
-	<br />
-	W czasie przeglądania „%1$s” możemy też utworzyć ciasteczka niezależne od oprogramowania phpBB, ale ich ten dokument nie dotyczy – ma on opisywać tylko strony stworzone przez oprogramowanie phpBB. Drugi sposób, w jaki zbieramy informacje o tobie, to dane wysyłane przez ciebie do nas. Mogą być to między innymi posty napisane przez ciebie jako anonimowy użytkownik zwane dalej „anonimowe posty”, konta użytkownika założone na „%1$s” zwane dalej „twoje konto” i posty napisane przez ciebie po rejestracji i zalogowaniu zwane dalej „twoje posty”.<br />
-	<br />
-	Twoje konto będzie zawierać przynajmniej unikalną identyfikacyjną nazwę zwaną dalej „twoja nazwa użytkownika”, hasło używane do logowania zwane dalej „twoje hasło” i osobisty aktywny adres e-mail zwany dalej „twój adres e-mail”. Informacje podane dla twojego konta na „%1$s” są chronione przez prawa dotyczące ochrony danych osobowych w państwie, w którym stoi nasz serwer. Mamy prawo wymagać podania dodatkowych informacji przy rejestracji, i to my ustalamy czy podanie ich jest konieczne, czy nie. W każdym przypadku, masz możliwość wybrania, które informacje o twoim koncie są wyświetlane publicznie. Co więcej, w panelu zarządzania kontem masz możliwość włączenia lub wyłączenia wysyłania do ciebie automatycznie generowanych przez oprogramowanie phpBB e-maili.<br />
-	<br />
-	Twoje hasło jest zaszyfrowane, więc jest bezpieczne, niemniej nie należy używać tego samego hasła na różnych witrynach internetowych. Hasło to umożliwia dostęp do twojego konta na „%1$s”, więc chroń je i w żadnym wypadku nie podawaj <strong>nikomu</strong>. Jeśli je zapomnisz, użyj funkcji „Nie pamiętam hasła”. Witryna poprosi cię o podanie nazwy użytkownika i adresu e-mail. Po podaniu tych danych zostanie wygenerowane nowe hasło i przesłane na podany przez ciebie adres e-mail. Umożliwi ono odzyskanie dostępu do twojego konta.<br />
+	<br><br>
+	Informacje o tobie są zbierane na dwa sposoby. Po pierwsze, przeglądanie „%1$s” powoduje, że aplikacja phpBB tworzy kilka ciasteczek, które są małymi plikami tekstowymi pobranymi do katalogu plików tymczasowych twojej przeglądarki. Pierwsze dwa ciasteczka zawierają identyfikator użytkownika zwany „user-id” i anonimowy identyfikator sesji zwany „session-id”, automatycznie przyznane ci przez aplikację phpBB. Trzecie ciasteczko zostanie utworzone, gdy przejrzysz chociaż jeden temat na „%1$s”. Jest ono używane do zapisania informacji, które tematy zostały przez ciebie przeczytane i służy do ułatwienia ci nawigacji na forum.
+	<br><br>
+	W czasie przeglądania „%1$s” możemy też utworzyć ciasteczka niezależne od oprogramowania phpBB, ale ich ten dokument nie dotyczy – ma on opisywać tylko strony stworzone przez oprogramowanie phpBB. Drugi sposób, w jaki zbieramy informacje o tobie, to dane wysyłane przez ciebie do nas. Mogą być to między innymi posty napisane przez ciebie jako anonimowy użytkownik zwane dalej „anonimowe posty”, konta użytkownika założone na „%1$s” zwane dalej „twoje konto” i posty napisane przez ciebie po rejestracji i zalogowaniu zwane dalej „twoje posty”.
+	<br><br>
+	Twoje konto będzie zawierać przynajmniej unikalną identyfikacyjną nazwę zwaną dalej „twoja nazwa użytkownika”, hasło używane do logowania zwane dalej „twoje hasło” i osobisty aktywny adres e-mail zwany dalej „twój adres e-mail”. Informacje podane dla twojego konta na „%1$s” są chronione przez prawa dotyczące ochrony danych osobowych w państwie, w którym stoi nasz serwer. Mamy prawo wymagać podania dodatkowych informacji przy rejestracji, i to my ustalamy czy podanie ich jest konieczne, czy nie. W każdym przypadku, masz możliwość wybrania, które informacje o twoim koncie są wyświetlane publicznie. Co więcej, w panelu zarządzania kontem masz możliwość włączenia lub wyłączenia wysyłania do ciebie automatycznie generowanych przez oprogramowanie phpBB e-maili.
+	<br><br>
+	Twoje hasło jest zaszyfrowane, więc jest bezpieczne, niemniej nie należy używać tego samego hasła na różnych witrynach internetowych. Hasło to umożliwia dostęp do twojego konta na „%1$s”, więc chroń je i w żadnym wypadku nie podawaj <strong>nikomu</strong>. Jeśli je zapomnisz, użyj funkcji „Nie pamiętam hasła”. Witryna poprosi cię o podanie nazwy użytkownika i adresu e-mail. Po podaniu tych danych zostanie wygenerowane nowe hasło i przesłane na podany przez ciebie adres e-mail. Umożliwi ono odzyskanie dostępu do twojego konta.
 	',
 ));
 
@@ -342,12 +342,16 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE'									=> 'Typ powiadomienia',
 	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Odpowiedziano w tematach oznaczonych zakładką',
 	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Poproszono o przyłączenie do grupy, w której pełnisz funkcję lidera',
+	'NOTIFICATION_TYPE_FORUM'							=> 'Odpowiedziano w obserwowanym forum',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Pojawił się post lub temat wymagający zaakceptowania',
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'Zaakceptowano/odrzucono twój post/temat',
 	'NOTIFICATION_TYPE_PM'								=> 'Nadeszła prywatna wiadomość',
 	'NOTIFICATION_TYPE_POST'							=> 'Odpowiedziano w obserwowanym temacie',
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Zacytowano cię w poście',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Zgłoszono post',
+	'NOTIFICATION_TYPE_REPORT_CLOSED'					=> 'Zgłoszenie dotyczące postu zostało zamknięte przez moderatora',
+	'NOTIFICATION_TYPE_REPORT_PM'						=> 'Zgłoszono prywatną wiadomość',
+	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> 'Zgłoszenie dotyczące prywatnej wiadomości zostało zamknięte przez moderatora',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Utworzono temat na obserwowanym forum',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Użytkownik wymaga aktywacji',
 

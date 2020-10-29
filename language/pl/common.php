@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.1 - 08.08.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.2-RC1 - 28.10.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'pl',
 
 	// You can define different rules for the determination of plural forms here.
-	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
+	// See See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 9,
 
@@ -110,7 +110,9 @@ $lang = array_merge($lang, array(
 	'AVATAR_INVALID_FILENAME'		=> '%s jest nieprawidłową nazwą pliku.',
 	'AVATAR_NOT_UPLOADED'			=> 'Nie można wysłać awatara na serwer.',
 	'AVATAR_NO_TEMP_DIR'			=> 'Folder tymczasowy nie został znaleziony lub jest niedostępny.',
-	'AVATAR_NO_SIZE'			=> 'Nie można zidentyfikować wymiarów obrazka. Proszę wprowadzić je ręcznie.',
+	'AVATAR_NO_SIZE'				=> 'Nie można zidentyfikować wymiarów obrazka. Proszę wprowadzić je ręcznie.',
+	'AVATAR_NO_UPLOAD_DIR'			=> 'Ścieżka do katalogu zapisu awatara nie istnieje lub jest niedostępna.',
+	'AVATAR_NO_UPLOAD_PATH'			=> 'Wgrywanie awatarów jest włączone, ale ścieżka do katalogu nie została ustawiona.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Plik został wysłany częściowo.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Rozmiar pliku awatara jest za duży.<br />Nie można zidentyfikować maksymalnego rozmiaru pliku zdefiniowanego w ustawieniach witryny.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Rozmiar pliku awatara jest za duży. Maksymalny dozwolony rozmiar pliku to %1$d %2$s.<br />Wartość ta jest zdefiniowana w ustawieniach witryny i użytkownik nie może jej zmienić.',
@@ -498,6 +500,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_REFERENCE'			=> '„%1$s”',
 	'NOTIFICATION_REASON'				=> '<em>Powód:</em> %1$s.',
 	'NOTIFICATION_REPORT_PM'			=> 'Użytkownik %1$s zgłosił <strong>prywatną wiadomość</strong>:',
+	'NOTIFICATION_REPORT_PM_CLOSED'		=> '<strong>Zgłoszenie prywatnej wiadomości zostało zamknięte</strong> przez %1$s:',
 	'NOTIFICATION_REPORT_POST'			=> 'Użytkownik %1$s zgłosił <strong>post</strong>:',
 	'NOTIFICATION_REPORT_CLOSED'		=> '%1$s <strong>zamknął zgłoszenie</strong> z powodu:',
 	'NOTIFICATION_TOPIC'				=> 'Użytkownik %1$s założył <strong>nowy temat</strong>:',
