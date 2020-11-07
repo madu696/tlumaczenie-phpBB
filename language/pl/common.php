@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.2-RC1 - 28.10.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.2 - 07.11.2020, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'pl',
 
 	// You can define different rules for the determination of plural forms here.
-	// See See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
+	// See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 9,
 
