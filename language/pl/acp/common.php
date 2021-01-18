@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-02-02 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.2 - 07.11.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.3-RC1 - 16.01.2021, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -368,13 +368,15 @@ $lang = array_merge($lang, array(
 
 	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Funkcja przeładowania jest nieprawidłowo skonfigurowana',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> 'Funkcję <var>mbstring.func_overload</var> należy ustawić na 0 lub 4. Aktualne wartości można sprawdzić na stronie <samp>informacji o PHP</samp>.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> 'Funkcję <var>mbstring.func_overload</var> należy ustawić na 0 lub 4. Aktualną wartość można sprawdzić na stronie <samp>informacji o PHP</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Filtr jawnego kodowania znaków jest nieprawidłowo skonfigurowany',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> 'Filtr <var>mbstring.encoding_translation</var> należy ustawić na 0. Aktualne wartości można sprawdzić na stronie <samp>informacji o PHP</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> 'Filtr <var>mbstring.encoding_translation</var> należy ustawić na 0. Aktualną wartość można sprawdzić na stronie <samp>informacji o PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'Funkcja konwersji znaków danych wejściowych (HTTP input) jest nieprawidłowo skonfigurowana',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> 'Funkcję <var>mbstring.http_input</var> należy ustawić na <samp>pass</samp>. Aktualne wartości można sprawdzić na stronie <samp>informacji o PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> 'Funkcja <var>mbstring.http_input</var> musi pozostać pusta. Aktualną wartość można sprawdzić na stronie <samp>informacji o PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'Funkcja konwersji znaków danych wyjściowych (HTTP output) jest nieprawidłowo skonfigurowana',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'Funkcję <var>mbstring.http_output</var> należy ustawić na <samp>pass</samp>. Aktualne wartości można sprawdzić na stronie <samp>informacji o PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'Funkcja <var>mbstring.http_output</var> musi pozostać pusta. Aktualną wartość można sprawdzić na stronie <samp>informacji o PHP</samp>.',
+	'ERROR_DEFAULT_CHARSET'							=> 'Domyślne kodowanie jest niepoprawnie skonfigurowane.',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> 'Domyślne kodowanie <var>default_charset</var> musi być ustawiony na <samp>UTF-8</samp>. Aktualną wartość można sprawdzić na stronie <samp>informacji o PHP</samp>.',
 
 	'FILES_PER_DAY'		=> 'Średnia liczba załączników dziennie',
 	'FORUM_STATS'		=> 'Statystyki witryny',

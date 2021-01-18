@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpbb 3.3.2 - 07.11.2020, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpbb 3.3.3-RC1 - 16.01.2021, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -22,7 +22,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	//Znajdź kod swojego języka na stronie https://developers.google.com/recaptcha/docs/language
 	//Jeśli kod twojego języka nie istnieje, użyj "en" lub pozostaw puste pole.
 	'RECAPTCHA_LANG'				=> 'pl',
@@ -74,4 +74,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Próg raportowania',
 	'RECAPTCHA_V3_THRESHOLDS'					=> 'Próg',
 	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 używa wartości progu (<samp>1.0</samp>, jeśli to użytkownik, <samp>0.0</samp> wskazuje na bota). Ustaw tutaj wartość progu.',
-));
+	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 wymaga znajomości dostępnej metody, z której skorzysta podczas weryfikacji żądania.',
+]);
