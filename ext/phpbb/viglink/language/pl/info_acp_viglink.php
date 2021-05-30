@@ -6,7 +6,7 @@
  * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
- * @Polska wersja językowa phpBB 3.3.3 - 30.01.2021, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpBB 3.3.4 - 30.05.2021, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**

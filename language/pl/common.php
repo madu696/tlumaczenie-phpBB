@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.3 - 30.01.2021, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.4 - 30.05.2021, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -96,6 +96,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Nieprawidłowy wpis bazy danych.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'Do obsługi usługi OAuth dostarczono nieprawidłowy typ usługi.',
 	'AUTH_PROVIDER_OAUTH_ERROR_REQUEST'						=> 'Podczas przetwarzania żądania OAuth wystąpił błąd.',
+	'AUTH_PROVIDER_OAUTH_RETURN_ERROR'						=> 'Zewnętrzna usługa zwróciła nieprawidłową wartość, dlatego żądanie nie może zostać przetworzone.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'Nie utworzono usługi OAuth',
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',

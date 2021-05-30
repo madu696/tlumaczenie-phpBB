@@ -10,7 +10,7 @@
  * the docs/CREDITS.txt file.
  *
  * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
- * @Polska wersja językowa phpBB 3.3.3 - 30.01.2021, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpBB 3.3.4 - 30.05.2021, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**

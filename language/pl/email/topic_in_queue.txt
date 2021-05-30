@@ -2,7 +2,7 @@ Subject: Powiadomienie o moderacji tematu - „{TOPIC_TITLE}”
 
 Witaj {USERNAME},
 
-Otrzymujesz to powiadomienie, ponieważ temat „{TOPIC_TITLE}” na witrynie „{SITENAME}” wymaga zaakceptowania.
+Temat „{TOPIC_TITLE}” na witrynie „{SITENAME}” wymaga zaakceptowania.
 
 Jeśli chcesz zobaczyć temat, kliknij poniższy odnośnik:
 {U_VIEW_TOPIC}

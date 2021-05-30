@@ -1,8 +1,8 @@
-Subject: Powiadomienie o moderacji posta - „{TOPIC_TITLE}”
+Subject: Post wymaga zaakceptowania - „{TOPIC_TITLE}”
 
 Witaj {USERNAME},
 
-Otrzymujesz to powiadomienie, ponieważ post „{POST_SUBJECT}” na witrynie „{SITENAME}” wymaga zaakceptowania.
+Twój post „{POST_SUBJECT}” na witrynie „{SITENAME}” wymaga zaakceptowania.
 
 Jeśli chcesz zobaczyć post, kliknij poniższy odnośnik:
 {U_VIEW_POST}

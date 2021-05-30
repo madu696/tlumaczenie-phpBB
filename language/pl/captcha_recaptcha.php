@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.3 - 30.01.2021, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.4 - 30.05.2021, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -45,10 +45,11 @@ $lang = array_merge($lang, [
 	'CAPTCHA_RECAPTCHA'				=> 'reCAPTCHA v2',
 	'CAPTCHA_RECAPTCHA_V3'			=> 'reCAPTCHA v3',
 	
-	'RECAPTCHA_INCORRECT'			=> 'Rozwiąż zabezpieczenie reCAPTCHA.',
-	'RECAPTCHA_NOSCRIPT'			=> 'Włącz obsługę JavaScript w przeglądarce, aby korzystać z reCAPTCHA.',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Aby użyć reCAPTCHA, należy stworzyć konto na stronie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_INVISIBLE'			=> 'Niewidzialna reCAPTCHA. Jeśli działa poprawnie, mała ikona powinna być wyświetlona w prawym, dolnym rogu tej strony.',
+	'RECAPTCHA_INCORRECT'				=> 'Rozwiąż zabezpieczenie reCAPTCHA.',
+	'RECAPTCHA_NOSCRIPT'				=> 'Włącz obsługę JavaScript w przeglądarce, aby korzystać z reCAPTCHA.',
+	'RECAPTCHA_NOT_AVAILABLE'			=> 'Aby użyć reCAPTCHA, należy stworzyć konto na stronie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_INVISIBLE'				=> 'Niewidzialna reCAPTCHA. Jeśli działa poprawnie, mała ikona powinna być wyświetlona w prawym, dolnym rogu tej strony.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Przekroczono limit prób logowania.<br>Teraz, aby się zalogować, należy oprócz nazwy użytkownika i hasła dodatkowo rozwiązać test reCAPTCHA v3.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Klucz witryny',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Twój klucz witryny reCAPTCHA. Klucz można otrzymać na stronie <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Wybierz reCAPTCHA v2 &gt; Invisible reCAPTCHA.',

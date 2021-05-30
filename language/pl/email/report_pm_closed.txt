@@ -2,7 +2,7 @@ Subject: Zgłoszenie prywatnej wiadomości zostało zamknięte – „{SUBJECT}�
 
 Witaj {USERNAME}!
 
-Otrzymujesz to powiadomienie, ponieważ wysłane przez Ciebie zgłoszenie dotyczące prywatnej wiadomości „{SUBJECT}” napisanej przez „{AUTHOR_NAME}” z witryny „{SITENAME}” zostało przeczytane przez moderatora lub administratora i zamknięte. Jeśli masz jakieś pytania, skontaktuj się z {CLOSER_NAME} za pomocą prywatnej wiadomości.
+Wysłane przez Ciebie zgłoszenie dotyczące prywatnej wiadomości „{SUBJECT}” napisanej przez „{AUTHOR_NAME}” na witrynie „{SITENAME}” zostało przeczytane przez moderatora lub administratora i zamknięte. Jeśli masz dodatkowe pytania, skontaktuj się z {CLOSER_NAME} za pomocą prywatnej wiadomości.
 
 Jeśli chcesz zobaczyć zgłoszoną prywatną wiadomość, kliknij poniższy odnośnik:
 {U_VIEW_MESSAGE}

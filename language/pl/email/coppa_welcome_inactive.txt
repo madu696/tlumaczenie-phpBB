@@ -5,11 +5,9 @@ Subject: Witamy na witrynie „{SITENAME}”
 Zgodnie z amerykańskim prawem COPPA Twoje konto jest nieaktywne.
 
 Wydrukuj tę wiadomość i poproś swojego rodzica lub opiekuna prawnego o zgodę oraz podpis wraz z datą i prześlij ją faksem do:
-
 {FAX_INFO}
 
 lub e-mailem do:
-
 {MAIL_INFO}
 
 --------------------------- UTNIJ TUTAJ ---------------------------
