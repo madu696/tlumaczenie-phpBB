@@ -350,7 +350,7 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Tutaj można zdefiniować dane ciasteczek wysyłanych do przeglądarek użytkowników. W większości przypadków domyślne wartości ustawień ciasteczek powinny być wystarczające. Jeśli zachodzi potrzeba zmiany tych ustawień, należy zrobić to bardzo ostrożnie. Nieprawidłowe ustawienia mogą powodować problemy z logowaniem użytkowników. Jeśli nadal występują problemy z sesją użytkowników na witrynie, odwiedź polskie forum ze wsparciem <strong><a href="http://www.phpbb.pl/forum/">phpBB.pl</a></strong>.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Tutaj można zdefiniować dane ciasteczek wysyłanych do przeglądarek użytkowników. W większości przypadków domyślne wartości ustawień ciasteczek powinny być wystarczające. Jeśli zachodzi potrzeba zmiany tych ustawień, należy zrobić to bardzo ostrożnie. Nieprawidłowe ustawienia mogą powodować problemy z logowaniem użytkowników. Jeśli nadal występują problemy z sesją użytkowników na witrynie, odwiedź polskie forum ze wsparciem <strong><a href="http://www.phpbb.pl/">phpBB.pl</a></strong>.',
 
 	'COOKIE_DOMAIN'				=> 'Domena ciasteczka',
 	'COOKIE_DOMAIN_EXPLAIN'		=> 'W większości przypadków domena ciasteczka jest opcjonalna. Można zostawić to pole puste, jeśli nie wiadomo jaką ustawić nazwę.<br><br> Jeśli witryna jest zintegrowana z inną aplikacją (np. WordPress) lub występują subdomeny, to aby poprawnie ustawić domenę ciasteczka należy wykonać następujące kroki. Jeśli adresy stron to <i>example.com</i> i <i>forum.example.com</i> lub <i>forum.example.com</i> i <i>blog.example.com</i>, należy wybrać wspólną domenę - <i>example.com</i>. Teraz na początku należy dodać kropkę - <strong><i>.example.com</i></strong> (nazwa domeny ciasteczka musi zaczynać się od kropki na początku).',
@@ -600,7 +600,7 @@ $lang = array_merge($lang, array(
 	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Weryfikuj certyfikat SSL wykorzystywany przez serwer SMTP. <br><em><strong> UWAGA:</strong> Połączenia bez weryfikacji certyfikatu SSL może powodować problemy z bezpieczeństwem.</em>',
 	'SMTP_VERIFY_PEER_NAME'			=> 'Weryfikuj nazwę serwera SMTP',
 	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Weryfikuj nazwę serwera SMTP wykorzystując połączenie SSL/TLS. <br><em><strong> UWAGA:</strong> Połączenia bez weryfikacji serwera może powodować problemy z bezpieczeństwem.</em>',
-	'TEST_EMAIL_SENT'				=> 'Testowy e-mail został wysłany.<br>Jeśli go nie otrzymałeś, sprawdź ustawienia e-mail.<br><br>Jeśli potrzebujesz pomocy, odwiedź forum <a href="http://www.phpbb.pl/forum/">phpbb.pl</a> albo <a href="https://www.phpbb.com/community/">phpbb.com</a>',
+	'TEST_EMAIL_SENT'				=> 'Testowy e-mail został wysłany.<br>Jeśli go nie otrzymałeś, sprawdź ustawienia e-mail.<br><br>Jeśli potrzebujesz pomocy, odwiedź forum <a href="http://www.phpbb.pl/">phpbb.pl</a> albo <a href="https://www.phpbb.com/community/">phpbb.com</a>',
 	'USE_SMTP'						=> 'Używaj serwera SMTP dla e-maili',
 	'USE_SMTP_EXPLAIN'				=> 'Wybierz <samp>Tak</samp>, aby wysłać wiadomości e-mail przez serwer SMTP zamiast przez lokalną funkcję pocztową.',
 ));

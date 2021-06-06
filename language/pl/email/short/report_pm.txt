@@ -1,8 +1,8 @@
-Subject: Zgłoszono do moderacji prywatną wiadomość – „{TOPIC_TITLE}”
+Subject: Zgłoszono do moderacji prywatną wiadomość – „{SUBJECT}”
 
 Witaj {USERNAME},
 
-Otrzymujesz to powiadomienie, ponieważ na witrynie „{SITENAME}” „{AUTHOR_NAME}” zgłosił do przejrzenia przez moderatorów prywatną wiadomość zatytułowaną „{SUBJECT}”.
+Na witrynie „{SITENAME}” „{AUTHOR_NAME}” zgłosił do moderacji prywatną wiadomość zatytułowaną „{SUBJECT}”.
 
 Jeśli chcesz zobaczyć zgłoszenie, kliknij poniższy odnośnik:
 {U_VIEW_REPORT}

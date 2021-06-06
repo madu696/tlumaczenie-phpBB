@@ -3,7 +3,6 @@ Subject: Nowa prywatna wiadomość
 Witaj {USERNAME}!
 
 Na witrynie „{SITENAME}” użytkownik „{AUTHOR_NAME}” wysłał do Ciebie prywatną wiadomość zatytułowaną:
-
 {SUBJECT}
 
 Możesz ją zobaczyć, klikając poniższy odnośnik:
