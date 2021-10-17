@@ -9,7 +9,7 @@
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
  *
- * @Polska wersja językowa phpBB 3.3.4 - 30.05.2021, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpBB 3.3.5 - 17.10.2021, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
