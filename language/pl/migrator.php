@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-28 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.5 - 17.10.2021, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -77,6 +77,7 @@ $lang = array_merge($lang, array(
 	
 	'PARENT_MODULE_FIND_ERROR'			=> 'Nie można określić identyfikatora modułu nadrzędnego: %s',
 	'PERMISSION_NOT_EXIST'				=> 'Nie istnieje ustawienie „%s”.',
-
+	
+	'ROLE_ASSIGNED_NOT_EXIST'			=> 'Nie istnieje rola przypisana do grupy "%1$s". Numer roli: "%2$s"',
 	'ROLE_NOT_EXIST'					=> 'Nie istnieje rola „%s”.',
 ));

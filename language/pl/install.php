@@ -10,7 +10,7 @@
  * the docs/CREDITS.txt file.
  *
  * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
- * @Polska wersja językowa phpBB 3.3.5 - 17.10.2021, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -360,7 +360,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Jak zaktualizować zainstalowaną wersję za pomocą pełnego pakietu aktualizacyjnego („Full Package”)</h1>
 
-		<p>Zalecanym sposobem aktualizacji skryptu jest użycie pełnego pakietu aktualizacyjnego. Jeśli zostały zmodyfikowane główne pliki phpBB, można użyć automatycznej aktualizacji („Automatic Update”), aby zachować wprowadzone zmiany. Można także dokonać aktualizacji skryptu za pomocą metod opisanych w dokumencie INSTALL.html. Aby wykonać aktualizację phpBB3 przy pomocy pełnego pakietu aktualizacyjnego, należy wykonać następujące kroki:</p>
+		<p>Zalecanym sposobem aktualizacji skryptu jest użycie pełnego pakietu aktualizacyjnego. Jeśli zostały zmodyfikowane główne pliki phpBB, można użyć zaawansowanej aktualizacji („Advanced Update Package”), aby zachować wprowadzone zmiany. Można także dokonać aktualizacji skryptu za pomocą metod opisanych w dokumencie INSTALL.html. Aby wykonać aktualizację phpBB3 przy pomocy pełnego pakietu aktualizacyjnego, należy wykonać następujące kroki:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Zrób kopię bazy danych oraz wszystkich plików forum.</strong></li>
@@ -381,12 +381,12 @@ $lang = array_merge($lang, array(
 			<li>Zaktualizuj style forum<br><br></li>
 		</ul>
 		
-		<h1>Jak zaktualizować zainstalowaną wersję za pomocą pakietu automatycznej aktualizacji („Automatic Update”)</h1>
+		<h1>Jak zaktualizować zainstalowaną wersję za pomocą pakietu zaawansowanej aktualizacji („Advanced Update Package”)</h1>
 
-		<p>Pakiet automatycznej aktualizacji jest zalecany wyłącznie w przypadku, gdy zostały zmodyfikowane główne pliki phpBB. Można także dokonać aktualizacji skryptu za pomocą metod opisanych w dokumencie INSTALL.html. Aby wykonać automatyczną aktualizację phpBB3, należy wykonać następujące kroki:</p>
+		<p>Pakiet zaawansowanej aktualizacji jest zalecany wyłącznie dla doświadczonych użytkowników w przypadku, gdy zostały zmodyfikowane główne pliki phpBB. Można także dokonać aktualizacji skryptu za pomocą metod opisanych w dokumencie INSTALL.html. Aby wykonać zaawansowaną aktualizację phpBB3, należy wykonać następujące kroki:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
-			<li>Przejdź do <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">strony pobierania</a> i pobierz archiwum zawierające pakiet automatycznej aktualizacji.</li>
+			<li>Przejdź do <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">strony pobierania</a> i pobierz archiwum zawierające pakiet zaawansowanej aktualizacji "Advanced Update Package".</li>
 			<li>Rozpakuj archiwum.</li>
 			<li>Wgraj rozpakowane katalogi „install” i „vendor” do głównego katalogu phpBB na serwerze – to katalog, w którym znajduje się plik „config.php”.<br><br></li>
 		</ol>

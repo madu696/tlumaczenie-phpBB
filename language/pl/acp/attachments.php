@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.5 - 17.10.2021, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -171,4 +171,5 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_EXPLAIN'			=> 'Ścieżka do katalogu zapisu załączników. Po zmianie katalogu należy wszystkie pliki z poprzedniego katalogu zapisu załączników przenieść do nowego.',
 	'UPLOAD_ICON'					=> 'Ikona pliku',
 	'UPLOAD_NOT_DIR'				=> 'Wybrana lokalizacja prawdopodobnie nie jest katalogiem.',
+	'UPLOAD_POST_NOT_EXIST'			=> 'Plik “%1$s” nie może zostać dodany do posta numer %2$d, ponieważ post nie istnieje.',
 ));
