@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.8 - 01.08.2022, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -440,6 +440,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE'				=> 'Wiadomość',
 	'MESSAGES'				=> 'Wiadomości',
 	'MESSAGES_COUNT'		=> array(
+		0	=> 'nielimitowane wiadomości',
 		1	=> '%d wiadomość',
 		2	=> '%d wiadomości',
 		3	=> '%d wiadomości',
@@ -617,7 +618,7 @@ $lang = array_merge($lang, array(
 	'POSTS_UNAPPROVED_FORUM'=> 'Co najmniej jeden post na tym forum nie został zaakceptowany.',
 	'POST_BY_AUTHOR'		=> 'autor:',
 	'POST_BY_FOE'			=> 'Ten post został napisany przez ignorowanego użytkownika – <strong>%1$s</strong>.',
-	'POST_DISPLAY'			=> '%1$sWyświetlaj ten post%2$s.',
+	'POST_DISPLAY'			=> 'Wyświetlaj ten post.',
 	'POST_DAY'				=> 'średnio dziennie: %.2f',
 	'POST_DELETED_ACTION'	=> 'Usunięty post:',
 	'POST_DELETED'			=> 'Ten post został usunięty.',
