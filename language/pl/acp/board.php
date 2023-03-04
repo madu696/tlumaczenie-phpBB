@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.10 - 04.03.2023, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -385,7 +385,7 @@ $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Tutaj, w celu zmniejszenia obciążenia serwera, można włączyć i wyłączyć wiele funkcji witryny. Zmniejszając liczbę funkcji wymagających przetworzenia przez serwer, zredukuje się jego obciążenie. Na większości serwerów nie ma potrzeby wyłączania żadnych funkcji. Niemniej na niektórych systemach lub w środowisku hostingu współdzielonego może być korzystne wyłączenie niepotrzebnych funkcji. Można także określić limity wykorzystania zasobów serwera i liczbę aktywnych sesji po osiągnięciu, których witryna przejdzie w tryb offline.' ,
 
 	'ALLOW_CDN'						=> 'Zezwalaj na używanie zewnętrznych serwerów dostarczania treści',
-	'ALLOW_CDN_EXPLAIN'				=> 'Jeśli ta opcja zostanie włączona, niektóre pliki będą serwowane z zewnętrznych serwerów dystrybucji treści (CDN), a nie z własnego serwera. Zmniejsza to szerokość pasma wymaganą przez własny serwer, ale może stanowić problem prywatności dla niektórych administratorów witryny. W domyślnej instalacji phpBB z serwera CDN Google jest wczytywana biblioteka jQuery i czcionka Open Sans.',
+	'ALLOW_CDN_EXPLAIN'				=> 'Jeśli ta opcja zostanie włączona, niektóre pliki będą serwowane z zewnętrznych serwerów dystrybucji treści (CDN), a nie z własnego serwera. Zmniejsza to wykorzystanie łącza używanego przez własny serwer, ale może stanowić problem prywatności w niektórych krajach. W domyślnej instalacji phpBB z serwera CDN Google jest wczytywana biblioteka jQuery i czcionka Open Sans. Dotyczy to również czcionki „Font Awesome”, której phpBB i niektóre rozszerzenia używają do renderowania ikon.',
 	'ALLOW_LIVE_SEARCHES'			=> 'Zezwalaj na dynamiczne wyszukiwanie',
 	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'Jeśli funkcja jest włączona, użytkownicy będą na całej witrynie otrzymywali propozycje słów kluczowych do wpisania w różnych polach.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'Dodatkowe pola profilu',
@@ -482,7 +482,7 @@ $lang = array_merge($lang, array(
 	'SCRIPT_PATH'				=> 'Ścieżka do skryptu',
 	'SCRIPT_PATH_EXPLAIN'		=> 'Ścieżka do katalogu, gdzie jest umiejscowiona instalacja phpBB, relatywna do nazwy domeny, np. <samp>/phpBB3</samp>.',
 	'SERVER_NAME'				=> 'Nazwa domeny',
-	'SERVER_NAME_EXPLAIN'		=> 'Nazwa domeny, z której uruchamiana jest ta witryna, np. <samp>www.foo.bar</samp>.',
+	'SERVER_NAME_EXPLAIN'		=> 'Nazwa domeny, z której uruchamiana jest ta witryna, np. <samp>foo.bar</samp>.',
 	'SERVER_PORT'				=> 'Port serwera',
 	'SERVER_PORT_EXPLAIN'		=> 'Uruchomiony port serwera. Zazwyczaj jest to port 80. Zmieniać tylko, jeśli serwer używa innego portu.',
 	'SERVER_PROTOCOL'			=> 'Protokół serwera',

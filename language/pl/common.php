@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.8 - 01.08.2022, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.10 - 04.03.2023, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -694,6 +694,10 @@ $lang = array_merge($lang, array(
 	'RETURN_TOPIC'				=> '%sWróć do ostatnio przeglądanego tematu%s',
 	'RETURN_TO'					=> 'Wróć do „%s”',
 	'RETURN_TO_INDEX'			=> 'Wróć do wykazu forów',
+	
+	'ROUTE_NOT_FOUND'				=> 'Nie udało się znaleźć żądanej trasy "%s".',
+	'ROUTE_INVALID_MISSING_PARAMS'	=> 'Przekazano niewłaściwe lub brakujące parametry trasy“%s”.',
+	
 	'FEED'						=> 'Kanał',
 	'FEED_NEWS'					=> 'Wiadomości',
 	'FEED_TOPICS_ACTIVE'		=> 'Aktywne tematy',

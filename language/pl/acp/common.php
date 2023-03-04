@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-02-02 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.10 - 04.03.2023, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -739,6 +739,10 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Utworzono indeks wyszukiwania dla</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Usunięto indeks wyszukiwania dla</strong><br />» %s',
 	'LOG_SPHINX_ERROR'			=> '<strong>Błąd Sphinx</strong><br />» %s',
+	
+	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'Spamhaus nie zezwala na zapytania z użyciem otwartego rozpoznawania (resolwera). Sprawdzanie czarnej listy zostało wyłączone. Aby uzyskać więcej informacji, zobacz https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'Przekroczono limit liczby zapytań Spamhaus. Sprawdzanie czarnej listy zostało wyłączone. Aby uzyskać więcej informacji, zobacz https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	
 	'LOG_STYLE_ADD'				=> '<strong>Zainstalowano nowy styl</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Usunięto styl</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Edytowano detale stylu</strong><br />» %s',
