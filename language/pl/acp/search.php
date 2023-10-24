@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.11 - 24.10.2023, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -113,18 +113,19 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'Interwał anty–przepełnieniowy dla gościa',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Liczba sekund, jaką goście muszą odczekać między wyszukiwaniami. Jeśli jeden z gości przeprowadza wyszukiwanie, wszyscy pozostali muszą poczekać, aż upłynie określony tutaj czas.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
-		2	=> 'Wszystkie posty do posta o id %2$d zostały zindeksowane, z czego %1$d postów w tym kroku.<br />',
+		2	=> 'Wszystkie posty do posta o id %2$d zostały zindeksowane, z czego %1$d postów w tym kroku.',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		2	=> 'Aktualna szybkość indeksowania wynosi około %1$.1f postów na sekundę.<br />Trwa indeksowanie…',
+		2	=> 'Aktualna szybkość indeksowania wynosi około %1$.1f postów na sekundę.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'Wszystkie posty do posta o id %2$d zostały usunięte z indeksu wyszukiwania. Pozostało do usunięcia %1$d post(ów).<br />',
+		2	=> 'Wszystkie posty do posta o id %2$d zostały usunięte z indeksu wyszukiwania. Pozostało do usunięcia %1$d post(ów).',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
-		2	=> 'Aktualna szybkość usuwania wynosi około %1$.1f postów na sekundę.<br />Trwa usuwanie…',
+		2	=> 'Aktualna szybkość usuwania wynosi około %1$.1f postów na sekundę.',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Wszystkie posty znajdujące się w bazie danych witryny zostały zindeksowane.',
+	'SEARCH_INDEX_PROGRESS'					=> 'Zakończono: %1$d | Oczekuje: %2$d | Łącznie: %3$d',
 	'SEARCH_INDEX_REMOVED'					=> 'Indeks wyszukiwania dla tego mechanizmu został usunięty.',
 	'SEARCH_INTERVAL'						=> 'Interwał anty–przepełnieniowy dla użytkownika',
 	'SEARCH_INTERVAL_EXPLAIN'				=> 'Liczba sekund, jaką użytkownik musi odczekać pomiędzy wyszukiwaniami. Interwał ten jest sprawdzany niezależnie dla każdego użytkownika.',

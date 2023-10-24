@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.10 - 04.03.2023, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.11 - 24.10.2023, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'BOARD_STYLE'					=> 'Styl witryny',
 	'CUSTOM_DATEFORMAT'				=> 'Dostosuj…',
 	'DEFAULT_DATE_FORMAT'			=> 'Format daty',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Format daty jest taki sam jak funkcja PHP <code><a href="https://secure.php.net/manual/function.date.php">date()</a></code>.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Format daty jest taki sam jak składnia <a href="https://www.php.net/manual/datetime.format.php">funkcji w PHP</a>.',
 	'DEFAULT_LANGUAGE'				=> 'Domyślny język',
 	'DEFAULT_STYLE'					=> 'Domyślny styl',
 	'DEFAULT_STYLE_EXPLAIN'			=> 'Domyślny styl witryny dla nowych użytkowników.',

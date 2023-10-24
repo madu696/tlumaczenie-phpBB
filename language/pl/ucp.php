@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.8 - 01.08.2022, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.11 - 24.10.2023, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -117,7 +117,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Urodziny',
 	'BIRTHDAY_EXPLAIN'			=> 'Wpisanie roku spowoduje wyświetlenie w dniu urodzin twojego wieku.',
 	'BOARD_DATE_FORMAT'			=> 'Format wyświetlania daty',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Składnia jest taka sama, jak składnia funkcji <a href="https://secure.php.net/manual/function.date.php">date()</a> w PHP.',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Format daty jest taki sam jak składnia <a href="https://www.php.net/manual/datetime.format.php">funkcji w PHP</a>.',
 	'BOARD_LANGUAGE'			=> 'Język',
 	'BOARD_STYLE'				=> 'Styl witryny',
 	'BOARD_TIMEZONE'			=> 'Strefa czasowa',

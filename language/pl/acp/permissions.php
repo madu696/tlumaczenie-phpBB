@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-02-02 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.11 - 24.10.2023, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'Nigdy',
 	'ACL_SET'				=> 'Przydzielanie uprawnień',
-	'ACL_SET_EXPLAIN'		=> 'Przydzielanie uprawnień polega na wybraniu jednej z opcji: <strong>Tak</strong>/<strong>Nie</strong>/<strong>Nigdy</strong>. Wybranie opcji <strong>Nigdy</strong> dla użytkownika lub grupy użytkowników zastępuje wszystkie inne przydzielone im wartości. Jeśli nie chcesz przydzielać danego uprawnienia, wybierz <strong>Nie</strong>. Jeśli gdzieś przydzielono temu uprawnieniu już jakąś wartość, zostanie ona użyta w ustawieniach, chyba że zostało przydzielone <strong>Nigdy</strong>. Wszystkie zaznaczone elementy skopiują uprawnienia wybranego zestawu.',
+	'ACL_SET_EXPLAIN'		=> 'Przydzielanie uprawnień polega na wybraniu jednej z opcji: <strong>Tak</strong>/<strong>Nie</strong>/<strong>Nigdy</strong>. Wybranie opcji <strong>Nigdy</strong> dla użytkownika lub grupy użytkowników zastępuje wszystkie inne przydzielone im wartości. Jeśli nie chcesz przydzielać danego uprawnienia, wybierz <strong>Nie</strong>. Jeśli gdzieś przydzielono temu uprawnieniu już jakąś wartość, zostanie ona użyta w ustawieniach, chyba że zostało przydzielone <strong>Nigdy</strong>. Wszystkie zaznaczone elementy skopiują uprawnienia wybranego zestawu. Należy pamiętać, że ustawienie uprawnień administracyjnych dla kont założycieli nie ma żadnego wpływu, ponieważ uprawnienia administratora są zawsze ustawione na <strong>Tak</strong> dla założycieli.',
 	'ACL_SETTING'			=> 'Uprawnienie',
 
 	'ACL_TYPE_A_'			=> 'Uprawnienia administratora',

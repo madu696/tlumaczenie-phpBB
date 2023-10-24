@@ -10,7 +10,7 @@
  * the docs/CREDITS.txt file.
  *
  * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
- * @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpBB 3.3.11 - 24.10.2023, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Wprowadzenie',
-	'INTRODUCTION_BODY'		=> 'Witamy w phpBB3!<br /><br />phpBB® jest najczęściej używanym systemem forów internetowych na świecie. phpBB3 jest najnowszą wersją pakietu, który miał swoją premierę w 2000 roku. Tak, jak i jego poprzednie wersje, phpBB3 jest bogate w funkcje przyjazne dla użytkowników i w pełni wspierane przez zespół phpBB. phpBB3 wspaniale rozwija to, co uczyniło phpBB2 popularnym i zawiera najczęściej zgłaszane przez użytkowników funkcje, które nie były obecne w poprzedniej wersji. Mamy nadzieję, że ta wersja spełni twoje oczekiwania.<br /><br />Instalator poprowadzi cię przez proces instalacji phpBB3, konwersji innego typu witryny lub aktualizacji poprzedniej wersji. Aby uzyskać więcej informacji, polecamy zapoznać się z <a href="../docs/INSTALL.html">instrukcją instalacji</a>.<br /><br /> Aby zapoznać się z licencją phpBB3 lub dowiedzieć się o zakresie naszej pomocy i jak ją uzyskać, wybierz daną opcję z bocznego menu. Aby kontynuować, wybierz na górze odpowiednią kartę.',
+	'INTRODUCTION_BODY'		=> 'Witamy w phpBB3!<br /><br />phpBB® jest najczęściej używanym systemem forów internetowych na świecie. phpBB3 jest najnowszą wersją pakietu, który miał swoją premierę w 2000 roku. Tak, jak i jego poprzednie wersje, phpBB3 jest bogate w funkcje przyjazne dla użytkowników i w pełni wspierane przez zespół phpBB. phpBB3 wspaniale rozwija to, co uczyniło phpBB2 popularnym i zawiera najczęściej zgłaszane przez użytkowników funkcje, które nie były obecne w poprzedniej wersji. Mamy nadzieję, że ta wersja spełni twoje oczekiwania.<br /><br />Instalator poprowadzi cię przez proces instalacji phpBB3, konwersji innego typu witryny lub aktualizacji poprzedniej wersji. Aby uzyskać więcej informacji, polecamy zapoznać się z <a href="%1$s">instrukcją instalacji</a>.<br /><br /> Aby zapoznać się z licencją phpBB3 lub dowiedzieć się o zakresie naszej pomocy i jak ją uzyskać, wybierz daną opcję z bocznego menu. Aby kontynuować, wybierz na górze odpowiednią kartę.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Pomoc',
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'Wersja PHP',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB wymaga wersji PHP 7.1.3 lub wyższej.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB wymaga wersji PHP 7.2.0 lub wyższej.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Funkcja PHP getimagesize() jest dostępna',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Wymagane</strong> – Aby phpBB działało prawidłowo, funkcja „getimagesize” musi być dostępna.',
 	'PCRE_UTF_SUPPORT'					=> 'Obsługa UTF-8 przez PCRE',
@@ -510,10 +510,12 @@ $lang = array_merge($lang, array(
 	'CHECK_TABLE_PREFIX'		=> 'Sprawdź prefiks tabel i spróbuj ponownie.',
 
 	// Conversion in progress
+	'CATEGORY'					=> 'Kategoria',
 	'CONTINUE_CONVERT'			=> 'Kontynuuj konwersję',
 	'CONTINUE_CONVERT_BODY'		=> 'Wykryto poprzednią próbę konwersji. Można teraz rozpocząć nową konwersję lub kontynuować poprzednią.',
 	'CONVERT_NEW_CONVERSION'	=> 'Nowa konwersja',
 	'CONTINUE_OLD_CONVERSION'	=> 'Kontynuuj poprzednio rozpoczętą konwersję',
+	'POST_ID'					=> 'ID posta',
 
 	// Start conversion
 	'SUB_INTRO'					=> 'Wprowadzenie',
@@ -570,6 +572,10 @@ $lang = array_merge($lang, array(
 	'CONVERT_COMPLETE'			=> 'Konwersja zakończona',
 	'CONVERT_COMPLETE_EXPLAIN'	=> 'Witryna została skonwertowana na phpBB 3.3. Możesz teraz zalogować się i <a href="../">wejść na swoją witrynę</a>. Zanim odblokujesz swoją witrynę, usuwając katalog „install/” sprawdź, czy ustawienia zostały skonwertowane prawidłowo. Pomoc możesz uzyskać na stronie internetowej phpBB3, zapoznając się z <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">dokumentacją</a> oraz na forum <a href="https://www.phpbb.com/community/viewforum.php?f=661">pomocy</a>.',
 
+	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> to nazwa użytkownika składająca się wyłącznie z małych liter dla:',
+	'COLLIDING_USER'					=> '» id użytkownika: <strong>%d</strong> nazwa użytkownika: <strong>%s</strong> (%d postów)',
+	'COLLIDING_USERNAMES_FOUND'			=> 'Na starym forum znaleziono kolidujące nazwy użytkowników. Aby zakończyć konwersję, usuń lub zmień nazwy tych użytkowników, tak aby na starym forum był tylko jeden użytkownik o takiej samej nazwie składającej się wyłącznie z małych liter.',
+	'CONV_ERR_FATAL'					=> 'Krytyczny błąd konwersji',
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Na starej witrynie jest włączona funkcja wysyłania załączników przez FTP. Wyłącz ją i sprawdź, czy jest podany właściwy katalog docelowy, a następnie skopiuj wszystkie załączniki do nowego, dostępnego przez Internet katalogu. Po wykonaniu tych operacji ponownie uruchom proces konwersji.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Nie ma dostępnych informacji konfiguracyjnych dla konwersji.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Nie można uzyskać informacji o dostępie do forów.',
