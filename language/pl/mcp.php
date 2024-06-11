@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.12 - 11.06.2024, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -261,7 +261,7 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'			=> 'Tylko temat „%s”',
 	'OTHER_USERS'			=> 'Inni użytkownicy, którzy pisali z tego IP',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s jest niedozwolone do moderacji",
+	'QUICKMOD_ACTION_NOT_ALLOWED' => '%s jest niedozwolone do moderacji',
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Wybrane zgłoszenie PW zostało zamknięte.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Wybrane zgłoszenie PW zostało usunięte.',
