@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 15:34:14 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.13 - 12.10.2024, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -89,6 +89,20 @@ $lang = array_merge($lang, array(
 		'LOCAL_URL'		=> 'Lokalny adres URL. Adres musi być powiązany ze stroną tematów i nie może zawierać nazwy serwera czy protokołu jak odnośniki z prefiksem „%s”.',
 		'RELATIVE_URL'	=> 'Względny adres URL. Można to wykorzystać w celu dopasowania części adresu URL, ale należy zachować ostrożność i sprawdzić, czy pełny adres URL odpowiada względnemu URL. Jeśli chcesz używać względnych adresów URL swojej witryny, użyj tokena LOCAL_URL.',
 		'COLOR'			=> 'Kolor HTML może być wyrażony w formie numerycznej <samp>#FF1234</samp> lub jako słowa kluczowe kolorów określone w specyfikacji <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS</a>, takie jak <samp>fuchsia</samp> lub <samp>InactiveBorder</samp>,'
+		'ALNUM'			=> 'Znaki z alfabetu łacińskiego (A-Z) i cyfry.',
+		'CHOICE'		=> 'Wybór określonych wartości, e.g. <samp>{CHOICE=spades,hearts,diamonds,clubs}</samp>. Wartości są domyślnie traktowane jako niewrażliwe na wielkość liter i mogą być traktowane jako wrażliwe na wielkość liter poprzez podanie parametru <samp>caseSensitive</samp> jako: <samp>{CHOICE=Spades,Hearts,Diamonds,Clubs;caseSensitive}</samp>',
+		'FLOAT'			=> 'Wartość dziesiętna, np. <samp>0.5</samp>.',
+		'HASHMAP'		=> 'Mapuje ciągi znaków na ich zamienniki w postaci  <samp>{HASHMAP=string1:replacement1,string2:replacement2}</samp>. Wielkość liter nie ma znaczenia. Domyślnie zachowuje nieznane wartości.',
+		'INT'			=> 'Wartość całkowita, np. <samp>2</samp>.',
+		'IP'			=> 'Prawidłowy adres IPv4 lub IPv6.',
+		'IPPORT'		=> 'Prawidłowy adres IPv4 lub IPv6 z numerem portu.',
+		'IPV4'			=> 'Prawidłowy adres IPv4.',
+		'IPV6'			=> 'Prawidłowy adres IPv6.',
+		'MAP'			=> 'Mapuje ciągi znaków na ich zamienniki w postaci <samp>{MAP=string1:replacement1,string2:replacement2}</samp>. Wielkość liter nie ma znaczenia. Domyślnie zachowuje nieznane wartości.',
+		'RANGE'			=> 'Akceptuje liczbę całkowitą w podanym zakresie, np. <samp>{RANGE=-10,42}</samp>.',
+		'REGEXP'		=> 'Sprawdza jego wartość względem podanego wyrażenia regularnego, np. <samp>{REGEXP=/^foo\w+bar$/}</samp>.',
+		'TIMESTAMP'		=> 'Znacznik czasu, taki jak <samp>1h30m10s</samp>, zostanie przekonwertowany na liczbę sekund. Akceptuje również liczbę.',
+		'UINT'			=> 'Wartość całkowita bez znaku. Tak samo jak <samp>{INT}</samp>, ale odrzuca wartości mniejsze niż 0.',
 	),
 ));
 

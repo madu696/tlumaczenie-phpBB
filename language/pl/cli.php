@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.13 - 12.10.2024, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 if (!defined('IN_PHPBB'))
@@ -109,6 +109,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Wyślij e-mail aktywacyjny do nowego użytkownika (domyślnie nie jest wysyłany)',
 	'CLI_DESCRIPTION_USER_DELETE'				=> 'Usuń konto użytkownika.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Nazwa użytkownika do usunięcia',
+	'CLI_DESCRIPTION_USER_DELETE_ID'			=> 'Usuwanie kont użytkowników według identyfikatora ID.',
+	'CLI_DESCRIPTION_USER_DELETE_ID_OPTION_ID'	=> 'Identyfikatory użytkowników do usunięcia',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Usuń wszystkie posty użytkownika. Bez tej opcji, wszystko posty zostaną zachowane.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Sprawdź nazwy użytkowników.',
 	
@@ -158,6 +160,10 @@ $lang = array_merge($lang, array(
 
 	'CLI_USER_ADD_SUCCESS'		=> 'Pomyślnie dodano użytkownika %s.',
 	'CLI_USER_DELETE_CONFIRM'	=> 'Czy na pewno chcesz usunąć użytkownika ‘%s’? [Y/N]',
+	'CLI_USER_DELETE_ID_CONFIRM'	=> 'Czy na pewno chcesz usunąć użytkownika wg identyfikatora ID ‘%s’? [Y/N]',
+	'CLI_USER_DELETE_ID_SUCCESS'	=> 'Pomyślnie usunięto użytkowników wg identyfikatora ID.',
+	'CLI_USER_DELETE_ID_START'		=> 'Usuwanie użytkowników wg identyfikatora ID.',
+	'CLI_USER_DELETE_NONE'			=> 'Żaden użytkownik nie został usunięty wg identyfikatora ID.',
 	'CLI_USER_RECLEAN_START'	=> 'Ponowne sprawdzanie nazw użytkowników.',
 	'CLI_USER_RECLEAN_DONE'		=> [
 		0	=> 'Ponowne sprawdzanie zostało zakończone. Brak nazw użytkowników do przetworzenie.',
