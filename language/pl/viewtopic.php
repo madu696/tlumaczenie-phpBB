@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.14 - 02.01.2025, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -115,6 +115,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INFO'				=> 'Szczegóły posta',
 	'VIEW_NEXT_TOPIC'		=> 'Następny temat',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Poprzedni temat',
+	'VIEW_QUOTED_POST'		=> 'Zacytowany post',
 	'VIEW_RESULTS'			=> 'Pokaż wyniki',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> 'Posty: %d',

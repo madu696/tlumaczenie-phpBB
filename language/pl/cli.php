@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.13 - 12.10.2024, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.14 - 02.01.2025, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 if (!defined('IN_PHPBB'))
@@ -75,7 +75,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Dostępne reparsery:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Zreparsuj zachowany tekst z obecnie używaną usługą text_formatter.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Typ tekstu do reparsowania. Zostaw puste, aby zreparsować wszystko.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Nie zapisuj żadnych zmian; wyświetl co sięDo not save any changes; just print what would happen',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Nie zapisuj żadnych zmian; wyświetl co się stanie.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE'	=> 'Ponownie przetwórz wszystkie kody BB bez wyjątku. Należy pamiętać, że wszystkie wcześniej wyłączone kody BB zostaną ponownie przetworzone, włączone i w pełni wyrenderowane.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Najniższy ID rekordu do przetworzenia',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Najwyższy ID rekordu do przetworzenia',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Przybliżona liczba rekordów do przetworzenia.',
