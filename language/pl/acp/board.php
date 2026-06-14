@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.11 - 24.10.2023, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.15 - 07.04.2025, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -501,7 +501,7 @@ $lang = array_merge($lang, array(
 	'ACP_SECURITY_SETTINGS_EXPLAIN'		=> 'Tutaj można zdefiniować ustawienia sesji i powiązanych z nimi opcji logowania.',
 
 	'ALL'							=> 'Wszystko',
-	'ALLOW_AUTOLOGIN'				=> 'Automatyczne logowanie',
+	'ALLOW_AUTOLOGIN'				=> 'Zezwalaj na automatyczne logowanie',
 	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Włączenie tej funkcji spowoduje wyświetlanie opcji „Zapamiętaj mnie” na stronie logowania do witryny. Zaznaczenie tej opcji umożliwi użytkownikom automatyczne logowanie podczas odwiedzin witryny.',
 	'ALLOW_PASSWORD_RESET'			=> 'Zezwalaj na resetowanie hasła',
 	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'Włączenie tej funkcji spowoduje wyświetlanie na stronie logowania do witryny odnośnika „Nie pamiętam hasła”, umożliwiającego użytkownikowi odzyskanie dostępu do swojego konta. Jeśli witryna używa zewnętrznego mechanizmu autoryzacji, należy tę funkcję wyłączyć.',

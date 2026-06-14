@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.11 - 24.10.2023, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.15 - 07.04.2025, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$sPowrót do swojego folderu „%3$s”%2$s',
 	'CONFIRMATION'				=> 'Potwierdzenie rejestracji',
 	'CONFIRM_CHANGES'			=> 'Potwierdź zmiany',
-	'CONFIRM_EXPLAIN'			=> 'Aby zapobiec automatycznemu rejestrowaniu się użytkowników, witryna wymaga rozwiązania zabezpieczenia antyspamowego. Odpowiedź na pytanie lub przepisz wyświetlony poniżej kod. Jeśli jest on nieczytelny, skontaktuj się z %sadministratorem witryny%s.',
+	'CONFIRM_EXPLAIN'			=> 'Aby zapobiec automatycznemu rejestrowaniu się użytkowników, witryna wymaga rozwiązania zabezpieczenia antyspamowego. Możesz być poproszony o rozwiązanie zadania, odpowiedzi na pytanie lub przepisanie wyświetlonego kodu. Jeśli jest on nieczytelny, skontaktuj się z %sadministratorem witryny%s.',
 	'VC_REFRESH'				=> 'Odśwież kod',
 	'VC_REFRESH_EXPLAIN'		=> 'Jeśli masz trudności z odczytaniem kodu, możesz poprosić o wyświetlenie nowego, naciskając przycisk.',
 

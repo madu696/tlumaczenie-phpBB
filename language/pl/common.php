@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.12 - 11.06.2024, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.15 - 07.04.2025, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -366,6 +366,7 @@ $lang = array_merge($lang, array(
 	'HIDE_ME'						=> 'Ukryj mój status podczas tej sesji',
 	'HOURS'							=> 'godz.',
 	'HOME'							=> 'Strona domowa',
+	'HTTP_HANDLER_NOT_FOUND'		=> 'Operacja nie mogła zostać ukończona, ponieważ rozszerzenie cURL PHP i ustawienie allow_url_fopen PHP ini zostały wyłączone i nie można było znaleźć innego programu obsługi HTTP.',
 
 	'ICQ'						=> 'ICQ',
 	'IF'						=> 'Jeśli',
