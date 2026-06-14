@@ -10,7 +10,7 @@
  * the docs/CREDITS.txt file.
  *
  * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
- * @Polska wersja językowa phpBB 3.3.11 - 24.10.2023, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpBB 3.3.16 - 14.06.2026, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -86,6 +86,7 @@ $lang = array_merge($lang, array(
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'Skrypt phpBB został już zainstalowany.',
 	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'Skrypt phpBB nie został jeszcze zainstalowany.',
+	'INSTALL_RESTART'				=> 'Restart instalacji',
 ));
 
 // Requirements translation

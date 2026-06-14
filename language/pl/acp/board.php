@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.15 - 07.04.2025, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.16 - 14.06.2026, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -298,7 +298,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Tutaj można włączyć/wyłączyć kanał „Wszystkie fora”, w którym jest wyświetlany wykaz wszystkich forów.',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'Uwierzytelnianie HTTP',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Tutaj można włączyć/wyłączyć uwierzytelnianie HTTP. Umożliwia to użytkownikom po dodaniu do adresu URL kanału parametru <samp>auth=http</samp> odbieranie zawartości ukrytej dla gości. Niektóre ustawienia PHP wymagają dodatkowych zmian w pliku .htaccess. Instrukcja znajduje się w tym pliku.',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Tutaj można włączyć/wyłączyć uwierzytelnianie HTTP, umożliwiając użytkownikom dostęp do treści ukrytych przed gośćmi poprzez dodanie parametru <samp>auth=http</samp> do adresu URL kanału. Niektóre ustawienia PHP wymagają dodatkowych zmian w pliku .htaccess. Instrukcja znajduje się w tym pliku. Uwierzytelnianie HTTP jest obsługiwane wyłącznie w przypadku połączeń szyfrowanych (https).',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Elementy statystyk',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Wyświetla indywidualne statystyki następujących elementów kanału:<br>(autor, data i czas, odpowiedzi, odsłony)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Wykluczone fora',
