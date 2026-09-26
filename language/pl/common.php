@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.15 - 07.04.2025, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.19 - 26.09.2026, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'X',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'Token OAuth nie jest przechowywany.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'Token OAuth jest nieprawidłowo przechowywany.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'Wysyłanie zostało przerwane, ponieważ przesyłany plik został zidentyfikowany jako potencjalnie niebezpieczny.',
@@ -345,6 +345,7 @@ $lang = array_merge($lang, array(
 		3	=> '%d gości',
 	),
 	'G_ADMINISTRATORS'			=> 'Administratorzy',
+	'G_AI_CRAWLERS'				=> 'Boty AI',
 	'G_BOTS'					=> 'Boty',
 	'G_GUESTS'					=> 'Goście',
 	'G_REGISTERED'				=> 'Zarejestrowani użytkownicy',
@@ -519,7 +520,10 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Użytkownik %1$s <strong>poprosił o akceptację</strong> tematu:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'W katalogu witryny brakuje powiadomienia typu „%s”.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Wymagana aktywacja</strong> dla nowo zarejestrowanego lub zdeaktywowanego użytkownika „%1$s”',
-	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	'NOTIFICATION_UPDATE_CRITICAL'		=> '<strong>Dostępna jest nowa wersja skryptu phpBB %2$s - wymagana aktualizacja krytyczna</strong>: Twoje forum działa w wersji %1$s i należy natychmiast zainstalować nową wersję zawierającą krytyczne poprawki bezpieczeństwa.',
+	'NOTIFICATION_UPDATE_MAINTENANCE'	=> '<strong>Dostępna jest nowa wersja skryptu phpBB %2$s</strong>: Twoje forum działa w wersji %1$s i dostępna jest nowa wersja.',
+	'NOTIFICATION_UPDATE_SECURITY'		=> '<strong>Dostępna jest nowa wersja skryptu phpBB %2$s - aktualizacja zabezpieczeń</strong>: Twoje forum działa w wersji %1$s i dostępna jest nowa wersja zawierająca poprawki zabezpieczeń. Zalecamy aktualizację forum, aby zapewnić jego bezpieczeństwo i ochronę.',
+ 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'inni',
 	'NOTIFICATION_X_OTHERS'				=> array(
 		2	=> '%d innych',
@@ -861,7 +865,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Liczba użytkowników: <strong>%d</strong>',
 	),
 	'TRACKED_PHP_ERROR'	=> 'Liczba zauważonych błędów PHP: %s',
-	'TWITTER'			=> 'Twitter',
+	'TWITTER'			=> 'X',
 
 	'UNABLE_GET_IMAGE_SIZE'	=> 'Nie można określić wymiarów obrazka. Sprawdź, czy podany adres URL jest poprawny.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Nie można dostarczyć pliku.',

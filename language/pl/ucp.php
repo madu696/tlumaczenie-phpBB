@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-10-07 18:24:32 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.16 - 14.06.2026, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.19 - 26.09.2026, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -358,6 +358,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> 'Zgłoszenie dotyczące prywatnej wiadomości zostało zamknięte przez moderatora',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Utworzono temat na obserwowanym forum',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Użytkownik wymaga aktywacji',
+	'NOTIFICATION_TYPE_UPDATE_MAINTENANCE'				=> 'Nowa wersja skryptu phpBB',
 
 	'NOTIFY_METHOD'					=> 'Sposób powiadamiania',
 	'NOTIFY_METHOD_BOTH'			=> 'Oba sposoby',

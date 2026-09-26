@@ -10,7 +10,7 @@
  * the docs/CREDITS.txt file.
  *
  * @Polish locale 2014-07-07 18:24:32 Zespół Olympus.pl $
- * @Polska wersja językowa phpBB 3.3.16 - 14.06.2026, Mateusz Dutko (vader) www.rnavspotters.pl
+ * @Polska wersja językowa phpBB 3.3.19 - 26.09.2026, Mateusz Dutko (vader) www.rnavspotters.pl
  */
 
 /**
@@ -303,6 +303,7 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'Tworzenie tabel',
 
 	// Install data
+	'TASK_ADD_AI_CRAWLERS'		=> 'Rejestrowanie botów AI',
 	'TASK_ADD_BOTS'				=> 'Rejestrowanie botów',
 	'TASK_ADD_LANGUAGES'		=> 'Instalowanie dostępnych języków',
 	'TASK_ADD_MODULES'			=> 'Instalowanie modułów',
@@ -498,7 +499,8 @@ $lang = array_merge($lang, array(
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'Wybrany konwerter nie istnieje.',
 	'DEV_NO_TEST_FILE'			=> 'Zmienna test_file w konwerterze nie ma wartości. Użytkownik tego konwertera nie powinien widzieć tego błędu. Poinformuj o tym autora konwertera. Jeśli jesteś autorem konwertera, musisz podać nazwę pliku, który istnieje w źródłowej witrynie, co umożliwi sprawdzanie ścieżki.',
-	'COULD_NOT_FIND_PATH'		=> 'Nie można znaleźć ścieżki do poprzedniej witryny. Sprawdź ustawienia i spróbuj ponownie. Podana ścieżka do źródłowej witryny to %s.',
+	'COULD_NOT_COPY'			=> 'Nie udało się skopiować pliku <strong>%1$s</strong> do <strong>%2$s</strong><br><br>Sprawdź, czy katalog docelowy istnieje i czy serwer ma do niego uprawnienia do zapisu.',
+ 	'COULD_NOT_FIND_PATH'		=> 'Nie można znaleźć ścieżki do poprzedniej witryny. Sprawdź ustawienia i spróbuj ponownie. Podana ścieżka do źródłowej witryny to %s.',
 	'CONFIG_PHPBB_EMPTY'		=> 'Zmienna konfiguracji dla „%s” nie zawiera danych.',
 
 	'MAKE_FOLDER_WRITABLE'		=> 'Sprawdź, czy ten katalog istnieje i nie jest zabezpieczony przed zapisem i spróbuj ponownie:<br />»<strong>%s</strong>.',

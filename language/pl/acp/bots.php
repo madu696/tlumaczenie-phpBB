@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-07-05 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.7 - 02.04.2022, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.19 - 26.09.2026, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -51,6 +51,8 @@ $lang = array_merge($lang, array(
 	'BOT_DELETED'		=> 'Bot został usunięty.',
 	'BOT_EDIT'			=> 'Edytowanie botów',
 	'BOT_EDIT_EXPLAIN'	=> 'Tutaj można dodać lub edytować istniejące wpisy botów. Można zdefiniować identyfikator bota lub adresy, zakres adresów IP do porównania. W trakcie definiowania identyfikatora czy adresu należy zachować ostrożność. Można także zdefiniować styl i język, jaki bot będzie widział, odwiedzając witrynę. Ustawienie prostego stylu dla botów pozwoli zredukować szerokość zajmowanego pasma. Należy pamiętać, aby ustawić odpowiednie uprawnienia dla grupy „Boty”.',
+	'BOT_GROUP'			=> 'Grupa bota',
+	'BOT_GROUP_EXPLAIN'	=> 'Wybierz grupę, do której należy ten bot.',
 	'BOT_LANG'			=> 'Język dla bota',
 	'BOT_LANG_EXPLAIN'	=> 'Język forum prezentowany botowi w trakcie przeglądania.',
 	'BOT_LAST_VISIT'	=> 'Ostatnie odwiedziny',
@@ -67,6 +69,7 @@ $lang = array_merge($lang, array(
 	'ERR_BOT_AGENT_MATCHES_UA'	=> 'Podany identyfikator bota już istnieje. Proszę określić inny.',
 	'ERR_BOT_NO_IP'				=> 'Podany adres IP jest nieprawidłowy lub nie został rozpoznany przez serwer.',
 	'ERR_BOT_NO_MATCHES'		=> 'Należy dostarczyć przynajmniej jeden identyfikator lub adres IP dla tego bota.',
+	'ERR_BOT_NO_NAME'			=> 'Należy podać nazwę bota.',
 
 	'NO_BOT'		=> 'Nie znaleziono bota z podanym ID.',
 	'NO_BOT_GROUP'	=> 'Nie można znaleźć grupy bota.',

@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2014-11-29 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.16 - 14.06.2026, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.19 - 26.09.2026, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -352,20 +352,26 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Tutaj można zdefiniować dane ciasteczek wysyłanych do przeglądarek użytkowników. W większości przypadków domyślne wartości ustawień ciasteczek powinny być wystarczające. Jeśli zachodzi potrzeba zmiany tych ustawień, należy zrobić to bardzo ostrożnie. Nieprawidłowe ustawienia mogą powodować problemy z logowaniem użytkowników. Jeśli nadal występują problemy z sesją użytkowników na witrynie, odwiedź polskie forum ze wsparciem <strong><a href="http://www.phpbb.pl/">phpBB.pl</a></strong>.',
 
-	'COOKIE_DOMAIN'				=> 'Domena ciasteczka',
-	'COOKIE_DOMAIN_EXPLAIN'		=> 'W większości przypadków domena ciasteczka jest opcjonalna. Można zostawić to pole puste, jeśli nie wiadomo jaką ustawić nazwę.<br><br> Jeśli witryna jest zintegrowana z inną aplikacją (np. WordPress) lub występują subdomeny, to aby poprawnie ustawić domenę ciasteczka należy wykonać następujące kroki. Jeśli adresy stron to <i>example.com</i> i <i>forum.example.com</i> lub <i>forum.example.com</i> i <i>blog.example.com</i>, należy wybrać wspólną domenę - <i>example.com</i>. Teraz na początku należy dodać kropkę - <strong><i>.example.com</i></strong> (nazwa domeny ciasteczka musi zaczynać się od kropki na początku).',
-	'COOKIE_NAME'				=> 'Nazwa ciasteczka',
-	'COOKIE_NAME_EXPLAIN'		=> 'Nazwa ciasteczka może być dowolna, jednakże najlepiej, aby identyfikowała witrynę. Jeśli ustawienia ciasteczek zostaną zmienione, należy również zmienić ich nazwę.',
-	'COOKIE_NOTICE'				=> 'Powiadomienie o ciasteczkach',
-	'COOKIE_NOTICE_EXPLAIN'		=> 'Jeśli funkcja ta zostanie włączona, powiadomienie o wykorzystaniu ciasteczek pojawi się na dole witryny. Powiadomienie użytkownika o wykorzystaniu ciasteczek na stronie jest w Polsce prawnie wymagane (Prawo Telekomunikacyjne, Art. 173).',
-	'COOKIE_PATH'				=> 'Ścieżka do ciasteczka',
-	'COOKIE_PATH_EXPLAIN'		=> 'Niezależnie od adresu URL witryny, ścieżka do ciasteczka to ukośnik „/” (ang. slash)',
-	'COOKIE_SECURE'				=> 'Bezpieczne ciasteczko',
-	'COOKIE_SECURE_EXPLAIN'		=> 'Jeśli serwer jest uruchomiony przez SSL, należy włączyć tę funkcję. W pozostałych przypadkach funkcja powinna być wyłączona. Włączenie tej funkcji, gdy serwer nie jest uruchomiony przez SSL, będzie powodowało błędy podczas przekierowań.',
-	'ONLINE_LENGTH'				=> 'Czas wyświetlania obecności na forum',
-	'ONLINE_LENGTH_EXPLAIN'		=> 'Liczba minut po upływie, których nieaktywni użytkownicy nie będą wyświetlani w sekcji „Kto jest online”. Większa wartość jest wskazana dla czasu przetwarzania koniecznego do wygenerowania listy.',
-	'SESSION_LENGTH'			=> 'Czas trwania sesji',
-	'SESSION_LENGTH_EXPLAIN'	=> 'Czas, po jakim sesja wygaśnie.',
+	'COOKIE_DOMAIN'					=> 'Domena ciasteczka',
+	'COOKIE_DOMAIN_EXPLAIN'			=> 'W większości przypadków domena ciasteczka jest opcjonalna. Można zostawić to pole puste, jeśli nie wiadomo jaką ustawić nazwę.<br><br> Jeśli witryna jest zintegrowana z inną aplikacją (np. WordPress) lub występują subdomeny, to aby poprawnie ustawić domenę ciasteczka należy wykonać następujące kroki. Jeśli adresy stron to <i>example.com</i> i <i>forum.example.com</i> lub <i>forum.example.com</i> i <i>blog.example.com</i>, należy wybrać wspólną domenę - <i>example.com</i>. Teraz na początku należy dodać kropkę - <strong><i>.example.com</i></strong> (nazwa domeny ciasteczka musi zaczynać się od kropki na początku).',
+	'COOKIE_NAME'					=> 'Nazwa ciasteczka',
+	'COOKIE_NAME_EXPLAIN'			=> 'Nazwa ciasteczka może być dowolna, jednakże najlepiej, aby identyfikowała witrynę. Jeśli ustawienia ciasteczek zostaną zmienione, należy również zmienić ich nazwę.',
+	'COOKIE_NOTICE'					=> 'Powiadomienie o ciasteczkach',
+	'COOKIE_NOTICE_EXPLAIN'			=> 'Jeśli funkcja ta zostanie włączona, powiadomienie o wykorzystaniu ciasteczek pojawi się na dole witryny. Powiadomienie użytkownika o wykorzystaniu ciasteczek na stronie jest w Polsce prawnie wymagane (Prawo Telekomunikacyjne, Art. 173).',
+	'COOKIE_PATH'					=> 'Ścieżka do ciasteczka',
+	'COOKIE_PATH_EXPLAIN'			=> 'Niezależnie od adresu URL witryny, ścieżka do ciasteczka to ukośnik „/” (ang. slash)',
+	'COOKIE_SECURE'					=> 'Bezpieczne ciasteczko',
+	'COOKIE_SECURE_EXPLAIN'			=> 'Jeśli serwer jest uruchomiony przez SSL, należy włączyć tę funkcję. W pozostałych przypadkach funkcja powinna być wyłączona. Włączenie tej funkcji, gdy serwer nie jest uruchomiony przez SSL, będzie powodowało błędy podczas przekierowań.',
+	'ONLINE_LENGTH'					=> 'Czas wyświetlania obecności na forum',
+	'ONLINE_LENGTH_EXPLAIN'			=> 'Liczba minut po upływie, których nieaktywni użytkownicy nie będą wyświetlani w sekcji „Kto jest online”. Większa wartość jest wskazana dla czasu przetwarzania koniecznego do wygenerowania listy.',
+	'SESSION_LENGTH'				=> 'Czas trwania sesji',
+	'SESSION_LENGTH_EXPLAIN'		=> 'Czas, po jakim sesja wygaśnie.',
+	'SESSION_GC'					=> 'Interwał czyszczenia sesji',
+	'SESSION_GC_EXPLAIN'			=> 'Czas, po jakim sesje zostaną wyczyszczone.',
+	'SESSION_GUEST_LENGTH'			=> 'Czas trwania sesji gościa',
+	'SESSION_GUEST_LENGTH_EXPLAIN'	=> 'Czas, po jakim sesja gości wygaśnie.',
+	'SESSION_GUEST_GC'				=> 'Interwał czyszczenia sesji gości',
+	'SESSION_GUEST_GC_EXPLAIN'		=> 'Czas, po jakim sesje gości zostaną wyczyszczone.',
 ));
 
 // Contact Settings
