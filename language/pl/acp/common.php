@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 * @Polish locale 2015-02-02 21:45:45 Zespół Olympus.pl $
-* @Polska wersja językowa phpBB 3.3.10 - 04.03.2023, Mateusz Dutko (vader) www.rnavspotters.pl
+* @Polska wersja językowa phpBB 3.3.19 - 26.09.2026, Mateusz Dutko (vader) www.rnavspotters.pl
 */
 
 /**
@@ -610,6 +610,7 @@ $lang = array_merge($lang, array(
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Zmieniono typ tematu</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Otwarto temat</strong><br />» %s',
 	'LOG_UNLOCK_POST'			=> '<strong>Otwarto post</strong><br />» %s',
+	'LOG_VERSION_CHECK_FAIL'	=> '<strong>Sprawdzenie wersji nie powiodło się</strong>',
 
 	'LOG_DISALLOW_ADD'		=> '<strong>Dodano zabronioną nazwę użytkownika</strong><br />» %s',
 	'LOG_DISALLOW_DELETE'	=> '<strong>Usunięto zabronioną nazwę użytkownika</strong>',
